@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!--  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/stylesformulario.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="#" method="post" onsubmit="return ValidationEvent()">
+
+        <div style="margin:1em; font-size:1.2em;" >
+            <a href="index.html">Página principal.</a>
+        </div> 
+
+        <h1>¡Nos gustaría saber su opinión!</h1>
+      
+
+        <fieldset>
+            <legend>Datos personales.</legend>
+
+            <label for="nombre">Nombre:
+                
+                <input type="text" id="nombre" size="10" name="nombre" class="fa fa-user" required 
+                pattern="^[A-Z]{1}[a-záéíóú]*$" placeholder="&#128100;Adrián" onchange="comprueba(this)"></label>
+
+            <label for="apellido1">Primer apellido
+                <input type="text" id="apellido1" size="10" name="apellido1" required 
+                pattern="^[A-Z]{1}[a-záéíóú]*$" placeholder="Laya" onchange="comprueba(this)"></label>
+
+            <label for="apellido2">Segundo apellido
+                <input type="text" id="apellido2" size="10" name="apellido2" required 
+                pattern="^[A-Z]{1}[a-záéíóú]*$" placeholder="García" onchange="comprueba(this)"></label>
+
+            <label for="edad">Edad
+                <input type="number" id="edad" name="edad" required placeholder="18" min="18"></label>
+
+            <label for="email">email:</label>
+                <input type="email" id="email" class="fa fa-user" placeholder="&#128386; superlaya50@gmail.com"
+                        pattern=".+@.+*.com" size="21" required onchange="comprueba(this)">
+            
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Opinión</legend>
+     
+        <p>¿Ha visitado alguna vez esta parte de Francia?</p>
+        <label for="si">
+        <input type="radio" id="si" name="haestado" value="Si">Si</label>
+        <label for="no">
+        <input type="radio" id="no" name="haestado" value="No">No</label>
+
+
+
+
+<p> Por lo que sabe de  los castillos o ha visitado, díganos el nivel de interés de cada castillos</p>
+    <label for="chambord">Chambord:
+    <input type="range" id="chambord" name="chambord" min="0" max="100" value="10" step="10" ></label>
+
+
+    <label for="chenonceau">Chenonceau:
+    <input type="range" id="chenonceau" name="chenonceau" min="0" max="100" value="10" step="10"></label>
+
+
+    <label for="usse">Usse:
+    <input type="range" id="usse" name="usse" min="0" max="100" value="10" step="10"></label>
+
+    <label for="villandry">Villandry
+    <input type="range" id="villandry" name="villandry" min="0" max="100" value="10" step="10"></label>
+
+
+
+<p>¿Qué zona de Loira le hagustado más?</p>
+<select name="zon" id="zon">
+    <option value="#">Seleccione una zona</option>
+    <option value="zonaoccidental">Zona Occidental</option>
+    <option value="zonacentral">Zona Central</option>
+    <option value="zonaoriental">Zona Oriental</option>
+</select><br>
+
+<p>¿Qué le atrae para hacer la visita?</p>
+<label for="ciudades">
+<input type="checkbox" id="ciudades" name="ciudades" value="">Ciudades</label><br>
+
+<label>
+    <input type="checkbox" id="castillos" name="castillos" value="">Castillos</label><br>
+
+<label>
+    <input type="checkbox" id="degustar" name="degustar" value="">Degustar productos típicos de la zona</label><br>
+
+<label>
+    <input type="checkbox" id="historia" name="historia" value="">Historia en su conjunto</label><br><br>
+    
+<label>¿Qué consejos le podria dar a nuevos turistas para que disfruten más de su viaje?:</label>
+
+
+<div>
+    <textarea id="w3review1" name="w3review" rows="4" cols="99" maxlength="200" placeholder="Maximo de caracteres 200"
+    onfocus="cambiaColor(this)" onchange="normalColor(this)">
+</textarea>
+</div>
+
+<div style="font-size: x-large; width: auto; text-align: center; margin-top: 1em;">
+        <label><span style="font-size: 21px;
+            letter-spacing: 0em;
+            font-weight: 700;">¿Cuando desearía viajar?:</span></label><br>
+
+        <label for="desde">Desde:
+        <input type="date" id="desde" name="desde" value="2021-05-27" min="2021-05-31" max="2050-12-31"></label>
+
+        <label for="hasta">Hasta:
+        <input type="date" id="hasta" name="hasta" value="2021-05-27" min="2021-05-31" max="2050-12-31"></label>
+    </div>
+
+        </fieldset>
+
+
+        <div id="resetenviar">
+                <input type="submit" id="submit" name="submit" value="Enviar">
+                <input type="reset" id="reset" name="reset" value="Reset">
+        </div>
+
+    </form>
+
+        <script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+
+</body>
+
+</html>
+
+
