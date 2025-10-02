@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Descubre los castillos más impresionantes del Valle del Loira en Francia: Chambord, Chenonceau, Villandri, Cheverny, Ussé y más. Guía de viaje, consejos y rutas.">
   <meta name="keywords" content="Valle del Loira, castillos Francia, Chambord, Chenonceau, Villandri, turismo Francia, ruta castillos">
-  <meta name="author" content="Valle del Loira">
+  <meta name="author" content="Adrián Laya García">
   <meta name="rating" content="General">
 
   <!-- ✅ Título de la página -->
@@ -17,7 +17,7 @@
   <meta property="og:title" content="Castillos del Valle del Loira | Guía de Viaje">
   <meta property="og:description" content="Explora la magia del Valle del Loira: Chambord, Chenonceau, Villandri y más. Guía, fotos y consejos para tu viaje.">
   <meta property="og:image" content="https://tusitio.com/img/logo.png">
-  <meta property="og:url" content="https://tusitio.com/">
+  <meta property="og:url" content="https://---playas2024----.kesug.com/castillos-del-loira">
   <meta property="og:type" content="website">
 
   <!-- ✅ Twitter Cards -->
@@ -51,6 +51,11 @@
 
   <!-- ✅ Generador / Editor -->
   <meta name="generator" content="VS Code">
+
+
+
+<?php require 'paginas/index/schemas/index-schemas-head.php'; ?>
+
 </head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
@@ -88,32 +93,68 @@
 <div class="container mx-auto px-6 py-10 flex flex-col md:flex-row gap-8">
 
   <!-- 🔹 Sidebar / Aside -->
-  <aside class="w-full md:w-64 bg-emerald-50 p-6 rounded-xl shadow-lg flex-shrink-0">
-    <h3 class="text-xl font-bold text-emerald-700 mb-4">🏙️ Ciudades y Castillos</h3>
-    
-    <div class="mb-4">
-      <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
-      <ul class="list-disc list-inside text-gray-600 space-y-1">
-        <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
-        <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
-        <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
-        <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
-        <li><a href="ciudades/Blois.php" class="hover:text-emerald-700 underline">Blois</a></li>
-        <li><a href="ciudades/Orleans.php" class="hover:text-emerald-700 underline">Orleans</a></li>
-      </ul>
-    </div>
+<aside class="w-full md:w-64 bg-emerald-50 p-6 rounded-xl shadow-lg flex-shrink-0">
+  <h3 class="text-xl font-bold text-emerald-700 mb-4">🏙️ Ciudades y Castillos</h3>
 
-    <div>
-      <h4 class="font-semibold text-gray-700 mb-2">Castillos Destacados</h4>
-      <ul class="list-disc list-inside text-gray-600 space-y-1">
-        <li><a href="castillos/Chambord.php" class="hover:text-emerald-700 underline">Château de Chambord</a></li>
-        <li><a href="castillos/Chenonceau.php" class="hover:text-emerald-700 underline">Château de Chenonceau</a></li>
-        <li><a href="castillos/Villandri.php" class="hover:text-emerald-700 underline">Château de Villandri</a></li>
-        <li><a href="castillos/Cheverny.php" class="hover:text-emerald-700 underline">Château de Cheverny</a></li>
-        <li><a href="castillos/Usse.php" class="hover:text-emerald-700 underline">Château d'Ussé</a></li>
-      </ul>
-    </div>
-  </aside>
+  <!-- Ciudades Principales -->
+  <div class="mb-6">
+    <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
+    <ul class="list-disc list-inside text-gray-600 space-y-1">
+      <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
+      <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
+      <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
+      <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
+      <li><a href="ciudades/Blois.php" class="hover:text-emerald-700 underline">Blois</a></li>
+      <li><a href="ciudades/Orleans.php" class="hover:text-emerald-700 underline">Orleans</a></li>
+    </ul>
+  </div>
+
+  <!-- Castillos Destacados -->
+  <div class="mb-6">
+    <h4 class="font-semibold text-gray-700 mb-2">Castillos Destacados</h4>
+    <ul class="list-disc list-inside text-gray-600 space-y-1">
+      <li><a href="chateaux/Chambord.php" class="hover:text-emerald-700 underline">Château de Chambord</a></li>
+      <li><a href="chateaux/Chenonceau.php" class="hover:text-emerald-700 underline">Château de Chenonceau</a></li>
+      <li><a href="chateaux/Villandri.php" class="hover:text-emerald-700 underline">Château de Villandri</a></li>
+      <li><a href="chateaux/Cheverny.php" class="hover:text-emerald-700 underline">Château de Cheverny</a></li>
+      <li><a href="chateaux/Usse.php" class="hover:text-emerald-700 underline">Château d'Ussé</a></li>
+    </ul>
+  </div>
+
+  <!-- Etapas -->
+  <div>
+    <h4 class="font-semibold text-gray-700 mb-2">Etapas</h4>
+    <ul class="list-disc list-inside text-gray-600 space-y-1">
+      <li><a href="etapas/1-etapa-nantes-angers.php" class="hover:text-emerald-700 underline">Nantes y Angers</a></li>
+      <li><a href="etapas/2-etapa-angers-saumur.php" class="hover:text-emerald-700 underline">Angers y Saumur</a></li>
+      <li><a href="etapas/3-etapa-saumur-chinon-langeais.php" class="hover:text-emerald-700 underline">Saumur, Chinon y Langeais</a></li>
+      <li><a href="etapas/4-etapa-tours-amboise.php" class="hover:text-emerald-700 underline">Tours y Amboise</a></li>
+      <li><a href="etapas/5-etapa-amboise-blois.php" class="hover:text-emerald-700 underline">Amboise y Blois</a></li>
+      <li><a href="etapas/6-etapa-blois-orleans.php" class="hover:text-emerald-700 underline">Blois y Orleans</a></li>
+    </ul>
+  </div>
+
+<!-- ✅ Botón Alojamientos -->
+  <div class="mt-6 text-center">
+    <a href="paginas/alojamientos.php" 
+       class="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-emerald-700 transition">
+       🛎️ Alojamientos
+    </a>
+  </div>
+
+  <!-- ✅ Botón Oficinas de Turismo -->
+  <div class="mt-6 text-center">
+    <a href="paginas/oficinas-turismo.php" 
+       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
+       🗺️ Oficinas de Turismo
+    </a>
+  </div>
+
+
+
+
+</aside>
+
 
   <!-- 🔹 Main Content -->
   <main class="flex-1 space-y-10">
@@ -127,18 +168,10 @@
     <section class="mt-10">
       <h3 class="text-xl font-bold text-gray-700 mb-6">🏰 Castillos Destacados</h3>
       <div class="grid md:grid-cols-3 gap-6">
-        <figure class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-          <img src="img/castillos/castillo-de-chambord.jpg" alt="Château de Chambord" class="w-full object-cover">
-          <figcaption class="p-3 text-center">Chambord</figcaption>
-        </figure>
-        <figure class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-          <img src="img/castillos/castillo-de-chenonceau.png" alt="Château de Chenonceau" class="w-full object-cover">
-          <figcaption class="p-3 text-center">Chenonceau</figcaption>
-        </figure>
-        <figure class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
-          <img src="img/castillos/castillo-de-villandri.png" alt="Château de Villandri" class="w-full object-cover">
-          <figcaption class="p-3 text-center">Villandri</figcaption>
-        </figure>
+
+        <?php require 'paginas/index/data/index-castillos-destacados.php'; ?>
+        <?php require 'paginas/index/templates/index-castillos-destacados.php'; ?>
+
       </div>
     </section>
 
@@ -181,16 +214,23 @@
 </div>
 
   <!-- 🔹 Footer -->
-  <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
-    <div class="container mx-auto px-6 text-center">
-      <p>&copy; <?= date('Y'); ?> Castillos del Valle del Loira. Todos los derechos reservados.</p>
-      <p class="mt-2">
-        <a href="https://www.valdeloire-france.com/es" class="hover:text-white">🌐 Turismo oficial del Valle del Loira</a>
-      </p>
-    </div>
-  </footer>
+<footer class="bg-gray-800 text-gray-300 py-8 mt-12">
+  <div class="container mx-auto px-6 text-center space-y-2">
+    <p>&copy; <?= date('Y'); ?> Adrián LAya GArcía. Todos los derechos reservados.</p>
+    <p>
+      📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">supaerlaya50@gmail.com</a>
+    </p>
+    <p>
+      🌐 <a href="https://www.valdeloire-france.com/es" class="hover:text-white">Turismo oficial del Valle del Loira</a>
+    </p>
+  </div>
+</footer>
+
 
   <script>feather.replace()</script>
+
+<?php require 'paginas/index/schemas/index-schemas-body.php'; ?>
+
 </body>
 </html>
 
@@ -204,9 +244,6 @@
 <em></em>
 <u></u>
 
-<style>
-    #consejos li{list-style: disc;}
-</style>
 
 <!--https://viajes.chavetas.es/guia/valle-del-loira/mejores-castillos-del-loira-imprescindibles/-->
 
