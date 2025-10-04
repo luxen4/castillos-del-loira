@@ -65,21 +65,17 @@
   <!-- 🔗 Navbar -->
   <div class="p-4 flex justify-between items-center container mx-auto">
     <!-- Logo / título -->
-    <h1 class="text-xl font-bold">🌍 Valle del Loira</h1>
+    <h1 class="text-xl font-bold">🌍 Val de Loire</h1>
 
     <!-- Navegación -->
     <nav class="flex items-center gap-6">
-      <a href="index.html" class="hover:underline">🏠 Página principal</a>
-      <a href="formulario.html" 
-         class="inline-block px-4 py-2 bg-white text-emerald-700 font-medium rounded-lg shadow hover:bg-gray-100 transition">
-         ✍️ Ir al formulario
-      </a>
+      <a href="index.php" class="hover:underline">🏠 Home</a>
     </nav>
   </div>
 
   <!-- 🌟 Hero -->
   <div class="py-12 text-center px-6 container mx-auto">
-    <h2 class="text-4xl md:text-5xl font-extrabold">🌿 Castillos del Valle del Loira</h2>
+    <h2 class="text-4xl md:text-5xl font-extrabold">🌿 Ruta por el Valle del Loira</h2>
     <p class="mt-3 text-lg md:text-xl text-emerald-100">
       Explora la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandri y más.
     </p>
@@ -100,7 +96,7 @@
   <div class="mb-6">
     <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
     <ul class="list-disc list-inside text-gray-600 space-y-1">
-      <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
+      <li><a href="ciudades/data/nantes/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
       <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
       <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
       <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
@@ -134,24 +130,29 @@
     </ul>
   </div>
 
-<!-- ✅ Botón Alojamientos -->
-  <div class="mt-6 text-center">
-    <a href="paginas/alojamientos.php" 
-       class="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-emerald-700 transition">
-       🛎️ Alojamientos
-    </a>
-  </div>
+<!-- ✅ Botones de acción -->
+<div class="mt-6 text-center space-x-4">
+  <!-- Botón principal: Alojamientos -->
+  <a href="paginas/alojamientos.php" 
+     class="inline-block bg-emerald-600 text-white px-1 py-1 rounded-lg font-semibold shadow hover:bg-emerald-700 transition-colors duration-300">
+     🛎️ Alojamientos
+  </a>
+
+  <!-- Botón secundario: Formulario -->
+  <a href="formulario.html" 
+     class="inline-block px-1 py-1 bg-white text-emerald-600 font-medium rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">
+     ✍️ Ir al formulario
+  </a>
+</div>
+
 
   <!-- ✅ Botón Oficinas de Turismo -->
   <div class="mt-6 text-center">
     <a href="paginas/oficinas-turismo.php" 
-       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
+       class="inline-block bg-blue-600 text-white px-1 py-1 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
        🗺️ Oficinas de Turismo
     </a>
   </div>
-
-
-
 
 </aside>
 
