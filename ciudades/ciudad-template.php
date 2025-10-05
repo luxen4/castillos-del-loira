@@ -75,35 +75,35 @@
             <h3 class="text-3xl font-bold text-emerald-700 mb-4"><?= $ciudad ?> en el Valle del Loira</h3>
             <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
-            <?php require "data/{$slug}/main/sections/gastronomia.php"; ?>
+            <?php require "{$slug}/main/sections/gastronomia/index.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/paseos.php"; ?>
+            <?php require "{$slug}/main/sections/paseos/index.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/actividades.php"; ?>
+            <?php require "{$slug}/main/sections/actividades.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/acontecimientos.php"; ?>
+            <?php require "{$slug}/main/sections/acontecimientos.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/restaurantes.php"; ?>
+            <?php require "{$slug}/main/sections/restaurantes.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/alojamientos.php"; ?>
+            <?php require "{$slug}/main/sections/alojamientos.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/transportes.php"; ?>
+            <?php require "{$slug}/main/sections/transportes.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/fin-de-semana.php"; ?>
+            <?php require "{$slug}/main/sections/fin-de-semana.php"; ?>
 
 
-            <?php require "data/{$slug}/main/sections/informacion-practica.php"; ?>
+            <?php require "{$slug}/main/sections/informacion-practica.php"; ?>
 
-            <?php require "data/{$slug}/main/sections/galeria.php"; ?>
+            <?php require "{$slug}/main/sections/galeria.php"; ?>
 
         </article>
 
-        <?php require "data/{$slug}/main/aside/aside-generico.php";?>
+        <?php require "{$slug}/main/aside/aside-generico.php";?>
 
     </main>
 
 
-    <?php require "data/{$slug}/footer/footer-generico.php";?>
+    <?php require "{$slug}/footer/footer-generico.php";?>
 
     <script>
         feather.replace();

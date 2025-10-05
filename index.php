@@ -96,7 +96,7 @@
   <div class="mb-6">
     <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
     <ul class="list-disc list-inside text-gray-600 space-y-1">
-      <li><a href="ciudades/data/nantes/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
+      <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
       <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
       <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
       <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
