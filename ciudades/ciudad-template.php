@@ -46,12 +46,24 @@
         </div>
     </header>
 
-    <!-- 🔹 Hero -->
-    <section class="relative bg-cover bg-center h-96" style="background-image: url('<?= $imagenHero ?>');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <h2 class="text-4xl md:text-5xl text-white font-extrabold">Bienvenido a <?= $ciudad ?></h2>
-        </div>
-    </section>
+
+
+    <?php $imagenHero = "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg"; ?>
+
+<!-- 🔹 Hero con efecto hover -->
+<section 
+  class="relative bg-cover bg-center h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110" 
+  style="background-image: url('<?= $imagenHero ?>');">
+  
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
+    <h2 class="text-4xl md:text-5xl text-white font-extrabold">
+      Bienvenido a <?= $ciudad ?>
+    </h2>
+  </div>
+</section>
+
+
+
 
     <!-- 🔹 Navegación principal (solo Tailwind) -->
     <nav class="bg-gray-100 py-4 shadow-inner">
@@ -79,9 +91,9 @@
 
             <?php require "{$slug}/main/sections/paseos/index.php"; ?>
 
-            <?php require "{$slug}/main/sections/actividades.php"; ?>
+            <?php require "{$slug}/main/sections/actividades/index.php"; ?>
 
-            <?php require "{$slug}/main/sections/acontecimientos.php"; ?>
+            <?php require "{$slug}/main/sections/acontecimientos/index.php"; ?>
 
             <?php require "{$slug}/main/sections/restaurantes.php"; ?>
 

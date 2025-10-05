@@ -1,4 +1,3 @@
-
 <!-- 🍴 Gastronomía de Nantes -->
 <section id="gastronomia" class="container mx-auto px-6 py-12">
   <h2 class="text-3xl font-bold text-emerald-700 mb-6">🍴 Gastronomía en Nantes</h2>
@@ -11,7 +10,7 @@
   <!-- Destacados -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     <?php require 'data.php'; ?>
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/nantes/main/sections/template.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/nantes/main/sections/template.php"; ?>
   </div>
 
   <!-- Info extra -->
