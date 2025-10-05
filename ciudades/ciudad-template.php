@@ -75,7 +75,7 @@
             <a href="#restaurantes" class="hover:text-emerald-700">🍽️ Restaurantes</a>
             <a href="#alojamientos" class="hover:text-emerald-700">🏨 Alojamientos</a>
             <a href="#transportes" class="hover:text-emerald-700">🚗 Transportes</a>
-            <a href="#finde" class="hover:text-emerald-700">📊 Fin de semana</a>
+            <a href="#fin-de-semana" class="hover:text-emerald-700">📊 Fin de semana</a>
         </div>
     </nav>
 
@@ -87,26 +87,38 @@
             <h3 class="text-3xl font-bold text-emerald-700 mb-4"><?= $ciudad ?> en el Valle del Loira</h3>
             <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
-            <?php require "{$slug}/main/sections/gastronomia/index.php"; ?>
-
-            <?php require "{$slug}/main/sections/paseos/index.php"; ?>
-
-            <?php require "{$slug}/main/sections/actividades/index.php"; ?>
-
-            <?php require "{$slug}/main/sections/acontecimientos/index.php"; ?>
-
-            <?php require "{$slug}/main/sections/restaurantes.php"; ?>
-
-            <?php require "{$slug}/main/sections/alojamientos.php"; ?>
-
-            <?php require "{$slug}/main/sections/transportes.php"; ?>
-
-            <?php require "{$slug}/main/sections/fin-de-semana.php"; ?>
+<?php
+$sections = [
+  "paseos",          // Primero la parte visual, recorridos y rincones bonitos
+  "actividades",     // Luego lo que se puede hacer en la ciudad
+  "acontecimientos", // Eventos especiales que pueden coincidir con la visita
+  "gastronomia",     // La parte culinaria, tras conocer lo anterior
+  "fin-de-semana",   // Ideas ya organizadas para escapadas
+  "galeria",         // Refuerzo visual, inspiración extra
+  "transportes"      // Lo práctico para moverse y organizarse
+];
 
 
-            <?php require "{$slug}/main/sections/informacion-practica.php"; ?>
+foreach ($sections as $slug_section_main_title) {
+    require "{$slug}/main/sections/{$slug_section_main_title}/index.php";
+}
+?>
 
-            <?php require "{$slug}/main/sections/galeria.php"; ?>
+
+            <?php 
+            $slug_section_main_title = "restaurantes";
+            require "{$slug}/main/sections/restaurantes.php"; ?>
+
+            <?php 
+            $slug_section_main_title = "alojamientos";
+            require "{$slug}/main/sections/alojamientos.php"; ?>
+
+
+
+            <?php 
+            $slug_section_main_title = "informacion-practica";
+            require "{$slug}/main/sections/informacion-practica.php"; ?>
+
 
         </article>
 
