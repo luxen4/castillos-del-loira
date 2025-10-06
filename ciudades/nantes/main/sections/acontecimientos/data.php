@@ -24,10 +24,10 @@ $items = [
     "titulo" => "Mercado de Noël en Nantes",
     "descripcion" => "El tradicional mercado navideño en la Place Royale y la Place du Commerce, con artesanía, gastronomía y actividades festivas.",
     "imagen" => [
-        "src" => "https://www.nantes-tourisme.com/sites/default/files/styles/visuel_principal/public/2020-11/marche_noel_nantes.jpg",
+        "src" => "https://content.clara.es/medio/2023/11/06/nantes-bretana_00000000_231107095002_750x422.jpg",
         "alt" => "Marché de Noël Nantes",
-        "fuente" => "https://www.nantes-tourisme.com/fr/marche-noel",
-        "fuente_texto" => "nantes-tourisme.com"
+        "fuente" => "https://www.clara.es/estilo-de-vida/15-mejores-mercadillos-navidenos-francia-fechas-y-ordenados-por-zonas_30732",
+        "fuente_texto" => "clara.es"
     ]
     ],
     [
@@ -44,4 +44,4 @@ $items = [
 ];
 ?>
 
-https://shotgun.live/es/concerts/nantes
+<?php /* https://shotgun.live/es/concerts/nantes */?>

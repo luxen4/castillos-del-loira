@@ -10,7 +10,7 @@
   <!-- Destacados -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     <?php require 'data.php'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/nantes/main/sections/template.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/nantes/main/sections/template.php"; ?>
   </div>
 
   <!-- Info extra -->

@@ -79,6 +79,8 @@
         </div>
     </nav>
 
+
+
     <!-- 🔹 Contenido Principal -->
     <main class="container mx-auto px-6 py-12 grid lg:grid-cols-3 gap-10">
 
@@ -87,13 +89,17 @@
             <h3 class="text-3xl font-bold text-emerald-700 mb-4"><?= $ciudad ?> en el Valle del Loira</h3>
             <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
+
 <?php
 $sections = [
   "paseos",          // Primero la parte visual, recorridos y rincones bonitos
   "actividades",     // Luego lo que se puede hacer en la ciudad
   "acontecimientos", // Eventos especiales que pueden coincidir con la visita
   "gastronomia",     // La parte culinaria, tras conocer lo anterior
+  "restaurantes",    // Dónde comer bien, recomendaciones
   "fin-de-semana",   // Ideas ya organizadas para escapadas
+  "acontecimientos", // Eventos y festivales destacados
+  "alojamientos",    // Dónde dormir, opciones variadas
   "galeria",         // Refuerzo visual, inspiración extra
   "transportes"      // Lo práctico para moverse y organizarse
 ];
@@ -103,23 +109,6 @@ foreach ($sections as $slug_section_main_title) {
     require "{$slug}/main/sections/{$slug_section_main_title}/index.php";
 }
 ?>
-
-
-            <?php 
-            $slug_section_main_title = "restaurantes";
-            require "{$slug}/main/sections/restaurantes.php"; ?>
-
-            <?php 
-            $slug_section_main_title = "alojamientos";
-            require "{$slug}/main/sections/alojamientos.php"; ?>
-
-
-
-            <?php 
-            $slug_section_main_title = "informacion-practica";
-            require "{$slug}/main/sections/informacion-practica.php"; ?>
-
-
         </article>
 
         <?php require "{$slug}/main/aside/aside-generico.php";?>
@@ -127,11 +116,31 @@ foreach ($sections as $slug_section_main_title) {
     </main>
 
 
-    <?php require "{$slug}/footer/footer-generico.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php";?>
 
     <script>
         feather.replace();
     </script>
+
+    <!-- 🔝 Botón ir arriba -->
+<button id="btnTop" 
+  onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+  class="hidden fixed bottom-6 right-6 bg-emerald-600 text-white p-3 rounded-full shadow-lg hover:bg-emerald-700 transition">
+  ⬆️
+</button>
+
+<script>
+  // Mostrar/ocultar botón al hacer scroll
+  window.addEventListener("scroll", function() {
+    const btn = document.getElementById("btnTop");
+    if (window.scrollY > 300) {
+      btn.classList.remove("hidden");
+    } else {
+      btn.classList.add("hidden");
+    }
+  });
+</script>
+
 </body>
 
 </html>
