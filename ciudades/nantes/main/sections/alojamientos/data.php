@@ -32,3 +32,14 @@ $items = [
     ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Alojamientos en Nantes"
+$section = [
+  "id" => "alojamientos",
+  "titulo" => "🏨 Alojamientos en Nantes",
+  "descripcion" => "Nantes ofrece una amplia variedad de alojamientos para todos los gustos y presupuestos: desde hoteles de lujo hasta apartamentos, casas rurales y hostales acogedores.",
+  "tip" => "👉 Consejo: reserva con antelación en temporada alta para asegurar disponibilidad y mejores precios."
+];
+?>
+

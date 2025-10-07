@@ -32,3 +32,14 @@
       ]
     ];
     ?>
+
+<?php
+// Variables principales del bloque "Paseos en Nantes"
+$section = [
+  "id" => "paseos",
+  "titulo" => "🚶 Paseos en Nantes",
+  "descripcion" => "Nantes es una ciudad perfecta para recorrer a pie o en bicicleta. 
+  Sus calles, parques y el río Loira ofrecen rincones llenos de historia, cultura y naturaleza.",
+  "tip" => "👉 Consejo: recorre el <strong>\"Voyage à Nantes\"</strong>, un itinerario marcado por una línea verde en el suelo que conecta los principales atractivos de la ciudad."
+];
+?>

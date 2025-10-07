@@ -42,3 +42,13 @@ $items = [
     ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Fin de semana en Nantes"
+$section = [
+  "id" => "fin-de-semana",
+  "titulo" => "📊 Fin de semana en Nantes",
+  "descripcion" => "Nantes es un destino ideal para una escapada de fin de semana. Hay planes para parejas, familias, viajeros con presupuesto limitado o quienes buscan experiencias únicas.",
+  "tip" => "👉 Consejo: combina actividades culturales, gastronómicas y al aire libre para aprovechar al máximo tu fin de semana en Nantes."
+];
+?>

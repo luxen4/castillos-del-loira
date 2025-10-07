@@ -50,17 +50,17 @@
 
     <?php $imagenHero = "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg"; ?>
 
-<!-- 🔹 Hero con efecto hover -->
-<section 
-  class="relative bg-cover bg-center h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110" 
-  style="background-image: url('<?= $imagenHero ?>');">
-  
-  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
-    <h2 class="text-4xl md:text-5xl text-white font-extrabold">
-      Bienvenido a <?= $ciudad ?>
-    </h2>
-  </div>
-</section>
+    <!-- 🔹 Hero con efecto hover -->
+    <section
+        class="relative bg-cover bg-center h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110"
+        style="background-image: url('<?= $imagenHero ?>');">
+
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
+            <h2 class="text-4xl md:text-5xl text-white font-extrabold">
+                Bienvenido a <?= $ciudad ?>
+            </h2>
+        </div>
+    </section>
 
 
 
@@ -86,60 +86,60 @@
 
         <!-- 🏙️ Información -->
         <article class="lg:col-span-2 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
-            <h3 class="text-3xl font-bold text-emerald-700 mb-4"><?= $ciudad ?> en el Valle del Loira</h3>
+            <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-emerald-700 mb-4">
+                <?= $ciudad ?> en el Valle del Loira
+            </h3>
             <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
-
-<?php
-$sections = [
-  "paseos",          // Primero la parte visual, recorridos y rincones bonitos
-  "actividades",     // Luego lo que se puede hacer en la ciudad
-  "acontecimientos", // Eventos especiales que pueden coincidir con la visita
-  "gastronomia",     // La parte culinaria, tras conocer lo anterior
-  "restaurantes",    // Dónde comer bien, recomendaciones
-  "fin-de-semana",   // Ideas ya organizadas para escapadas
-  "acontecimientos", // Eventos y festivales destacados
-  "alojamientos",    // Dónde dormir, opciones variadas
-  "galeria",         // Refuerzo visual, inspiración extra
-  "transportes"      // Lo práctico para moverse y organizarse
-];
+            <?php
+            $sections = [
+                "paseos",          // Primero la parte visual, recorridos y rincones bonitos
+                "actividades",     // Luego lo que se puede hacer en la ciudad
+                "acontecimientos", // Eventos especiales que pueden coincidir con la visita
+                "gastronomia",     // La parte culinaria, tras conocer lo anterior
+                "restaurantes",    // Dónde comer bien, recomendaciones
+                "fin-de-semana",   // Ideas ya organizadas para escapadas
+                "alojamientos",    // Dónde dormir, opciones variadas
+                "galeria",         // Refuerzo visual, inspiración extra
+                "transportes"      // Lo práctico para moverse y organizarse
+            ];
 
 
-foreach ($sections as $slug_section_main_title) {
-    require "{$slug}/main/sections/{$slug_section_main_title}/index.php";
-}
-?>
+            foreach ($sections as $slug_section_main_title) {
+                require "{$slug}/main/sections/index-section-generico.php";
+            }
+            ?>
         </article>
 
-        <?php require "{$slug}/main/aside/aside-generico.php";?>
+        <?php require "{$slug}/main/aside/aside-generico.php"; ?>
 
     </main>
 
 
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
 
     <script>
         feather.replace();
     </script>
 
     <!-- 🔝 Botón ir arriba -->
-<button id="btnTop" 
-  onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-  class="hidden fixed bottom-6 right-6 bg-emerald-600 text-white p-3 rounded-full shadow-lg hover:bg-emerald-700 transition">
-  ⬆️
-</button>
+    <button id="btnTop"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        class="hidden fixed bottom-6 right-6 bg-emerald-600 text-white p-3 rounded-full shadow-lg hover:bg-emerald-700 transition">
+        ⬆️
+    </button>
 
-<script>
-  // Mostrar/ocultar botón al hacer scroll
-  window.addEventListener("scroll", function() {
-    const btn = document.getElementById("btnTop");
-    if (window.scrollY > 300) {
-      btn.classList.remove("hidden");
-    } else {
-      btn.classList.add("hidden");
-    }
-  });
-</script>
+    <script>
+        // Mostrar/ocultar botón al hacer scroll
+        window.addEventListener("scroll", function() {
+            const btn = document.getElementById("btnTop");
+            if (window.scrollY > 300) {
+                btn.classList.remove("hidden");
+            } else {
+                btn.classList.add("hidden");
+            }
+        });
+    </script>
 
 </body>
 

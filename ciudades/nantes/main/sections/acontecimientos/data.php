@@ -43,5 +43,15 @@ $items = [
 
 ];
 ?>
+<?php
+// Variables principales del bloque "Acontecimientos en Nantes"
+$section = [
+  "id" => "acontecimientos",
+  "titulo" => "📅 Acontecimientos en Nantes",
+  "descripcion" => "Nantes es una ciudad vibrante donde se celebran numerosos eventos durante todo el año, desde festivales culturales hasta mercados y espectáculos al aire libre.",
+  "tip" => "👉 Consejo: consulta el calendario oficial de Nantes para no perderte festivales anuales, desfiles y eventos especiales."
+];
+?>
+
 
 <?php /* https://shotgun.live/es/concerts/nantes */?>

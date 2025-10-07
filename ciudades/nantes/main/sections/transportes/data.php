@@ -32,3 +32,14 @@ $items = [
     ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Transportes en Nantes"
+$section = [
+  "id" => "transportes",
+  "titulo" => "🚆 Transportes en Nantes",
+  "descripcion" => "Moverse por Nantes es fácil y cómodo gracias a su eficiente red de transporte público. Tranvías, autobuses y bicicletas públicas permiten recorrer la ciudad y sus alrededores de forma rápida y sostenible.",
+  "tip" => "👉 Consejo: adquiere la <strong>Nantes City Pass</strong> para disfrutar de viajes ilimitados en transporte público y acceso gratuito o con descuento a muchas atracciones turísticas."
+];
+?>
+

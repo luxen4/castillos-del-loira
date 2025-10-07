@@ -32,3 +32,13 @@ $items = [
   ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Actividades en Nantes"
+$section = [
+  "id" => "actividades",
+  "titulo" => "⭐ Actividades en Nantes",
+  "descripcion" => "Nantes ofrece una gran variedad de actividades para todos los gustos: culturales, al aire libre, deportivas y familiares. ¡Descubre lo mejor de la ciudad mientras te diviertes!",
+  "tip" => "👉 Tip: revisa la agenda de <strong>eventos temporales</strong>, ferias y actividades culturales que suelen celebrarse en la ciudad durante todo el año."
+];
+?>

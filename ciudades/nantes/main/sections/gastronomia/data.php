@@ -32,3 +32,14 @@ $items = [
   ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Gastronomía en Nantes"
+$section = [
+  "id" => "gastronomia",
+  "titulo" => "🍴 Gastronomía en Nantes",
+  "descripcion" => "Nantes ofrece una cocina que combina tradición, productos frescos del Atlántico y vinos del Valle del Loira. La ciudad es reconocida por su creatividad culinaria y su fuerte vínculo con la cultura marinera.",
+  "tip" => "👉 Consejo: no olvides probar los mariscos frescos, en especial las <strong>ostras</strong> y el <strong>Gâteau Nantais</strong>, un pastel emblemático de la ciudad con almendra y ron."
+];
+?>
+

@@ -32,3 +32,14 @@ $items = [
   ]
 ];
 ?>
+
+<?php
+// Variables principales del bloque "Restaurantes en Nantes"
+$section = [
+  "id" => "restaurantes",
+  "titulo" => "🍽️ Restaurantes en Nantes",
+  "descripcion" => "La gastronomía de Nantes combina tradición y creatividad. Desde bistrós acogedores hasta restaurantes con estrella Michelin, la ciudad ofrece una amplia variedad de sabores inspirados en el Atlántico y el Valle del Loira.",
+  "tip" => "👉 Consejo: prueba las especialidades locales como las <strong>rillettes</strong>, el <strong>pescado del Loira</strong> y acompáñalas con un vino <strong>Muscadet</strong> de la región."
+];
+?>
+
