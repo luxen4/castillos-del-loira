@@ -85,134 +85,232 @@
     </a>
   </div>
 </header>
-<!-- 🔹 Contenido Principal con Sidebar -->
-<div class="container mx-auto px-6 py-10 flex flex-col md:flex-row gap-8">
+<!-- 🔹 Layout con 3 columnas: lateral-izquierdo / contenido / lateral-derecho -->
+<div class="container mx-auto px-6 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-  <!-- 🔹 Sidebar / Aside -->
-<aside class="w-full md:w-64 bg-emerald-50 p-6 rounded-xl shadow-lg flex-shrink-0">
-  <h3 class="text-xl font-bold text-emerald-700 mb-4">🏙️ Ciudades y Castillos</h3>
+  <!-- 🧭 Columna 1: Sidebar izquierdo -->
+  <aside class="lg:col-span-2 bg-emerald-50 p-6 rounded-xl shadow space-y-6">
+    <h3 class="text-lg font-bold text-emerald-700 mb-4">🏙️ Ciudades y Castillos</h3>
 
-  <!-- Ciudades Principales -->
-  <div class="mb-6">
-    <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
-    <ul class="list-disc list-inside text-gray-600 space-y-1">
-      <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
-      <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
-      <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
-      <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
-      <li><a href="ciudades/Blois.php" class="hover:text-emerald-700 underline">Blois</a></li>
-      <li><a href="ciudades/Orleans.php" class="hover:text-emerald-700 underline">Orleans</a></li>
-    </ul>
-  </div>
+    <div>
+      <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
+      <ul class="list-disc list-inside text-gray-600 space-y-1">
+        <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
+        <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
+        <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
+        <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
+        <li><a href="ciudades/Blois.php" class="hover:text-emerald-700 underline">Blois</a></li>
+        <li><a href="ciudades/Orleans.php" class="hover:text-emerald-700 underline">Orleans</a></li>
+      </ul>
+    </div>
 
-  <!-- Castillos Destacados -->
-  <div class="mb-6">
-    <h4 class="font-semibold text-gray-700 mb-2">Castillos Destacados</h4>
-    <ul class="list-disc list-inside text-gray-600 space-y-1">
-      <li><a href="chateaux/Chambord.php" class="hover:text-emerald-700 underline">Château de Chambord</a></li>
-      <li><a href="chateaux/Chenonceau.php" class="hover:text-emerald-700 underline">Château de Chenonceau</a></li>
-      <li><a href="chateaux/Villandri.php" class="hover:text-emerald-700 underline">Château de Villandri</a></li>
-      <li><a href="chateaux/Cheverny.php" class="hover:text-emerald-700 underline">Château de Cheverny</a></li>
-      <li><a href="chateaux/Usse.php" class="hover:text-emerald-700 underline">Château d'Ussé</a></li>
-    </ul>
-  </div>
+    <div>
+      <h4 class="font-semibold text-gray-700 mb-2">Castillos</h4>
+      <ul class="list-disc list-inside text-gray-600 space-y-1">
+        <li><a href="chateaux/Chambord.php" class="hover:text-emerald-700 underline">Chambord</a></li>
+        <li><a href="chateaux/Chenonceau.php" class="hover:text-emerald-700 underline">Chenonceau</a></li>
+        <li><a href="chateaux/Villandri.php" class="hover:text-emerald-700 underline">Villandri</a></li>
+      </ul>
+    </div>
+  </aside>
 
-  <!-- Etapas -->
-  <div>
-    <h4 class="font-semibold text-gray-700 mb-2">Etapas</h4>
-    <ul class="list-disc list-inside text-gray-600 space-y-1">
-      <li><a href="etapas/1-etapa-nantes-angers.php" class="hover:text-emerald-700 underline">Nantes y Angers</a></li>
-      <li><a href="etapas/2-etapa-angers-saumur.php" class="hover:text-emerald-700 underline">Angers y Saumur</a></li>
-      <li><a href="etapas/3-etapa-saumur-chinon-langeais.php" class="hover:text-emerald-700 underline">Saumur, Chinon y Langeais</a></li>
-      <li><a href="etapas/4-etapa-tours-amboise.php" class="hover:text-emerald-700 underline">Tours y Amboise</a></li>
-      <li><a href="etapas/5-etapa-amboise-blois.php" class="hover:text-emerald-700 underline">Amboise y Blois</a></li>
-      <li><a href="etapas/6-etapa-blois-orleans.php" class="hover:text-emerald-700 underline">Blois y Orleans</a></li>
-    </ul>
-  </div>
+  <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
+  <main class="lg:col-span-7 space-y-10">
+    <section>
+      <h2 class="text-3xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
+    <p>
+  El <strong>Valle del Loira</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo. 
+  A lo largo de sus orillas, se levantan más de <strong>80 castillos</strong> que fueron residencia de reyes, nobles y artistas del Renacimiento francés, cada uno con su propio encanto y leyenda.
+</p>
 
-<!-- ✅ Botones de acción -->
-<div class="mt-6 text-center space-x-4">
-  <!-- Botón principal: Alojamientos -->
-  <a href="paginas/alojamientos.php" 
-     class="inline-block bg-emerald-600 text-white px-1 py-1 rounded-lg font-semibold shadow hover:bg-emerald-700 transition-colors duration-300">
-     🛎️ Alojamientos
-  </a>
+<p class="mt-4">
+  En esta región declarada <strong>Patrimonio Mundial por la UNESCO</strong>, se mezclan los paisajes bucólicos con la elegancia arquitectónica. Los jardines geométricos de <a href="chateaux/Villandri.php" class="text-emerald-700 hover:underline">Villandri</a>, los reflejos sobre el agua del majestuoso <a href="chateaux/Chenonceau.php" class="text-emerald-700 hover:underline">Chenonceau</a> o las torres de cuento de <a href="chateaux/Usse.php" class="text-emerald-700 hover:underline">Ussé</a> —que inspiraron <em>La Bella Durmiente</em>— son solo algunas de las joyas que te esperan.
+</p>
 
-  <!-- Botón secundario: Formulario -->
-  <a href="formulario.html" 
-     class="inline-block px-1 py-1 bg-white text-emerald-600 font-medium rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">
-     ✍️ Ir al formulario
-  </a>
+<p class="mt-4">
+  Pero el Loira no es solo historia y piedra: también es <strong>gastronomía, vino y naturaleza</strong>. En cada etapa del recorrido podrás degustar quesos artesanos, vinos blancos del <em>Sauvignon</em> o tintos suaves del <em>Cabernet Franc</em>, acompañados de un paisaje de ensueño. 
+  Los caminos ciclistas de la <a href="https://www.cycling-loire.com/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a> te permiten explorar a tu ritmo, mientras que los cruceros fluviales ofrecen una perspectiva tranquila y romántica del valle.
+</p>
+
+<p class="mt-4">
+  Ya sea que busques arte, historia o descanso, el <strong>Valle del Loira</strong> te ofrece una experiencia única. 
+  Planifica tu viaje, sigue las etapas recomendadas y déjate seducir por la magia de los castillos, el murmullo del río y la hospitalidad de su gente.
+</p>
+</section>
+
+<!-- 🔹 Datos Rápidos del Valle del Loira (con animación al hacer scroll) -->
+<section 
+  id="datos-loira" 
+  class="mt-10 bg-emerald-50 p-6 rounded-xl shadow-md opacity-0 translate-y-6 transition-all duration-700"
+>
+  <h3 class="text-xl font-bold text-emerald-700 mb-4 text-center">
+    📊 Datos rápidos del Valle del Loira
+  </h3>
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-gray-700">
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🗓️ Mejor época</h4>
+  <p>De mayo a septiembre, cuando los jardines florecen y el clima es ideal para pasear o pedalear junto al río.</p>
+  <a href="#mejor-epoca" class="text-blue-600 hover:underline">ir</a>
+</div>
+
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🚴 Ideal para</h4>
+  <p>Amantes de la historia, la fotografía, el vino y la arquitectura. Perfecto para recorrer en bici o coche.</p>
+  <a href="#ideal-para" class="text-blue-600 hover:underline">ir</a>
+</div>
+
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🕰️ Duración recomendada</h4>
+  <p>Entre 5 y 10 días para explorar las principales etapas sin prisas y empaparte del ritmo tranquilo del valle.</p>
+  <a href="#duracion-recomendada" class="text-blue-600 hover:underline">ir</a>
 </div>
 
 
-  <!-- ✅ Botón Oficinas de Turismo -->
-  <div class="mt-6 text-center">
-    <a href="paginas/oficinas-turismo.php" 
-       class="inline-block bg-blue-600 text-white px-1 py-1 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
-       🗺️ Oficinas de Turismo
-    </a>
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🍷 Vinos emblemáticos</h4>
+  <p>Muscadet, Sancerre, Chinon y Saumur-Champigny: auténticas joyas enológicas de la región.</p>
+  <a href="#vinos-emblematicos" class="text-blue-600 hover:underline">ir</a>
+</div>
+
+
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🏰 Castillos destacados</h4>
+  <p>Chambord, Chenonceau, Amboise, Villandri y Ussé, cada uno con su propia historia y encanto.</p>
+  <a href="#castillos-destacados" class="text-blue-600 hover:underline">ir</a>
+</div>
+
+
+
+<div class="bg-white rounded-lg p-4 shadow-sm">
+  <h4 class="font-semibold text-emerald-800 mb-1">🌦️ Clima</h4>
+  <p>Templado oceánico, con veranos suaves e inviernos frescos. Perfecto para actividades al aire libre todo el año.</p>
+  <a href="#clima" class="text-blue-600 hover:underline">ir</a>
+</div>
   </div>
 
-</aside>
+  <p class="mt-6 text-sm text-gray-500 text-center">
+    ℹ️ Consejo: organiza tu ruta por etapas —de <strong>Nantes a Orleans</strong>— para disfrutar cada zona sin prisas.
+  </p>
+</section>
+
+<!-- 🔹 Script de animación (fade-in al hacer scroll) -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const section = document.getElementById("datos-loira");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove("opacity-0", "translate-y-6");
+          entry.target.classList.add("opacity-100", "translate-y-0");
+        }
+      });
+    }, { threshold: 0.2 });
+
+    observer.observe(section);
+  });
+</script>
 
 
-  <!-- 🔹 Main Content -->
-  <main class="flex-1 space-y-10">
-    <!-- 🔹 Introducción -->
-    <section>
-      <h2 class="text-2xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
-      <p>El <strong>Valle del Loira</strong> se encuentra en Francia y es famoso por la riqueza, variedad y cantidad de castillos que lo convierten en un destino turístico único. Desde <ins>Nantes hasta Orleans</ins>, el río Loira nos acompaña en un viaje inolvidable.</p>
-    </section>
+<section id="mejor-epoca" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-4">🗓️ Mejor época para visitar</h3>
+  <p>La primavera y el verano son ideales para disfrutar del Valle del Loira:</p>
+  <ul class="list-disc list-inside text-gray-600 mt-3 space-y-2">
+    <li>Jardines y parques de los castillos en pleno esplendor.</li>
+    <li>Rutas en bicicleta o a pie con temperaturas agradables.</li>
+    <li>Festivales y eventos culturales locales.</li>
+    <li>Menor riesgo de lluvia y días más largos para explorar.</li>
+  </ul>
+</section>
 
-    <!-- 🔹 Galería de Castillos -->
-    <section class="mt-10">
-      <h3 class="text-xl font-bold text-gray-700 mb-6">🏰 Castillos Destacados</h3>
-      <div class="grid md:grid-cols-3 gap-6">
+<section id="ideal-para" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-4">🚴 Ideal para</h3>
+  <p>El Valle del Loira es perfecto para:</p>
+  <ul class="list-disc list-inside text-gray-600 mt-3 space-y-2">
+    <li>Amantes de la historia y la arquitectura de castillos y ciudades medievales.</li>
+    <li>Fotografía de paisajes, ríos y jardines renacentistas.</li>
+    <li>Enoturismo: degustación de vinos locales como Muscadet, Sancerre o Chinon.</li>
+    <li>Recorridos en bicicleta o coche para explorar cada etapa cómodamente.</li>
+  </ul>
+</section>
 
-        <?php require 'paginas/index/data/index-castillos-destacados.php'; ?>
-        <?php require 'paginas/index/templates/index-castillos-destacados.php'; ?>
+<section id="duracion-recomendada" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-6">🕰️ Duración recomendada de la ruta</h3>
+  <p>Para disfrutar plenamente del Valle del Loira, se recomienda una estancia de entre 5 y 10 días. Esto permite recorrer las etapas principales con calma, visitar los castillos más emblemáticos y disfrutar de la gastronomía y los vinos locales sin prisas.</p>
+  <ul class="list-disc list-inside text-gray-600 space-y-2 mt-4">
+    <li>5 días: recorrido exprés visitando los castillos imprescindibles.</li>
+    <li>7 días: permite disfrutar de cada etapa con más detalle.</li>
+    <li>10 días: ruta completa, incluyendo pueblos, viñedos y actividades culturales.</li>
+  </ul>
+</section>
 
-      </div>
-    </section>
 
-    <!-- 🔹 Consejos -->
+
+<section id="vinos-emblematicos" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-6">🍷 Vinos emblemáticos del Valle del Loira</h3>
+  <p>La región del Valle del Loira es famosa por sus vinos blancos frescos, tintos elegantes y vinos espumosos. Muscadet en Nantes, Sancerre en el centro, Chinon y Saumur-Champigny son imprescindibles para los amantes del vino.</p>
+  <div class="grid md:grid-cols-3 gap-6 mt-4">
+    <img src="https://example.com/muscadet.jpg" alt="Vino Muscadet" class="rounded-lg shadow">
+    <img src="https://example.com/sancerre.jpg" alt="Vino Sancerre" class="rounded-lg shadow">
+    <img src="https://example.com/saumur.jpg" alt="Vino Saumur-Champigny" class="rounded-lg shadow">
+  </div>
+</section>
+
+
+<section id="castillos-destacados" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-4">🏰 Castillos Destacados</h3>
+  <p class="text-gray-700 mb-6">
+    El Valle del Loira es conocido como "el jardín de Francia" y alberga más de 300 castillos que nos transportan a épocas de reyes y caballeros. 
+    Desde majestuosas residencias renacentistas hasta fortalezas medievales, cada castillo tiene su propia historia y encanto único. 
+    A continuación, te mostramos algunos de los más impresionantes que no puedes perderte en tu viaje.
+  </p>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <?php require 'paginas/index/data/index-castillos-destacados.php'; ?>
+    <?php require 'paginas/index/templates/index-castillos-destacados.php'; ?>
+  </div>
+</section>
+
+
+<section id="clima" class="mt-10">
+  <h3 class="text-2xl font-bold text-gray-700 mb-4">🌦️ Clima en el Valle del Loira</h3>
+  <p>El Valle del Loira disfruta de un clima templado oceánico:</p>
+  <ul class="list-disc list-inside text-gray-600 mt-3 space-y-2">
+    <li>Veranos suaves, ideales para recorrer castillos y jardines.</li>
+    <li>Inviernos frescos, con pocas lluvias fuertes.</li>
+    <li>Otoño y primavera agradables para paseos y fotografía.</li>
+    <li>Prepara ropa ligera en verano y capas en invierno.</li>
+  </ul>
+</section>
+
     <section id="consejos" class="mt-12 bg-emerald-50 p-6 rounded-xl shadow">
       <h3 class="text-xl font-bold text-emerald-800 mb-4">📝 Consejos para tu viaje</h3>
       <ul class="list-disc pl-6 space-y-2">
         <li>Alquila un coche para moverte cómodamente entre los castillos.</li>
-        <li>Elige hospedajes estratégicos para ahorrar tiempo y kilómetros.</li>
-        <li>Divide tu viaje en etapas de 7 días para disfrutar con calma.</li>
-        <li>Consulta opciones oficiales en <a href="https://www.valdeloire-france.com/es" target="_blank" class="text-emerald-600 font-semibold hover:underline">Turismo Valle del Loira</a>.</li>
+        <li>Divide tu ruta en etapas de 7 días para disfrutar sin prisas.</li>
+        <li>Consulta la web oficial de <a href="https://www.valdeloire-france.com/es" target="_blank" class="text-emerald-600 font-semibold hover:underline">Turismo Valle del Loira</a>.</li>
       </ul>
     </section>
-
-    <!-- 🔹 Etapas -->
-    <section class="mt-12">
-      <h3 class="text-2xl font-bold text-emerald-700 mb-6 text-center">📌 Etapas de la Ruta del Valle del Loira</h3>
-      <div class="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
-        <a href="etapas/1-etapa-nantes-angers.php" class="block p-6 bg-white rounded-xl shadow hover:shadow-lg hover:bg-emerald-50 transition text-center">
-          <h4 class="text-lg font-semibold text-emerald-700">Etapa: Nantes – Angers</h4>
-          <p class="text-gray-600 mt-2">Descubre la entrada occidental del Valle del Loira, con su historia y paisajes.</p>
-        </a>
-        <a href="etapas/2-etapa-angers-saumur.php" class="block p-6 bg-white rounded-xl shadow hover:shadow-lg hover:bg-emerald-50 transition text-center">
-          <h4 class="text-lg font-semibold text-emerald-700">Etapa: Angers – Saumur</h4>
-          <p class="text-gray-600 mt-2">Explora castillos medievales y viñedos entre Angers y Saumur.</p>
-        </a>
-      </div>
-    </section>
-
-    <!-- 🔹 Mapa -->
-    <section id="mapa" class="mt-12">
-      <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">🗺️ Descubre el Valle del Loira</h3>
-      <div class="w-full h-[500px] rounded-xl overflow-hidden shadow-lg">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d975856.9298516652!2d0.8322526227083755!3d47.50063815194359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1759333328793!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
-      </div>
-      <p class="mt-4 text-center text-gray-600">Explora los <strong>castillos del Valle del Loira</strong>, sus paisajes y ciudades históricas en este mapa interactivo.</p>
-    </section>
-
   </main>
+
+  <!-- 📰 Columna 3: Sidebar derecho -->
+  <aside class="lg:col-span-3 bg-gray-50 p-6 rounded-xl shadow space-y-6">
+    <h3 class="text-lg font-bold text-gray-700">📰 Noticias y Enlaces</h3>
+    <ul class="list-disc pl-6 space-y-2 text-gray-600">
+      <li><a href="https://www.france.fr/es" target="_blank" class="hover:text-emerald-700 underline">Turismo de Francia</a></li>
+      <li><a href="https://www.valdeloire-france.com/es" target="_blank" class="hover:text-emerald-700 underline">Valle del Loira</a></li>
+      <li><a href="https://www.nantes-tourisme.com" target="_blank" class="hover:text-emerald-700 underline">Nantes Turismo</a></li>
+    </ul>
+
+    <div class="text-center">
+      <img src="https://source.unsplash.com/400x300/?loire,castle" alt="Castillo del Loira" class="rounded-lg shadow">
+      <p class="text-gray-600 text-sm mt-2">Publicidad o enlaces patrocinados.</p>
+    </div>
+  </aside>
+
 </div>
+
+
 
   <!-- 🔹 Footer -->
 <footer class="bg-gray-800 text-gray-300 py-8 mt-12">

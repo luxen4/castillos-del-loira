@@ -27,34 +27,34 @@
 
 <!-- 🎶 Música de fondo -->
 <audio id="bg-music" autoplay loop muted>
-  <source src="../audio/musica-ambiental-1.mp3" type="audio/mpeg">
-  Tu navegador no soporta el audio HTML5.
+    <source src="../audio/musica-ambiental-1.mp3" type="audio/mpeg">
+    Tu navegador no soporta el audio HTML5.
 </audio>
 
 <!-- 🔊 Botón para activar/desactivar sonido -->
 <div class="fixed bottom-4 right-4">
-  <button id="toggle-sound" 
-          class="px-4 py-2 bg-emerald-600 text-white rounded-full shadow-lg hover:bg-emerald-700 transition">
-    🔊 Activar sonido
-  </button>
+    <button id="toggle-sound"
+        class="px-4 py-2 bg-emerald-600 text-white rounded-full shadow-lg hover:bg-emerald-700 transition">
+        🔊 Activar sonido
+    </button>
 </div>
 
 <script>
-  const audio = document.getElementById("bg-music");
-  const btn = document.getElementById("toggle-sound");
+    const audio = document.getElementById("bg-music");
+    const btn = document.getElementById("toggle-sound");
 
-  btn.addEventListener("click", () => {
-    if (audio.muted) {
-      // 🔊 Activar sonido
-      audio.muted = false;
-      audio.play();
-      btn.textContent = "🔈 Silenciar";
-    } else {
-      // 🤫 Silenciar sonido
-      audio.muted = true;
-      btn.textContent = "🔊 Activar sonido";
-    }
-  });
+    btn.addEventListener("click", () => {
+        if (audio.muted) {
+            // 🔊 Activar sonido
+            audio.muted = false;
+            audio.play();
+            btn.textContent = "🔈 Silenciar";
+        } else {
+            // 🤫 Silenciar sonido
+            audio.muted = true;
+            btn.textContent = "🔊 Activar sonido";
+        }
+    });
 </script>
 
 
@@ -144,7 +144,9 @@
                         <li><a href="https://blog.volotea.com/es/rincon/el-passage-pommeraye/" target="_blank" class="hover:text-emerald-700 underline">Iglesia Passage Pommeraye</a></li>
                         <li><a href="https://www.lesmachines-nantes.fr/" target="_blank" class="hover:text-emerald-700 underline">Las Máquinas de la Isla</a></li>
                         <li><a href="https://www.minube.com/rincon/los-anillos-de-buren-y-bouchain-a3667924" target="_blank" class="hover:text-emerald-700 underline">Hangar à Bananes</a></li>
-                        <li><a href="http://rgs.gssweb.org/es/news/milenio-de-la-abad-de-san-nicol-s-de-angers" target="_blank" class="hover:text-emerald-700 underline">Iglesia de San Nicolás</a></li>
+                        <li><a href="https://museedartsdenantes.nantesmetropole.fr/"target="_blank"rel="nofollow noopener noreferrer"class="hover:text-emerald-700 underline">Musée d’Arts de Nantes</a></li>
+
+                        <li><a href="../ciudades/nantes/lugares-interesantes/iglesia-de-san-nicolas/index.php" target="_blank" class="hover:text-emerald-700 underline">Iglesia de San Nicolás</a></li>
                     </ul>
                 </div>
 
