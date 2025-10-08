@@ -33,19 +33,21 @@
 
 <body class="bg-gray-50 text-gray-800">
 
+
+<?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-generico.php"; ?>
+
     <!-- 🔹 Header -->
     <header class="bg-emerald-700 text-white py-6 shadow-md">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <h1 class="text-2xl font-bold">🏙️ <?= $ciudad ?></h1>
             <nav class="flex gap-6">
                 <a href="../index.php" class="hover:underline">Inicio</a>
-                <a href="../castillos.php" class="hover:underline">Castillos</a>
+                <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline">Castillos</a>
                 <a href="../alojamientos.php" class="hover:underline">Alojamientos</a>
                 <a href="../oficinas-turismo.php" class="hover:underline">Turismo</a>
             </nav>
         </div>
     </header>
-
 
 
     <?php $imagenHero = "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg"; ?>
@@ -111,7 +113,8 @@
             ?>
         </article>
 
-        <?php require "{$slug}/main/aside/aside-generico.php"; ?>
+        <!-- 📢 Lateral -->
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside/aside-generico.php"; ?>
 
     </main>
 
