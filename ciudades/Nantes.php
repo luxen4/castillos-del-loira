@@ -15,7 +15,7 @@ con amigos o en familia. Un destino perfecto para una escapada de fin de semana 
 $imagenHero = "https://www.nantes-tourisme.com/sites/default/files/2021-05/chateau-des-ducs.jpg";
 $enlaces = [
   ["Turismo oficial", "https://www.nantes-tourisme.com/"],
-  ["Castillo de los Duques de Bretaña", "https://www.chateaunantes.fr/en/"],
+  ["Castillo de los Duques de Bretaña", "/val-de-loire/chateaux/Duques-de-Bretaña.php"],/*"https://www.chateaunantes.fr/en/*/
   ["Google Maps", "https://goo.gl/maps/VNny7QYrBznQv6dK7"],
 ];
 

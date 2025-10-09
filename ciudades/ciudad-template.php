@@ -118,7 +118,6 @@
 
     </main>
 
-
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
 
     <script>
