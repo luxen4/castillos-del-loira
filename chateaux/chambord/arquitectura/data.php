@@ -2,7 +2,17 @@
 <?php
 // 🌀 SECCIÓN: ARQUITECTURA Y ESCALERA DOBLE HÉLICE
 $titulo = "🌀 Escalera de doble hélice y arquitectura";
-$texto = "La escalera central, inspirada por Leonardo da Vinci, es una obra maestra de ingeniería. Está formada por dos rampas de caracol entrelazadas que permiten subir sin cruzarse. La azotea del castillo, con sus 282 chimeneas y torres, ofrece vistas espectaculares del dominio.";
+$texto = '
+  <h3 class="text-lg italic text-gray-600 mb-4">
+    La joya arquitectónica más famosa del castillo.
+  </h3>
+  <p class="text-gray-700 leading-relaxed">
+    La escalera central, inspirada por Leonardo da Vinci, es una obra maestra de ingeniería. 
+    Está formada por dos rampas de caracol entrelazadas que permiten subir sin cruzarse. 
+    La azotea del castillo, con sus 282 chimeneas y torres, ofrece vistas espectaculares del dominio.
+  </p>
+';
+
 
 $figuras = [
   [

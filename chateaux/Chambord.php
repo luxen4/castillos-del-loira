@@ -13,11 +13,7 @@ $otros_castillos = [
     ["Cheverny", "Cheverny.php"]
 ];
 
-$castillos_cercanos = [
-    ["Castillo de Blois", "Blois.php"],
-    ["Castillo de Cheverny", "Cheverny.php"],
-    ["Castillo de Chaumont-sur-Loire", "Chaumont.php"]
-];
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -61,16 +57,53 @@ $castillos_cercanos = [
   <!-- Aside izquierdo -->
   <aside class="lg:col-span-2 space-y-6">
     <div class="bg-emerald-50 p-4 rounded-lg shadow">
-      <h3 class="font-semibold text-emerald-700 mb-2">🏰 Otros castillos</h3>
-      <ul class="list-disc list-inside space-y-1">
-        <?php foreach($otros_castillos as $c): ?>
-          <li><a href="<?= $c[1] ?>" class="hover:underline text-emerald-700"><?= $c[0] ?></a></li>
-        <?php endforeach; ?>
-      </ul>
-    </div>
+
+<?php
+$tarjetas_chambord = [
+  [
+    "titulo" => "Historia",
+    "ancla" => "#historia"
+  ],
+  [
+    "titulo" => "Escalera doble hélice",
+    "ancla" => "#arquitectura"
+  ],
+  [
+    "titulo" => "Visitas",
+    "ancla" => "#informacion-practica"
+  ],
+  [
+    "titulo" => "Galería",
+    "ancla" => "#galeria"
+  ]
+];
+?>
+
+<!-- 🔸 Secciones del castillo -->
+  <h3 class="font-semibold text-emerald-700 mb-2">🧭 Secciones del castillo</h3>
+  <ul class="list-disc list-inside space-y-1">
+    <?php foreach($tarjetas_chambord as $t): ?>
+      <li>
+        <a href="<?= $t['ancla'] ?>" class="hover:text-emerald-700 hover:underline transition">
+          <?= $t['titulo'] ?>
+        </a>
+      </li>
+    <?php endforeach; ?>
+  </ul>
+
     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
       [Publicidad lateral]
     </div>
+</aside>
+
+
+
+    </div>
+
+
+
+
+
   </aside>
 
   <!-- Contenido central -->
@@ -81,8 +114,8 @@ $castillos_cercanos = [
     require "{$slug}/{$slug_section}/data.php"; ?>
 
     <!-- Tragetas de navegación -->
-    <?php $slug_section = "targetas-navegacion";
-    require "{$slug}/{$slug_section}/data.php"; ?>
+    <?php //$slug_section = "targetas-navegacion";
+    //require "{$slug}/{$slug_section}/data.php"; ?>
 
     <!-- Historia -->
     <?php $slug_section = "historia";
@@ -103,30 +136,55 @@ $castillos_cercanos = [
     <?php $slug_section = "informacion-practica";
     require "{$slug}/{$slug_section}/data.php"; ?>
 
+
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/consejos/data.php"; ?>
+
+<section id="<?= $section_consejos['id'] ?>" class="bg-emerald-50 p-4 rounded-lg shadow">
+    <h3 class="font-semibold text-emerald-700 mb-2"><?= $section_consejos['titulo'] ?></h3>
+    <?= $section_consejos['contenido'] ?>
+</section>
+<?php
+// Array con los castillos cercanos y descripción breve
+$castillos_cercanos = [
+    ["nombre" => "Castillo de Blois", "url" => "Blois.php", "descripcion" => "Palacio renacentista con historia real."],
+    ["nombre" => "Castillo de Cheverny", "url" => "Cheverny.php", "descripcion" => "Famoso por su elegante decoración interior."],
+    ["nombre" => "Castillo de Chaumont-sur-Loire", "url" => "Chaumont.php", "descripcion" => "Conocido por sus jardines y festivales."],
+    ["nombre" => "Villandri", "url" => "Villandri.php", "descripcion" => "Jardines renacentistas espectaculares."],
+    ["nombre" => "Chenonceau", "url" => "Chenonceau.php", "descripcion" => "El castillo sobre el río Cher."],
+    ["nombre" => "Cheverny", "url" => "Cheverny.php", "descripcion" => "Castillo clásico francés con interior elegante."]
+];
+
+// Sección estructurada
+$section_castillos_cercanos = [
+    "id" => "castillos-cercanos",
+    "titulo" => "🏰 Castillos cercanos",
+    "items" => $castillos_cercanos
+];
+?>
+<section id="<?= $section_castillos_cercanos['id'] ?>" class="bg-emerald-50 p-4 rounded-lg shadow">
+  <h3 class="font-semibold text-emerald-700 mb-2"><?= $section_castillos_cercanos['titulo'] ?></h3>
+  <ul class="list-disc list-inside text-gray-700 space-y-2">
+    <?php foreach($section_castillos_cercanos['items'] as $c): ?>
+      <li>
+        <a href="<?= $c['url'] ?>" class="hover:underline text-emerald-700 font-semibold"><?= $c['nombre'] ?></a>
+        <span class="text-gray-600 text-sm">- <?= $c['descripcion'] ?></span>
+      </li>
+    <?php endforeach; ?>
+  </ul>
+</section>
+
+
+
+
+
+
   </article>
 
   <!-- Aside derecho -->
   <aside class="lg:col-span-2 space-y-6">
     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
       [Publicidad lateral]
-    </div>
-
-    <div class="bg-emerald-50 p-4 rounded-lg shadow">
-      <h3 class="font-semibold text-emerald-700 mb-2">📌 Consejos</h3>
-      <ul class="list-disc list-inside space-y-1 text-gray-700">
-        <li>Sube a la terraza para vistas panorámicas.</li>
-        <li>Lleva calzado cómodo, el dominio es extenso.</li>
-        <li>No te pierdas los espectáculos ecuestres en verano.</li>
-      </ul>
-    </div>
-
-    <div class="bg-white p-4 rounded-lg shadow">
-      <h3 class="font-semibold text-emerald-700 mb-2">🏰 Castillos cercanos</h3>
-      <ul class="list-disc list-inside text-gray-700 space-y-1">
-        <?php foreach($castillos_cercanos as $c): ?>
-          <li><a href="<?= $c[1] ?>" class="hover:underline text-emerald-700"><?= $c[0] ?></a></li>
-        <?php endforeach; ?>
-      </ul>
     </div>
   </aside>
 </main>
