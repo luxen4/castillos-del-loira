@@ -16,15 +16,15 @@ $imagenHero = "https://www.nantes-tourisme.com/sites/default/files/2021-05/chate
 $enlaces = [
   ["Turismo oficial", "https://www.nantes-tourisme.com/"],
   ["Castillo de los Duques de Bretaña", "/val-de-loire/chateaux/Duques-de-Bretaña.php"],/*"https://www.chateaunantes.fr/en/*/
-  ["Google Maps", "https://goo.gl/maps/VNny7QYrBznQv6dK7"],
+  ["Google Maps", "https://maps.app.goo.gl/iq7x7dzdCPTmnd8AA"],
 ];
 
 
 $relacionadas = [
-  ["Angers", "angers.php"],
-  ["Saumur", "saumur.php"],
-  ["Tours", "tours.php"],
+  ["Angers", "Angers.php"],
+  ["Saumur", "Saumur.php"],
+  ["Tours", "Tours.php"],
 ];
 ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

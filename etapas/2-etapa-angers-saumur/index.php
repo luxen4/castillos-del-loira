@@ -88,18 +88,18 @@
     <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <li class="text-center">
         <a href="https://www.chateau-angers.fr/" target="_blank">
-          <img class="rounded-lg shadow mb-2 mx-auto" src="images/angers.jpg" alt="Château d’Angers">
+          <img class="rounded-lg shadow mb-2 mx-auto" src="https://www.chateau-angers.fr/var/cmn_inter/storage/images/_aliases/homepage_banner_webp/9/4/1/1/120451149-5-fre-FR/079176562e8e-Angers_Chateau_ALDA-11-recad.webp.webp" alt="Château d’Angers">
           <p class="text-emerald-700 font-semibold">Château d’Angers</p>
         </a>
       </li>
       <li class="text-center">
         <a href="https://www.chateau-saumur.fr/" target="_blank">
-          <img class="rounded-lg shadow mb-2 mx-auto" src="images/saumur.jpg" alt="Château de Saumur">
+          <img class="rounded-lg shadow mb-2 mx-auto" src="https://www.chateau-saumur.fr/templates/yootheme/cache/imgl8628-781ec372.jpeg" alt="Château de Saumur">
           <p class="text-emerald-700 font-semibold">Château de Saumur</p>
         </a>
       </li>
       <li class="text-center">
-        <a href="#angers" class="text-emerald-600 hover:underline font-semibold">Ciudad de Angers</a>
+        <a href="../../ciudades/Angers.php" class="text-emerald-600 hover:underline font-semibold">Ciudad de Angers</a>
       </li>
       <li class="text-center">
         <a href="#saumur" class="text-emerald-600 hover:underline font-semibold">Ciudad de Saumur</a>

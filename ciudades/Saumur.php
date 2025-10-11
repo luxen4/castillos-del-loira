@@ -6,7 +6,7 @@ $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/1/1f/Saumur_Castle
 $enlaces = [
   ["Turismo oficial de Saumur", "https://www.ot-saumur.fr/"],
   ["Château de Saumur", "https://www.ot-saumur.fr/chateau-de-saumur"],
-  ["Google Maps", "https://goo.gl/maps/fqjCh8EnxwDHR78s8"],
+  ["Google Maps", "https://maps.app.goo.gl/CJccYdBsSDhJukhu8"],
 ];
 $galeria = [
   "https://www.valdeloire.org/sites/default/files/styles/visuel_principal/public/2018-01/saumur_chateau_vue.jpg",
@@ -19,3 +19,5 @@ $relacionadas = [
   ["Tours", "tours.php"],
 ];
 ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

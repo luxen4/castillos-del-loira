@@ -91,6 +91,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
 ?>
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -100,6 +101,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
   <link rel="icon" href="/favicon.png">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-50 text-gray-800">
 
   <!-- BOTÓN FLOTANTE IR ARRIBA (posición absoluta fija) -->
@@ -114,24 +116,24 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
     </div>
   </header>
 
-<!-- 🌆 Hero con efecto zoom y mayor altura en escritorio -->
-<section 
-  class="relative bg-cover bg-center h-64 md:h-96 lg:h-[600px] overflow-hidden group transition-all duration-500" 
-  style="background-image: url('https://img.freepik.com/fotos-premium/vista-edificio-contra-cielo-nublado_1048944-6749639.jpg');">
-  
-  <!-- Capa oscura y texto -->
-  <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-start transition-all duration-500 group-hover:bg-opacity-30">
-    <div class="container mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl lg:text-5xl text-white font-bold"><?= htmlspecialchars($nombreLugar) ?></h2>
-    </div>
-  </div>
-
-  <!-- Efecto zoom (imagen de fondo) -->
-  <div 
-    class="absolute inset-0 bg-center bg-cover transition-transform duration-700 group-hover:scale-110" 
+  <!-- 🌆 Hero con efecto zoom y mayor altura en escritorio -->
+  <section
+    class="relative bg-cover bg-center h-64 md:h-96 lg:h-[600px] overflow-hidden group transition-all duration-500"
     style="background-image: url('https://img.freepik.com/fotos-premium/vista-edificio-contra-cielo-nublado_1048944-6749639.jpg');">
-  </div>
-</section>
+
+    <!-- Capa oscura y texto -->
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-start transition-all duration-500 group-hover:bg-opacity-30">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl text-white font-bold"><?= htmlspecialchars($nombreLugar) ?></h2>
+      </div>
+    </div>
+
+    <!-- Efecto zoom (imagen de fondo) -->
+    <div
+      class="absolute inset-0 bg-center bg-cover transition-transform duration-700 group-hover:scale-110"
+      style="background-image: url('https://img.freepik.com/fotos-premium/vista-edificio-contra-cielo-nublado_1048944-6749639.jpg');">
+    </div>
+  </section>
 
 
 
@@ -141,18 +143,18 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
     <article class="lg:col-span-2">
       <!-- Intro -->
       <section class="mb-6">
-        <?php foreach($intro['parrafos'] as $p): ?>
+        <?php foreach ($intro['parrafos'] as $p): ?>
           <p class="text-gray-700 mb-3"><?= $p ?></p>
         <?php endforeach; ?>
 
         <div class="grid sm:grid-cols-2 gap-4 mt-4">
-          <?php foreach($intro['imagenes'] as $img): ?>
+          <?php foreach ($intro['imagenes'] as $img): ?>
             <figure class="bg-white p-2 rounded shadow">
               <img src="<?= $img['src'] ?>" alt="<?= htmlspecialchars($img['alt']) ?>" class="w-full rounded object-cover">
-              <?php if(!empty($img['caption']) || !empty($img['fuente'])): ?>
+              <?php if (!empty($img['caption']) || !empty($img['fuente'])): ?>
                 <figcaption class="text-xs text-gray-500 mt-2">
                   <?= htmlspecialchars($img['caption']) ?>
-                  <?php if(!empty($img['fuente'])): ?>
+                  <?php if (!empty($img['fuente'])): ?>
                     — Fuente: <a href="<?= htmlspecialchars($img['fuente']) ?>" target="_blank" rel="nofollow noopener noreferrer" class="underline"><?= htmlspecialchars($img['fuente_texto'] ?: $img['fuente']) ?></a>
                   <?php endif; ?>
                 </figcaption>
@@ -166,12 +168,12 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
       <section id="galeria" class="mb-6">
         <h3 class="text-2xl font-semibold text-emerald-700 mb-4">📸 Galería</h3>
         <div class="grid sm:grid-cols-2 gap-4">
-          <?php foreach($galeria as $foto): ?>
+          <?php foreach ($galeria as $foto): ?>
             <figure class="bg-white rounded shadow p-2">
               <img src="<?= $foto['src'] ?>" alt="<?= htmlspecialchars($foto['alt']) ?>" class="w-full rounded object-cover">
               <figcaption class="text-xs text-gray-500 mt-2">
                 <?= htmlspecialchars($foto['caption']) ?>
-                <?php if(!empty($foto['fuente'])): ?>
+                <?php if (!empty($foto['fuente'])): ?>
                   — Fuente: <a href="<?= htmlspecialchars($foto['fuente']) ?>" target="_blank" rel="nofollow noopener noreferrer" class="underline"><?= htmlspecialchars($foto['fuente_texto'] ?: $foto['fuente']) ?></a>
                 <?php endif; ?>
               </figcaption>
@@ -184,7 +186,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
       <section id="actividades" class="mb-6">
         <h3 class="text-2xl font-semibold text-emerald-700 mb-3"><?= $actividades['titulo'] ?></h3>
         <ul class="space-y-2">
-          <?php foreach($actividades['items'] as $act): ?>
+          <?php foreach ($actividades['items'] as $act): ?>
             <li class="bg-white p-3 rounded shadow flex items-start gap-3">
               <div class="text-xl"><?= $act['icono'] ?></div>
               <div class="text-gray-700"><?= $act['texto'] ?></div>
@@ -197,7 +199,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
       <section class="mb-6">
         <h3 class="text-2xl font-semibold text-emerald-700 mb-3">🗣️ Opiniones</h3>
         <div class="space-y-3">
-          <?php foreach($comentarios as $c): ?>
+          <?php foreach ($comentarios as $c): ?>
             <div class="bg-white p-3 rounded shadow">
               <strong class="text-emerald-700"><?= htmlspecialchars($c['nombre']) ?></strong>
               <p class="text-gray-700 mt-1"><?= htmlspecialchars($c['texto']) ?></p>
@@ -213,7 +215,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
       <div class="bg-white p-4 rounded shadow">
         <h4 class="text-xl font-semibold text-emerald-700 mb-3"><?= $info['titulo'] ?></h4>
         <ul class="space-y-2 text-gray-700">
-          <?php foreach($info['items'] as $it): ?>
+          <?php foreach ($info['items'] as $it): ?>
             <li class="flex items-start gap-3">
               <div class="text-xl"><?= $it['icono'] ?></div>
               <div>
@@ -235,26 +237,23 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
       <!-- Contacto -->
       <div class="bg-white p-4 rounded shadow">
         <h4 class="text-lg font-semibold text-emerald-700 mb-2">📞 Contacto</h4>
-        <p class="text-gray-700">Teléfono: <a href="tel:<?= preg_replace('/[^0-9+]/','',$contacto['telefono']) ?>" class="text-emerald-700"><?= $contacto['telefono'] ?></a></p>
-        <?php if(!empty($contacto['web']['url'])): ?>
+        <p class="text-gray-700">Teléfono: <a href="tel:<?= preg_replace('/[^0-9+]/', '', $contacto['telefono']) ?>" class="text-emerald-700"><?= $contacto['telefono'] ?></a></p>
+        <?php if (!empty($contacto['web']['url'])): ?>
           <p class="text-gray-700 mt-2">Web: <a href="<?= $contacto['web']['url'] ?>" target="_blank" rel="nofollow noopener noreferrer" class="underline"><?= $contacto['web']['texto'] ?></a></p>
         <?php endif; ?>
       </div>
-    </aside>  
-    
-<p style="margin: 1em 0; font-size: 1rem; color: #333;">
-  ℹ️ Más información: visita la web oficial de 
-  <?= htmlspecialchars($nombre_oficial) ?> 
-  <a href="<?= htmlspecialchars($web_oficial) ?>" 
-     target="_blank" 
-     rel="nofollow noopener noreferrer" 
-     style="color: #0645AD; text-decoration: underline;">
-     aquí
-  </a>.
-</p>
+    </aside>
 
-
-
+    <p style="margin: 1em 0; font-size: 1rem; color: #333;">
+      ℹ️ Más información: visita la web oficial de
+      <?= htmlspecialchars($nombre_oficial) ?>
+      <a href="<?= htmlspecialchars($web_oficial) ?>"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        style="color: #0645AD; text-decoration: underline;">
+        aquí
+      </a>.
+    </p>
 
   </main>
 
@@ -264,7 +263,6 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
     </div>
   </footer>
 
-
-
 </body>
+
 </html>

@@ -108,9 +108,11 @@
 
 
             foreach ($sections as $slug_section_main_title) {
-                require "{$slug}/main/sections/index-section-generico.php";
+                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/index-section-generico.php";
             }
             ?>
+
+
         </article>
 
         <!-- 📢 Lateral -->
