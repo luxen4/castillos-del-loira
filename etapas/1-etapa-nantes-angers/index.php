@@ -313,13 +313,9 @@
 
             </section>
 
-            <!-- 🔹 Enlaces a la siguiente etapa -->
-            <section class="mt-12 text-center">
-                <h3 class="text-2xl font-bold text-emerald-700 mb-4">➡️ Continuar la ruta</h3>
-                <a href="etapa-angers-saumur.php" class="inline-block px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg shadow hover:bg-emerald-700 transition">
-                    Etapa Angers – Saumur
-                </a>
-            </section>
+            <!-- 🔹 Enlaces -->
+            <?php require "data.php"; ?>
+            <?php require "../template-navegacion-etapas.php"; ?>
 
         </main>
     </div>
