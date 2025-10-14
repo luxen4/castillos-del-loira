@@ -14,20 +14,20 @@ $items = [
     "titulo" => "Museos y arte contemporáneo",
     "descripcion" => "Visita el Museo de Bellas Artes y el Carré Cointreau, donde el arte, la historia y la creatividad se unen en espacios inspiradores.",
     "imagen" => [
-      "src" => "https://musees.angers.fr/uploads/Panorama/Visuel-musee-beaux-arts-angers.jpg",
+      "src" => "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2023/09/thumbs/musee-jean-lurcat-thierry-bonnet-ville-angers-640x640.webp",
       "alt" => "Museos de Angers",
-      "fuente" => "https://musees.angers.fr/",
-      "fuente_texto" => "musees.angers.fr"
+      "fuente" => "https://www.destination-angers.com/es/turismo/planifique-estancia-angers-alojamiento-actividades-restaurantes/que-hacer-angers/principales-lugares-angers/museos-de-angers/",
+      "fuente_texto" => "destination-angers.com"
     ]
   ],
   [
     "titulo" => "Rutas en bicicleta por el Loira",
     "descripcion" => "Explora Angers y sus alrededores pedaleando por la ruta 'La Loire à Vélo', uno de los itinerarios cicloturísticos más bellos de Europa.",
     "imagen" => [
-      "src" => "https://www.loireavelo.fr/app/uploads/sites/4/2021/03/angers-loire-a-velo-cyclotourisme.jpg",
+      "src" => "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2024/08/thumbs/balade-velo-maine-c-alexandre-lamoureux-destination-angers-1920x960-crop-1727333756.webp",
       "alt" => "Rutas en bicicleta Angers",
-      "fuente" => "https://www.loireavelo.fr/",
-      "fuente_texto" => "loireavelo.fr"
+      "fuente" => "https://www.destination-angers.com/es/turismo/estancia-angers-inspiraciones/explore-angers-en-bicicleta/las-5-mejores-rutas-en-bicicleta-desde-angers/",
+      "fuente_texto" => "destination-angers.com"
     ]
   ]
 ];
@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Actividades en Angers"
 $section = [
-  "id" => "actividades-angers",
+  "id" => "actividades",
   "titulo" => "⭐ Actividades en Angers",
   "descripcion" => "Angers ofrece experiencias únicas para disfrutar solo, en pareja o en familia: arte, historia, naturaleza y sabores locales. ¡Una ciudad viva y acogedora en pleno Valle del Loira!",
   "tip" => "👉 Tip: alquila una bicicleta o únete a una visita guiada para descubrir los rincones más auténticos de Angers y sus alrededores."

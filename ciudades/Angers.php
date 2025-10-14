@@ -2,7 +2,7 @@
 $ciudad = "Angers";
 $slug = "angers";
 $descripcion = "Angers, famosa por su imponente castillo con el Tapiz del Apocalipsis, es una joya cultural del Valle del Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/41/Ch%C3%A2teau_d%27Angers_%28France%29.jpg";
+$imagenHero = "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2024/11/thumbs/vue_aerienne_chateau_angers-1920x960.webp";
 $enlaces = [
   ["Turismo oficial de Angers", "https://www.angers-tourisme.com/"],
   ["Castillo de Angers", "https://www.chateau-angers.fr/"],

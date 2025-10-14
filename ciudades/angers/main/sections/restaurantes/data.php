@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Restaurantes en Angers"
 $section = [
-  "id" => "restaurantes-angers",
+  "id" => "restaurantes",
   "titulo" => "🍽️ Restaurantes en Angers",
   "descripcion" => "La gastronomía de Angers combina productos del Loira, recetas tradicionales y creatividad contemporánea. Desde restaurantes con estrella Michelin hasta brasseries acogedoras, cada comida es una experiencia única.",
   "tip" => "👉 Consejo: acompaña tu menú con un vino de <strong>Anjou</strong> o un <strong>Coteaux du Layon</strong>, y guarda espacio para un dulce <strong>Quernon d’Ardoise</strong> al final."

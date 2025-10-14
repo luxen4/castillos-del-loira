@@ -49,9 +49,6 @@
         </div>
     </header>
 
-
-    <?php $imagenHero = "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg"; ?>
-
     <!-- 🔹 Hero con efecto hover -->
     <section
         class="relative bg-cover bg-center h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110"

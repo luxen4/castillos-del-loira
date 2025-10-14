@@ -506,9 +506,11 @@
 <em></em>
 <u></u>
 
-
+<?php /*
 <!--https://viajes.chavetas.es/guia/valle-del-loira/mejores-castillos-del-loira-imprescindibles/-->
 
 <!--  https://www.w3schools.com/html/html_formatting.asp Para el SEO -->
 
 <!-- https://www.serprobot.com/serp-check   SEO -->
+
+ /* Hacer una web de loira en bici ?> */

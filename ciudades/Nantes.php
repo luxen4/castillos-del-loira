@@ -12,7 +12,7 @@ no se queda atrás: vinos Muscadet, ostras y mariscos frescos, sin olvidar el m�
 Nantes engancha porque tiene de todo: cultura, historia, paseos junto al Loira, terrazas con ambiente y experiencias únicas para disfrutar en pareja, 
 con amigos o en familia. Un destino perfecto para una escapada de fin de semana o para convertirlo en base en tu ruta por el Valle del Loira.";
 
-$imagenHero = "https://www.nantes-tourisme.com/sites/default/files/2021-05/chateau-des-ducs.jpg";
+$imagenHero = "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg";
 $enlaces = [
   ["Turismo oficial", "https://www.nantes-tourisme.com/"],
   ["Castillo de los Duques de Bretaña", "/val-de-loire/chateaux/Duques-de-Bretaña.php"],/*"https://www.chateaunantes.fr/en/*/

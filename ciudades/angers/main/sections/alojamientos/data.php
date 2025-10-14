@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Alojamientos en Angers"
 $section = [
-  "id" => "alojamientos-angers",
+  "id" => "alojamientos",
   "titulo" => "🏨 Alojamientos en Angers",
   "descripcion" => "Angers ofrece múltiples opciones de alojamiento: desde elegantes hoteles con historia hasta apartamentos modernos, casas rurales y campings junto al río Maine.",
   "tip" => "👉 Consejo: si visitas durante los festivales de verano, reserva con tiempo, ya que la demanda aumenta considerablemente."
