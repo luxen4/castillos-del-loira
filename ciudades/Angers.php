@@ -20,5 +20,4 @@ $relacionadas = [
 ];
 ?>
 
-
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

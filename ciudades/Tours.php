@@ -2,7 +2,7 @@
 $ciudad = "Tours";
 $slug = "tours";
 $descripcion = "Tours, a orillas del Loira, es una ciudad universitaria y cultural con un casco histórico encantador.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/8/85/Tours_cathedrale.jpg";
+$imagenHero = "https://woody.cloudly.space/app/uploads/adt-touraine/2024/12/thumbs/Ville-Tours-Credit-ADT-Touraine-JCoutand-2033-57-1920x960-crop-1733305690.webp";
 $enlaces = [
   ["Turismo oficial de Tours", "https://www.tours-tourisme.fr/"],
   ["Catedral de Saint-Gatien", "https://www.cathedrale-tours.fr/"],
