@@ -1,22 +1,24 @@
 <?php
+// Variables dinámicas
 $ciudad = "Saumur";
-$slug = "saumur";
-$descripcion = "Saumur es conocida por su elegante castillo sobre el Loira, sus vinos espumosos y la famosa Escuela de Caballería.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/1/1f/Saumur_Castle.jpg";
+$slug = "saumur"; // para imágenes o URLs
+$descripcion = "Saumur, ubicada en el corazón del Valle del Loira, destaca por su imponente castillo, sus bodegas de vino y su rica historia ecuestre.<br><br>
+
+Pasear por Saumur es recorrer calles medievales, descubrir el Château de Saumur, visitar bodegas locales con vinos y espumosos reconocidos, y disfrutar del río Loira y sus paisajes. La ciudad ofrece también museos, actividades culturales y rutas a pie o en bicicleta.<br><br>
+
+Saumur combina patrimonio histórico, gastronomía y naturaleza, siendo ideal para escapadas de fin de semana, turismo enológico y recorridos por el Valle del Loira.";
+
+$imagenHero = "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/chateau-saumur.jpg";
 $enlaces = [
-  ["Turismo oficial de Saumur", "https://www.ot-saumur.fr/"],
-  ["Château de Saumur", "https://www.ot-saumur.fr/chateau-de-saumur"],
-  ["Google Maps", "https://maps.app.goo.gl/CJccYdBsSDhJukhu8"],
+  ["Turismo oficial", "https://www.saumur-tourisme.com/"],
+  ["Château de Saumur", "https://www.saumur-tourisme.com/decouvrir/chateau-de-saumur"],
+  ["Google Maps", "https://maps.app.goo.gl/xyz123"], // reemplaza con enlace real si quieres
 ];
-$galeria = [
-  "https://www.valdeloire.org/sites/default/files/styles/visuel_principal/public/2018-01/saumur_chateau_vue.jpg",
-  "https://www.ot-saumur.fr/photo/saumur-loire.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/2/26/Saumur_vue.jpg"
-];
+
 $relacionadas = [
-  ["Angers", "angers.php"],
-  ["Chinon", "chinon.php"],
-  ["Tours", "tours.php"],
+  ["Tours", "Tours.php"],
+  ["Orléans", "Orleans.php"],
+  ["Blois", "Blois.php"],
 ];
 ?>
 

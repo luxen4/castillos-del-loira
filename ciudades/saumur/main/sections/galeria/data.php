@@ -1,12 +1,5 @@
-<!-- 📸 Galería -->
 <?php
 $galeria = [
-  [
-    "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/saumur-panorama.jpg",
-    "alt" => "Vista panorámica de Saumur",
-    "fuente" => "https://www.saumur-tourisme.com/",
-    "fuente_texto" => "saumur-tourisme.com"
-  ],
   [
     "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/chateau-saumur.jpg",
     "alt" => "Castillo de Saumur",
@@ -14,8 +7,14 @@ $galeria = [
     "fuente_texto" => "saumur-tourisme.com"
   ],
   [
-    "src" => "https://www.valdeloire-france.com/wp-content/uploads/2019/09/loira-paseo.jpg",
-    "alt" => "Paseo por el Loira en Saumur",
+    "src" => "https://www.valdeloire-france.com/wp-content/uploads/2020/06/rillettes-saumur.jpg",
+    "alt" => "Rillettes de Saumur",
+    "fuente" => "https://www.valdeloire-france.com/",
+    "fuente_texto" => "valdeloire-france.com"
+  ],
+  [
+    "src" => "https://www.valdeloire-france.com/wp-content/uploads/2020/06/tarte-tatin-saumur.jpg",
+    "alt" => "Tarte Tatin en Saumur",
     "fuente" => "https://www.valdeloire-france.com/",
     "fuente_texto" => "valdeloire-france.com"
   ]

@@ -113,11 +113,11 @@
         </article>
 
         <!-- 📢 Lateral -->
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside/aside-generico.php"; ?>
+        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside/aside-generico.php"; ?>
 
     </main>
 
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
+    <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
 
     <script>
         feather.replace();

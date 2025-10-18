@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Transportes en Tours"
 $section = [
-  "id" => "transportes-tours",
+  "id" => "transportes",
   "titulo" => "🚗 Transportes en Tours",
   "descripcion" => "Moverse por Tours es sencillo gracias a los autobuses, tranvías, rutas ciclistas y servicios de alquiler de coches. Esto permite explorar la ciudad y los alrededores del Valle del Loira cómodamente.",
   "tip" => "👉 Consejo: combina el uso de tranvías y bicicletas para recorrer el centro histórico y alquila un coche para visitar los castillos cercanos."

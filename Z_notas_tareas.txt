@@ -1,0 +1,30 @@
+<?php 
+/*
+ftpupload.net
+
+FTP USERNAME
+if0_38843592
+
+USERNAME
+if0_38843592 
+
+
+PASSWORD
+5HJqjWqYLP4k
+
+http://playas2025.kesug.com/Blog_Playas2025/
+https: //playas2025.kesug.com/Blog_Playas2025/
+
+
+
+
+https://chatgpt.com/?model=auto
+
+
+*/    
+?>
+
+Tareas:
+    Home
+        Contenido -> OK
+        Ciudades y Castillos -> Todas las ciudades tienen su web que será un template con sus variables.

@@ -1,8 +1,8 @@
 <?php
 $items = [
   [
-    "titulo" => "Castillo de Saumur",
-    "descripcion" => "Visita este impresionante castillo sobre el río Loira, que alberga museos de historia, arte y colecciones relacionadas con la caballería.",
+    "titulo" => "Museos y patrimonio",
+    "descripcion" => "Visita el Castillo de Saumur y sus museos, descubre la historia local y disfruta de exposiciones culturales durante todo el año.",
     "imagen" => [
       "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/chateau-saumur.jpg",
       "alt" => "Castillo de Saumur",
@@ -11,35 +11,33 @@ $items = [
     ]
   ],
   [
-    "titulo" => "Museos y exposiciones",
-    "descripcion" => "Saumur ofrece museos de historia, arte y vino, así como exposiciones temporales que permiten conocer la cultura local en profundidad.",
+    "titulo" => "Paseos en bicicleta y senderismo",
+    "descripcion" => "Recorre Saumur y sus alrededores a pie o en bicicleta, disfrutando del río Loira, viñedos y encantadores paisajes urbanos y rurales.",
     "imagen" => [
-      "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/musee-cavalier-saumur.jpg",
-      "alt" => "Museos de Saumur",
-      "fuente" => "https://www.saumur-tourisme.com/",
-      "fuente_texto" => "saumur-tourisme.com"
+      "src" => "https://www.valdeloire-france.com/wp-content/uploads/2019/09/loira-paseo.jpg",
+      "alt" => "Rutas en bicicleta y senderismo en Saumur",
+      "fuente" => "https://www.valdeloire-france.com/",
+      "fuente_texto" => "valdeloire-france.com"
     ]
   ],
   [
-    "titulo" => "Rutas en bicicleta",
-    "descripcion" => "Recorre Saumur y los alrededores en bicicleta por rutas que bordean el Loira, pasando por viñedos, jardines y pueblos pintorescos.",
+    "titulo" => "Actividades familiares",
+    "descripcion" => "Visitas a parques, zoológicos, paseos en barco por el Loira y actividades interactivas para disfrutar en familia.",
     "imagen" => [
-      "src" => "https://www.valdeloire-france.com/wp-content/uploads/2019/09/velo-saumur.jpg",
-      "alt" => "Rutas en bicicleta Saumur",
-      "fuente" => "https://www.valdeloire-france.com/",
-      "fuente_texto" => "valdeloire-france.com"
+      "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/parc-familial.jpg",
+      "alt" => "Actividades familiares en Saumur",
+      "fuente" => "https://www.saumur-tourisme.com/",
+      "fuente_texto" => "saumur-tourisme.com"
     ]
   ]
 ];
 ?>
 
 <?php
-// Variables principales del bloque "Actividades en Saumur"
 $section = [
   "id" => "actividades-saumur",
   "titulo" => "⭐ Actividades en Saumur",
-  "descripcion" => "Saumur ofrece actividades culturales, al aire libre y familiares, desde castillos y museos hasta paseos en bicicleta por el Loira y experiencias vinícolas.",
-  "tip" => "👉 Consejo: combina visitas a museos, castillos y bodegas locales para aprovechar al máximo tu estancia en Saumur."
+  "descripcion" => "Saumur ofrece actividades culturales, al aire libre y familiares: visita castillos, museos, pasea por el río Loira y explora los viñedos locales.",
+  "tip" => "👉 Consejo: combina visitas a museos, monumentos históricos y paseos por la ribera del Loira para aprovechar al máximo tu estancia."
 ];
 ?>
-

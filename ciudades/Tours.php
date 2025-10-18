@@ -1,22 +1,25 @@
 <?php
+// Variables dinámicas
 $ciudad = "Tours";
-$slug = "tours";
-$descripcion = "Tours, a orillas del Loira, es una ciudad universitaria y cultural con un casco histórico encantador.";
-$imagenHero = "https://woody.cloudly.space/app/uploads/adt-touraine/2024/12/thumbs/Ville-Tours-Credit-ADT-Touraine-JCoutand-2033-57-1920x960-crop-1733305690.webp";
+$slug = "tours"; // para imágenes o URLs
+$descripcion = "Tours, corazón del Valle del Loira, es conocida por su casco histórico medieval, la catedral de Saint-Gatien y sus animadas plazas con cafés y mercados.<br><br>
+
+Explorar Tours es disfrutar de calles peatonales con casas antiguas de entramado de madera, museos de arte y arqueología, y rutas junto al río Loira. La ciudad también es famosa por su gastronomía, sus vinos y la cercanía a numerosos castillos del Valle del Loira.<br><br>
+
+Tours combina cultura, historia y naturaleza, siendo ideal para escapadas de fin de semana, rutas gastronómicas y recorridos en bicicleta por el Loira.";
+
+$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tours_panorama.jpg";
 $enlaces = [
-  ["Turismo oficial de Tours", "https://www.tours-tourisme.fr/"],
-  ["Catedral de Saint-Gatien", "https://www.cathedrale-tours.fr/"],
-  ["Google Maps", "https://goo.gl/maps/TL4m7d7xW6tUMp2aA"],
+  ["Turismo oficial", "https://www.tours-tourisme.fr/"],
+  ["Catedral Saint-Gatien", "https://loirelovers.fr/es/visitar-catedral-saint-gatien-tours/"],
+  ["Google Maps", "https://maps.app.goo.gl/iq7x7dzdCPTmnd8AA"],
 ];
-$galeria = [
-  "https://www.france-voyage.com/visuals/photos/tours-632_w600.jpg",
-  "https://cdn.sortiraparis.com/images/80/93884/824597-place-plumereau.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tours_vue.jpg"
-];
+
 $relacionadas = [
-  ["Saumur", "saumur.php"],
-  ["Amboise", "amboise.php"],
-  ["Blois", "blois.php"],
+  ["Saumur", "Saumur.php"],
+  ["Blois", "Blois.php"],
+  ["Orléans", "Orleans.php"],
 ];
 ?>
+
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

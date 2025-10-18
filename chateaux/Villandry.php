@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Castillo de Villandry"; $ciudad = "";
+$nombreLugar = "Castillo de Villandry"; $ciudad = ""; $slug = "villandry";
 $descripcion = "El Castillo de Villandry, situado en el Valle del Loira, es un espléndido ejemplo de la arquitectura renacentista francesa. Rodeado de jardines y viñedos, ofrece visitas guiadas y eventos culturales que permiten disfrutar de su historia y encanto.";
 $imagenHero = "https://st4.depositphotos.com/1766887/38614/i/450/depositphotos_386148530-stock-photo-most-beautiful-castles-europe-chateau.jpg";
 $web_oficial = "https://www.chateauvillandry.fr/";
@@ -147,6 +147,13 @@ $castillos_cercanos = [
       <p><?= $descripcion ?></p>
     </section>
 
+
+      <!-- Introducción -->
+      <?php $slug_section = "introduccion"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/introduccion/data.php"; ?>
+
+
+
+
 <!-- Galería -->
 <section id="galeria">
   <h2 class="text-3xl font-bold text-emerald-700 mt-6">Galería</h2>
@@ -196,19 +203,16 @@ $castillos_cercanos = [
       </ul>
     </section>
 
-    <!-- Información práctica -->
-    <section id="informacion-practica">
-      <h2 class="text-3xl font-bold text-emerald-700 mt-6">ℹ️ Información práctica</h2>
-      <ul class="list-disc list-inside space-y-1">
-        <li>Dirección: 37510 Villandry, Francia.</li>
-        <li>Horario: Mayo a septiembre 9:00 - 19:00, resto del año 9:00 - 18:00.</li>
-        <li>Precio: Adultos 10€, niños 6€, menores de 7 años gratis.</li>
-        <li>Acceso: Parking gratuito, accesible en coche y transporte público.</li>
-      </ul>
-      <p class="mt-2">ℹ️ Más información: visita la web oficial de <?= $nombreLugar ?> 
-        <a href="<?= $web_oficial ?>" target="_blank" rel="nofollow noopener noreferrer" style="color:#1a0dab; text-decoration:underline;">aquí</a>.
-      </p>
-    </section>
+
+
+
+
+
+      <!-- Información práctica -->
+      <?php $slug_section = "informacion-practica"; require "{$slug}/{$slug_section}/data.php"; ?>
+
+
+  
 
   </article>
 
@@ -239,11 +243,8 @@ $castillos_cercanos = [
 
 </main>
 
-<!-- Footer -->
-<footer class="bg-gray-800 text-gray-200 py-8 text-center space-y-2">
-  <p>&copy; <?= date('Y'); ?> Tu Nombre. Todos los derechos reservados.</p>
-  <p>📧 <a href="mailto:correo@tudominio.com" class="hover:underline">correo@tudominio.com</a></p>
-</footer>
+  <!-- Footer -->
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
 
 </body>
 </html>

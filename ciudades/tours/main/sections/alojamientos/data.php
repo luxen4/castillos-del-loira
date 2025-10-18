@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Alojamientos en Tours"
 $section = [
-  "id" => "alojamientos-tours",
+  "id" => "alojamientos",
   "titulo" => "🏨 Alojamientos en Tours",
   "descripcion" => "Tours ofrece alojamientos para todos los gustos: desde hoteles de lujo en el centro hasta apartamentos y casas rurales en los alrededores del Valle del Loira.",
   "tip" => "👉 Consejo: reserva con antelación en temporada alta y durante eventos locales para asegurar disponibilidad y mejores precios."

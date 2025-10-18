@@ -46,7 +46,7 @@ $items = [
 <?php
 // Variables principales del bloque "Acontecimientos en Tours"
 $section = [
-  "id" => "acontecimientos-tours",
+  "id" => "acontecimientos",
   "titulo" => "📅 Acontecimientos en Tours",
   "descripcion" => "Tours es un destino cultural con festivales, mercados locales, visitas históricas y espectáculos durante todo el año.",
   "tip" => "👉 Consejo: revisa el calendario oficial de Tours para no perderte festivales, ferias y actividades culturales en plazas y monumentos históricos."

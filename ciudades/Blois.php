@@ -1,21 +1,29 @@
 <?php
+// Variables dinámicas
 $ciudad = "Blois";
-$slug = "blois";
-$descripcion = "Blois es célebre por su castillo real, con estilos arquitectónicos del gótico al clasicismo, y su papel histórico en la corte francesa.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ch%C3%A2teau_de_Blois.jpg";
+$slug = "blois"; // para imágenes o URLs
+$descripcion = "Blois, situada a orillas del río Loira, es una ciudad elegante y cargada de historia. 
+Antigua residencia real, su imponente castillo domina el paisaje y ofrece una de las mejores panorámicas del Valle del Loira.<br><br>
+
+El Château Royal de Blois es una visita obligada: una mezcla única de estilos arquitectónicos que refleja la evolución del arte francés 
+desde la Edad Media hasta el Renacimiento. Pero la ciudad no se queda ahí: su casco antiguo, con calles empedradas, plazas animadas y 
+casas con entramado de madera, invita a perderse sin prisa.<br><br>
+
+Blois también es un punto de partida ideal para explorar los grandes castillos del Loira, como Chambord, Cheverny o Chaumont-sur-Loire. 
+Una ciudad con encanto, perfecta para los amantes de la historia, el arte y la buena vida.";
+
+$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chateau_de_Blois_vue_generale.jpg";
 $enlaces = [
-  ["Turismo oficial de Blois", "https://www.bloischambord.com/"],
-  ["Château Royal de Blois", "https://www.chateaudeblois.fr/"],
-  ["Google Maps", "https://goo.gl/maps/RJgHPXZqEQMJqGp26"],
+  ["Turismo oficial", "https://www.bloischambord.com/"],
+  ["Castillo Real de Blois", "https://www.chateaudeblois.fr/"],
+  ["Google Maps", "https://maps.app.goo.gl/TTs5SM7pN3AmPg6s6"],
 ];
-$galeria = [
-  "https://www.france-voyage.com/visuals/photos/blois-632_w600.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/5/5d/Blois_ville.jpg",
-  "https://cdn.sortiraparis.com/images/80/93884/824612-chateau-de-blois.jpg"
-];
+
 $relacionadas = [
-  ["Amboise", "amboise.php"],
-  ["Tours", "tours.php"],
-  ["Orleans", "orleans.php"],
+  ["Orléans", "Orleans.php"],
+  ["Amboise", "Amboise.php"],
+  ["Tours", "Tours.php"],
 ];
 ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

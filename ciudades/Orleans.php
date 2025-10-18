@@ -1,21 +1,29 @@
 <?php
+// Variables dinámicas
 $ciudad = "Orléans";
-$slug = "orleans";
-$descripcion = "Orléans, ciudad marcada por Juana de Arco, combina historia medieval, catedrales majestuosas y vida cultural a orillas del Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/3/3c/Orleans_cathedrale.jpg";
+$slug = "orleans"; // para imágenes o URLs
+$descripcion = "Orléans, situada a orillas del majestuoso río Loira, es una de las ciudades más emblemáticas de Francia. 
+Famosa por su estrecha relación con Juana de Arco, esta ciudad combina historia, arte y modernidad de forma equilibrada.<br><br>
+
+Pasear por Orléans es como viajar en el tiempo: desde la majestuosa Catedral de Sainte-Croix hasta las encantadoras calles del casco antiguo, 
+llenas de casas con entramado de madera, cafés y boutiques locales. También puedes disfrutar de un paseo por los muelles del Loira o visitar 
+el Museo de Bellas Artes, uno de los más antiguos del país.<br><br>
+
+Además, su ambiente animado y su oferta cultural la convierten en un destino ideal tanto para una escapada de fin de semana como para una 
+parada esencial en una ruta por el Valle del Loira. Orléans es historia viva, encanto urbano y pura inspiración francesa.";
+
+$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/b/bb/Orleans_cathedrale_Sainte-Croix_vue_generale.jpg";
 $enlaces = [
-  ["Turismo oficial de Orléans", "https://www.tourisme-orleansmetropole.com/"],
-  ["Catedral Sainte-Croix", "https://www.orleans-metropole.fr/"],
-  ["Google Maps", "https://goo.gl/maps/EqUy3GFX8t7jU7bC7"],
+  ["Turismo oficial", "https://www.tourisme-orleansmetropole.com/"],
+  ["Catedral Sainte-Croix", "https://www.cathedrale-orleans.fr/"],
+  ["Google Maps", "https://maps.app.goo.gl/gpQmfi6X2sFKXx8A8"],
 ];
-$galeria = [
-  "https://cdn.sortiraparis.com/images/80/93884/824613-cathedral-orleans.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/2/25/Orleans_panorama.jpg",
-  "https://www.france-voyage.com/visuals/photos/orleans-632_w600.jpg"
-];
+
 $relacionadas = [
-  ["Blois", "blois.php"],
-  ["Tours", "tours.php"],
-  ["Nantes", "nantes.php"],
+  ["Blois", "Blois.php"],
+  ["Tours", "Tours.php"],
+  ["Nantes", "Nantes.php"],
 ];
 ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/ciudad-template-generico.php"; ?>

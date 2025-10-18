@@ -36,7 +36,7 @@ $items = [
 <?php
 // Variables principales del bloque "Restaurantes en Tours"
 $section = [
-  "id" => "restaurantes-tours",
+  "id" => "restaurantes",
   "titulo" => "🍽️ Restaurantes en Tours",
   "descripcion" => "Tours ofrece una gastronomía que combina tradición y creatividad: desde bistrós acogedores hasta restaurantes modernos con especialidades del Valle del Loira y vinos locales.",
   "tip" => "👉 Consejo: acompaña los platos locales con un vino del Valle del Loira y prueba los quesos y carnes típicas de la región."

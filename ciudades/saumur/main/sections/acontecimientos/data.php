@@ -2,40 +2,30 @@
 $items = [
   [
     "titulo" => "Festival de Música de Saumur",
-    "descripcion" => "Cada verano, Saumur celebra conciertos y actuaciones al aire libre que atraen a artistas nacionales e internacionales.",
+    "descripcion" => "Cada verano, Saumur celebra conciertos y actuaciones al aire libre en plazas y espacios históricos, con artistas locales e internacionales.",
     "imagen" => [
-      "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/festival-musique-saumur.jpg",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/6/6d/Saumur_festival_musique.jpg",
       "alt" => "Festival de Música Saumur",
       "fuente" => "https://www.saumur-tourisme.com/",
       "fuente_texto" => "saumur-tourisme.com"
     ]
   ],
   [
-    "titulo" => "Mercados y ferias locales",
-    "descripcion" => "Mercados tradicionales, productos de la región de Anjou y artesanías locales se pueden disfrutar en distintos puntos de la ciudad.",
+    "titulo" => "La feria de Saumur",
+    "descripcion" => "La feria de Saumur reúne artesanos, productores locales y expositores, ofreciendo una muestra de la gastronomía y cultura del Valle del Loira.",
     "imagen" => [
-      "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/marche-saumur.jpg",
-      "alt" => "Mercado de Saumur",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0e/Foire_Saumur.jpg",
+      "alt" => "Feria de Saumur",
       "fuente" => "https://www.saumur-tourisme.com/",
       "fuente_texto" => "saumur-tourisme.com"
     ]
   ],
   [
-    "titulo" => "Foire aux Vins",
-    "descripcion" => "La feria del vino de Saumur permite degustar y descubrir los vinos del Valle del Loira, incluyendo los famosos vinos de Saumur y Anjou.",
+    "titulo" => "Espectáculos y teatro en Saumur",
+    "descripcion" => "Saumur ofrece actuaciones teatrales, conciertos y eventos culturales en el casco histórico y en espacios públicos a lo largo del año.",
     "imagen" => [
-      "src" => "https://www.valdeloire-france.com/wp-content/uploads/2019/09/foire-vins-saumur.jpg",
-      "alt" => "Foire aux Vins Saumur",
-      "fuente" => "https://www.valdeloire-france.com/",
-      "fuente_texto" => "valdeloire-france.com"
-    ]
-  ],
-  [
-    "titulo" => "Espectáculos ecuestres en el Cadre Noir",
-    "descripcion" => "Saumur es famosa por su escuela ecuestre y los espectáculos del Cadre Noir, con exhibiciones impresionantes de doma y equitación.",
-    "imagen" => [
-      "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/cadre-noir-saumur.jpg",
-      "alt" => "Cadre Noir Saumur",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/5/5f/Theatre_Saumur.jpg",
+      "alt" => "Espectáculos en Saumur",
       "fuente" => "https://www.saumur-tourisme.com/",
       "fuente_texto" => "saumur-tourisme.com"
     ]
@@ -48,7 +38,7 @@ $items = [
 $section = [
   "id" => "acontecimientos-saumur",
   "titulo" => "📅 Acontecimientos en Saumur",
-  "descripcion" => "Saumur es un destino cultural y festivo, con eventos durante todo el año: conciertos, ferias, espectáculos ecuestres y mercados tradicionales.",
-  "tip" => "👉 Consejo: revisa el calendario oficial de Saumur para no perderte festivales locales, ferias de vino y exhibiciones en el Cadre Noir."
+  "descripcion" => "Saumur es un destino cultural con festivales, mercados locales, visitas históricas y espectáculos durante todo el año.",
+  "tip" => "👉 Consejo: revisa el calendario oficial de Saumur para no perderte festivales, ferias y eventos culturales en plazas y monumentos históricos."
 ];
 ?>

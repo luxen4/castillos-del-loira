@@ -1,44 +1,44 @@
 <?php
 $items = [
     [
-        "titulo" => "Autobuses locales",
-        "descripcion" => "Saumur cuenta con un servicio de autobuses urbanos que conecta el centro con barrios y zonas turísticas cercanas.",
+        "titulo" => "Autobuses y tranvías locales",
+        "descripcion" => "Tours cuenta con un completo sistema de transporte urbano que conecta el centro histórico con barrios, estaciones y atracciones turísticas.",
         "imagen" => [
-            "src" => "https://upload.wikimedia.org/wikipedia/commons/2/25/Bus_Saumur.jpg",
-            "alt" => "Autobuses en Saumur",
-            "fuente" => "https://www.saumur.fr/transports",
-            "fuente_texto" => "saumur.fr"
+            "src" => "https://upload.wikimedia.org/wikipedia/commons/5/52/Tours_bus_tramway.jpg",
+            "alt" => "Autobuses y tranvías en Tours",
+            "fuente" => "https://www.tours.fr/transport",
+            "fuente_texto" => "tours.fr"
         ]
     ],
     [
-        "titulo" => "Bicicletas y senderos",
-        "descripcion" => "La ciudad y alrededores tienen rutas ciclistas junto al Loira, con estaciones de alquiler de bicicletas.",
+        "titulo" => "Bicicletas y rutas ciclistas",
+        "descripcion" => "La ciudad y sus alrededores cuentan con rutas ciclistas señalizadas, estaciones de alquiler de bicicletas y carriles seguros para recorrer Tours a pedal.",
         "imagen" => [
-            "src" => "https://cdn.france-voyage.com/images/vi/velo-loire-saumur.jpg",
-            "alt" => "Bicicletas en Saumur",
-            "fuente" => "https://www.valdeloire-france.com/",
-            "fuente_texto" => "valdeloire-france.com"
+            "src" => "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tours_velo.jpg",
+            "alt" => "Bicicletas en Tours",
+            "fuente" => "https://www.tours.fr/velo",
+            "fuente_texto" => "tours.fr"
         ]
     ],
     [
         "titulo" => "Coches y traslados",
-        "descripcion" => "Alquiler de coches, taxis y traslados para explorar Saumur y los castillos del Loira con total comodidad.",
+        "descripcion" => "Servicios de alquiler de coches y taxis disponibles para explorar Tours y los castillos cercanos del Valle del Loira con comodidad.",
         "imagen" => [
-            "src" => "https://media-cdn.tripadvisor.com/media/photo-s/1b/8f/5f/3a/location-de-voitures.jpg",
-            "alt" => "Coches de alquiler en Saumur",
-            "fuente" => "https://www.saumur.fr/transports",
-            "fuente_texto" => "saumur.fr"
+            "src" => "https://media-cdn.tripadvisor.com/media/photo-s/1a/2b/3c/4d/location-voiture-tours.jpg",
+            "alt" => "Coches de alquiler en Tours",
+            "fuente" => "https://www.tours.fr/transport",
+            "fuente_texto" => "tours.fr"
         ]
     ]
 ];
 ?>
 
 <?php
-// Variables principales del bloque "Transportes en Saumur"
+// Variables principales del bloque "Transportes en Tours"
 $section = [
-  "id" => "transportes-saumur",
-  "titulo" => "🚗 Transportes en Saumur",
-  "descripcion" => "Moverse por Saumur es sencillo gracias a sus autobuses urbanos, rutas ciclistas y servicios de alquiler de coches. Así podrás explorar la ciudad y los alrededores de forma cómoda y eficiente.",
-  "tip" => "👉 Consejo: para excursiones por el Valle del Loira, alquila un coche o bici para disfrutar de los castillos y viñedos con total libertad."
+  "id" => "transportes",
+  "titulo" => "🚗 Transportes en Tours",
+  "descripcion" => "Moverse por Tours es sencillo gracias a los autobuses, tranvías, rutas ciclistas y servicios de alquiler de coches. Esto permite explorar la ciudad y los alrededores del Valle del Loira cómodamente.",
+  "tip" => "👉 Consejo: combina el uso de tranvías y bicicletas para recorrer el centro histórico y alquila un coche para visitar los castillos cercanos."
 ];
 ?>

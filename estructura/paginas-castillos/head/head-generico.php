@@ -1,0 +1,85 @@
+<head>
+  <!-- Básicos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title><?= $nombreLugar ?> | Valle del Loira</title>
+  <meta name="description" content="<?= $descripcion ?>">
+  <meta name="keywords" content="<?= $keywords ?>">
+  <meta name="author" content="TuNombre o TuEmpresa">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <!-- Canonical y multilenguaje -->
+  <link rel="canonical" href="<?= $sitio_web; ?>/chateaux/<?= $slug_Mayuscula ?>.php">
+  <link rel="alternate" hreflang="es" href="<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="fr" href="https://www.tusitioweb.com/fr/val-de-loire/chateaux/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="en" href="https://www.tusitioweb.com/en/val-de-loire/chateaux/<?= $slug ?>.php">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <!-- Preload -->
+  <link rel="preload" as="image" href="<?= $imagenHero ?>">
+  <link rel="preload" as="font" href="/fonts/tu-font.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="<?= $nombreLugar ?> | Valle del Loira">
+  <meta property="og:description" content="<?= $descripcion ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php">
+  <meta property="og:image" content="<?= $imagenHero ?>">
+  <meta property="og:site_name" content="Valle del Loira Turismo">
+  <meta property="og:locale" content="es_ES">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?= $nombreLugar ?> | Valle del Loira">
+  <meta name="twitter:description" content="<?= $descripcion ?>">
+  <meta name="twitter:image" content="<?= $imagenHero ?>">
+  <meta name="twitter:site" content="<?= $twitter ?>">
+  <meta name="twitter:creator" content="<?= $twitter ?>">
+
+  <!-- JSON-LD Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "name": "<?= $nombreLugar ?>",
+    "description": "<?= $descripcion ?>",
+    "image": "<?= $imagenHero ?>",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "<?= $direccion ?>",
+      "addressLocality": "<?= $ciudad ?>",
+      "addressCountry": "FR"
+    },
+    "url": "<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": <?= $latitude ?>,
+      "longitude": <?= $longitude ?>
+    },
+    "sameAs": [
+      "<?= $web_oficial ?>",
+      "https://www.facebook.com/TuPagina",
+      "https://www.instagram.com/TuCuenta"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+      ],
+      "opens": "<?= $horario_apertura ?>",
+      "closes": "<?= $horario_cierre ?>"
+    }
+  }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero:hover { transform: scale(1.05); transition: transform 0.5s ease; }
+  </style>
+</head>
