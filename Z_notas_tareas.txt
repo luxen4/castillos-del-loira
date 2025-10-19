@@ -28,3 +28,4 @@ Tareas:
     Home
         Contenido -> OK
         Ciudades y Castillos -> Todas las ciudades tienen su web que será un template con sus variables.
+        Seguir con los castillos que quedan desde la página del castillo de Villandry

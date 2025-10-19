@@ -1,4 +1,4 @@
-  <!-- Hero -->
+  <!-- 🔹 Hero con efecto hover -->
   <figure class="relative h-[500px] md:h-[650px] hero bg-cover bg-center rounded-lg overflow-hidden"
     style="background-image:url('<?= $imagenHero ?>')">
     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">

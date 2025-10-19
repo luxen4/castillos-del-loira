@@ -1,7 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Chambord";
 $ciudad = "Chambord";
-$slug = "chambord"; $slug_Mayuscula = "Chambord";
+$slug_Mayuscula = "Chambord";
 $descripcion = "El Castillo de Chambord, una joya del Renacimiento francés, es el más grande y majestuoso de los castillos del Valle del Loira. Famoso por su arquitectura única inspirada por Leonardo da Vinci, combina el esplendor real con la armonía del entorno natural.";
 $imagenHero = "https://media.traveler.es/photos/61377563d4923f67e298f5c2/master/w_1600%2Cc_limit/111804.jpg";
 $web_oficial = "https://www.traveler.es/naturaleza/articulos/castillo-del-loira-chambord-nuevo-jardin/10879";

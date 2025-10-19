@@ -1,3 +1,4 @@
+<?php $sitio_web = "https://playas2024.kesug.com/val-de-loire"; ?>
 <head>
   <!-- Básicos -->
   <meta charset="UTF-8">
@@ -12,12 +13,20 @@
   <!-- Canonical y multilenguaje -->
   <link rel="canonical" href="<?= $sitio_web; ?>/chateaux/<?= $slug_Mayuscula ?>.php">
   <link rel="alternate" hreflang="es" href="<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php">
-  <link rel="alternate" hreflang="fr" href="https://www.tusitioweb.com/fr/val-de-loire/chateaux/<?= $slug ?>.php">
-  <link rel="alternate" hreflang="en" href="https://www.tusitioweb.com/en/val-de-loire/chateaux/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="fr" href="<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="en" href="<?= $sitio_web; ?>/chateaux/<?= $slug ?>.php">
 
-  <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Favicon clásico -->
+<link rel="icon" href="/val-de-loire/assets/favicon.ico" type="image/x-icon">
+
+<!-- Para navegadores modernos -->
+<link rel="icon" type="image/png" sizes="32x32" href="/val-de-loire/assets/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/val-de-loire/assets/favicon.png">
+
+<!-- Para Apple (iPhone/iPad) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/val-de-loire/assets/favicon.png">
+
 
   <!-- Preload -->
   <link rel="preload" as="image" href="<?= $imagenHero ?>">
