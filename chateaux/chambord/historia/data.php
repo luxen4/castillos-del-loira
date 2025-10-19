@@ -1,6 +1,6 @@
 <?php
 // 🏰 SECCIÓN: HISTORIA DE CHAMBORD
-$historia_chambord = [
+$historia = [
   "id" => "historia",
   "titulo" => "📜 Historia de Chambord",
   "contenido" => '
@@ -14,12 +14,7 @@ $historia_chambord = [
       Cada torre, escalera y fachada refleja la ambición del monarca de dejar un legado eterno en la historia de Francia.
     </p>
   '
-];
+];?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/consejos/template-consejos-generico.php"; ?>
 
-
-?>
-<section id="<?= $historia_chambord['id'] ?>" class="mt-10">
-  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $historia_chambord['titulo'] ?></h2>
-  <p class="text-gray-700 mb-4"><?= $historia_chambord['contenido'] ?></p>
-</section>
 

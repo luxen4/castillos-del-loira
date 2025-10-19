@@ -1,6 +1,6 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHAMBORD
-$introduccion_chambord = [
+$introduccion = [
   "id" => "introduccion",
   "titulo" => "🏰 Descubre el Castillo de Chambord",
   "parrafos" => [
@@ -9,9 +9,4 @@ $introduccion_chambord = [
   ]
 ];
 ?>
-<section id="<?= $introduccion_chambord['id'] ?>">
-  <h2 class="text-3xl font-bold text-emerald-700 mb-4"><?= $introduccion_chambord['titulo'] ?></h2>
-  <p><?= $descripcion ?></p>
-  <p class="mt-2"><?= $introduccion_chambord['parrafos'][1] ?></p>
-</section>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/introduccion/template-introduccion-generico.php"; ?>

@@ -106,100 +106,128 @@
       </div>
 
       <div>
-        <h4 class="font-semibold text-gray-700 mb-2">Castillos</h4>
-        <ul class="list-disc list-inside text-gray-600 space-y-1">
-          <li><a href="chateaux/Chambord.php" class="hover:text-emerald-700 underline">Chambord</a></li>
-          <li><a href="chateaux/Chenonceau.php" class="hover:text-emerald-700 underline">Chenonceau</a></li>
-          <li><a href="chateaux/Villandri.php" class="hover:text-emerald-700 underline">Villandri</a></li>
-        </ul>
-      </div>
+  <h4 class="font-semibold text-gray-700 mb-2">Castillos</h4>
+  <ul class="list-disc list-inside text-gray-600 space-y-1">
+    <?php
+      // Lista de castillos
+      $castillos = ['Chambord', 'Chenonceau', 'Villandry'];
 
-<a href="oficinas-turismo-val-de-loire.html" 
-   class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
-  🗺️ Oficinas de Turismo
-</a>
+      foreach ($castillos as $castillo) {
+        // URL amigable o ruta PHP según entorno
+        if ($_SERVER['SERVER_NAME'] == 'localhost') {
+          $url = strtolower($castillo); // ejemplo: 'chambord'
+        } else {
+          $url = "chateaux/{$castillo}.php";
+        }
 
-<a href="alojamientos-val-de-loire.html" 
-   class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
-  🏨 Alojamientos
-</a>
-
-<div class="my-6 max-w-md mx-auto">
-  <label for="etapas" class="block mb-2 text-gray-700 font-semibold">Selecciona una etapa:</label>
-  <select id="etapas" 
-          class="w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition"
-          onchange="if(this.value) window.location.href=this.value">
-    <option value="">-- Elige una etapa --</option>
-    <option value="etapas/1-etapa-nantes-angers/index.php">Nantes y Angers</option>
-    <option value="etapas/2-etapa-angers-saumur/index.php">Angers y Saumur</option>
-    <option value="etapas/3-etapa-saumur-chinon-langeais/index.php">Saumur, Chinon y Langeais</option>
-    <option value="etapas/4-etapa-tours-amboise/index.php">Tours y Amboise</option>
-    <option value="etapas/5-etapa-amboise-blois/index.php">Amboise y Blois</option>
-    <option value="etapas/6-etapa-blois-orleans/index.php">Blois y Orleans</option>
-    <option value="etapas/7-etapa-orleans/index.php">Orleans</option>
-  </select>
+        echo "<li>
+                <a href='{$url}' class='hover:text-emerald-700 underline'>{$castillo}</a>
+              </li>";
+      }
+    ?>
+  </ul>
 </div>
 
 
 
-<!-- Menú de secciones compacto -->
-<nav class="bg-gray-100 rounded-2xl shadow p-2 mt-8 max-w-4xl mx-auto">
-  <ul class="flex flex-wrap justify-center gap-2 text-gray-800 font-medium text-sm">
-    
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🧳 Turismo</a></li>
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍴 Gastronomía</a></li>
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🚶 Paseos</a></li>
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">⭐ Actividades</a></li>
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">✅ Acontecimientos</a></li>
-    <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍽️ Restaurantes</a></li>
 
-    <!-- Dropdown Alojamientos -->
-    <li class="relative group">
-      <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-        🛏️ Alojamientos
-        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <ul class="absolute left-0 mt-1 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Hoteles</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Alquileres de vacaciones</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Casas rurales</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Campings</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
-      </ul>
-    </li>
 
-    <!-- Dropdown Transportes -->
-    <li class="relative group">
-      <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-        🚗 Transportes
-        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <ul class="absolute left-0 mt-1 w-44 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cómo llegar</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Coches de alquiler</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de tren</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de avión</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cursos de francés</a></li>
-      </ul>
-    </li>
 
-    <!-- Dropdown Fin de semana -->
-    <li class="relative group">
-      <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-        📊 Fin de semana
-        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <ul class="absolute left-0 mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en pareja</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en familia</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana barato</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana insólito</a></li>
-      </ul>
-    </li>
 
-  </ul>
-</nav>
+
+
+      <a href="oficinas-turismo-val-de-loire.html"
+        class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
+        🗺️ Oficinas de Turismo
+      </a>
+
+      <a href="alojamientos-val-de-loire.html"
+        class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
+        🏨 Alojamientos
+      </a>
+
+      <div class="my-6 max-w-md mx-auto">
+        <label for="etapas" class="block mb-2 text-gray-700 font-semibold">Selecciona una etapa:</label>
+        <select id="etapas"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition"
+          onchange="if(this.value) window.location.href=this.value">
+          <option value="">-- Elige una etapa --</option>
+          <option value="etapas/1-etapa-nantes-angers/index.php">Nantes y Angers</option>
+          <option value="etapas/2-etapa-angers-saumur/index.php">Angers y Saumur</option>
+          <option value="etapas/3-etapa-saumur-chinon-langeais/index.php">Saumur, Chinon y Langeais</option>
+          <option value="etapas/4-etapa-tours-amboise/index.php">Tours y Amboise</option>
+          <option value="etapas/5-etapa-amboise-blois/index.php">Amboise y Blois</option>
+          <option value="etapas/6-etapa-blois-orleans/index.php">Blois y Orleans</option>
+          <option value="etapas/7-etapa-orleans/index.php">Orleans</option>
+        </select>
+      </div>
+
+
+
+      <!-- Menú de secciones compacto -->
+      <nav class="bg-gray-100 rounded-2xl shadow p-2 mt-8 max-w-4xl mx-auto">
+        <ul class="flex flex-wrap justify-center gap-2 text-gray-800 font-medium text-sm">
+
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🧳 Turismo</a></li>
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍴 Gastronomía</a></li>
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🚶 Paseos</a></li>
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">⭐ Actividades</a></li>
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">✅ Acontecimientos</a></li>
+          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍽️ Restaurantes</a></li>
+
+          <!-- Dropdown Alojamientos -->
+          <li class="relative group">
+            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
+              🛏️ Alojamientos
+              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul class="absolute left-0 mt-1 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Hoteles</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Alquileres de vacaciones</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Casas rurales</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Campings</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
+            </ul>
+          </li>
+
+          <!-- Dropdown Transportes -->
+          <li class="relative group">
+            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
+              🚗 Transportes
+              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul class="absolute left-0 mt-1 w-44 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cómo llegar</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Coches de alquiler</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de tren</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de avión</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cursos de francés</a></li>
+            </ul>
+          </li>
+
+          <!-- Dropdown Fin de semana -->
+          <li class="relative group">
+            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
+              📊 Fin de semana
+              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul class="absolute left-0 mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en pareja</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en familia</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana barato</a></li>
+              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana insólito</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
 
 
 
@@ -207,50 +235,49 @@
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
-<section class="space-y-6">
-  <h2 class="text-3xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
+      <section class="space-y-6">
+        <h2 class="text-3xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
 
-  <p>
-    El <strong>Valle del Loira</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.
-    A lo largo de sus orillas, se levantan más de <strong>80 castillos</strong> que fueron residencia de reyes, nobles y artistas del Renacimiento francés, cada uno con su propio encanto y leyenda.
-  </p>
+        <p>
+          El <strong>Valle del Loira</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.
+          A lo largo de sus orillas, se levantan más de <strong>80 castillos</strong> que fueron residencia de reyes, nobles y artistas del Renacimiento francés, cada uno con su propio encanto y leyenda.
+        </p>
 
-  <p>
-    En esta región declarada <strong>Patrimonio Mundial por la UNESCO</strong>, se mezclan los paisajes bucólicos con la elegancia arquitectónica. Los jardines geométricos de 
-    <a href="chateaux/Villandri.php" class="text-emerald-700 hover:underline">Villandri</a>, los reflejos sobre el agua del majestuoso 
-    <a href="chateaux/Chenonceau.php" class="text-emerald-700 hover:underline">Chenonceau</a> o las torres de cuento de 
-    <a href="chateaux/Usse.php" class="text-emerald-700 hover:underline">Ussé</a> —que inspiraron <em>La Bella Durmiente</em>— son solo algunas de las joyas que te esperan.
-  </p>
+        <p>
+          En esta región declarada <strong>Patrimonio Mundial por la UNESCO</strong>, se mezclan los paisajes bucólicos con la elegancia arquitectónica. Los jardines geométricos de
+          <a href="chateaux/Villandri.php" class="text-emerald-700 hover:underline">Villandri</a>, los reflejos sobre el agua del majestuoso
+          <a href="chateaux/Chenonceau.php" class="text-emerald-700 hover:underline">Chenonceau</a> o las torres de cuento de
+          <a href="chateaux/Usse.php" class="text-emerald-700 hover:underline">Ussé</a> —que inspiraron <em>La Bella Durmiente</em>— son solo algunas de las joyas que te esperan.
+        </p>
 
-  <p>
-    Pero el Loira no es solo historia y piedra: también es <strong>gastronomía, vino y naturaleza</strong>. En cada etapa del recorrido podrás degustar quesos artesanos, vinos blancos del <em>Sauvignon</em> o tintos suaves del <em>Cabernet Franc</em>, acompañados de un paisaje de ensueño.
-    Los caminos ciclistas de la 
-    <a href="https://www.cycling-loire.com/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a> 
-    te permiten explorar a tu ritmo, mientras que los cruceros fluviales ofrecen una perspectiva tranquila y romántica del valle.
-  </p>
+        <p>
+          Pero el Loira no es solo historia y piedra: también es <strong>gastronomía, vino y naturaleza</strong>. En cada etapa del recorrido podrás degustar quesos artesanos, vinos blancos del <em>Sauvignon</em> o tintos suaves del <em>Cabernet Franc</em>, acompañados de un paisaje de ensueño.
+          Los caminos ciclistas de la
+          <a href="https://www.cycling-loire.com/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a>
+          te permiten explorar a tu ritmo, mientras que los cruceros fluviales ofrecen una perspectiva tranquila y romántica del valle.
+        </p>
 
-  <!-- 💬 Bloque destacado WWF -->
-  <blockquote
-    cite="https://www.worldwildlife.org/"
-    class="relative border-l-4 border-emerald-600 bg-emerald-50 p-5 rounded-lg italic text-gray-700 leading-relaxed shadow-sm mt-6 mb-6"
-  >
-    <span class="absolute -left-4 -top-3 text-3xl text-emerald-600">🌿</span>
+        <!-- 💬 Bloque destacado WWF -->
+        <blockquote
+          cite="https://www.worldwildlife.org/"
+          class="relative border-l-4 border-emerald-600 bg-emerald-50 p-5 rounded-lg italic text-gray-700 leading-relaxed shadow-sm mt-6 mb-6">
+          <span class="absolute -left-4 -top-3 text-3xl text-emerald-600">🌿</span>
 
-    Desde hace más de 60 años, la organización 
-    <abbr title="World Wide Fund for Nature" class="font-semibold text-emerald-700 underline decoration-dotted">WWF</abbr> 
-    trabaja por la conservación del patrimonio natural y cultural en todo el mundo.
-    <br><br>
-    Aunque su labor se centra principalmente en la protección del medio ambiente y la biodiversidad, 
-    el <ins class="text-emerald-700 font-semibold">WWF</ins> también apoya iniciativas sostenibles que ayudan a preservar 
-    paisajes emblemáticos como los del <strong class="text-emerald-800">Valle del Loira</strong>, 
-    donde la naturaleza y el legado histórico conviven en equilibrio.
-  </blockquote>
+          Desde hace más de 60 años, la organización
+          <abbr title="World Wide Fund for Nature" class="font-semibold text-emerald-700 underline decoration-dotted">WWF</abbr>
+          trabaja por la conservación del patrimonio natural y cultural en todo el mundo.
+          <br><br>
+          Aunque su labor se centra principalmente en la protección del medio ambiente y la biodiversidad,
+          el <ins class="text-emerald-700 font-semibold">WWF</ins> también apoya iniciativas sostenibles que ayudan a preservar
+          paisajes emblemáticos como los del <strong class="text-emerald-800">Valle del Loira</strong>,
+          donde la naturaleza y el legado histórico conviven en equilibrio.
+        </blockquote>
 
-  <p>
-    Ya sea que busques arte, historia o descanso, el <strong>Valle del Loira</strong> te ofrece una experiencia única.
-    Planifica tu viaje, sigue las etapas recomendadas y déjate seducir por la magia de los castillos, el murmullo del río y la hospitalidad de su gente.
-  </p>
-</section>
+        <p>
+          Ya sea que busques arte, historia o descanso, el <strong>Valle del Loira</strong> te ofrece una experiencia única.
+          Planifica tu viaje, sigue las etapas recomendadas y déjate seducir por la magia de los castillos, el murmullo del río y la hospitalidad de su gente.
+        </p>
+      </section>
 
 
 
@@ -450,7 +477,7 @@
         </ul>
       </section>
 
-      
+
     </main>
 
     <!-- 📰 Columna 3: Sidebar derecho -->
@@ -475,9 +502,9 @@
   <!-- 🔹 Footer -->
   <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
     <div class="container mx-auto px-6 text-center space-y-2">
-      <p>&copy; <?= date('Y'); ?> Adrián LAya GArcía. Todos los derechos reservados.</p>
+      <p>&copy; <?= date('Y'); ?> Adrián LAya García. Todos los derechos reservados.</p>
       <p>
-        📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">supaerlaya50@gmail.com</a>
+        📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">superlaya50@gmail.com</a>
       </p>
       <p>
         🌐 <a href="https://www.valdeloire-france.com/es" class="hover:text-white">Turismo oficial del Valle del Loira</a>

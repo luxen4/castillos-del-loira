@@ -1,6 +1,6 @@
 <?php
 // 🏰 SECCIÓN: HISTORIA DE VILLANDRY
-$historia_villandry = [
+$historia = [
   "id" => "historia",
   "titulo" => "📜 Historia de Villandry",
   "contenido" => '
@@ -17,8 +17,4 @@ $historia_villandry = [
   '
 ];
 ?>
-
-<section id="<?= $historia_villandry['id'] ?>" class="mt-10">
-  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $historia_villandry['titulo'] ?></h2>
-  <p class="text-gray-700 mb-4"><?= $historia_villandry['contenido'] ?></p>
-</section>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/historia/template-historia-generico.php"; ?>

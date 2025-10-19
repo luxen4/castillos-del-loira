@@ -2,8 +2,19 @@
 // Definir constantes de rutas
 define('RUTA_BASE', $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire');
 define('RUTA_CHATEAUX', RUTA_BASE . '/chateaux');
-define('RUTA_ESTRUCTURA', RUTA_BASE . '/estructura');
+define('RUTA_ESTRUCTURA', RUTA_BASE . '/estructura'); ?>
 
+
+<?php
+// Ruta de datos específicos de cada castillo
+$dataFile = $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/data/{$slug}.php";
+if(file_exists($dataFile)) {
+    require $dataFile;
+}
+?>
+
+
+<?php
 // Incluir variables iniciales del castillo
 require RUTA_CHATEAUX . "/{$slug}/variables-iniciales.php";
 ?>
