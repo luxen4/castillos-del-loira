@@ -12,11 +12,6 @@ $castillos_cercanos = [
     "descripcion" => "Última morada de Leonardo da Vinci, conectada al Castillo de Amboise."
   ],
   [
-    "nombre" => "Castillo de Chaumont-sur-Loire",
-    "url" => "Chaumont.php",
-    "descripcion" => "Conocido por su Festival Internacional de Jardines."
-  ],
-  [
     "nombre" => "Castillo de Chambord",
     "url" => "Chambord.php",
     "descripcion" => "La joya arquitectónica del Loira, con su escalera de doble hélice."
@@ -25,6 +20,11 @@ $castillos_cercanos = [
     "nombre" => "Castillo de Chenonceau",
     "url" => "Chenonceau.php",
     "descripcion" => "Famoso por su galería sobre el río Cher y sus jardines renacentistas."
+  ],
+  [
+    "nombre" => "Castillo de Blois",
+    "url" => "Blois.php",
+    "descripcion" => "Palacio renacentista con historia real."
   ],
   [
     "nombre" => "Castillo de Villandry",
