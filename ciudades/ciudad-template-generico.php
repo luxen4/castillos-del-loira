@@ -82,21 +82,6 @@
           </section>
       <?php endif; ?>
 
-      <!-- 🏰 Ciudades relacionadas -->
-      <?php if (!empty($relacionadas)): ?>
-          <section class="bg-white p-6 rounded-2xl shadow">
-              <h4 class="text-lg font-semibold text-emerald-700 mb-3">🏰 Ciudades relacionadas</h4>
-              <ul class="space-y-2">
-                  <?php foreach ($relacionadas as $rel): ?>
-                      <li>
-                          <a href="../ciudades/<?= $rel[1] ?>" class="text-gray-700 hover:text-emerald-600 hover:underline">
-                              <?= $rel[0] ?>
-                          </a>
-                      </li>
-                  <?php endforeach; ?>
-              </ul>
-          </section>
-      <?php endif; ?>
 
       <!-- 💰 Publicidad lateral -->
       <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
@@ -123,35 +108,42 @@
           </div>
       </div>
 
-      <?php
-      $sections = [
-          "paseos",
-          "actividades",
-          "acontecimientos",
-          "gastronomia",
-          "restaurantes",
-          "fin-de-semana",
-          "alojamientos",
-          "galeria",
-          "transportes"
-      ];
+      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php";?>
 
-      $i = 0;
-      foreach ($sections as $slug_section_main_title) {
-          require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/index-section-generico.php";
-          $i++;
+<!-- 🌆 Sección integrada en el contenido principal -->
+<section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
+  <h2 class="text-xl font-semibold text-gray-800 mb-4">🌆 Otras Ciudades del Valle del Loira</h2>
 
-          // 💰 Bloque publicitario cada 3 secciones
-          if ($i % 3 == 0) {
-              echo '<div class="bg-gray-100 border rounded-2xl p-4 my-8 text-center shadow-sm">
-                      <p class="text-gray-500 text-sm mb-2">Publicidad</p>
-                      <div class="bg-white rounded-lg h-44 flex items-center justify-center">
-                          <span class="text-gray-400 text-sm">Espacio publicitario (300x250)</span>
-                      </div>
-                  </div>';
-          }
+  <p class="mb-4">
+    El Valle del Loira está salpicado de encantadoras ciudades que combinan historia, arte y paisajes únicos. 
+    Entre las más destacadas se encuentran 
+    <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>, 
+    conocida por su castillo real y su vínculo con Leonardo da Vinci; 
+    <a href="/val-de-loire/ciudades/blois.php" class="text-emerald-700 hover:underline">Blois</a>, 
+    con su imponente palacio renacentista y calles empedradas; y 
+    <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>, 
+    una animada ciudad universitaria con un precioso casco antiguo.
+  </p>
+
+  <?php if (!empty($relacionadas)): ?>
+  <p class="mb-4">
+    También puedes descubrir otras localidades cercanas que comparten la misma riqueza cultural y arquitectónica, como 
+    <?php
+      $enlaces = [];
+      foreach ($relacionadas as $rel) {
+        $enlaces[] = '<a href="../ciudades/' . $rel[1] . '" class="text-emerald-700 hover:underline">' . $rel[0] . '</a>';
       }
-      ?>
+      echo implode(', ', array_slice($enlaces, 0, -1)) . ' y ' . end($enlaces) . '.';
+    ?>
+  </p>
+  <?php endif; ?>
+
+  <p>
+    Cada una de estas ciudades ofrece una experiencia distinta del Loira, 
+    ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
+  </p>
+</section>
+
   </article>
 
   <!-- 📢 ASIDE DERECHO -->
@@ -175,16 +167,6 @@
           </div>
       </div>
 
-      <!-- 🌟 Ciudades destacadas -->
-      <section class="bg-white rounded-2xl shadow p-6">
-          <h4 class="text-lg font-bold text-emerald-700 mb-4">🌟 Ciudades destacadas</h4>
-          <ul class="space-y-3 text-sm text-gray-700">
-              <li><a href="/val-de-loire/ciudades/amboise.php" class="hover:text-emerald-700">Amboise</a></li>
-              <li><a href="/val-de-loire/ciudades/blois.php" class="hover:text-emerald-700">Blois</a></li>
-              <li><a href="/val-de-loire/ciudades/tours.php" class="hover:text-emerald-700">Tours</a></li>
-          </ul>
-      </section>
-
       <!-- 💰 Publicidad larga -->
       <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
           <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
@@ -192,13 +174,6 @@
               <span class="text-gray-400 text-sm">Banner adaptable (300x600)</span>
           </div>
       </div>
-
-      <!-- 🌤️ Clima -->
-      <section class="bg-white rounded-2xl shadow p-6 text-center">
-          <h4 class="text-lg font-bold text-emerald-700 mb-4">☀️ Clima en <?= $ciudad ?></h4>
-          <p class="text-4xl font-semibold text-emerald-600">18°C</p>
-          <p class="text-sm text-gray-600">Parcialmente nublado</p>
-      </section>
 
   </aside>
 
