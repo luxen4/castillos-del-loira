@@ -2,13 +2,13 @@
 // Variables para la sección "Consejos"
 $section_consejos = [
     "id" => "consejos",
-    "titulo" => "📌 Consejos",
+    "titulo" => "📌 Consejos para visitar la Catedral de Sainte-Croix",
     "contenido" => '
         <ul class="list-disc list-inside space-y-1 text-gray-700">
-            <li>Compra tus entradas con antelación, el castillo es muy visitado.</li>
-            <li>Visita temprano en la mañana o al atardecer para evitar multitudes.</li>
-            <li>No olvides pasear por los jardines de Diana de Poitiers y Catalina de Médici.</li>
-            <li>Disfruta las vistas del río Cher desde la galería principal.</li>
+            <li>Llega temprano para disfrutar de la tranquilidad y la luz natural en el interior.</li>
+            <li>No te pierdas los vitrales y el órgano histórico.</li>
+            <li>Consulta los horarios de misas y conciertos, algunas visitas pueden coincidir.</li>
+            <li>Explora los alrededores de la Place du Martroi y los edificios históricos cercanos.</li>
         </ul>
     '
 ];

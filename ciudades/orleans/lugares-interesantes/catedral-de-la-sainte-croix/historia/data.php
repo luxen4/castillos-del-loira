@@ -1,18 +1,17 @@
 <?php
-// 🏰 SECCIÓN: HISTORIA DE CHENONCEAU
+// 🏰 SECCIÓN: HISTORIA DE LA CATEDRAL DE SAINTE-CROIX
 $historia = [
   "id" => "historia",
-  "titulo" => "📜 Historia de Chenonceau",
+  "titulo" => "📜 Historia de la Catedral de Sainte-Croix",
   "contenido" => '
     <h3 class="text-lg italic text-gray-600 mb-4">
-      El castillo de las damas, joya del Loira y símbolo del Renacimiento francés.
+      La imponente catedral gótica de Orléans.
     </h3>
     <p class="text-gray-700 leading-relaxed">
-      Construido en el siglo <strong>XVI</strong> sobre los cimientos de un antiguo molino, el <strong>Castillo de Chenonceau</strong> debe su elegancia a las mujeres que lo marcaron con su influencia: 
-      <strong>Katherine Briçonnet</strong>, <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>. 
-      Su galería sobre el río <strong>Cher</strong> y sus refinados jardines reflejan la armonía entre la arquitectura y la naturaleza. 
-      A lo largo de los siglos, Chenonceau ha sido escenario de fiestas, intrigas cortesanas y, más tarde, refugio durante las guerras. 
-      Hoy sigue siendo uno de los castillos más visitados y admirados del <strong>Valle del Loira</strong>.
+      La <strong>Catedral de Sainte-Croix de Orléans</strong> se construyó entre los siglos <strong>XIII y XVII</strong> tras la destrucción de la catedral románica original. 
+      Su arquitectura combina elementos <strong>góticos y renacentistas</strong>, con una imponente nave, vitrales coloridos y un rosetón que se ha convertido en símbolo de la ciudad. 
+      Ha sido testigo de eventos históricos, como la liberación de Orléans durante la Guerra de los Cien Años, donde <strong>Juana de Arco</strong> desempeñó un papel crucial. 
+      Hoy es un referente del patrimonio religioso y cultural de la ciudad.
     </p>
   '
 ];

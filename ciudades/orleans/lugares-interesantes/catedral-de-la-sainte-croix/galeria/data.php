@@ -1,29 +1,50 @@
 <?php
-// 📸 SECCIÓN: GALERÍA DEL CASTILLO DE CHENONCEAU
+// 📸 SECCIÓN: GALERÍA DE LA CATEDRAL DE SAINTE-CROIX
 $titulo = "📸 Galería";
-$texto = "Imágenes del elegante Castillo de Chenonceau, conocido por su galería sobre el río Cher y sus hermosos jardines renacentistas.";
+$texto = "Imágenes de la majestuosa Catedral de Sainte-Croix de Orléans, con sus vitrales góticos, la nave principal y detalles arquitectónicos emblemáticos.";
 
 $figuras = [
-  [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A2teau_de_Chenonceau%2C_vue_depuis_le_Cher_01.jpg",
-    "alt" => "Castillo de Chenonceau sobre el río Cher",
-    "pie" => "Vista del castillo sobre el río Cher",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Chenonceau",
+  /*[
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cathedrale_Sainte-Croix_dOrleans_01.jpg",
+    "alt" => "Fachada principal de la Catedral de Sainte-Croix",
+    "pie" => "Vista frontal de la Catedral de Sainte-Croix",
+    "fuente_url" => "https://es.wikipedia.org/wiki/Catedral_de_Orleans",
     "fuente_texto" => "wikipedia.org"
   ],
   [
-    "src" => "https://cdn.getyourguide.com/img/location/5d0e1fd3f19b8.jpeg/88.jpg",
-    "alt" => "Galería sobre el río en Chenonceau",
-    "pie" => "Galería principal sobre el río",
-    "fuente_url" => "https://www.getyourguide.es/valle-del-loira-l325/visita-al-castillo-de-chenonceau-t234928/",
-    "fuente_texto" => "getyourguide.es"
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/15/Cathedrale_Orleans_inside_02.jpg",
+    "alt" => "Interior de la Catedral de Sainte-Croix",
+    "pie" => "Nave principal con vitrales",
+    "fuente_url" => "https://es.wikipedia.org/wiki/Catedral_de_Orleans",
+    "fuente_texto" => "wikipedia.org"
+  ],*/
+  [
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/3/3f/Orl%C3%A9ans_Cathedral%2C_West_view_20170609_1.jpg",
+    "alt" => "Fachada de la Catedral de Sainte-Croix de Orléans",
+    "pie" => "Fachada principal gótica",
+    "fuente_url" => "https://loirelovers.fr/es/visitar-catedral-sainte-croix-orleans/",
+    "fuente_texto" => "loirelovers.fr"
   ],
   [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-chenonceau-3.jpg",
-    "alt" => "Jardines del Castillo de Chenonceau",
-    "pie" => "Jardines de Diana de Poitiers",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-chenonceau/",
-    "fuente_texto" => "viajeroscallejeros.com"
+    "src" => "https://photos.smugmug.com/Vallee-loire/Orl%C3%A9ans/n-crR73s/Cath%C3%A9drale-Sainte-Croix/i-dF7rRKh/0/76bdd577/L/cathe%CC%81drale-orle%CC%81ans-vitraux-L.jpg",
+    "alt" => "Interior de la Catedral de Sainte-Croix",
+    "pie" => "Interior con la nave principal y vidrieras",
+    "fuente_url" => "https://www.tourisme-orleans.com/",
+    "fuente_texto" => "tourisme-orleans.com"
+  ],
+  [
+    "src" => "https://thumbs.dreamstime.com/b/%C3%B3rgano-de-tuber%C3%ADa-dentro-la-catedral-sainte-croix-orleans-en-catedrale-sagrada-cruz-es-probablemente-m%C3%A1s-famosa-por-su-325183832.jpg",
+    "alt" => "Órgano de la Catedral de Sainte-Croix",
+    "pie" => "Magnífico órgano histórico",
+    "fuente_url" => "https://es.dreamstime.com/dentro-de-cath%C3%A9drale-sainte-croix-en-orl%C3%A9ans-francia-agosto-interior-la-catedral-cruz-santa-con-el-alto-techo-saltado-majestuoso-image153253934",
+    "fuente_texto" => "dreamstime.com"
+  ],
+  [
+    "src" => "https://loirelovers.fr/wp-content/uploads/2024/02/visitar-catedral-Sainte-Croix-Orleans.jpg",
+    "alt" => "Detalle arquitectónico de la Catedral",
+    "pie" => "Rosetón y detalles góticos",
+    "fuente_url" => "https://loirelovers.fr/es/visitar-catedral-sainte-croix-orleans/",
+    "fuente_texto" => "loirelovers.fr"
   ]
 ];
 ?>

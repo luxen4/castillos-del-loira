@@ -1,24 +1,24 @@
 <?php
-$nombreLugar = "Castillo de Chenonceau";
-$ciudad = "Chenonceaux";
-$slug_Mayuscula = "Chenonceau";
-$descripcion = "El Castillo de Chenonceau, conocido como el 'Castillo de las Damas', es una joya renacentista del Valle del Loira. Famoso por su galería sobre el río Cher y sus elegantes jardines, combina historia, arte y arquitectura en un entorno natural único.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A2teau_de_Chenonceau%2C_vue_depuis_le_Cher_01.jpg";
-$web_oficial = "https://www.chenonceau.com";
-$fuenteHero_texto = "chenonceau.com";
+$nombreLugar = "Catedral de Sainte-Croix de Orléans";
+$ciudad = "Orléans"; $ciudad_minuscula = "orleans";
+$slug_Mayuscula = "Sainte-Croix";
+$descripcion = "La Catedral de Sainte-Croix de Orléans, ejemplo del estilo gótico francés, destaca por sus impresionantes vidrieras, su historia ligada a Juana de Arco y su arquitectura monumental. Un imprescindible del patrimonio del Valle del Loira.";
+$imagenHero = "https://thumbs.dreamstime.com/b/catedral-sainte-croix-francia-de-orleans-137139196.jpg";
+$web_oficial = "https://es.dreamstime.com/catedral-sainte-croix-francia-de-orleans-image137139196";
+$fuenteHero_texto = "dreamstime.com";
 
-$otros_castillos = [
-  ["Villandry", "Villandry.php"],
-  ["Chambord", "Chambord.php"],
-  ["Cheverny", "Cheverny.php"]
+$otros_lugares = [
+  ["Place du Martroi", "Place-du-Martroi.php"],
+  ["Hôtel Groslot", "Hotel-Groslot.php"],
+  ["Musée des Beaux-Arts", "Musee-Beaux-Arts.php"]
 ];
 
 // Variables dinámicas para SEO
-$keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
+$keywords = "$nombreLugar, catedral Orléans, turismo Valle del Loira, viaje a $ciudad, turismo cultural, patrimonio histórico, arquitectura gótica";
 $twitter = "@TuCuentaTwitter";
-$latitude = 47.3249;  // Coordenadas GPS del castillo
-$longitude = 0.0741;
-$direccion = "Château de Chenonceau, 37150 Chenonceaux, Francia";
-$horario_apertura = "09:00";
-$horario_cierre = "18:00";
+$latitude = 47.9025;  // Coordenadas GPS de la catedral
+$longitude = 1.9090;
+$direccion = "Place Sainte-Croix, 45000 Orléans, Francia";
+$horario_apertura = "08:00";
+$horario_cierre = "18:30";
 ?>

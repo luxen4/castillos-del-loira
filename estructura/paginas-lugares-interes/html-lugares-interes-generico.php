@@ -22,7 +22,7 @@ require RUTA_LUGARES_INTERES . "/{$slug}/variables-iniciales.php";
 <!DOCTYPE html>
 <html lang="es">
 
-  <?php require RUTA_ESTRUCTURA . "/paginas-castillos/head/head-generico.php"; ?>
+  <?php require RUTA_ESTRUCTURA . "/paginas-lugares-interes/head/head-generico.php"; ?>
 
   <body class="bg-gray-50 text-gray-800">
 
@@ -30,7 +30,7 @@ require RUTA_LUGARES_INTERES . "/{$slug}/variables-iniciales.php";
 
     <?php require RUTA_ESTRUCTURA . "/hero/hero-generico.php"; ?>
 
-    <?php require RUTA_ESTRUCTURA . "/paginas-castillos/main/main-generico.php"; ?>
+    <?php require RUTA_ESTRUCTURA . "/paginas-lugares-interes/main/main-generico.php"; ?>
 
     <?php require RUTA_ESTRUCTURA . "/footer/footer-generico.php"; ?>
 

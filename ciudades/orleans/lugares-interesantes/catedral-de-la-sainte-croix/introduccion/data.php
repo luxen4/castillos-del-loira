@@ -1,11 +1,11 @@
 <?php
-// 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHENONCEAU
+// ⛪ SECCIÓN: INTRODUCCIÓN - CATEDRAL DE SAINTE-CROIX
 $introduccion = [
   "id" => "introduccion",
-  "titulo" => "🏰 Descubre el Castillo de Chenonceau",
+  "titulo" => "⛪ Descubre la Catedral de Sainte-Croix de Orléans",
   "parrafos" => [
     "<?= \$descripcion ?>",
-    "Construido sobre el río Cher en el siglo XVI, Chenonceau es conocido como el 'Castillo de las Damas'. Su galería sobre el agua, sus jardines renacentistas y su historia marcada por mujeres influyentes lo convierten en uno de los castillos más icónicos del Valle del Loira."
+    "Situada en el corazón de Orléans, la Catedral de Sainte-Croix combina arquitectura gótica y renacentista. Sus impresionantes vidrieras, su gran órgano y su rica historia la convierten en un icono religioso y cultural de la ciudad."
   ]
 ];
 ?>
