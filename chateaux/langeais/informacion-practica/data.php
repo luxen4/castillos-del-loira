@@ -13,4 +13,3 @@ $info_mas = "🔗 Más información: visita la web oficial de $nombreLugar";
 $info_web_texto = "aquí";
 $info_web_estilo = "color:#1a0dab; text-decoration:underline;";
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/sections/print-informacion-practica-generico.php"; ?>

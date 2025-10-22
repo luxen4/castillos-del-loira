@@ -16,4 +16,3 @@ $historia = [
   '
 ];
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/historia/template-historia-generico.php"; ?>

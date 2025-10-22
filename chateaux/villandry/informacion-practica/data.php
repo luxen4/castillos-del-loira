@@ -17,4 +17,3 @@ $info_web = "https://www.chateauvillandry.fr/";
 $info_web_texto = "aquí";
 $info_web_estilo = "color:#1a0dab; text-decoration:underline;";
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/sections/print-informacion-practica-generico.php"; ?>

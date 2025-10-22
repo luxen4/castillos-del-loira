@@ -11,4 +11,4 @@ $introduccion = [
   ]
 ];
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/introduccion/template-introduccion-generico.php"; ?>
+

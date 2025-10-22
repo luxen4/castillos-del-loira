@@ -13,4 +13,4 @@ $section_consejos = [
     '
 ];
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/sections/consejos/template-consejos-generico.php"; ?>
+

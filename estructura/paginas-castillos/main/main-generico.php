@@ -16,28 +16,36 @@
 
         <!-- Introducción -->
         <?php $slug_section = "introduccion";
-            require "{$slug}/{$slug_section}/data.php"; ?>
+            require "{$slug}/{$slug_section}/data.php"; 
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/introduccion/template-introduccion-generico.php"; ?>
+
 
         <!-- Historia -->
         <?php $slug_section = "historia";
-            require "{$slug}/{$slug_section}/data.php"; ?>
+            require "{$slug}/{$slug_section}/data.php"; 
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/historia/template-historia-generico.php"; ?>
 
         <!-- Arquitectura -->
         <?php $slug_section = "arquitectura";
             require "{$slug}/{$slug_section}/data.php";
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/sections/print-section.php"; ?>
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/arquitectura/template-arquitectura-generico.php"; ?>
 
         <!-- Galería -->
         <?php $slug_section = "galeria";
             require "{$slug}/{$slug_section}/data.php";
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/sections/print-section.php"; ?>
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/print-section-generico.php"; ?>
 
         <!-- Consejos -->
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/consejos/data.php"; ?>
+        <?php $slug_section = "consejos";
+            require "{$slug}/{$slug_section}/data.php"; 
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/consejos/template-consejos-generico.php"; ?>
 
         <!-- Información práctica -->
         <?php $slug_section = "informacion-practica";
-            require "{$slug}/{$slug_section}/data.php"; ?>
+            require "{$slug}/{$slug_section}/data.php";
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/informacion-practica/template-informacion-practica-generico.php"; ?>
+
+            
 
     </article>
 </div>
