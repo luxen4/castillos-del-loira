@@ -1,6 +1,6 @@
 <?php
 $items = [
-  [
+  /*[
     "titulo" => "Catedral Sainte-Croix",
     "descripcion" => "Descubre la imponente catedral gótica de Orléans, con sus vidrieras, torres y su historia ligada a Juana de Arco.",
     "imagen" => [
@@ -9,22 +9,22 @@ $items = [
       "fuente" => "https://www.cathedrale-orleans.fr/",
       "fuente_texto" => "cathedrale-orleans.fr"
     ]
-  ],
+  ], Ya está en paseos en Orleans*/
   [
     "titulo" => "Museos y exposiciones",
     "descripcion" => "Orléans cuenta con museos de arte, historia y ciencias que permiten conocer la rica herencia cultural de la ciudad.",
     "imagen" => [
-      "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/musee_des_beaux_arts_orleans.jpg",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/f/f5/Salle_Richelieu%2C_mus%C3%A9e_des_Beaux-Arts_d%27Orl%C3%A9ans%2C_2024.jpg",
       "alt" => "Museo de Bellas Artes Orléans",
-      "fuente" => "https://www.orleans.fr/musee",
-      "fuente_texto" => "orleans.fr"
+      "fuente" => "orleans/lugares-interesantes/musse-des-beaux-arts-d-orleans/index.php",
+      "fuente_texto" => "wikipedia.org"
     ]
   ],
   [
     "titulo" => "Rutas a pie y en bicicleta",
     "descripcion" => "Recorre Orléans por el centro histórico o la ribera del Loira, a pie o en bicicleta, disfrutando de parques, plazas y arquitectura emblemática.",
     "imagen" => [
-      "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/promenade_loire_orleans.jpg",
+      "src" => "",
       "alt" => "Rutas a pie y en bicicleta Orléans",
       "fuente" => "https://www.orleans.fr/visiter",
       "fuente_texto" => "orleans.fr"

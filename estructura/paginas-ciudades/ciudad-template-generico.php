@@ -48,15 +48,8 @@
 </nav>
 
 
-    <!-- 💰 Banner horizontal -->
-    <div class="container mx-auto px-6 mt-8">
-        <div class="bg-gray-100 border rounded-2xl shadow p-6 text-center">
-            <p class="text-gray-500 text-sm mb-2">Publicidad</p>
-            <div class="bg-white rounded-lg h-40 flex items-center justify-center">
-                <span class="text-gray-400 text-sm">Banner horizontal (728x90)</span>
-            </div>
-        </div>
-    </div>
+
+
 
 
 
@@ -103,10 +96,20 @@
       <!-- 💰 Bloque publicitario intermedio -->
       <div class="bg-gray-100 border rounded-2xl p-4 my-8 text-center shadow-sm">
           <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
-          <div class="bg-white rounded-lg h-48 flex items-center justify-center">
-              <span class="text-gray-400 text-sm">Publicidad intermedia (468x60)</span>
-          </div>
+      <!-- Carrusel Amazon -->
+      <div class="w-full h-auto flex items-center justify-center px-2">
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
       </div>
+      </div>
+
+
+
+
+
+
+
+
+
 
       <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php";?>
 

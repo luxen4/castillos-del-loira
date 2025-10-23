@@ -4,9 +4,9 @@ $items = [
     "titulo" => "Quiche de Orléans",
     "descripcion" => "Una versión local de la quiche francesa, con ingredientes frescos de la región y un sabor delicado.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/1/1b/Quiche.jpg",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Quiche.jpg/330px-Quiche.jpg",
       "alt" => "Quiche de Orléans",
-      "fuente" => "https://www.orleans.fr/gastronomie",
+      "fuente" => "orleans/gastronomia/quiche-de-orleans/index.php",
       "fuente_texto" => "orleans.fr"
     ]
   ],

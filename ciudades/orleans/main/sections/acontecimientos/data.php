@@ -1,15 +1,15 @@
 <?php
 $items = [
   [
-    "titulo" => "Festival de Orléans",
-    "descripcion" => "Festival anual que combina teatro, danza, música y artes visuales, transformando el centro histórico en un escenario cultural vibrante.",
+    "titulo" => "Rutas a pie y en bicicleta",
+    "descripcion" => "Recorre Orléans por el centro histórico o la ribera del Loira, a pie o en bicicleta, disfrutando de parques, plazas y arquitectura emblemática.",
     "imagen" => [
-      "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/festival_orleans.jpg",
-      "alt" => "Festival de Orléans",
-      "fuente" => "https://www.orleans.fr/festival",
-      "fuente_texto" => "orleans.fr"
-    ]
-  ],
+      "src" => "https://www.tourisme-orleansmetropole.com/assets/uploads/2021/06/orleans-metropole.rec.faire-savoir.com-le-festival-de-loire-festival-de-loire-a-orleans.jpg.webp",
+      "alt" => "Rutas a pie y en bicicleta Orléans",
+      "fuente" => "orleans/lugares-interesantes/the-loire-festival-orleans/index.php",
+      "fuente_texto" => "tourisme-orleansmetropole.com"
+    ]/* https://www.tourisme-orleansmetropole.com/en/visit-orleans-get-inspired/must-see-highlights/the-loire-festival/ */
+    ],
   [
     "titulo" => "Mercados y ferias",
     "descripcion" => "Mercados tradicionales y ferias artesanales que ofrecen productos locales, gastronomía regional y ambiente festivo en el centro histórico.",
@@ -24,20 +24,22 @@ $items = [
     "titulo" => "Marché de Noël",
     "descripcion" => "El tradicional mercado navideño en la Place du Martroi, con puestos de artesanía, gastronomía local y actividades familiares.",
     "imagen" => [
-        "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/marche_noel_orleans.jpg",
+        "src" => "https://www.orleans.fr/fileadmin/_processed_/b/9/csm_IMG_4649_251d8cc2e9.jpg",
         "alt" => "Marché de Noël Orléans",
-        "fuente" => "https://www.orleans.fr/marches-noel",
+        "fuente" => "orleans/lugares-interesantes/marches-noel-orleans/index.php",
         "fuente_texto" => "orleans.fr"
+        /* https://www.orleans.fr/que-faire-a-orleans/sorties/fetes-et-evenements-a-ne-pas-manquer/le-marche-de-noel */
     ]
   ],
   [
     "titulo" => "Conciertos y espectáculos",
     "descripcion" => "Teatros, salas de conciertos y espacios al aire libre ofrecen música, teatro y danza para todos los públicos durante todo el año.",
     "imagen" => [
-        "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/concerts_orleans.jpg",
+        "src" => "https://www.gl-events.com/sites/default/files/styles/hero_background_image/public/2023-02/20100705_01_z%C3%A9nith%20orleans%28c%29MairieOrl%C3%A9ans_1.jpg?itok=PNyLR_Ln",
         "alt" => "Conciertos Orléans",
-        "fuente" => "https://www.orleans.fr/agenda",
-        "fuente_texto" => "orleans.fr"
+        "fuente" => "orleans/lugares-interesantes/conciertos-y-espectaculos-orleans/index.php",
+        "fuente_texto" => "gl-events.com"
+        /* https://www.gl-events.com/es/zenith-orleans */
     ]
   ]
 ];
