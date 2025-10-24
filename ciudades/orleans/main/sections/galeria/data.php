@@ -2,22 +2,22 @@
 <?php
 $galeria = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/2/27/Orleans_vue_du_loiret.jpg",
+    "src" => "https://img.freepik.com/fotos-premium/vista-panoramica-aerea-orleans-francia_78361-12672.jpg",
     "alt" => "Vista panorámica de Orléans",
-    "fuente" => "https://www.orleans.fr/visiter",
-    "fuente_texto" => "orleans.fr"
-  ],
+    "fuente" => "https://www.freepik.es/fotos-premium/vista-panoramica-aerea-orleans-francia_34547926.htm",
+    "fuente_texto" => "freepik.es"
+  ],/*
   [
     "src" => "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cathedrale_Sainte_Croix_Orleans.jpg",
     "alt" => "Catedral Sainte-Croix de Orléans",
     "fuente" => "https://www.cathedrale-orleans.fr/",
     "fuente_texto" => "cathedrale-orleans.fr"
-  ],
+  ],*/
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/f/f9/Place_du_Martroi_Orleans.jpg",
+    "src" => "https://www.skaping.com/orleans/place-du-martroi/live/thumb.jpg",
     "alt" => "Place du Martroi en Orléans",
-    "fuente" => "https://www.orleans.fr/",
-    "fuente_texto" => "orleans.fr"
+    "fuente" => "https://www.skaping.com/orleans/place-du-martroi/live/",
+    "fuente_texto" => "skaping.com || LIVE"
   ]
 ];
 ?>

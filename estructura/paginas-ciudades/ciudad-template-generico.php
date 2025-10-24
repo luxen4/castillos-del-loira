@@ -102,15 +102,6 @@
       </div>
       </div>
 
-
-
-
-
-
-
-
-
-
       <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php";?>
 
 <!-- 🌆 Sección integrada en el contenido principal -->

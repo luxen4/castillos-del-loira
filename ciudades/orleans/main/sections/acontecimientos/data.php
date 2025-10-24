@@ -1,26 +1,6 @@
 <?php
 $items = [
   [
-    "titulo" => "Rutas a pie y en bicicleta",
-    "descripcion" => "Recorre Orléans por el centro histórico o la ribera del Loira, a pie o en bicicleta, disfrutando de parques, plazas y arquitectura emblemática.",
-    "imagen" => [
-      "src" => "https://www.tourisme-orleansmetropole.com/assets/uploads/2021/06/orleans-metropole.rec.faire-savoir.com-le-festival-de-loire-festival-de-loire-a-orleans.jpg.webp",
-      "alt" => "Rutas a pie y en bicicleta Orléans",
-      "fuente" => "orleans/lugares-interesantes/the-loire-festival-orleans/index.php",
-      "fuente_texto" => "tourisme-orleansmetropole.com"
-    ]/* https://www.tourisme-orleansmetropole.com/en/visit-orleans-get-inspired/must-see-highlights/the-loire-festival/ */
-    ],
-  [
-    "titulo" => "Mercados y ferias",
-    "descripcion" => "Mercados tradicionales y ferias artesanales que ofrecen productos locales, gastronomía regional y ambiente festivo en el centro histórico.",
-    "imagen" => [
-      "src" => "https://www.orleans.fr/sites/default/files/styles/1200x800/public/marche_orleans.jpg",
-      "alt" => "Mercados de Orléans",
-      "fuente" => "https://www.orleans.fr/marches",
-      "fuente_texto" => "orleans.fr"
-    ]
-  ],
-  [
     "titulo" => "Marché de Noël",
     "descripcion" => "El tradicional mercado navideño en la Place du Martroi, con puestos de artesanía, gastronomía local y actividades familiares.",
     "imagen" => [

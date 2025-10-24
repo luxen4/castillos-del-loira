@@ -42,3 +42,26 @@ $section = [
   "tip" => "👉 Consejo: reserva con antelación en temporada alta para asegurar disponibilidad y mejores precios."
 ];
 ?>
+
+<?php
+echo '
+<section id="alojamientos" class="my-10 px-6 lg:px-0">
+  <h2 class="text-2xl font-bold text-amber-700 mb-4">🏨 Alojamientos en Orléans</h2>
+  <p class="text-gray-700 leading-relaxed">
+    La ciudad de <strong>Orléans</strong> ofrece una amplia variedad de alojamientos que se adaptan a todos los gustos y presupuestos. 
+    Para quienes buscan elegancia y confort, el 
+    <a href="https://www.orleans-hotel-luxe.fr/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Hotel de Lujo</a> 
+    propone habitaciones modernas con servicios de alta gama en pleno centro de la ciudad.  
+    Si prefieres mayor independencia, los 
+    <a href="https://www.airbnb.fr/s/Orleans--France" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Apartamentos Urbanos</a> 
+    son una opción ideal para familias o estancias largas, combinando comodidad y ubicación céntrica.  
+    Y para los amantes de la naturaleza, las 
+    <a href="https://www.campings.com/es/camping/orleans" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">casas rurales y campings</a> 
+    alrededor de Orléans permiten disfrutar del entorno tranquilo y verde del <strong>Valle del Loira</strong> en un ambiente relajado.
+  </p>
+  <p class="mt-4 text-gray-600 text-sm italic">
+    👉 Consejo: reserva con antelación durante la temporada alta para conseguir las mejores tarifas y asegurar disponibilidad en tus fechas.
+  </p>
+</section>
+';
+?>

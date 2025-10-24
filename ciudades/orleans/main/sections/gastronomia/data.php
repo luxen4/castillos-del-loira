@@ -14,21 +14,21 @@ $items = [
     "titulo" => "Andouille de Jargeau",
     "descripcion" => "Embutido típico del Loiret, con un sabor ahumado y tradicional, ideal como aperitivo o plato principal.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/4/4d/Andouille_de_Jargeau.jpg",
+      "src" => "https://www.france-voyage.com/visuals/photos/andouille-jargeau-32327_w800.webp",
       "alt" => "Andouille de Jargeau",
-      "fuente" => "https://www.fromages-et-charcuterie.fr/",
-      "fuente_texto" => "fromages-et-charcuterie.fr"
+      "fuente" => "orleans/gastronomia/andouille-de-jargeau/index.php",
+      "fuente_texto" => "france-voyage.com"
     ]
   ],
   [
     "titulo" => "Tarte Tatin",
     "descripcion" => "El famoso pastel de manzana caramelizada originario de la región centro de Francia, muy popular en Orléans.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/3/38/Tarte_Tatin.jpg",
+      "src" => "https://cdn.tasteatlas.com/Images/Dishes/82298a301ebd48b9a85020a762e78bf2.jpg",
       "alt" => "Tarte Tatin Orléans",
-      "fuente" => "https://www.france.fr/es/articulo/tarte-tatin-receta/",
-      "fuente_texto" => "france.fr"
-    ]
+      "fuente" => "orleans/gastronomia/tarte-tatin/index.php",
+      "fuente_texto" => "tasteatlas.com"
+    ]/* https://www.tasteatlas.com/tarte-tatin/recipe */
   ]
 ];
 ?>

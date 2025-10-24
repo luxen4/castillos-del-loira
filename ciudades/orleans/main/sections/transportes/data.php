@@ -42,3 +42,25 @@ $section = [
   "tip" => "👉 Consejo: consulta los pases de transporte público de Orléans para viajes ilimitados y descuentos en atracciones turísticas."
 ];
 ?>
+
+<?php
+echo '
+<section id="transportes" class="my-10 px-6 lg:px-0">
+  <h2 class="text-2xl font-bold text-amber-700 mb-4">🚍 Transportes en Orléans</h2>
+  <p class="text-gray-700 leading-relaxed">
+    Moverse por <strong>Orléans</strong> es fácil gracias a su moderna red de transporte público. 
+    La ciudad cuenta con el sistema 
+    <a href="https://www.reseau-tao.fr/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">TAO</a>, 
+    que incluye tranvías y autobuses que conectan eficientemente el centro con los barrios y zonas periféricas.  
+    También puedes desplazarte cómodamente en bicicleta utilizando el servicio de alquiler público 
+    <a href="https://www.reseau-tao.fr/velo/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Vélo’+</a>, 
+    con múltiples estaciones repartidas por toda la ciudad.  
+    Para los viajeros, la <a href="https://www.sncf.com/fr" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">estación SNCF de Orléans</a> 
+    ofrece conexiones directas con <strong>París</strong>, <strong>Tours</strong> y otras ciudades del Valle del Loira, mientras que las principales autopistas facilitan el acceso en coche.
+  </p>
+  <p class="mt-4 text-gray-600 text-sm italic">
+    👉 Consejo: el tranvía es la forma más rápida y ecológica de moverte por Orléans; además, puedes combinarlo con el alquiler de bicicletas para explorar la ribera del Loira.
+  </p>
+</section>
+';
+?>

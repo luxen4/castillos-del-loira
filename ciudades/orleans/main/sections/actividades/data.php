@@ -24,10 +24,10 @@ $items = [
     "titulo" => "Rutas a pie y en bicicleta",
     "descripcion" => "Recorre Orléans por el centro histórico o la ribera del Loira, a pie o en bicicleta, disfrutando de parques, plazas y arquitectura emblemática.",
     "imagen" => [
-      "src" => "",
+      "src" => "https://s2.wklcdn.com/image_25/776545/48314414/32404844.700x525.jpg",
       "alt" => "Rutas a pie y en bicicleta Orléans",
-      "fuente" => "https://www.orleans.fr/visiter",
-      "fuente_texto" => "orleans.fr"
+      "fuente" => "https://es.wikiloc.com/rutas/cicloturismo/francia/centro/orleans",
+      "fuente_texto" => "wikiloc.com"
     ]
   ]
 ];
