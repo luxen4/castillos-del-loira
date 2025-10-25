@@ -16,7 +16,7 @@ $items = [
     "imagen" => [
       "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0e/Foire_Saumur.jpg",
       "alt" => "Feria de Saumur",
-      "fuente" => "https://www.saumur-tourisme.com/",
+      "fuente" => "saumur/main/sections/acontecimientos/feria-de-saumur/index.php",
       "fuente_texto" => "saumur-tourisme.com"
     ]
   ],
@@ -26,7 +26,7 @@ $items = [
     "imagen" => [
       "src" => "https://upload.wikimedia.org/wikipedia/commons/5/5f/Theatre_Saumur.jpg",
       "alt" => "Espectáculos en Saumur",
-      "fuente" => "https://www.saumur-tourisme.com/",
+      "fuente" => "saumur/main/sections/acontecimientos/espectaculos-y-teatro-saumur/index.php",
       "fuente_texto" => "saumur-tourisme.com"
     ]
   ]
