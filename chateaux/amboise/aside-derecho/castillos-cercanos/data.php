@@ -13,7 +13,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Ussé",
-    "url" => "Usse.php",
+    "url" => "Ussé.php",
     "descripcion" => "Inspiración del cuento de la Bella Durmiente, junto al Loira."
   ],
   [

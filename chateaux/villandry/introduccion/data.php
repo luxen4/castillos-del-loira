@@ -1,6 +1,6 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE VILLANDRY
-$introduccion_villandry = [
+$introduccion = [
   "id" => "introduccion",
   "titulo" => "🏰 Descubre el Castillo de Villandry",
   "parrafos" => [
@@ -9,8 +9,3 @@ $introduccion_villandry = [
   ]
 ];
 ?>
-<section id="<?= $introduccion_villandry['id'] ?>">
-  <h2 class="text-3xl font-bold text-emerald-700 mb-4"><?= $introduccion_villandry['titulo'] ?></h2>
-  <p><?= $introduccion_villandry['parrafos'][0] ?></p>
-  <p class="mt-2"><?= $introduccion_villandry['parrafos'][1] ?></p>
-</section>

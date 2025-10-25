@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Langeais";
 $ciudad = "Langeais";
 $slug_Mayuscula = "Langeais";
 $descripcion = "El Castillo de Langeais, construido entre los siglos XIV y XVI, combina la fortaleza medieval con elementos renacentistas. Famoso por sus torres, murallas y salones históricos, es una joya del Valle del Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/8/86/Chateau_Langeais.jpg";
-$web_oficial = "https://www.chateau-langeais.fr";
-$fuenteHero_texto = "chateau-langeais.fr";
+$imagenHero = "https://mf-prod.com/langeais/wp-content/uploads/sites/9/2016/02/jardins2%C2%A9J.B.Rabouan.jpeg";
+$web_oficial = "https://chateau-de-langeais.com/es/2559-2/";
+$fuenteHero_texto = "chateau-de-langeais.com";
 
 $otros_castillos = [
   ["Villandry", "Villandry.php"],

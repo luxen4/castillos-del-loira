@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Blois";
 $ciudad = "Blois";
 $slug_Mayuscula = "Blois";
 $descripcion = "El Castillo de Blois, una joya del Renacimiento francés, combina estilos góticos, renacentistas y clásicos. Fue residencia de reyes franceses y escenario de importantes acontecimientos históricos en el Valle del Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chateau_de_Blois.jpg"; // Puedes usar la URL que prefieras
-$web_oficial = "https://www.chateaudeblois.fr";
-$fuenteHero_texto = "chateaudeblois.fr";
+$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/41/Blois_LouisXII_interior.jpg"; // Puedes usar la URL que prefieras
+$web_oficial = "https://es.wikipedia.org/wiki/Castillo_de_Blois";
+$fuenteHero_texto = "es.wikipedia.org";
 
 $otros_castillos = [
   ["Villandry", "Villandry.php"],

@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Amboise";
 $ciudad = "Amboise";
 $slug_Mayuscula = "Amboise";
 $descripcion = "El Castillo Real de Amboise domina el río Loira desde lo alto de una colina. Residencia de los reyes de Francia durante el Renacimiento, destaca por su arquitectura elegante, sus vistas panorámicas y por albergar la tumba de Leonardo da Vinci.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_d%27Amboise%2C_vue_depuis_la_loire_03.jpg";
-$web_oficial = "https://www.chateau-amboise.com";
-$fuenteHero_texto = "chateau-amboise.com";
+$imagenHero = "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/image-7272645-1920x640-crop-1721314163.webp";
+$web_oficial = "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-amboise/";
+$fuenteHero_texto = "bloischambord.es";
 
 $otros_castillos = [
   ["Clos-Lucé", "Clos-Luce.php"],

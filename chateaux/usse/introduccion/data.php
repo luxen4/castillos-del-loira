@@ -1,5 +1,5 @@
 <?php
-// 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE USSE
+// 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE Ussé
 $introduccion = [
   "id" => "introduccion",
   "titulo" => "🏰 Descubre el Castillo de Ussé",

@@ -1,5 +1,5 @@
 <?php
-// 🏰 SECCIÓN: HISTORIA DEL CASTILLO DE USSE
+// 🏰 SECCIÓN: HISTORIA DEL CASTILLO DE Ussé
 $historia = [
   "id" => "historia",
   "titulo" => "📜 Historia del Castillo de Ussé",

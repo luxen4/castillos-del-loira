@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Chaumont-sur-Loire";
 $ciudad = "Chaumont-sur-Loire"; 
 $slug_Mayuscula = "Chaumont"; 
 $descripcion = "El Castillo de Chaumont-sur-Loire, majestuoso sobre el río Loira, destaca por su arquitectura medieval y renacentista, y es conocido por albergar el prestigioso Festival Internacional de Jardines."; 
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ch%C3%A2teau_de_Chaumont-sur-Loire_2011_001.jpg"; // Puedes usar la URL que prefieras 
-$web_oficial = "https://domaine-chaumont.fr"; 
-$fuenteHero_texto = "domaine-chaumont.fr";  
+$imagenHero = "https://cdn-imgix.headout.com/media/images/5036385563b6ad2fa8e5311c3220188a-13189-LoireValley-Skip-the-LineTicketstoDomaineduChaumont-sur-LoireCastle--00001.jpg"; // Puedes usar la URL que prefieras 
+$web_oficial = "https://www.loirevalley-tickets.com/es/chateau-de-chaumont/plan-your-visit/"; 
+$fuenteHero_texto = "loirevalley-tickets.com";  
 
 $otros_castillos = [ 
   ["Villandry", "Villandry.php"], 

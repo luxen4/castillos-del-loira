@@ -11,14 +11,14 @@
     "addressLocality": "Rigny-Ussé",
     "addressCountry": "FR"
   },
-  "url": "https://www.tusitioweb.com/val-de-loire/chateaux/Usse.php",
+  "url": "https://www.tusitioweb.com/val-de-loire/chateaux/Ussé.php",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 47.1667,
     "longitude": 0.1833
   },
   "sameAs": [
-    "https://www.chateaudusse.com",
+    "https://www.chateaudUssé.com",
     "https://www.facebook.com/TuPagina",
     "https://www.instagram.com/TuCuenta"
   ],

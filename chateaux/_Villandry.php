@@ -13,7 +13,7 @@ $otros_castillos = [
 $castillos_cercanos = [
     ["Castillo de Azay-le-Rideau", "Azay-le-Rideau.php"],
     ["Castillo de Langeais", "Langeais.php"],
-    ["Castillo de Ussé", "Usse.php"]
+    ["Castillo de Ussé", "Ussé.php"]
 ];
 ?>
 <!DOCTYPE html>

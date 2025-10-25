@@ -1,10 +1,10 @@
 <?php
 $galeria = [
   [
-    "src" => "https://www.saumur-tourisme.com/sites/default/files/styles/visuel_1080x720/public/chateau-saumur.jpg",
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ch%C3%A2teau_de_Saumur_2008_PD_10.JPG/1200px-Ch%C3%A2teau_de_Saumur_2008_PD_10.JPG",
     "alt" => "Castillo de Saumur",
-    "fuente" => "https://www.saumur-tourisme.com/",
-    "fuente_texto" => "saumur-tourisme.com"
+    "fuente" => "/val-de-loire/chateaux/Saumur.php",
+    "fuente_texto" => "wikimedia.org"
   ],
   [
     "src" => "https://www.valdeloire-france.com/wp-content/uploads/2020/06/rillettes-saumur.jpg",
@@ -23,15 +23,17 @@ $galeria = [
 <h4 class="text-2xl font-semibold text-emerald-600 mb-4 text-center">📸 Galería</h4>
 <div class="grid md:grid-cols-3 gap-4 mb-12 justify-items-center">
   <?php foreach($galeria as $foto): ?>
+    <a href="<?= $foto['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="hover:underline text-emerald-600">
+         
     <figure class="rounded-lg shadow hover:scale-105 transition overflow-hidden w-full max-w-sm">
-      <img src="<?= $foto['src'] ?>" 
+      
+    <img src="<?= $foto['src'] ?>" 
            alt="<?= $foto['alt'] ?>" 
            class="w-full h-auto object-cover">
       <figcaption class="text-xs text-gray-500 mt-1 text-center">
-        Fuente: <a href="<?= $foto['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="hover:underline text-emerald-600">
-          <?= $foto['fuente_texto'] ?>
-        </a>
+        <?= $foto['fuente_texto'] ?>
       </figcaption>
     </figure>
+  </a>
   <?php endforeach; ?>
 </div>

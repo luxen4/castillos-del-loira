@@ -1,16 +1,17 @@
 <?php
-// 🏰 SECCIÓN: HISTORIA DE CHEVERNY
+// 🏰 SECCIÓN: HISTORIA DEL CASTILLO DE CHEVERNY
 $historia = [
   "id" => "historia",
-  "titulo" => "📜 Historia de Cheverny",
+  "titulo" => "📜 Historia del Castillo de Cheverny",
   "contenido" => '
     <h3 class="text-lg italic text-gray-600 mb-4">
-      Elegancia clásica y patrimonio intacto del Loira.
+      Elegancia renacentista y residencia señorial de la familia Hurault.
     </h3>
     <p class="text-gray-700 leading-relaxed">
-      El Castillo de Cheverny, construido en el siglo <strong XVII</strong>, es conocido por su arquitectura clásica y su interior perfectamente conservado. 
-      Ha permanecido en manos de la misma familia durante generaciones, lo que ha permitido conservar muebles, tapices y colecciones históricas originales. 
-      Sus jardines geométricos y su entorno natural complementan la majestuosidad del edificio, convirtiéndolo en un ejemplo emblemático de los castillos del Valle del Loira.
+      Construido en el siglo <strong>XVI</strong>, el <strong>Castillo de Cheverny</strong> es conocido por su arquitectura armoniosa, interiores refinados y mobiliario original cuidadosamente conservado. 
+      Durante siglos, ha sido propiedad de la familia Hurault, lo que le ha permitido mantener un esplendor auténtico y constante. 
+      Famoso por sus jardines simétricos y su caza de perros de lebre, Cheverny combina historia, arte y tradiciones de la nobleza francesa. 
+      Hoy es un destino turístico destacado en el Valle del Loira, que atrae a amantes de la arquitectura, la historia y la cultura francesa.
     </p>
   '
 ];

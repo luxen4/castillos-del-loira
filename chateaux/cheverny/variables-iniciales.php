@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Cheverny";
 $ciudad = "Cheverny";
 $slug_Mayuscula = "Cheverny";
 $descripcion = "El Castillo de Cheverny, elegante residencia noble del Valle del Loira, famoso por su decoración interior, mobiliario histórico y jardines perfectamente cuidados.";
-$imagenHero = "URL_de_la_imagen_principal_de_Cheverny";
-$web_oficial = "https://www.chateau-cheverny.fr";
-$fuenteHero_texto = "chateau-cheverny.fr";
+$imagenHero = "https://www.valledelloira-francia.es/app/uploads/iris-images/654298/a-la-une-cheverny-1050-a-cmouton-crtcentrevdl-e1684148477525-1920x1080-f50_50.webp";
+$web_oficial = "https://www.valledelloira-francia.es/descubrir/escapada-a-los-jardines/parque-jardines-castillo-cheverny/";
+$fuenteHero_texto = "valledelloira-francia.es";
 
 $otros_castillos = [
   ["Chenonceau", "Chenonceau.php"],

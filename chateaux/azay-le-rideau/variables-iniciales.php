@@ -3,9 +3,9 @@ $nombreLugar = "Castillo de Azay-le-Rideau";
 $ciudad = "Azay-le-Rideau";
 $slug_Mayuscula = "Azay-le-Rideau";
 $descripcion = "El Castillo de Azay-le-Rideau, situado sobre una isla en el río Indre, es un destacado ejemplo de arquitectura renacentista francesa. Su reflejo en el río, sus torres elegantes y sus jardines cuidadosamente diseñados lo convierten en una joya del Valle del Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/1/1a/Azay-le-Rideau_-_château.jpg";
-$web_oficial = "https://www.azay-le-rideau.fr";
-$fuenteHero_texto = "azay-le-rideau.fr";
+$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_d%27Azay-le-Rideau_001.jpg";
+$web_oficial = "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27Azay-le-Rideau";
+$fuenteHero_texto = "fr.wikipedia.org";
 
 $otros_castillos = [
   ["Villandry", "Villandry.php"],

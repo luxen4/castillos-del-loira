@@ -16,7 +16,7 @@ $items = [
     "imagen" => [
       "src" => "https://upload.wikimedia.org/wikipedia/commons/f/f5/Salle_Richelieu%2C_mus%C3%A9e_des_Beaux-Arts_d%27Orl%C3%A9ans%2C_2024.jpg",
       "alt" => "Museo de Bellas Artes Orléans",
-      "fuente" => "orleans/lugares-interesantes/musse-des-beaux-arts-d-orleans/index.php",
+      "fuente" => "orleans/lugares-interesantes/mUssé-des-beaux-arts-d-orleans/index.php",
       "fuente_texto" => "wikipedia.org"
     ]
   ],

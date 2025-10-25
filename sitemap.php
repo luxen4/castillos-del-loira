@@ -18,7 +18,7 @@ $castillos = [
     "Duques-de-Bretaña.php",
     "Langeais.php",
     "Sully-sur-loire.php",
-    "Usse.php",
+    "Ussé.php",
     "Villandry.php"
 ];
 
@@ -39,7 +39,7 @@ $lugares_interes = [
     "orleans" => [
         "catedral-de-la-sainte-croix.php",
         "iglesia-de-san-nicolas.php",
-        "musse-d-arts-de-nantes.php"
+        "mUssé-d-arts-de-nantes.php"
     ],
     "chamerolles" => [
         "chamerolles.php"
