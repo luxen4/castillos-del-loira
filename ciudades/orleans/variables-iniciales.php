@@ -31,12 +31,12 @@ $direccion = "Orléans, Valle del Loira, Francia";
 $horario_apertura = "00:00";
 $horario_cierre = "23:59";
 
-
+/*
 $enlaces = [
   ["Turismo oficial", "https://www.tourisme-orleansmetropole.com/"],
   ["Catedral Sainte-Croix", "https://www.cathedrale-orleans.fr/"],
   ["Google Maps", "https://maps.app.goo.gl/gpQmfi6X2sFKXx8A8"],
-];
+];*/
 
 $relacionadas = [
   ["Blois", "Blois.php"],

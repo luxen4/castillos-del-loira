@@ -23,8 +23,9 @@
                       <p class="text-gray-500 text-sm mb-2">Publicidad</p>
                       <div class="bg-white rounded-lg h-44 flex items-center justify-center">
                           <span class="text-gray-400 text-sm">Espacio publicitario (300x250)</span>
+                                
                       </div>
                   </div>';
           }
       }
-      ?>
+      ?><?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>

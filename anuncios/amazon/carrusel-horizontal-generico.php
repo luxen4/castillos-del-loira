@@ -12,44 +12,47 @@ $arrayElementos = array(
     array("nombre" => "camisas_hawaianas_man", "tipoPublicidad" => "horizontal"),
     array("nombre" => "atuendo1", "tipoPublicidad" => "atuendo")
 );
-// Generamos un número aleatorio entre 0 y 7
-$numeroAleatorio = rand(0, 7);
-$numeroAleatorio = 5;
 
 
-// Función para leer el CSV y devolver los productos
-function leer_CSV($csv_file)
-{
-    $productos = [];
+if (!function_exists('leer_CSV')) {
+    // Función para leer el CSV y devolver los productos
+    function leer_CSV($csv_file)
+    {
+        $productos = [];
 
-    // Verificar si el archivo CSV existe
-    if (file_exists($csv_file)) {
-        if (($handle = fopen($csv_file, "r")) !== FALSE) {
-            $header = fgetcsv($handle); // Leer cabecera
+        // Verificar si el archivo CSV existe
+        if (file_exists($csv_file)) {
+            if (($handle = fopen($csv_file, "r")) !== FALSE) {
+                $header = fgetcsv($handle); // Leer cabecera
 
-            // Leer cada fila
-            while (($row = fgetcsv($handle)) !== FALSE) {
-                $productos[] = [
-                    "href"  => $row[1] ?? "",
-                    "src"   => $row[2] ?? "",
-                    "alt"   => $row[3] ?? "",
-                    "marca" => $row[4] ?? "",
-                    "precio" => $row[5] ?? ""
-                ];
+                // Leer cada fila
+                while (($row = fgetcsv($handle)) !== FALSE) {
+                    $productos[] = [
+                        "href"   => $row[1] ?? "",
+                        "src"    => $row[2] ?? "",
+                        "alt"    => $row[3] ?? "",
+                        "marca"  => $row[4] ?? "",
+                        "precio" => $row[5] ?? ""
+                    ];
+                }
+                fclose($handle);
+            } else {
+                echo "Error al abrir el archivo CSV.";
             }
-            fclose($handle);
         } else {
-            echo "Error al abrir el archivo CSV.";
+            echo "El archivo CSV no existe.";
         }
-    } else {
-        echo "El archivo CSV no existe.";
-    }
 
-    return $productos;
+        return $productos;
+    }
 }
 
 // Ruta al archivo CSV
+// Generamos un número aleatorio entre 0 y 7
+$numeroAleatorio = rand(0, 7);
+$numeroAleatorio = 5;
 $csv_file = $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/amazon_sneakers_images.csv';
+
 
 // Leer productos
 $productos = leer_CSV($csv_file);

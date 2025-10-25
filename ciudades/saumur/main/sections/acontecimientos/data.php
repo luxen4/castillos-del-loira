@@ -4,11 +4,11 @@ $items = [
     "titulo" => "Festival de Música de Saumur",
     "descripcion" => "Cada verano, Saumur celebra conciertos y actuaciones al aire libre en plazas y espacios históricos, con artistas locales e internacionales.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/6/6d/Saumur_festival_musique.jpg",
+      "src" => "https://www.le-kiosque.org/wp-content/uploads/2024/04/fete-de-la-musique-%C2%A9Saumur-3.jpg",
       "alt" => "Festival de Música Saumur",
-      "fuente" => "https://www.saumur-tourisme.com/",
-      "fuente_texto" => "saumur-tourisme.com"
-    ]
+      "fuente" => "saumur/main/sections/acontecimientos/festival-de-la-musica/index.php",
+      "fuente_texto" => "le-kiosque.org"
+    ] /* https://www.le-kiosque.org/saumur-fete-de-la-musique-la-ville-invite-les-artistes-et-commercants-a-se-faire-connaitre/ */
   ],
   [
     "titulo" => "La feria de Saumur",

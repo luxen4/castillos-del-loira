@@ -54,10 +54,10 @@
 
 
 <!-- 🔹 Contenido Principal -->
-<main class="container mx-auto px-6 py-12 grid lg:grid-cols-4 gap-10">
+<main class="container mx-auto px-6 py-12 grid lg:grid-cols-12 gap-10">
 
   <!-- 📢 ASIDE IZQUIERDO -->
-  <aside class="space-y-8 hidden lg:block">
+  <aside class="space-y-8 hidden lg:block lg:col-span-2">
 
       <!-- 🔗 Enlaces útiles -->
       <?php if (!empty($enlaces)): ?>
@@ -87,7 +87,7 @@
   </aside>
 
   <!-- 🏙️ ARTÍCULO PRINCIPAL -->
-  <article class="lg:col-span-2 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
+<article class="lg:col-span-7 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
       <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-emerald-700 mb-4">
           <?= $ciudad ?> en el Valle del Loira
       </h3>
@@ -141,7 +141,7 @@
   </article>
 
   <!-- 📢 ASIDE DERECHO -->
-  <aside class="space-y-8">
+  <aside class="space-y-8 lg:col-span-3">
 
       <!-- 📰 Noticias -->
       <section class="bg-white rounded-2xl shadow p-6">
@@ -149,7 +149,7 @@
           <ul class="space-y-3 text-sm text-gray-700">
               <li><a href="#" class="hover:underline">Nueva exposición en el Castillo de Chambord</a></li>
               <li><a href="#" class="hover:underline">Festival de vinos en Saumur este fin de semana</a></li>
-              <li><a href="#" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
+              <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
           </ul>
       </section>
 
@@ -174,7 +174,7 @@
 </main>
 
 
-
+<?php /*
     <!-- 🤝 Patrocinadores -->
     <section class="bg-emerald-50 py-10 mt-12">
         <div class="container mx-auto px-6 text-center">
@@ -185,7 +185,7 @@
                 <img src="../img/patrocinador3.png" alt="Patrocinador 3" class="h-12" loading="lazy">
             </div>
         </div>
-    </section>
+    </section>*/ ?>
 
 
     <script>

@@ -228,32 +228,12 @@
 
         </ul>
       </nav>
-
-
-
     </aside>
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
 
-
-
-
-<?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
 
       <section class="space-y-6">
         <h2 class="text-3xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
