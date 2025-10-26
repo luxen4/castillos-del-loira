@@ -15,25 +15,25 @@ $texto = '
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ch%C3%A2teau_de_Villandry%2C_vue_g%C3%A9n%C3%A9rale_depuis_les_jardins_2.jpg",
+    "src" => "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/image-5491330-1920x960-crop-1720517483.webp",
     "alt" => "Vista general del castillo y jardines de Villandry",
-    "pie" => "Vista general de Villandry y sus terrazas",
-    "fuente_url" => "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Villandry,_vue_g%C3%A9n%C3%A9rale_depuis_les_jardins_2.jpg",
-    "fuente_texto" => "Wikimedia Commons"
+    "pie" => "Vista general de Villandry y sus jardines",
+    "fuente_url" => "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-y-jardines-de-villandry/",
+    "fuente_texto" => "bloischambord.es"
   ],
   [
-    "src" => "https://www.chateauvillandry.fr/wp-content/uploads/2021/06/jardin-ornement-villandry.jpg",
+    "src" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/fee/villandry-jardins-credit-adt-touraine-jc-coutand-2035-9.webp",
     "alt" => "Jardín ornamental de Villandry",
     "pie" => "Jardín ornamental con setos geométricos",
-    "fuente_url" => "https://www.chateauvillandry.fr/",
-    "fuente_texto" => "chateauvillandry.fr"
+    "fuente_url" => "https://www.valledelloira-francia.es/sitio-cultural/castillo-y-jardines-de-villandry/",
+    "fuente_texto" => "valledelloira-francia.es"
   ],
   [
-    "src" => "https://www.turismoenfrancia.es/wp-content/uploads/2022/03/Villandry-jardines-del-amor.jpg",
-    "alt" => "Jardines del Amor en Villandry",
-    "pie" => "Jardines del Amor, símbolo del romanticismo renacentista",
-    "fuente_url" => "https://www.turismoenfrancia.es/",
-    "fuente_texto" => "turismoenfrancia.es"
+    "src" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/f1a/chateau-jardins-villandry-credit-adt-touraine-jc-coutand-2032-9.webp",
+    "alt" => "Salón interior Castillo de Villandry",
+    "pie" => "Salón interior Castillo de Villandry",
+    "fuente_url" => "https://www.valledelloira-francia.es/sitio-cultural/castillo-y-jardines-de-villandry/",
+    "fuente_texto" => "valledelloira-francia.es"
   ]
 ];
 ?>

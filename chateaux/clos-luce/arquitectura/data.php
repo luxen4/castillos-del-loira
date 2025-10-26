@@ -14,25 +14,25 @@ $texto = '
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/12/Clos-Luc%C3%A9_-_Vue_g%C3%A9n%C3%A9rale.jpg",
+    "src" => "https://woody.cloudly.space/app/uploads/adt-touraine/2025/03/thumbs/Chateau_Clos_Luce_Credit_ADT_Touraine_Loic_Lagarde-2030-5-640x640.webp",
     "alt" => "Vista general del Castillo de Clos-Lucé",
     "pie" => "Vista aérea del castillo y jardines",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Clos-Luc%C3%A9",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.tourainevaldeloire.com/es/actividades/todas-las-visitas/un-dia-en-el-castillo/leonardo-da-vinci-dos-nuevas-galerias-para-descifrar-al-genio/",
+    "fuente_texto" => "tourainevaldeloire.com"
   ],
   [
-    "src" => "https://www.loirevalley-france.co.uk/images/castle-clos-luce.jpg",
+    "src" => "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/ClosLuce_Noel_2016_05_LeonarddeSerres-1-360x360.webp",
     "alt" => "Interior del Castillo de Clos-Lucé",
     "pie" => "Salones decorados y exposiciones",
-    "fuente_url" => "https://www.loirevalley-france.co.uk/castles/clos-luce.html",
-    "fuente_texto" => "loirevalley-france.co.uk"
+    "fuente_url" => "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/el-chateau-du-clos-luce/",
+    "fuente_texto" => "bloischambord.es"
   ],
   [
-    "src" => "https://media.getyourguide.com/img/location/5d2b2b2f1f1b6_closluce.jpeg",
+    "src" => "https://www.valledelloira-francia.es/app/uploads/2023/05/pontcorneor-31copyright-chateauclosluce-parcleonardodavinci-photoericsander-1024x682.webp",
     "alt" => "Jardines del Castillo de Clos-Lucé",
     "pie" => "Jardines temáticos de Leonardo",
-    "fuente_url" => "https://www.getyourguide.com/clos-luce-l332/visita-al-castillo-de-clos-luce-t234928/",
-    "fuente_texto" => "getyourguide.com"
+    "fuente_url" => "https://www.valledelloira-francia.es/descubrir/castillos-loira/castillo-clos-luce-parque-leonardo-da-vinci/",
+    "fuente_texto" => "valledelloira-francia.es"
   ]
 ];
 ?>

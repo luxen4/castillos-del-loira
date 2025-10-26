@@ -5,25 +5,25 @@ $texto = "Imágenes del elegante Castillo de Chenonceau, conocido por su galerí
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A2teau_de_Chenonceau%2C_vue_depuis_le_Cher_01.jpg",
+    "src" => "https://www.franciaturismo.net/es/wp-content/uploads/sites/17/chenonceau-hd.jpg",
     "alt" => "Castillo de Chenonceau sobre el río Cher",
     "pie" => "Vista del castillo sobre el río Cher",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Chenonceau",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.franciaturismo.net/es/loira/castillos-loira/castillo-chenonceau/",
+    "fuente_texto" => "franciaturismo.net"
   ],
   [
-    "src" => "https://cdn.getyourguide.com/img/location/5d0e1fd3f19b8.jpeg/88.jpg",
-    "alt" => "Galería sobre el río en Chenonceau",
-    "pie" => "Galería principal sobre el río",
-    "fuente_url" => "https://www.getyourguide.es/valle-del-loira-l325/visita-al-castillo-de-chenonceau-t234928/",
-    "fuente_texto" => "getyourguide.es"
+    "src" => "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cDovL21lZGlhcy50b3VyaXNtLXN5c3RlbS5mci82LzMvMjMzODA0X2dhbGVyaWVjaGVub25jZWF1aW1hZ2VzZGVtYXJjLmpwZw==/image.webp",
+    "alt" => "Interior del Castillo de Chenonceau",
+    "pie" => "Interior del Castillo de Chenonceau",
+    "fuente_url" => "https://www.bloischambord.es/offertas/chateau-de-chenonceau-chenonceaux-es-255014/",
+    "fuente_texto" => "bloischambord.es"
   ],
   [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-chenonceau-3.jpg",
+    "src" => "https://www.castlesintheworld.com/es/wp-content/uploads/jardines-castillo-chenonceau-francia-1024x683.jpg",
     "alt" => "Jardines del Castillo de Chenonceau",
     "pie" => "Jardines de Diana de Poitiers",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-chenonceau/",
-    "fuente_texto" => "viajeroscallejeros.com"
+    "fuente_url" => "https://www.castlesintheworld.com/es/castillos-francia/castillo-chenonceau/",
+    "fuente_texto" => "castlesintheworld.com"
   ]
 ];
 ?>

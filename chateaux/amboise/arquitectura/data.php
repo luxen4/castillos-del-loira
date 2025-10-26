@@ -15,25 +15,25 @@ $texto = '
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/2/26/Chateau_d%27Amboise_2011.JPG",
+    "src" => "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/image-7272645-1920x640-crop-1721314163.webp",
     "alt" => "Vista del Castillo de Amboise sobre el Loira",
     "pie" => "El Castillo de Amboise dominando el río Loira",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Amboise",
+    "fuente_url" => "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-amboise/",
+    "fuente_texto" => "bloischambord.es"
+  ],
+  [
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ch%C3%A2teau_d%27Amboise_07.jpg/960px-Ch%C3%A2teau_d%27Amboise_07.jpg",
+    "alt" => "Terrazas del Castillo de Amboise con vistas al Loira",
+    "pie" => "Terrazas con vistas panorámicas del valle",
+    "fuente_url" => "https://es.wikipedia.org/wiki/Archivo:Ch%C3%A2teau_d%27Amboise_07.jpg",
     "fuente_texto" => "wikipedia.org"
   ],
   [
-    "src" => "https://www.france.fr/sites/default/files/styles/hero_image/public/medias/images/2020-09/chateau-d-amboise.jpg",
-    "alt" => "Terrazas del Castillo de Amboise con vistas al Loira",
-    "pie" => "Terrazas con vistas panorámicas del valle",
-    "fuente_url" => "https://www.france.fr/es/valle-del-loira/articulo/chateau-d-amboise",
-    "fuente_texto" => "france.fr"
-  ],
-  [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-amboise.jpg",
+    "src" => "https://castlesandcoffeehouses.com/wp-content/uploads/2018/10/img_3117.jpg",
     "alt" => "Capilla de Saint-Hubert en Amboise",
     "pie" => "Capilla gótica donde descansa Leonardo da Vinci",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-amboise/",
-    "fuente_texto" => "viajeroscallejeros.com"
+    "fuente_url" => "https://castlesandcoffeehouses.com/2019/02/19/st-huberts-chapel-at-amboise-a-resting-place-for-leonardo-da-vinci/",
+    "fuente_texto" => "castlesandcoffeehouses.com"
   ]
 ];
 ?>

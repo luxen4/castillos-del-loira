@@ -14,7 +14,7 @@ Además, su cercanía al océano Atlántico y su animada escena cultural la conv
 
 Con historia, creatividad y espíritu joven, <strong>Nantes</strong> combina lo mejor del pasado y del futuro francés en un entorno acogedor y cosmopolita.";
 
-$imagenHero = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-9hfxA9uLKhxxyDnU8hSTzF5l5xvWeKP1sSXi0eD11BTG0hDtvVn3tu8Mplzv0C4UB9V8x9E6A9NMGqgEhcPYFjMLl3pWnKj4Q6O1LhS5xUQTFH9HcbGrR9vkkO8j7CwcbyegE0fqv8CEJYc9E7Y8X3CZmMugE5vA7KQ7m3XnRS8KpzKBS8ZyupOq4A/s16000/nantes-valle-del-loira.jpg";
+$imagenHero = "https://asset-prod.france.fr/Adobe_Stock_369913603_Editorial_Use_Only_2_b21813ce36.jpeg";
 $web_oficial = "https://www.nantes-tourisme.com/";
 $fuenteHero_texto = "nantes-tourisme.com";
 
@@ -23,6 +23,13 @@ $otros_castillos = [
   ["Château de Clisson", "Clisson.php"],
   ["Château de Goulaine", "Goulaine.php"]
 ];
+/*
+$enlaces = [
+  ["Turismo oficial", "https://www.nantes-tourisme.com/"],
+  ["Château des Ducs de Bretagne", "https://www.chateaunantes.fr/"],
+  ["Google Maps", "https://maps.app.goo.gl/UbQRT1jF6CqF2Lx97"],
+];
+*/
 
 // Variables dinámicas para SEO
 $keywords = "Nantes, Valle del Loira, Château des Ducs de Bretagne, Machines de l’Île, turismo Francia, Bretaña, arte urbano, castillos del Loira, qué ver en Nantes";
@@ -33,13 +40,7 @@ $direccion = "Nantes, Valle del Loira, Francia";
 $horario_apertura = "00:00";
 $horario_cierre = "23:59";
 
-/*
-$enlaces = [
-  ["Turismo oficial", "https://www.nantes-tourisme.com/"],
-  ["Château des Ducs de Bretagne", "https://www.chateaunantes.fr/"],
-  ["Google Maps", "https://maps.app.goo.gl/UbQRT1jF6CqF2Lx97"],
-];
-*/
+
 
 $relacionadas = [
   ["Angers", "Angers.php"],

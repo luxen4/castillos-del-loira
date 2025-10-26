@@ -49,10 +49,6 @@
 
 
 
-
-
-
-
 <!-- 🔹 Contenido Principal -->
 <main class="container mx-auto px-6 py-12 grid lg:grid-cols-12 gap-10">
 

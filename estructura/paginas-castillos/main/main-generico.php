@@ -19,7 +19,6 @@
             require "{$slug}/{$slug_section}/data.php"; 
             require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/introduccion/template-introduccion-generico.php"; ?>
 
-
         <!-- Historia -->
         <?php $slug_section = "historia";
             require "{$slug}/{$slug_section}/data.php"; 

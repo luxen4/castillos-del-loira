@@ -14,25 +14,25 @@ $texto = '
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/6/6a/Château_de_Blois_-_Vue_générale.jpg",
+    "src" => "https://www.cometoparis.com/data/layout_grouping/product_index_slideshow/56017_chateau-royal-de-blois-f-christophe.1000w.jpg?ver=1675417849",
     "alt" => "Vista general del Castillo de Blois",
     "pie" => "Vista aérea del castillo",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Blois",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.cometoparis.com/spa/castillos-del-loira/castillo-real-de-blois-m9000873",
+    "fuente_texto" => "cometoparis.com"
   ],
   [
-    "src" => "https://www.loirevalley-france.co.uk/images/castle-blois.jpg",
+    "src" => "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/132000/132715-Chateau-De-Blois.jpg",
     "alt" => "Patio del Castillo de Blois",
     "pie" => "Patio central",
-    "fuente_url" => "https://www.loirevalley-france.co.uk/castles/blois.html",
-    "fuente_texto" => "loirevalley-france.co.uk"
+    "fuente_url" => "https://www.expedia.es/Castillo-De-Blois-Blois.d6107672.Puntos-de-Interes",
+    "fuente_texto" => "expedia.es"
   ],
   [
-    "src" => "https://media.getyourguide.com/img/location/5d2b2b2f1f1b6.jpeg",
+    "src" => "https://media.istockphoto.com/id/579422052/es/foto/el-castillo-real-de-blois-iluminado-por-la-noche.jpg?s=612x612&w=0&k=20&c=ejm7rd0wC3BM1ia1hdW-fXhXdxa9Ry7jq1Plv9bYtGA=",
     "alt" => "Escalera renacentista del Castillo de Blois",
-    "pie" => "Escalera renacentista",
-    "fuente_url" => "https://www.getyourguide.com/blois-l332/visita-al-castillo-de-blois-t234928/",
-    "fuente_texto" => "getyourguide.com"
+    "pie" => "Escalera renacentista del castillo iluminado por la noche",
+    "fuente_url" => "https://www.istockphoto.com/es/fotos/castillo-de-blois-fotos",
+    "fuente_texto" => "istockphoto.com"
   ]
 ];
 ?>

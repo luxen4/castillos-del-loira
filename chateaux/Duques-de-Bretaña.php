@@ -2,7 +2,7 @@
 $nombreLugar = "Castillo de los Duques de Bretaña";
 $ciudad = "Nantes";
 $descripcion = "El Castillo de los Duques de Bretaña (Château des Ducs de Bretagne) es una fortaleza medieval y palacio renacentista en el corazón de Nantes. Alberga el Museo de Historia de la ciudad y combina patrimonio, arte y tecnología para ofrecer una experiencia cultural única.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chateau_des_ducs_de_Bretagne_Nantes.jpg";
+$imagenHero = "https://i.ytimg.com/vi/qS0HxHLBBLc/maxresdefault.jpg";
 $web_oficial = "https://www.chateaunantes.fr/";
 
 $otros_castillos = [
@@ -100,12 +100,8 @@ $castillos_cercanos = [
       <p>Su mezcla de estilos gótico y renacentista lo convierte en uno de los monumentos más representativos del patrimonio bretón.</p>
     </section>
 
-    <!-- Museo -->
-    <section id="museo" class="mt-10">
-      <h2 class="text-2xl font-bold text-emerald-700 mb-4">Museo de Historia de Nantes</h2>
-      <p>El castillo alberga el <strong>Museo de Historia de Nantes</strong>, con 32 salas que presentan la evolución de la ciudad, desde el comercio atlántico y la industrialización hasta su papel actual como capital regional.</p>
-      <p>Exposiciones temporales, proyecciones audiovisuales y talleres educativos hacen del museo una visita ideal para todas las edades.</p>
-    </section>
+
+
 
     <!-- Galería -->
     <section id="galeria" class="mt-10">
@@ -113,32 +109,32 @@ $castillos_cercanos = [
       <div class="grid md:grid-cols-3 gap-4 mt-4">
 
         <figure class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Chateau_des_ducs_de_Bretagne_Nantes.jpg" 
+          <img src="https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg" 
                alt="Fachada principal del castillo de los Duques de Bretaña" 
                class="w-full h-48 object-cover">
           <figcaption class="p-2 text-gray-600 text-sm text-center">
             Fachada principal <br> Fuente: 
-            <a href="https://es.wikipedia.org/wiki/Castillo_de_los_Duques_de_Breta%C3%B1a" target="_blank" class="text-blue-600 underline">Wikipedia</a>
+            <a href="https://www.levoyageanantes.fr/es/lugares/castillo-de-los-duques-de-bretana/" target="_blank" class="text-blue-600 underline">levoyageanantes.fr</a>
           </figcaption>
         </figure>
 
         <figure class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://www.nantes-tourisme.com/sites/default/files/styles/visuel_principal/public/2020-09/Ch%C3%A2teau%20des%20ducs%20de%20Bretagne_0.jpg" 
+          <img src="https://www.france-voyage.com/visuals/photos/museo-castillo-duques-bretana-39018_w600.webp" 
                alt="Patio interior del castillo de Nantes" 
                class="w-full h-48 object-cover">
           <figcaption class="p-2 text-gray-600 text-sm text-center">
             Patio interior <br> Fuente: 
-            <a href="https://www.nantes-tourisme.com/" target="_blank" class="text-blue-600 underline">nantes-tourisme.com</a>
+            <a href="https://www.france-voyage.com/francia-guia-turismo/museo-castillo-duques-bretana-2602.htm" target="_blank" class="text-blue-600 underline">france-voyage.com</a>
           </figcaption>
         </figure>
 
         <figure class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://www.france.fr/sites/default/files/styles/og_image/public/medias/2020-07/chateau-nantes-hero.jpg" 
+          <img src="https://us.123rf.com/450wm/edu1971/edu19711602/edu1971160200045/53736862-castillo-y-las-murallas-de-carcassonne-en-la-noche.jpg?ver=6" 
                alt="Vista nocturna del castillo iluminado" 
                class="w-full h-48 object-cover">
           <figcaption class="p-2 text-gray-600 text-sm text-center">
             Vista nocturna <br> Fuente: 
-            <a href="https://www.france.fr/es/articulo/castillo-de-los-duques-de-bretana-nantes" target="_blank" class="text-blue-600 underline">france.fr</a>
+            <a href="https://es.123rf.com/photo_34018027_castillo-de-los-duques-de-breta%C3%B1a-nantes-francia.html" target="_blank" class="text-blue-600 underline">es.123rf.com</a>
           </figcaption>
         </figure>
 
