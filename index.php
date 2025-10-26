@@ -497,12 +497,14 @@
 
   </div>
 
+<?php // require "galeria-imagenes-carrusel-automático.php"; ?>
+
 
 
   <!-- 🔹 Footer -->
   <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
     <div class="container mx-auto px-6 text-center space-y-2">
-      <p>&copy; <?= date('Y'); ?> Adrián LAya García. Todos los derechos reservados.</p>
+      <p>&copy; <?= date('Y'); ?> Adrián Laya García. Todos los derechos reservados.</p>
       <p>
         📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">superlaya50@gmail.com</a>
       </p>

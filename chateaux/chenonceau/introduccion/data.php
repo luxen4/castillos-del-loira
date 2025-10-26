@@ -3,21 +3,19 @@
 $introduccion = [
   "id" => "introduccion",
   "titulo" => "🏰 Descubre el Castillo de Chenonceau",
-"parrafos" => [
-  "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <strong>Valle del Loira</strong>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
+  "parrafos" => [
+    "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <strong>Valle del Loira</strong>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
 
-  "Su historia está marcada por la influencia de mujeres poderosas como <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>, que embellecieron el castillo y dejaron en él una profunda huella artística y arquitectónica.",
+    "Su historia está marcada por la influencia de mujeres poderosas como <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>, que embellecieron el castillo y dejaron en él una profunda huella artística y arquitectónica.",
 
-  "El interior conserva una refinada decoración con techos artesonados, tapices flamencos y mobiliario de época, ofreciendo una inmersión en el esplendor del siglo XVI.",
+    "El interior conserva una refinada decoración con techos artesonados, tapices flamencos y mobiliario de época, ofreciendo una inmersión en el esplendor del siglo XVI.",
 
-  "Los jardines, diseñados con precisión geométrica, ofrecen una vista magnífica del castillo y del río. Cada rincón combina arte, naturaleza y armonía, reflejando el gusto y la elegancia de sus antiguas propietarias.",
+    "Los jardines, diseñados con precisión geométrica, ofrecen una vista magnífica del castillo y del río. Cada rincón combina arte, naturaleza y armonía, reflejando el gusto y la elegancia de sus antiguas propietarias.",
 
-  "Más que una residencia real, Chenonceau es un símbolo de equilibrio entre poder, belleza y sensibilidad artística, lo que lo convierte en uno de los destinos más admirados del <strong>Valle del Loira</strong>.",
+    "Más que una residencia real, Chenonceau es un símbolo de equilibrio entre poder, belleza y sensibilidad artística, lo que lo convierte en uno de los destinos más admirados del <strong>Valle del Loira</strong>.",
 
-  "A lo largo de los siglos, Chenonceau ha sido escenario de fiestas, intrigas cortesanas y, más tarde, refugio durante las guerras."
-
-  ]
-
+    "A lo largo de los siglos, Chenonceau ha sido escenario de fiestas, intrigas cortesanas y, más tarde, refugio durante las guerras."
+    ]
 ];
 
 $texto = "Imágenes del elegante Castillo de Chenonceau, conocido por su galería sobre el río Cher y sus hermosos jardines renacentistas.";
