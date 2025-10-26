@@ -1,9 +1,9 @@
 <!-- Sección: Arquitectura y Jardines -->
-<section id="arquitectura" class="mt-10">
+
+  <?php /*<section id="arquitectura" class="mt-10">
   <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $titulo ?></h2>
   <p class="text-gray-700 mb-4"><?= $texto ?></p>
-
-  <?php if (!empty($figuras)): ?>
+if (!empty($figuras)): ?>
   <div class="grid md:grid-cols-3 gap-4">
     <?php foreach ($figuras as $fig): ?>
       <figure class="bg-white rounded-lg shadow overflow-hidden">
@@ -17,5 +17,5 @@
       </figure>
     <?php endforeach; ?>
   </div>
-  <?php endif; ?>
-</section>
+  <?php endif; </section>*/?>
+

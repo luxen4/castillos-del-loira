@@ -1,4 +1,5 @@
-<section id="<?= $slug_section;?>" class="mt-10">
+<?php /*
+  <section id="<?= $slug_section;?>" class="mt-10">    
   <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $titulo ?></h2>
   <p class="text-gray-700 mb-4"><?= $texto ?></p>
   <div class="grid md:grid-cols-3 gap-4">
@@ -13,5 +14,6 @@
         </figcaption>
       </figure>
     <?php endforeach; ?>
-  </div>
+  </div> 
 </section>
+*/ ?>

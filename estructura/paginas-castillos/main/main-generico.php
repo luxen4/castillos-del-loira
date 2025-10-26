@@ -4,7 +4,7 @@
       <aside class="lg:col-span-3 space-y-6">
           <div class="bg-emerald-50 p-4 rounded-lg shadow">
 
-              <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-izquierdo/anclas/data.php"; ?>
+              <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-izquierdo/anclas/data.php"; ?>
               <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
 
           </div>
@@ -19,21 +19,6 @@
             require "{$slug}/{$slug_section}/data.php"; 
             require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/introduccion/template-introduccion-generico.php"; ?>
 
-        <!-- Historia -->
-        <?php $slug_section = "historia";
-            require "{$slug}/{$slug_section}/data.php"; 
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/historia/template-historia-generico.php"; ?>
-
-        <!-- Arquitectura -->
-        <?php $slug_section = "arquitectura";
-            require "{$slug}/{$slug_section}/data.php";
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/arquitectura/template-arquitectura-generico.php"; ?>
-
-        <!-- Galería -->
-        <?php $slug_section = "galeria";
-            require "{$slug}/{$slug_section}/data.php";
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/print-section-generico.php"; ?>
-
         <!-- Consejos -->
         <?php $slug_section = "consejos";
             require "{$slug}/{$slug_section}/data.php"; 
@@ -43,7 +28,6 @@
         <?php $slug_section = "informacion-practica";
             require "{$slug}/{$slug_section}/data.php";
             require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/informacion-practica/template-informacion-practica-generico.php"; ?>
-
             
       <?php require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
     </article>
