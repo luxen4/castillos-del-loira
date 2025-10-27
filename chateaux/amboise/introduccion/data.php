@@ -24,25 +24,25 @@ $texto = "Imágenes del majestuoso Castillo de Amboise, residencia real del Rena
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/2/26/Chateau_d%27Amboise_2011.JPG",
+    "src" => "https://cdn-imgix.headout.com/media/images/a58e5cf6513e127cfa146f815a53b3ba-AdobeStock-187387008.jpeg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
     "alt" => "Castillo de Amboise sobre el río Loira",
     "pie" => "Vista general del Castillo de Amboise sobre el Loira",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Amboise",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.loirevalley-tickets.com/es/chateau-amboise/",
+    "fuente_texto" => "loirevalley-tickets.com"
   ],
   [
-    "src" => "https://www.france.fr/sites/default/files/styles/hero_image/public/medias/images/2020-09/chateau-d-amboise.jpg",
-    "alt" => "Terrazas del Castillo de Amboise",
-    "pie" => "Terrazas con vistas panorámicas del valle del Loira",
-    "fuente_url" => "https://www.france.fr/es/valle-del-loira/articulo/chateau-d-amboise",
-    "fuente_texto" => "france.fr"
+    "src" => "https://cdn-imgix.headout.com/media/images/617a6bdfef206ec86767340977c85537-AdobeStock-264550071.jpeg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
+    "alt" => "Vista aerea del Castillo de Amboise",
+    "pie" => "Vista aerea del Castillo de Amboise",
+    "fuente_url" => "https://www.loirevalley-tickets.com/es/chateau-amboise/",
+    "fuente_texto" => "loirevalley-tickets.com"
   ],
   [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-amboise.jpg",
+    "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Capilla_de_Saint-Hubert_-_Castillo_de_Amboise_%284081838052%29.jpg/675px-Capilla_de_Saint-Hubert_-_Castillo_de_Amboise_%284081838052%29.jpg?20170111193414",
     "alt" => "Capilla de Saint-Hubert en Amboise",
     "pie" => "Capilla gótica donde descansan los restos de Leonardo da Vinci",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-amboise/",
-    "fuente_texto" => "viajeroscallejeros.com"
+    "fuente_url" => "https://commons.wikimedia.org/wiki/File:Capilla_de_Saint-Hubert_-_Castillo_de_Amboise_%284081838052%29.jpg",
+    "fuente_texto" => "wikimedia.org"
   ]
 ];
 ?>

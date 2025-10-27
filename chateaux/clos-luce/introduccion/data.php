@@ -30,19 +30,19 @@ $figuras = [
     "fuente_url" => "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/el-chateau-du-clos-luce/",
     "fuente_texto" => "bloischambord.es"
     ],  [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/15/Clos_Luc%C3%A9_2010.jpg",
-    "alt" => "Vista exterior del Castillo de Clos-Lucé",
-    "pie" => "Fachada principal",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Clos-Luc%C3%A9",
-    "fuente_texto" => "wikipedia.org"
+    "src" => "https://es.derutaenfamilia.com/wp-content/uploads/sites/2/2022/04/castillo_clos_luce_derutaenfamilia_004.jpg",
+    "alt" => "Jardines del Castillo de Clos-Lucé",
+    "pie" => "Jardines del Castillo de Clos-Lucé",
+    "fuente_url" => "https://es.derutaenfamilia.com/castillo-clos-luce/",
+    "fuente_texto" => "derutaenfamilia.com"
   ],
 
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0c/Clos_Luc%C3%A9_jardin.jpg",
-    "alt" => "Jardines del Castillo de Clos-Lucé",
-    "pie" => "Jardines renacentistas",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Clos-Luc%C3%A9",
-    "fuente_texto" => "wikipedia.org"
+    "src" => "https://es.derutaenfamilia.com/wp-content/uploads/sites/2/2022/04/mapa_clos_luce.jpg",
+    "alt" => "Plano del parque del Castillo de Clos-Lucé",
+    "pie" => "Plano del parque del Castillo de Clos-Lucé",
+    "fuente_url" => "https://es.derutaenfamilia.com/castillo-clos-luce/",
+    "fuente_texto" => "derutaenfamilia.com"
   ]
   ]
 ?>
