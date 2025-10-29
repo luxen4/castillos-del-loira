@@ -60,11 +60,11 @@ echo '
   <p class="text-gray-700 leading-relaxed">
     Pasar un <strong>fin de semana en Orléans</strong> es una excelente manera de descubrir la historia, la cultura y el encanto del <strong>Valle del Loira</strong>. 
     Puedes comenzar explorando la majestuosa 
-    <a href="https://www.cathedrale-orleans.fr/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Catedral Sainte-Croix</a>, 
+    <a href="orleans/lugares-interesantes/Catedral-Sainte-Croix.php" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Catedral Sainte-Croix</a>, 
     pasear por la <strong>Place du Martroi</strong> con su icónica estatua de Juana de Arco y recorrer las calles peatonales del centro histórico llenas de tiendas y cafés.  
     Para una experiencia cultural, visita el 
-    <a href="https://www.mbaorleans.fr/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Musée des Beaux-Arts</a> 
-    o el <a href="https://www.hotel-groslot.fr/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Hôtel Groslot</a>, 
+    <a href="orleans/lugares-interesantes/musse-des-beaux-arts-d-orleans/index.php" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Musée des Beaux-Arts</a> 
+    o el <a href="orleans/lugares-interesantes/hotel-groslot/index.php" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Hôtel Groslot</a>, 
     antigua residencia de reyes franceses.  
     Por la tarde, disfruta de un paseo junto al <strong>río Loira</strong> o un crucero fluvial, y termina el día cenando en uno de los excelentes restaurantes locales.
   </p>

@@ -14,10 +14,10 @@ $items = [
     "titulo" => "Vinos de Anjou",
     "descripcion" => "El Valle del Loira es famoso por sus vinos, y Angers es el corazón del Anjou: cata sus tintos suaves, rosados afrutados y blancos elegantes.",
     "imagen" => [
-      "src" => "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2022/07/thumbs/concert-degustation-vignerons-anjou-1920x960.webp",
+      "src" => "https://www.france-voyage.com/visuals/photos/vinos-anjou-saumur-32573_w600.webp",
       "alt" => "Vinos de Anjou",
-      "fuente" => "https://www.destination-angers.com/es/turismo/lo-mas-importante/viaje-gastronomico-y-vinedos-de-anjou/los-vinos-de-anjou-saumur/",
-      "fuente_texto" => "destination-angers.com"
+      "fuente" => "https://www.france-voyage.com/francia-gastronomia/vinos-anjou-saumur-482.htm",
+      "fuente_texto" => "france-voyage.com"
     ]
   ],
   [
