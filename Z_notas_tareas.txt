@@ -1,35 +1,8 @@
-<?php 
-/*
-ftpupload.net
-
-FTP USERNAME
-if0_38843592
-
-USERNAME
-if0_38843592 
-
-
-PASSWORD
-5HJqjWqYLP4k
-
-http://playas2025.kesug.com/Blog_Playas2025/
-https: //playas2025.kesug.com/Blog_Playas2025/
-
-
-
-
-https://chatgpt.com/?model=auto
-
-
-*/    
-?>
-
-Tareas:
-    Home
-        Contenido -> OK
-        Ciudades y Castillos -> Todas las ciudades tienen su web que será un template con sus variables.
-        Seguir con los castillos que quedan desde la página del castillo de Villandry
-
+web                 -> infinityfreeapp.com
+host                -> ftpupload.net
+Web-Site            -> https://alayag82.kesug.com
+FTP USERNAME        -> if0_40288667
+Account Password    -> C0A4EDDScACvEPt
 
 
 Descarga de <i class="fa fa-youtube" aria-hidden="true"></i>
@@ -39,14 +12,3 @@ https://www.dreamstime.com/royalty-free-stock-photo-zipped-folder-image16775325?
 
 Armin van Buuren
 https://www.youtube.com/watch?v=YWNUQQ0_IJg
-
-
-
-
-
-
-
-
-Chateaux
-    Imágenes:
-        Blois-> OK
