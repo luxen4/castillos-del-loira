@@ -1,3 +1,11 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
+
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retrato-francisco-I.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
+
+
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE VILLANDRY
 $introduccion = [
@@ -6,7 +14,8 @@ $introduccion = [
 "parrafos" => [
   "El <strong>Castillo de Villandry</strong>, situado a orillas del <strong>río Loira</strong>, es una de las joyas más refinadas del <strong>Renacimiento francés</strong>. Su elegancia arquitectónica y la perfección de sus jardines lo convierten en un símbolo de armonía entre arte, naturaleza y geometría.",
 
-  "Construido a comienzos del siglo XVI por <strong>Jean Le Breton</strong>, ministro de finanzas de <strong>Francisco I</strong>, el castillo refleja el equilibrio y la racionalidad del Renacimiento. Su fachada sobria y simétrica resalta la belleza del entorno y contrasta con la exuberancia de los jardines que lo rodean.",
+  "Construido a comienzos del siglo XVI por <strong>Jean Le Breton</strong>, ministro de finanzas de <strong>Francisco I</strong>, el castillo refleja el equilibrio y la racionalidad del Renacimiento. Su fachada sobria y simétrica resalta la belleza del entorno y contrasta con la exuberancia de los jardines que lo rodean."
+  . $retratos_FranciscoI_y_Villandry,
 
   "Los <strong>jardines de Villandry</strong> son su verdadero tesoro: un conjunto de terrazas divididas en jardines ornamentales, de agua, medicinales y, sobre todo, el famoso <strong>jardín del amor</strong>, diseñado con figuras simbólicas que representan las distintas fases del sentimiento amoroso.",
 
@@ -25,25 +34,25 @@ $texto = "Imágenes del impresionante Castillo de Villandry y sus famosos jardin
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/6/6b/Villandry_Castle_France.jpg",
-    "alt" => "Vista frontal del Castillo de Villandry",
-    "pie" => "Fachada principal",
-    "fuente_url" => "https://commons.wikimedia.org/wiki/File:Villandry_Castle_France.jpg",
-    "fuente_texto" => "Wikimedia Commons"
+    "src" => "https://www.chateauvillandry.fr/wp-content/uploads/2021/12/chateauvillandry-renaissance-reconstitution-3d-dripmoon.jpg",
+    "alt" => "Vista aerea del Castillo de Villandry",
+    "pie" => "Vista aerea del Castillo de Villandry",
+    "fuente_url" => "https://www.chateauvillandry.fr/villandry-through-the-ages/the-chateau-de-villandry-during-the-renaissance/?lang=en",
+    "fuente_texto" => "chateauvillandry.fr"
   ],
   [
-    "src" => "https://www.gettyimages.es/detail/foto/jardines-del-castillo-de-villandry-francia-royalty-free-image/1182345679",
+    "src" => "https://photos.smugmug.com/Vallee-loire/n-XkSzNF/Tours/Chateau-de-Villandry/i-2LJx9jV/0/2g8cgvxrmQcCv48QLLqdXr9ZwqtZ66FW27q65zhh/L/chateau-villandry-jardin-L.jpg",
     "alt" => "Jardines del castillo de Villandry",
     "pie" => "Jardines renacentistas",
-    "fuente_url" => "https://www.gettyimages.es/detail/foto/jardines-del-castillo-de-villandry-francia-royalty-free-image/1182345679",
-    "fuente_texto" => "gettyimages.es"
+    "fuente_url" => "https://loirelovers.fr/es/visitar-chateau-villandry-castillo/",
+    "fuente_texto" => "loirelovers.fr"
   ],
   [
-    "src" => "https://images.unsplash.com/photo-1562714309-7c60bb5d5db5",
+    "src" => "https://www.viajandoconpio.com/wp-content/uploads/2023/03/984462_HDR.jpg",
     "alt" => "Reflejo del castillo en el agua",
-    "pie" => "Reflejo en el foso",
-    "fuente_url" => "https://unsplash.com/photos/xxxxxx",
-    "fuente_texto" => "unsplash.com"
+    "pie" => "Reflejo del castillo en el agua",
+    "fuente_url" => "https://www.viajandoconpio.com/el-castillo-de-villandry-un-tesoro-frances/",
+    "fuente_texto" => "viajandoconpio.com"
   ],  [
     "src" => "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/image-5491330-1920x960-crop-1720517483.webp",
     "alt" => "Vista general del castillo y jardines de Villandry",
@@ -59,11 +68,11 @@ $figuras = [
     "fuente_texto" => "valledelloira-francia.es"
   ],
   [
-    "src" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/f1a/chateau-jardins-villandry-credit-adt-touraine-jc-coutand-2032-9.webp",
+    "src" => "https://www.viajandoconpio.com/wp-content/uploads/2023/03/984314_HDR-1000x666.jpg.webp",
     "alt" => "Salón interior Castillo de Villandry",
     "pie" => "Salón interior Castillo de Villandry",
-    "fuente_url" => "https://www.valledelloira-francia.es/sitio-cultural/castillo-y-jardines-de-villandry/",
-    "fuente_texto" => "valledelloira-francia.es"
+    "fuente_url" => "https://www.viajandoconpio.com/el-castillo-de-villandry-un-tesoro-frances/",
+    "fuente_texto" => "viajandoconpio.com"
   ]
 ];
 ?>

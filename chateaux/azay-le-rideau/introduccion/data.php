@@ -1,13 +1,38 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
+
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos_Azay.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
+
+
+
+
+
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE AZAY-LE-RIDEAU
 $introduccion = [
   "id" => "introduccion",
-  "titulo" => "🏰 Descubre el Castillo de Azay-le-Rideau",
+  "titulo" => "✨ Azay-le-Rideau: un palacio sobre el agua",
+
   "parrafos" => [
-    "<?= \$descripcion ?>",
-    "Construido entre los siglos XVI y XVII sobre una isla en el río Indre, Azay-le-Rideau combina elegancia renacentista y fortaleza medieval. Sus torres reflejadas en el agua y sus jardines cuidadosamente diseñados lo convierten en una visita imprescindible del Valle del Loira."
+
+    "Considerado uno de los castillos más elegantes del <strong>Valle del Loira</strong>, el <strong>Castillo de Azay-le-Rideau</strong> se alza como un sueño de piedra blanca flotando sobre las aguas del río <strong>Indre</strong>. Su reflejo perfecto crea un efecto mágico que ha convertido este castillo en una de las estampas más románticas del patrimonio francés.",
+
+    "Construido en el siglo <strong>XVI</strong> por <strong>Gilles Berthelot</strong>, un rico tesorero de Francisco I, Azay-le-Rideau es una joya del primer <strong>Renacimiento francés</strong>. Fusiona la tradición defensiva medieval —torres, matacanes, fosos— con la elegancia renacentista inspirada en los palacios italianos. Armonía, proporción y refinamiento son las palabras que mejor definen su arquitectura.",
+
+    "Su historia está marcada por el ascenso social y la caída de su propietario. Tras un aumento de sospechas sobre su gestión financiera, <strong>Francisco I</strong> tomó posesión del castillo, que pasó definitivamente a manos de la Corona. Desde entonces, Azay-le-Rideau ha sido residencia de nobles y, más tarde, símbolo del arte de vivir a la francesa."
+    . $retratos_Azay,
+
+    "El interior sorprende por su escalera de honor, una de las primeras escaleras rectas autoportantes de Francia, decorada con relieves de salamandras —emblema de Francisco I—. Sus aposentos, restaurados con mobiliario del siglo XVI y XVII, permiten sumergirse en la vida cotidiana de la nobleza renacentista.",
+
+    "Los jardines paisajísticos que rodean el castillo fueron diseñados en época romántica. Senderos curvos, árboles centenarios y el sonido tranquilo del agua invitan a pasear sin prisa. En los días soleados, el castillo parece flotar, reflejado en un espejo perfecto.",
+
+    "<strong>Azay-le-Rideau</strong> no es solo un castillo, es una experiencia sensorial: el murmullo del agua, la luz que baña la piedra y la delicadeza de sus proporciones hacen de él una obra maestra del Renacimiento francés. Un lugar donde historia y belleza se funden en una imagen inolvidable."
   ]
+
 ];
+
 
 
 
@@ -16,46 +41,34 @@ $titulo = "📸 Galería";
 $texto = "Imágenes del Castillo de Azay-le-Rideau, destacado por su arquitectura renacentista sobre el río Indre y sus elegantes jardines.";
 
 $figuras = [
+
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/1a/Azay-le-Rideau_-_château.jpg",
-    "alt" => "Castillo de Azay-le-Rideau sobre el río Indre",
-    "pie" => "Vista del castillo reflejado en el río Indre",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Azay-le-Rideau",
-    "fuente_texto" => "wikipedia.org"
-  ],
+    "src" => "https://cdn-imgix.headout.com/media/images/9e1a16cf7e03351f595ba77195e2bdde-27057-Fullday-Villandry-Azay-le-Rideau-Vouvraywinetour---002.jpg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
+    "alt" => "Entrada principal al Castillo de Azay-le-Rideau",
+    "pie" => "Entrada principal al Castillo de Azay-le-Rideau",
+    "fuente_url" => "https://www.loirevalley-tickets.com/es/chateau-azay-le-rideau/",
+    "fuente_texto" => "loirevalley-tickets.com"
+  ], 
   [
-    "src" => "https://www.france-voyage.com/photos/loire-valley/azay-le-rideau-chateau.jpg",
-    "alt" => "Fachada principal de Azay-le-Rideau",
-    "pie" => "Fachada y torre principal",
-    "fuente_url" => "https://www.france-voyage.com/castillos/azay-le-rideau.htm",
-    "fuente_texto" => "france-voyage.com"
-  ],
-  [
-    "src" => "https://media-cdn.tripadvisor.com/media/photo-s/12/34/56/78/jardines-del-castillo.jpg",
-    "alt" => "Jardines del Castillo de Azay-le-Rideau",
-    "pie" => "Jardines renacentistas",
-    "fuente_url" => "https://www.tripadvisor.es/Attraction_Review-g608166-d319839-Reviews-Chateau_d_Azay_le_Rideau-Azay_le_Rideau_Indre_et_Loire_Centre_Val_de_Loire.html",
-    "fuente_texto" => "tripadvisor.es"
-  ],  [
-    "src" => "https://thumbs.dreamstime.com/b/castillo-de-azay-le-rideau-reflexionando-sobre-las-aguas-del-r%C3%ADo-indre-el-majestuoso-y-su-reflejo-en-tranquilas-un-d%C3%ADa-soleado-383791997.jpg?w=400",
+    "src" => "https://www.azay-chinon-valdeloire.com/wp-content/uploads/2019/07/bg-login-1600x900.jpg",
     "alt" => "Castillo de Azay-le-Rideau sobre el río Indre",
     "pie" => "Azay-le-Rideau reflejado en el río",
-    "fuente_url" => "https://es.dreamstime.com/castillo-de-azay-le-rideau-reflexionando-sobre-las-aguas-del-r%C3%ADo-indre-el-majestuoso-y-su-reflejo-en-tranquilas-un-d%C3%ADa-soleado-video383791997",
-    "fuente_texto" => "es.dreamstime.com"
+    "fuente_url" => "https://www.azay-chinon-valdeloire.com/es/descubrir-azay-le-rideau/",
+    "fuente_texto" => "azay-chinon-valdeloire.com"
   ],
   [
-    "src" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/e92/chateau-azay-le-rideau-leonard-de-serres--2-.webp",
+    "src" => "https://cdn-imgix.headout.com/media/images/2442d7d81937f06d0d4304e409f4c3fe-12777-LoireValley-TicketstoAzay-le-RideauCastle-002.jpg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
     "alt" => "Interior del Castillo de Azay-le-Rideau",
     "pie" => "Interior del Castillo de Azay-le-Rideau",
-    "fuente_url" => "https://www.valledelloira-francia.es/sitio-cultural/castillo-de-azay-le-rideau/",
-    "fuente_texto" => "valledelloira-francia.es"
+    "fuente_url" => "https://www.loirevalley-tickets.com/es/chateau-azay-le-rideau/",
+    "fuente_texto" => "loirevalley-tickets.com"
   ],
   [
-    "src" => "https://cdn-imgix.headout.com/media/images/c8e7baf646983cd30b16d35134c0391d-27057-Fullday-Villandry-Azay-le-Rideau-Vouvraywinetour---006.jpg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
+    "src" => "https://photos.smugmug.com/Vallee-loire/Chateaux-de-la-Loire/Chateau-Azay-le-Rideau/i-PsN7wzq/0/451e3ad3/L/chateau-azay-le-rideau-3-L.jpg",
     "alt" => "Jardines del Castillo de Azay-le-Rideau",
     "pie" => "Jardines renacentistas",
-    "fuente_url" => "https://www.billets-chateaux-de-la-loire.fr/es/chateau-azay-le-rideau/",
-    "fuente_texto" => "billets-chateaux-de-la-loire.fr"
+    "fuente_url" => "https://loirelovers.fr/es/chateau-azay-le-rideau-castillo-visite/",
+    "fuente_texto" => "loirelovers.fr"
   ]
 ];
 ?>

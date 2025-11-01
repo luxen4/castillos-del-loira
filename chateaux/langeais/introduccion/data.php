@@ -1,3 +1,12 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
+
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-ana-de-bretaña-y-carlos-VIII.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
+
+
+
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE LANGEAIS
 $introduccion = [
@@ -9,7 +18,8 @@ $introduccion = [
 
   "Su origen se remonta al siglo <strong>X</strong>, cuando <strong>Fulco Nerra</strong>, conde de Anjou, erigió en este lugar una fortaleza de madera para controlar el valle. Sin embargo, el castillo actual fue reconstruido en piedra en el siglo XV por orden de <strong>Luis XI</strong>, convirtiéndose en una joya del gótico tardío. Langeais se distingue por su doble alma: una cara exterior fortificada, testimonio de la era feudal, y una interior que revela la elegancia y el confort de la nobleza renacentista.",
 
-  "El momento más célebre de su historia tuvo lugar en <strong>1491</strong>, cuando se celebró en secreto el matrimonio entre <strong>Ana de Bretaña</strong> y <strong>Carlos VIII de Francia</strong>. Este enlace selló la unión definitiva del ducado de Bretaña con la corona francesa, un acontecimiento político crucial que consolidó la unidad territorial de Francia. La sala donde se desarrolló la ceremonia, aún conservada, mantiene su atmósfera solemne y está decorada con tapices flamencos, mobiliario original y un imponente dosel real.",
+  "El momento más célebre de su historia tuvo lugar en <strong>1491</strong>, cuando se celebró en secreto el matrimonio entre <strong>Ana de Bretaña</strong> y <strong>Carlos VIII de Francia</strong>. Este enlace selló la unión definitiva del ducado de Bretaña con la corona francesa, un acontecimiento político crucial que consolidó la unidad territorial de Francia. La sala donde se desarrolló la ceremonia, aún conservada, mantiene su atmósfera solemne y está decorada con tapices flamencos, mobiliario original y un imponente dosel real."
+  . $retratos_Ana_y_CarlosVIII,
 
   "Recorrer el interior del castillo es adentrarse en la vida cotidiana de la nobleza del siglo XV. Los aposentos están amueblados con piezas auténticas de la época: cofres tallados, camas con dosel, tapices bordados y utensilios domésticos que recrean con fidelidad el ambiente palaciego. Una cuidada museografía permite al visitante comprender las costumbres, la etiqueta y las tradiciones que regían en la corte francesa del Renacimiento.",
 
@@ -26,45 +36,45 @@ $texto = "Imágenes del Castillo de Langeais, donde la arquitectura medieval y r
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/8/86/Chateau_Langeais.jpg",
+    "src" => "https://photos.smugmug.com/Vallee-loire/n-XkSzNF/Chateaux-de-la-Loire/Chateau-de-Langeais/i-tv464Z5/0/4a694827/L/Chateau_langeais_vue-L.jpg",
     "alt" => "Vista exterior del Castillo de Langeais",
     "pie" => "Vista exterior",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Langeais",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://loirelovers.fr/es/visitar-chateau-langeais-castillo-loira/",
+    "fuente_texto" => "loirelovers.fr"
   ],
   [
-    "src" => "https://www.france-voyage.com/photos/loire-valley/langeais-chateau-01.jpg",
+    "src" => "https://media.istockphoto.com/id/458137729/es/foto/de-langeais.jpg?s=612x612&w=0&k=20&c=GZ43sYCO2G50jFnenKdNnd28l6PuUQQDdD5bl2expPc=",
     "alt" => "Patio interior y torre principal",
     "pie" => "Patio interior",
-    "fuente_url" => "https://www.france-voyage.com/castillos/langeais.htm",
-    "fuente_texto" => "france-voyage.com"
+    "fuente_url" => "https://www.istockphoto.com/es/fotos/castillo-de-langeais",
+    "fuente_texto" => "istockphoto.com"
   ],
   [
-    "src" => "https://media-cdn.tripadvisor.com/media/photo-s/12/34/56/78/interior-del-castillo.jpg",
+    "src" => "https://photos.smugmug.com/Vallee-loire/n-XkSzNF/Chateaux-de-la-Loire/Chateau-de-Langeais/i-k6NhBrg/0/e2588ae7/L/Chateau_langeais_mariage_royal-L.jpg",
     "alt" => "Salones históricos del Castillo de Langeais",
     "pie" => "Salones restaurados",
-    "fuente_url" => "https://www.tripadvisor.es/Attraction_Review-g608166-d319840-Reviews-Chateau_de_Langeais-Langeais_Indre_et_Loire_Centre_Val_de_Loire.html",
-    "fuente_texto" => "tripadvisor.es"
+    "fuente_url" => "https://loirelovers.fr/es/visitar-chateau-langeais-castillo-loira/",
+    "fuente_texto" => "loirelovers.fr"
   ],  [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/8/86/Chateau_Langeais.jpg",
+    "src" => "https://www.all-free-photos.com/images/chateaux-3/PI5285-hr.jpg",
     "alt" => "Castillo de Langeais con murallas y torres",
     "pie" => "Vista exterior del castillo",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Langeais",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.all-free-photos.com/show/showphoto.php?idph=PI17602&lang=sp",
+    "fuente_texto" => "all-free-photos.com"
   ],
   [
-    "src" => "https://www.france-voyage.com/photos/loire-valley/langeais-chateau-01.jpg",
+    "src" => "https://mf-prod.com/langeais/wp-content/uploads/sites/9/2014/08/Cha%CC%82teau-de-Langeais-cour-inte%CC%81rieure-1%C2%A9J.B.Rabouan-copie-845x684.jpg",
     "alt" => "Patio interior de Langeais",
     "pie" => "Patio interior y torre principal",
-    "fuente_url" => "https://www.france-voyage.com/castillos/langeais.htm",
-    "fuente_texto" => "france-voyage.com"
+    "fuente_url" => "https://chateau-de-langeais.com/es/",
+    "fuente_texto" => "chateau-de-langeais.com"
   ],
   [
-    "src" => "https://media-cdn.tripadvisor.com/media/photo-s/12/34/56/78/interior-del-castillo.jpg",
+    "src" => "https://www.france-voyage.com/visuals/photos/castillo-langeais-9057_w300.webp",
     "alt" => "Salones históricos del Castillo de Langeais",
     "pie" => "Salones restaurados",
-    "fuente_url" => "https://www.tripadvisor.es/Attraction_Review-g608166-d319840-Reviews-Chateau_de_Langeais-Langeais_Indre_et_Loire_Centre_Val_de_Loire.html",
-    "fuente_texto" => "tripadvisor.es"
+    "fuente_url" => "https://www.france-voyage.com/francia-guia-turismo/castillo-langeais-910.html",
+    "fuente_texto" => "france-voyage.com"
   ]
 ];
 ?>
