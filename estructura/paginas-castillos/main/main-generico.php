@@ -7,6 +7,9 @@
               <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-izquierdo/anclas/data.php"; ?>
               <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
 
+
+<?php //<a href="chaumont/mapa-chaumont.php">ir</a> ?>
+
           </div>
       </aside>
 
@@ -29,6 +32,14 @@
             require "{$slug}/{$slug_section}/data.php";
             require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/informacion-practica/template-informacion-practica-generico.php"; ?>
             
+
+        <!-- Mapa -->
+        <?php $slug_section = "mapa";
+            require "{$slug}/{$slug_section}/data.php";
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections/mapa/template-mapa-generico.php"; ?>
+
+
+
       <?php require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
     </article>
 </div>

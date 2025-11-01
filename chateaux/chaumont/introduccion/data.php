@@ -37,11 +37,13 @@
 
 </div>
 ' ?>
+
+
+
+
+
 <?php
 $festival_jardines_chaumont = '
-<p class="text-gray-700 leading-relaxed mb-6">
-  Los extensos jardines, parte del <strong>Festival Internacional de Jardines de Chaumont-sur-Loire</strong>, son una explosión de creatividad paisajística. Cada año, diseñadores de todo el mundo reinterpretan el vínculo entre arte y naturaleza, haciendo de Chaumont un laboratorio vivo de inspiración.
-</p>
 
 <!-- 🖼️ Festival Internacional de Jardines -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 mb-8">
@@ -89,23 +91,21 @@ $introduccion = [
 "parrafos" => [
   "El <strong>Castillo de Chaumont-sur-Loire</strong> es una de las joyas más evocadoras del <strong>Valle del Loira</strong>. Erigido sobre un promontorio con vistas al río <strong>Loira</strong>, combina la majestuosidad medieval con la delicadeza renacentista, ofreciendo una panorámica espectacular del paisaje natural circundante.",
 
-  "Fortaleza histórica y sede del famoso <strong>Festival Internacional de Jardines</strong>.",
-
-  "El <strong>Castillo de Chaumont-sur-Loire</strong> data del siglo X, aunque su estructura actual se consolidó en el siglo XV. Ha sido residencia de nobles y un lugar de poder a lo largo de la historia francesa. Desde el siglo XX, es reconocido por su <strong>Festival Internacional de Jardines</strong>, que cada año atrae a diseñadores y visitantes de todo el mundo. Sus torres, murallas y jardines muestran la combinación de arquitectura defensiva medieval con elegancia y creatividad paisajística.",
-
-  "Su historia está marcada por la rivalidad entre <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>. 
-  Tras ser expulsada de Chenonceau, Diana recibió Chaumont como compensación, y lo transformó en un elegante retiro rodeado de jardines y arte refinado.
-  <?= $retratos_Diana_y_Catalina
-  
+  "El <strong>Castillo de Chaumont-sur-Loire</strong> es una Fortaleza histórica y data del siglo X, aunque su estructura actual se consolidó en el siglo XV. 
+  Ha sido residencia de nobles y un lugar de poder a lo largo de la historia francesa. Desde el siglo XX, es reconocido por su <strong>
+  Festival Internacional de Jardines</strong>, que cada año atrae a diseñadores y visitantes de todo el mundo. Sus torres, 
+  murallas y jardines muestran la combinación de arquitectura defensiva medieval con elegancia y creatividad paisajística.
+  <?= $festival_jardines_chaumont
   ",
 
-  "El interior del castillo conserva una atmósfera íntima y noble, con salas decoradas con tapices, muebles de época y chimeneas monumentales. Cada estancia narra siglos de historia y gusto aristocrático.",
+  "Su historia está marcada por la rivalidad entre <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>. 
+  Tras ser expulsada de Chenonceau, Diana recibió Chaumont como compensación, y lo transformó en un elegante retiro rodeado de 
+  jardines y arte refinado.
+  <?= $retratos_Diana_y_Catalina
+  ",
 
-  "Los extensos jardines, parte del <strong>Festival Internacional de Jardines de Chaumont-sur-Loire</strong>, son una explosión de creatividad paisajística. Cada año, diseñadores de todo el mundo reinterpretan el vínculo entre arte y naturaleza, haciendo de Chaumont un laboratorio vivo de inspiración.
-   <?= $festival_jardines_chaumont
-  
-  
-  
+  "El interior del castillo conserva una atmósfera íntima y noble, con salas decoradas con tapices, muebles de época y chimeneas monumentales. Cada estancia narra siglos de historia y gusto aristocrático.,
+
   ",
 
 
@@ -121,7 +121,14 @@ $introduccion = [
 $titulo = "📸 Galería";
 $texto = "Imágenes del Castillo de Chaumont-sur-Loire, famoso por su arquitectura histórica y sus jardines de renombre internacional.";
 
-$figuras = [
+$figuras = [  
+  [
+    "src" => "https://cdn-imgix.headout.com/media/images/dc165639df692b5499da905e5579b316-AdobeStock-35259777.jpeg?auto=format&w=900&h=562.5&q=90&fit=crop&ar=16%3A10",
+    "alt" => "Vista general del Castillo de Chaumont-sur-Loire",
+    "pie" => "Vista aérea del castillo y sus jardines",
+    "fuente_url" => "https://www.billets-chateaux-de-la-loire.fr/es/chaumont-sur-loire-tickets/",
+    "fuente_texto" => "billets-chateaux-de-la-loire.fr"
+  ],
   [
     "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chaumont_sur_Loire_chateau_05.jpg/330px-Chaumont_sur_Loire_chateau_05.jpg",
     "alt" => "Vista exterior del Castillo de Chaumont-sur-Loire",
@@ -142,27 +149,6 @@ $figuras = [
     "pie" => "Salones y arquitectura histórica",
     "fuente_url" => "https://star80ontheroad.com/castillo-de-chaumont-sur-loire/",
     "fuente_texto" => "star80ontheroad.com"
-  ],  
-  [
-    "src" => "https://cdn-imgix.headout.com/media/images/dc165639df692b5499da905e5579b316-AdobeStock-35259777.jpeg?auto=format&w=900&h=562.5&q=90&fit=crop&ar=16%3A10",
-    "alt" => "Vista general del Castillo de Chaumont-sur-Loire",
-    "pie" => "Vista aérea del castillo y sus jardines",
-    "fuente_url" => "https://www.billets-chateaux-de-la-loire.fr/es/chaumont-sur-loire-tickets/",
-    "fuente_texto" => "billets-chateaux-de-la-loire.fr"
-  ],
-  [
-    "src" => "https://www.valle-del-loira.com/wp-content/uploads/2020/05/jardin-chaumont.jpg",
-    "alt" => "Jardines del Castillo de Chaumont-sur-Loire",
-    "pie" => "Jardines del festival internacional",
-    "fuente_url" => "https://www.valle-del-loira.com/castillos/chaumont",
-    "fuente_texto" => "valle-del-loira.com"
-  ],
-  [
-    "src" => "https://media.getyourguide.com/img/location/5f2b2b2f1f1b6.jpeg",
-    "alt" => "Patio y fachada del Castillo de Chaumont-sur-Loire",
-    "pie" => "Patio interior y fachada",
-    "fuente_url" => "https://www.getyourguide.com/chaumont-sur-loire-l333/visita-al-castillo-t234928/",
-    "fuente_texto" => "getyourguide.com"
   ]
 ];
 ?>

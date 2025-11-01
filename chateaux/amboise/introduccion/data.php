@@ -1,3 +1,49 @@
+
+
+<?php 
+$retratos_CarlosVIII_y_FranciscoI = '
+
+<!-- 🖼️ Retratos históricos -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 mb-8">
+
+  <figure class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 bg-white">
+    <div class="relative w-full h-80 md:h-96">
+      <img 
+        src="https://lh3.googleusercontent.com/proxy/QO-TVaVkPEx0Hv2cMCVa98WkAV5Qbj39f4_47sRH4Rm2xAlLu_Xq2vIfW0rGtpfBDitZ09IxnBDXnvrEngDqNf-SBE6ER0o6mbfaGDil0POYJlPjh1Pqh5C3iwKvgNsV7uccSwRF8_u9Y8BT-BxmqXmMemZj" 
+        alt="Retrato de Carlos VIII"
+        style="transform: rotateY(180deg);"
+        class="absolute inset-0 w-full h-full object-cover object-center">
+    </div>
+    <figcaption class="bg-gray-100 text-sm text-gray-600 text-center py-2">
+      🎨<strong>Carlos VIII</strong> (1470–1498), rey de Francia que impulsó las campañas italianas e introdujo el estilo renacentista en la corte francesa.<br>
+      Fuente: <a href="https://es.alphahistory.com/peculiar/El-rey-franc%C3%A9s-1498-muere-golpeando-la-cabeza/" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">alphahistory.com</a>
+    </figcaption>
+  </figure>
+
+<figure class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 bg-white">
+  <div class="relative w-full h-80 md:h-96">
+    <img 
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fran%C3%A7ois_Ier_Louvre.jpg/960px-Fran%C3%A7ois_Ier_Louvre.jpg" 
+      alt="Francisco I"
+      style="transform: rotateY(180deg);"
+      class="absolute inset-0 w-full h-full object-cover object-center"
+    >
+  </div>
+  <figcaption class="bg-gray-100 text-sm text-gray-600 text-center py-2">
+    👑 <strong>Francisco I</strong> (1494–1547), rey del Renacimiento francés y protector de las artes.<br>
+    Fuente: <a href="https://es.wikipedia.org/wiki/Francisco_I_de_Francia" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">Wikipedia</a>
+  </figcaption>
+</figure>
+
+
+</div>
+';
+?>
+
+
+
+
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE AMBOISE
 $introduccion = [
@@ -6,7 +52,9 @@ $introduccion = [
 "parrafos" => [
   "El <strong>Castillo de Amboise</strong> se alza majestuoso sobre el <strong>Valle del Loira</strong>, dominando el río desde su colina. Fue una de las residencias favoritas de los reyes de Francia durante el Renacimiento y símbolo del poder monárquico en la región.",
 
-  "Reconstruido en el siglo XV por orden de <strong>Carlos VIII</strong> y embellecido por <strong>Francisco I</strong>, el castillo refleja la transición entre la arquitectura medieval y las nuevas influencias renacentistas llegadas de Italia.",
+  "Reconstruido en el siglo XV por orden de <strong>Carlos VIII</strong> y embellecido por <strong>Francisco I</strong>, el castillo refleja la transición entre la arquitectura medieval y las nuevas influencias renacentistas llegadas de Italia.
+  <?= $retratos_CarlosVIII_y_FranciscoI
+  ",
 
   "En su interior se conservan amplios salones, mobiliario de época y una colección de retratos que evocan la vida cortesana y la influencia artística de la corte francesa en su época de esplendor.",
 

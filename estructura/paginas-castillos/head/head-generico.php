@@ -1,4 +1,4 @@
-<?php $sitio_web = "https://playas2024.kesug.com/val-de-loire"; ?>
+<?php $sitio_web = "https://alayag82.kesug.com/val-de-loire"; ?>
 <head>
   <!-- Básicos -->
   <meta charset="UTF-8">
