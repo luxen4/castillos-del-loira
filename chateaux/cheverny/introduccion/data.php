@@ -26,46 +26,33 @@ $texto = "Imágenes del elegante Castillo de Cheverny, famoso por su arquitectur
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/4/4f/Chateau_de_Cheverny_vue.jpg",
+    "src" => "https://www.valledelloira-francia.es/app/uploads/2023/05/a-la-une-cheverny-1050-a-cmouton-crtcentrevdl-e1684148477525.webp",
     "alt" => "Fachada principal del Castillo de Cheverny",
     "pie" => "Fachada del castillo de Cheverny",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Cheverny",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.valledelloira-francia.es/descubrir/escapada-a-los-jardines/parque-jardines-castillo-cheverny/",
+    "fuente_texto" => "valledelloira-francia.es"
   ],
   [
-    "src" => "https://www.cheverny.fr/wp-content/uploads/2018/05/Interieur_Cheverny.jpg",
+    "src" => "https://monsieur-de-france.com/media/cache/ludodev_compress_webp/uploads/images/cheverny-interieurs-monsieurdefrance-1695031385.jpg",
     "alt" => "Interior amueblado del Castillo de Cheverny",
     "pie" => "Interiores históricamente conservados",
-    "fuente_url" => "https://www.cheverny.fr/",
-    "fuente_texto" => "cheverny.fr"
+    "fuente_url" => "https://monsieur-de-france.com/es/chateau-cheverny-que-ver-que-historia",
+    "fuente_texto" => "monsieur-de-france.com"
   ],
   [
-    "src" => "https://www.cheverny.fr/wp-content/uploads/2018/05/Jardins_Cheverny.jpg",
+    "src" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6L1ecml9o6kceV2KWjM7_yyEQXnyIkcruBw&s",
     "alt" => "Jardines del Castillo de Cheverny",
     "pie" => "Jardines renacentistas del castillo",
-    "fuente_url" => "https://www.cheverny.fr/",
-    "fuente_texto" => "cheverny.fr"
-  ],  [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chateau_de_Cheverny_2011.jpg",
-    "alt" => "Fachada principal del Castillo de Cheverny",
-    "pie" => "Vista exterior del castillo",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Cheverny",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.sortiraparis.com/es/escapadas-desde-paris/noroeste/articles/219413-el-castillo-de-cheverny-sus-tesoros-y-sus-6-jardines-por-descubrir",
+    "fuente_texto" => "sortiraparis.com"
   ],
   [
-    "src" => "https://www.chateaux-cheverny.fr/wp-content/uploads/2020/04/chateau-interior.jpg",
+    "src" => "https://es.derutaenfamilia.com/wp-content/uploads/sites/2/2022/04/castillo_cheverny_derutaenfamilia_003.jpg",
     "alt" => "Salón principal del Castillo de Cheverny",
     "pie" => "Interior elegante con tapices y mobiliario",
-    "fuente_url" => "https://www.chateaux-cheverny.fr",
-    "fuente_texto" => "chateaux-cheverny.fr"
-  ],
-  [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jardin_Cheverny.jpg",
-    "alt" => "Jardines del Castillo de Cheverny",
-    "pie" => "Jardines simétricos del castillo",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Cheverny",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://es.derutaenfamilia.com/castillo-de-cheverny-tintin/",
+    "fuente_texto" => "derutaenfamilia.com"
   ]
-];
+];/* https://es.wikipedia.org/wiki/Archivo:Maintenon_-_Chateau_03.jpg */
 ?>
 

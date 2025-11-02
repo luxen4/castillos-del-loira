@@ -1,3 +1,11 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
+
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos_Diana_y_Catalina.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-jardines-Azay.php"; ?>
+
+
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHENONCEAU
 $introduccion = [
@@ -6,7 +14,8 @@ $introduccion = [
   "parrafos" => [
     "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <strong>Valle del Loira</strong>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
 
-    "Su historia está marcada por la influencia de mujeres poderosas como <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>, que embellecieron el castillo y dejaron en él una profunda huella artística y arquitectónica.",
+    "Su historia está marcada por la influencia de mujeres poderosas como <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>, que embellecieron el castillo y dejaron en él una profunda huella artística y arquitectónica."
+    . $retratos_Diana_y_Catalina,
 
     "El interior conserva una refinada decoración con techos artesonados, tapices flamencos y mobiliario de época, ofreciendo una inmersión en el esplendor del siglo XVI.",
 
@@ -18,6 +27,7 @@ $introduccion = [
     ]
 ];
 
+$titulo = "📸 Galería";
 $texto = "Imágenes del elegante Castillo de Chenonceau, conocido por su galería sobre el río Cher y sus hermosos jardines renacentistas.";
 
 $figuras = [
