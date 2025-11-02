@@ -13,6 +13,9 @@ Armin van Buuren
 https://www.youtube.com/watch?v=YWNUQQ0_IJg
 
 
+- Preguntar a chatGpt si hay un sitio donde colgar mis fotos y si se descargan se cobra
+- Para caras de perros
+
 Crear un asistente virtual:
 https://www.youtube.com/watch?v=Lnt8lJ5BQ1w
 
@@ -21,3 +24,12 @@ Control Tareas Mapa || Párrafos con imágenes || Galería Propia
     Azay-le-Rideau      ->   OK - OK - NO
     Ussé                ->   OK - OK - NO
     F. Real de Chinon   ->   OK - OK - NO
+    Castillo de Beaugency->  OK - OK - NO
+
+
+
+
+🔰 🏰 (castillo)
+🗼 🗼 (torre tipo Eiffel)
+🛡️ 🛡️ (escudo/heráldica)
+🗿 🗿 (no muy medieval, pero icono)

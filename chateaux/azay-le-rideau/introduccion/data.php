@@ -4,11 +4,6 @@
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos_Azay.php"; ?>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-jardines-Azay.php"; ?>
 
-
-
-
-
-
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE AZAY-LE-RIDEAU
 $introduccion = [
@@ -32,9 +27,6 @@ $introduccion = [
   ]
 
 ];
-
-
-
 
 // 📸 SECCIÓN: GALERÍA DEL CASTILLO DE AZAY-LE-RIDEAU
 $titulo = "📸 Galería";
