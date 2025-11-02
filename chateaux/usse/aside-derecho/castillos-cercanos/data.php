@@ -13,7 +13,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Chinon",
-    "url" => "Chinon.php",
+    "url" => "Chinon-sur-Loire.php",
     "descripcion" => "Fortaleza medieval con historia de Juana de Arco."
   ],
   [

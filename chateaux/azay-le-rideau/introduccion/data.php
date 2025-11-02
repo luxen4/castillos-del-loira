@@ -2,7 +2,7 @@
 
 <?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos_Azay.php"; ?>
-<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-jardines-Azay.php"; ?>
 
 
 
@@ -26,8 +26,8 @@ $introduccion = [
 
     "El interior sorprende por su escalera de honor, una de las primeras escaleras rectas autoportantes de Francia, decorada con relieves de salamandras —emblema de Francisco I—. Sus aposentos, restaurados con mobiliario del siglo XVI y XVII, permiten sumergirse en la vida cotidiana de la nobleza renacentista.",
 
-    "Los jardines paisajísticos que rodean el castillo fueron diseñados en época romántica. Senderos curvos, árboles centenarios y el sonido tranquilo del agua invitan a pasear sin prisa. En los días soleados, el castillo parece flotar, reflejado en un espejo perfecto.",
-
+    "Los jardines paisajísticos que rodean el castillo fueron diseñados en época romántica. Senderos curvos, árboles centenarios y el sonido tranquilo del agua invitan a pasear sin prisa. En los días soleados, el castillo parece flotar, reflejado en un espejo perfecto."
+    . $jardines_Azay,
     "<strong>Azay-le-Rideau</strong> no es solo un castillo, es una experiencia sensorial: el murmullo del agua, la luz que baña la piedra y la delicadeza de sus proporciones hacen de él una obra maestra del Renacimiento francés. Un lugar donde historia y belleza se funden en una imagen inolvidable."
   ]
 

@@ -18,7 +18,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Chinon",
-    "url" => "Chinon.php",
+    "url" => "Chinon-sur-Loire.php",
     "descripcion" => "Fortaleza medieval que domina el río Vienne y lugar histórico de Juana de Arco."
   ],
   [

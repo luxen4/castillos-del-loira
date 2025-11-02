@@ -1,24 +1,34 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
+
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos-EnriqueII-LeonorAquitania.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
+
+
+
+
+
 <?php
-// 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE Ussé
+// 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE USSÉ
 $introduccion = [
   "id" => "introduccion",
   "titulo" => "🏰 Descubre el Castillo de Ussé",
-"parrafos" => [
+  "parrafos" => [
 
-  "La <strong>Fortaleza Real de Chinon</strong>, erguida sobre un espolón rocoso que domina las aguas tranquilas del <strong>río Vienne</strong>, es uno de los enclaves más emblemáticos de la historia de Francia. Su silueta alargada, recortada contra el horizonte del <strong>Valle del Loira</strong>, recuerda los días en que era bastión de poder, escenario de alianzas, intrigas y decisiones que marcaron el destino de reinos enteros.",
+    "Conocido como el <strong>castillo de los cuentos de hadas</strong>, el <strong>Château d’Ussé</strong> se alza entre bosques y viñedos en la orilla del <strong>río Indre</strong>, en pleno corazón del <strong>Valle del Loira</strong>. Sus torres puntiagudas, tejados de pizarra y elegantes balcones parecen surgir directamente de un libro ilustrado.",
 
-  "Originaria del siglo <strong>X</strong> y ampliada a lo largo de los siglos siguientes, la fortaleza fue primero un baluarte de los condes de Blois y de Anjou antes de convertirse en una de las principales residencias de los <strong>Plantagenet</strong>. En sus murallas resonaron las voces de <strong>Enrique II de Inglaterra</strong> y de su esposa <strong>Leonor de Aquitania</strong>, dos de las figuras más poderosas y fascinantes del medievo. Fue en Chinon donde Enrique II respiró por última vez en 1189, cerrando un capítulo legendario de la historia europea.",
+    "Originalmente construido en el siglo <strong>XI</strong> como fortaleza defensiva, Ussé evolucionó con el tiempo hacia una refinada <strong>residencia renacentista</strong>. Sus propietarios —entre ellos los poderosos <strong>duques de Blois</strong> y la familia <strong>de Rohan</strong>— transformaron la antigua fortaleza en un palacio elegante, rodeado de jardines diseñados al estilo francés.",
 
-  "Pero Chinon es también un lugar profundamente ligado al nacimiento de la Francia moderna. En 1429, en plena <strong>Guerra de los Cien Años</strong>, una joven campesina llamada <strong>Juana de Arco</strong> llegó hasta el castillo para presentarse ante el delfín <strong>Carlos de Valois</strong>. En la penumbra de la gran sala del trono, la joven reconoció al futuro <strong>Carlos VII</strong> disfrazado entre su corte, ganándose su confianza y cambiando para siempre el curso del conflicto. Ese encuentro, ocurrido en el corazón de Chinon, es uno de los momentos más míticos de la historia de Francia.",
+    "El castillo está íntimamente ligado a la literatura y a la imaginación. Durante una estancia en Ussé, el escritor <strong>Charles Perrault</strong> se inspiró en su silueta mágica para crear uno de los cuentos más célebres de la historia: <strong>\"La Bella Durmiente\"</strong>. Desde entonces, Ussé es conocido como <em>\"el Castillo de la Bella Durmiente\"</em>, un lugar donde la frontera entre la realidad y la fantasía se difumina.",
 
-  "Arquitectónicamente, la fortaleza es un fascinante palimpsesto de estilos y épocas. A lo largo de sus tres recintos —<strong>Fort Saint-Georges</strong>, <strong>Château du Milieu</strong> y <strong>Fort du Coudray</strong>— se descubren torres macizas, murallas almenadas, pasadizos ocultos y salas abovedadas que narran siglos de evolución militar. La restauración contemporánea ha sabido combinar el respeto al patrimonio con recursos museográficos innovadores que devuelven la vida al castillo sin alterar su espíritu medieval.",
+    "El interior del castillo es un viaje emocional a través de los siglos. Salones amueblados con tapices flamencos, retratos de la nobleza francesa, escaleras de madera crujiente y armaduras cuidadosamente conservadas dan vida a la vida aristocrática de los siglos XVII y XVIII. En el desván, una serie de escenas con maniquíes recrea el cuento de Perrault y transporta al visitante a un universo de magia y nostalgia.",
 
-  "En el interior, exposiciones interactivas, maquetas y proyecciones audiovisuales recrean la atmósfera de la época, permitiendo al visitante adentrarse en los días en que caballeros, reyes y mensajeros recorrían sus pasillos de piedra. La historia de <strong>Juana de Arco</strong> ocupa un lugar central, con una reconstrucción inmersiva de su legendaria audiencia y documentos que muestran la trascendencia política y espiritual de su misión.",
+    "Los <strong>jardines en terrazas</strong>, atribuidos al legendario <strong>Le Nôtre</strong>, jardinero de Versailles, ofrecen una perspectiva majestuosa del castillo y del valle. Desde sus miradores se aprecia la perfecta armonía entre arquitectura y naturaleza, como si Ussé hubiera sido diseñado para reflejar tanto la fuerza de la piedra como la delicadeza del paisaje que lo rodea.",
 
-  "Desde las murallas y torres de vigilancia, las vistas panorámicas sobre el <strong>Valle del Vienne</strong> son simplemente sobrecogedoras. La fortaleza, envuelta en el murmullo del viento y el canto de las aves, ofrece una experiencia que va más allá del turismo: es un viaje sensorial y emocional al corazón de la Edad Media, un lugar donde la piedra conserva aún el eco de los ideales de fe, poder y libertad que dieron forma a Francia. Hoy, la <strong>Fortaleza Real de Chinon</strong> no es solo un monumento histórico, sino un símbolo vivo de la memoria nacional y del espíritu indomable de su gente."
-]
-
+    "Visitar el <strong>Castillo de Ussé</strong> es entrar en un mundo donde la historia se mezcla con el mito. Cada torre cuenta una historia, cada sala conserva un susurro del pasado. Es un lugar donde la arquitectura, la literatura y la emoción convergen para regalarnos una experiencia única: sentir, por un instante, que los cuentos pueden ser reales."
+  ]
 ];
+
 
 // 📸 SECCIÓN: GALERÍA DEL CASTILLO DE Ussé
 $titulo = "📸 Galería";
@@ -26,45 +36,32 @@ $texto = "Imágenes del Castillo de Ussé, conocido como el 'Castillo de los Cue
 
 $figuras = [
   [
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chateau_d%27Ussé_1.jpg",
-    "alt" => "Castillo de Ussé desde el jardín",
-    "pie" => "Vista panorámica del Castillo de Ussé",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Ussé",
-    "fuente_texto" => "wikipedia.org"
+    "src" => "https://www.franciaturismo.net/es/wp-content/uploads/sites/17/usse-castillo-thumbnail.jpg",
+    "alt" => "Castillo de Ussé",
+    "pie" => "Castillo de Ussé",
+    "fuente_url" => "https://www.franciaturismo.net/es/loira/castillos-loira/castillo-usse/",
+    "fuente_texto" => "franciaturismo.net"
   ],
   [
-    "src" => "https://www.france.fr/sites/default/files/styles/hero_image/public/medias/images/2020-09/chateau-Ussé.jpg",
+    "src" => "https://www.jardinez.com/parc/pj/37usse_1/12.jpg",
     "alt" => "Jardines del Castillo de Ussé",
     "pie" => "Jardines renacentistas del castillo",
-    "fuente_url" => "https://www.france.fr/es/valle-del-loira/articulo/chateau-de-Ussé",
-    "fuente_texto" => "france.fr"
+    "fuente_url" => "https://www.jardinez.com/Parques-Jardines-del-Castillo-de-Usse_sp_329",
+    "fuente_texto" => "jardinez.com" /* Tiene asistente de IA */
   ],
   [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-Ussé-2.jpg",
+    "src" => "https://woody.cloudly.space/app/uploads/adt-touraine/2025/02/thumbs/Chateau_Usse_Credit_ADT_Touraine_JC_Coutand_2029-45-640x360.webp",
     "alt" => "Interior del Castillo de Ussé",
     "pie" => "Salones y decoraciones interiores",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-Ussé/",
-    "fuente_texto" => "viajeroscallejeros.com"
-  ],[
-    "src" => "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chateau_d%27Ussé_1.jpg",
-    "alt" => "Castillo de Ussé desde el jardín",
-    "pie" => "Vista panorámica del Castillo de Ussé",
-    "fuente_url" => "https://es.wikipedia.org/wiki/Castillo_de_Ussé",
-    "fuente_texto" => "wikipedia.org"
+    "fuente_url" => "https://www.tourainevaldeloire.com/es/actividades/todas-las-visitas/un-dia-en-el-castillo/usse-el-castillo-de-la-bella-durmiente/",
+    "fuente_texto" => "tourainevaldeloire.com"
   ],
   [
     "src" => "https://www.france.fr/sites/default/files/styles/hero_image/public/medias/images/2020-09/chateau-Ussé.jpg",
-    "alt" => "Jardines del Castillo de Ussé",
-    "pie" => "Jardines renacentistas",
-    "fuente_url" => "https://www.france.fr/es/valle-del-loira/articulo/chateau-de-Ussé",
-    "fuente_texto" => "france.fr"
-  ],
-  [
-    "src" => "https://www.viajeroscallejeros.com/wp-content/uploads/2021/10/castillo-de-Ussé-2.jpg",
-    "alt" => "Interior del Castillo de Ussé",
-    "pie" => "Salones y decoraciones interiores",
-    "fuente_url" => "https://www.viajeroscallejeros.com/visita-castillo-de-Ussé/",
-    "fuente_texto" => "viajeroscallejeros.com"
+    "alt" => "Vista panorámica del Castillo de Ussé con sus Jardines renacentistas",
+    "pie" => "Vista panorámica del Castillo de Ussé con sus Jardines renacentistas",
+    "fuente_url" => "https://www.jardinez.com/parc/pj/37usse_1/2.jpg",
+    "fuente_texto" => "jardinez.com"
   ]
 ];
 ?>
