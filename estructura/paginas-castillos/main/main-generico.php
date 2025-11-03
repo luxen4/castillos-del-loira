@@ -13,8 +13,29 @@
           </div>
       </aside>
 
+
 <!-- Contenedor con scroll -->
 <div class="lg:col-span-6 h-[80vh] overflow-y-auto space-y-10 p-1">
+<nav class="text-sm breadcrumb mt-4 mb-8" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center gap-2 text-gray-600">
+    <li>
+      <a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Valle del Loira</a>
+    </li>
+    <li class="text-gray-400">/</li>
+    
+    <li>
+      <a href="/val-de-loire/chateaux/" class="hover:text-blue-600 transition-colors">Castillos del Loira</a>
+    </li>
+    <li class="text-gray-400">/</li>
+
+    <li>
+      <a href="/val-de-loire/chateaux/chenonceau/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors">
+        Castillo de Chenonceau
+      </a>
+    </li>
+  </ol>
+</nav>
+
     <article class="space-y-10">
 
         <!-- Introducción -->
