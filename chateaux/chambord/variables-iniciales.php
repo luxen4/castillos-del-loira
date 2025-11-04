@@ -7,11 +7,7 @@ $imagenHero = "https://media.traveler.es/photos/61377563d4923f67e298f5c2/master/
 $web_oficial = "https://www.traveler.es/naturaleza/articulos/castillo-del-loira-chambord-nuevo-jardin/10879";
 $fuenteHero_texto = "Traveler.es";
 
-$otros_castillos = [
-  ["Villandry", "Villandry.php"],
-  ["Chenonceau", "Chenonceau.php"],
-  ["Cheverny", "Cheverny.php"]
-];
+$src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.460705778452!2d1.0677255760766688!3d47.324873207390084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcb0d5d9a0a8a1%3A0x261259efc9ff1001!2sCastillo%20de%20Chenonceau!5e0!3m2!1ses!2ses!4v1762117411765!5m2!1ses!2ses';
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";

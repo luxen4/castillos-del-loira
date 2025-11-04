@@ -1,11 +1,14 @@
-<div class="bg-emerald-50 p-4 rounded-lg shadow">
-<h3 class="font-semibold text-emerald-700 mb-3 text-center">🏰 Castillos cercanos</h3>
-<ul class="space-y-2">
+<div class="bg-emerald-50 p-2 rounded-md shadow-sm">
+  <h3 class="font-semibold text-emerald-700 text-center text-sm mb-1">🏰 Castillos cercanos</h3>
+
+  <ul>
     <?php foreach ($castillos_cercanos as $c): ?>
-    <li class="flex flex-col">
-        <a href="/val-de-loire/chateaux/<?= $c['url'] ?>" class="text-emerald-700 font-semibold hover:underline transition"><?= $c['nombre'] ?></a>
-        <span class="text-gray-600 text-sm mt-0.5"><?= $c['descripcion'] ?></span>
-    </li>
+      <li class="px-2 py-1 rounded transition hover:bg-emerald-100 cursor-pointer">
+        <a href="/val-de-loire/chateaux/<?= $c['url'] ?>" class="text-emerald-700 text-sm font-medium hover:underline">
+          <?= $c['nombre'] ?>
+        </a>
+        <span class="block text-[11px] text-gray-500 leading-tight"><?= $c['descripcion'] ?></span>
+      </li>
     <?php endforeach; ?>
-</ul>
+  </ul>
 </div>

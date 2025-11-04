@@ -5,7 +5,7 @@
     <div class="rounded-2xl overflow-hidden shadow-lg border-4 border-emerald-600 w-full hover:shadow-2xl transition-shadow duration-300">
 
       <iframe 
-          src="<?= $src; ?>" 
+          src="<?= $src_google_maps; ?>" 
           class="w-full"
           height="450"
           style="border:0;" 

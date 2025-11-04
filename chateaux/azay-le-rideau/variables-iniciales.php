@@ -7,11 +7,7 @@ $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_
 $web_oficial = "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27Azay-le-Rideau";
 $fuenteHero_texto = "fr.wikipedia.org";
 
-$otros_castillos = [
-  ["Villandry", "Villandry.php"],
-  ["Chambord", "Chambord.php"],
-  ["Cheverny", "Cheverny.php"]
-];
+$src_google_maps='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19710.608661926737!2d0.46038624804367806!3d47.25437165882734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1762038795419!5m2!1ses!2ses';
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";

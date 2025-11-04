@@ -7,11 +7,7 @@ $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/41/Blois_LouisXI
 $web_oficial = "https://es.wikipedia.org/wiki/Castillo_de_Blois";
 $fuenteHero_texto = "es.wikipedia.org";
 
-$otros_castillos = [
-  ["Villandry", "Villandry.php"],
-  ["Chambord", "Chambord.php"],
-  ["Chenonceau", "Chenonceau.php"]
-];
+$src_google_maps='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24418.79889419053!2d1.3053387090677169!3d47.58869777958699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1762071856722!5m2!1ses!2ses';
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, arquitectura renacentista, escapada fin de semana";

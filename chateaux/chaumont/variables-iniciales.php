@@ -7,12 +7,8 @@ $imagenHero = "https://cdn-imgix.headout.com/media/images/5036385563b6ad2fa8e531
 $web_oficial = "https://www.loirevalley-tickets.com/es/chateau-de-chaumont/plan-your-visit/"; 
 $fuenteHero_texto = "loirevalley-tickets.com";  
 
-$otros_castillos = [ 
-  ["Villandry", "Villandry.php"], 
-  ["Chambord", "Chambord.php"], 
-  ["Chenonceau", "Chenonceau.php"] 
-];  
-
+$src_google_maps='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5393.229122964735!2d1.18570703190997!3d47.47794001662122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1761991300673!5m2!1ses!2ses';
+ 
 // Variables dinámicas para SEO 
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, arquitectura renacentista, escapada fin de semana"; 
 $twitter = "@TuCuentaTwitter"; 

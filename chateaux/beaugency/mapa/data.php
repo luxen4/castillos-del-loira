@@ -1,3 +1,3 @@
 <?php
-$src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.1944045677!2d1.6309547761019887!3d47.77767827614854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e495a75a139eb3%3A0x576989a2fc98acd6!2sCh%C3%A2teau%20de%20Beaugency%20-%20Ch%C3%A2teau%20de%20Lumi%C3%A8res!5e0!3m2!1ses!2ses!4v1762097279536!5m2!1ses!2ses';
+$src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.1944045677!2d1.6309547761019887!3d47.77767827614854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e495a75a139eb3%3A0x576989a2fc98acd6!2sCh%C3%A2teau%20de%20Beaugency%20-%20Ch%C3%A2teau%20de%20Lumi%C3%A8res!5e0!3m2!1ses!2ses!4v1762097279536!5m2!1ses!2ses';
 ?> 
