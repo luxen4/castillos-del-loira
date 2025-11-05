@@ -6,7 +6,7 @@
             <a href="/val-de-loire" class="hover:underline">Inicio</a>
             <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline">Castillos</a>
             <a href="../alojamientos.php" class="hover:underline">Alojamientos</a>
-            <a href="../oficinas-turismo.php" class="hover:underline">Turismo</a>
+            <a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="hover:underline">Turismo</a>
         </nav>
     </div>
 </header>

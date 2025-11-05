@@ -57,7 +57,7 @@
 
     <!-- 🔗 Enlaces útiles -->
     <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-      <h3 class="text-xl font-semibold text-gray-800 mb-3">🌐 Enlaces oficiales y recursos</h3>
+      <h3 id="turismo-nantes" class="text-xl font-semibold text-gray-800 mb-3">🌐 Enlaces oficiales y recursos</h3>
       <ul class="list-disc list-inside space-y-2 text-gray-700">
         <li>
           <a href="https://www.nantes-tourisme.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
