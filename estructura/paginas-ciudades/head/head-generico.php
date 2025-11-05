@@ -16,7 +16,7 @@
 
 
   <!-- Canonical y multilenguaje -->
-  <link rel="canonical" href="<?= $sitio_web; ?>/ciudades/<?= $slug_Mayuscula ?>.php">
+  <link rel="canonical" href="<?= $sitio_web; ?>/ciudades/<?= $slug?>.php">
   <link rel="alternate" hreflang="es" href="<?= $sitio_web; ?>/ciudades/<?= $slug ?>.php">
   <link rel="alternate" hreflang="fr" href="<?= $sitio_web; ?>/ciudades/<?= $slug ?>.php">
   <link rel="alternate" hreflang="en" href="<?= $sitio_web; ?>/ciudades/<?= $slug ?>.php">
