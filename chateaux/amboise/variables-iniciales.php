@@ -1,6 +1,6 @@
 <?php
 $nombreLugar = "Castillo de Amboise";
-$ciudad = "Amboise";
+$ciudad = "Amboise"; $slug = "amboise";
 $slug_Mayuscula = "Amboise";
 $descripcion = "El Castillo Real de Amboise domina el río Loira desde lo alto de una colina. Residencia de los reyes de Francia durante el Renacimiento, destaca por su arquitectura elegante, sus vistas panorámicas y por albergar la tumba de Leonardo da Vinci.";
 $imagenHero = "https://woody.cloudly.space/app/uploads/blois-tourisme/2024/07/thumbs/image-7272645-1920x640-crop-1721314163.webp";

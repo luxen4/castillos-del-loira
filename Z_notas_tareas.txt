@@ -26,6 +26,7 @@ Objetivo:
     -Faqs
     -Opinions
     -Adelgazamiento de archivos "Crear 2 archivos .csv para consejos y opiniones de cada castillo" En un solo csv se encuentra toda la información. Se lee y se pasa al template
+    -Idem con visitas, que hasta ahora se llama por una variable "información útil"
 
 Control Tareas Mapa || Párrafos con imágenes || Galería Propia
     Amboise             ->   OK - OK - NO
