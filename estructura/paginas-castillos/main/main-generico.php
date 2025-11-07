@@ -53,18 +53,15 @@
         <?php $slug_section = "opiniones";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/opiniones-generico.php"; ?>
 
+
+        <!-- faqs -->
+        <?php $slug_section = "faqs";
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/faqs-generico.php"; ?>
+
+
         <!-- Visitas -->
         <?php $slug_section = "visitas";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/visitas-generico.php"; ?>
-
-
-
-
-        <!-- Información práctica -->
-        <?php //$slug_section = "informacion-practica";
-        //require "{$slug}/{$slug_section}/data.php";
-        //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/informacion-practica-generico.php"; ?>
-
 
         <!-- Mapa -->
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
