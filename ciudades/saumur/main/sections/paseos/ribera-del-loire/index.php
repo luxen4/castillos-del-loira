@@ -24,7 +24,7 @@
 <!-- Hero / Introducción -->
 <section class="bg-emerald-100 py-12">
     <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold text-emerald-700 mb-4">🚶‍♂️ Paseo por la Ribera del Loira en Saumur</h2>
+        <h2 class="text-2xl font-bold text-emerald-700 mb-4">🚶‍♂️ Paseo por la Ribera del Loira en Saumur</h2>
         <p class="text-gray-700 max-w-2xl mx-auto">Disfruta de un paseo tranquilo por la ribera del Loira en la encantadora ciudad de Saumur. Recorridos señalizados, vistas al río, zonas verdes y paradas culturales para toda la familia.</p>
     </div>
 </section>

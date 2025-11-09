@@ -1,5 +1,5 @@
   <!-- Contenido principal -->
-  <main class="container mx-auto px-1 py-10 grid lg:grid-cols-12 gap-8">
+  <main class="container mx-auto px-1 py-2 grid lg:grid-cols-12 gap-8">
     <!-- Aside izquierdo -->
     <aside class="lg:col-span-3 space-y-6">
       <div class="bg-emerald-50 p-4 rounded-lg shadow">

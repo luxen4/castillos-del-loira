@@ -34,8 +34,8 @@ require RUTA_CHATEAUX . "/{$slug}/variables-iniciales.php";
 
     <?php require RUTA_ESTRUCTURA . "/footer/footer-generico.php"; ?>
 
-    <?php require RUTA_CHATEAUX . "/{$slug}/schemas/schemas-body.php"; ?>
-
+    <?php //require RUTA_CHATEAUX . "/{$slug}/schemas/schemas-body.php"; ?>
+    <?php require RUTA_ESTRUCTURA . "/paginas-castillos/body/schemas/body-generico.php"; ?>
   </body>
 
 </html>

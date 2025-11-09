@@ -25,7 +25,7 @@ $horario_cierre = "18:00";
     "addressLocality": "<?= $ciudad ?>",
     "addressCountry": "FR"
   },
-  "url": "https://www.tusitioweb.com/val-de-loire/chateaux/<?= $slug ?>.php",
+  "url": "https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= $slug ?>.php",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": <?= $latitude ?>,

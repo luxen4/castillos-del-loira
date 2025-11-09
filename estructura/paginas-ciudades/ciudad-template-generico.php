@@ -84,7 +84,7 @@
 
   <!-- 🏙️ ARTÍCULO PRINCIPAL -->
 <article class="lg:col-span-7 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
-      <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-emerald-700 mb-4">
+      <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4">
           <?= $ciudad ?> en el Valle del Loira
       </h3>
       <p class="text-gray-700 mb-6"><?= $descripcion ?></p>

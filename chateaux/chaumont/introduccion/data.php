@@ -39,9 +39,6 @@
 ' ?>
 
 
-
-
-
 <?php
 $festival_jardines_chaumont = '
 

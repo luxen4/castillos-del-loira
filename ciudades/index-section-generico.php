@@ -6,7 +6,7 @@
 && $section['id'] !== 'fin-de-semana'): ?>
 <!-- <?= $slug; ?>⭐ Actividades en Nantes -->
 <section id="<?= $section['id'] ?>" class="container mx-auto px-1 py-6">
-  <h2 class="text-xl md:text-2xl lg:text-3xl font-bold text-emerald-700 mb-6">
+  <h2 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-6">
     <?= $section['titulo'] ?>
   </h2>
 

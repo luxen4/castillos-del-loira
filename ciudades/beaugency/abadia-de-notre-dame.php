@@ -37,7 +37,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
       "addressLocality": "<?= htmlspecialchars($ciudad) ?>",
       "addressCountry": "FR"
     },
-    "url": "https://www.tusitioweb.com/val-de-loire/chateaux/<?= $slug ?>.php",
+    "url": "https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= $slug ?>.php",
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": <?= $latitude ?>,
@@ -94,7 +94,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
     </aside>
 
     <article class="lg:col-span-2">
-      <h3 class="text-xl md:text-2xl lg:text-3xl font-bold text-emerald-700 mb-4"><?= htmlspecialchars($nombreLugar) ?></h3>
+      <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4"><?= htmlspecialchars($nombreLugar) ?></h3>
       <p class="text-gray-700 mb-6"><?= htmlspecialchars($descripcion) ?></p>
 
       <section id="historia" class="bg-white rounded-2xl p-6 shadow mb-6">

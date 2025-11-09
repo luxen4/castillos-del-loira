@@ -12,7 +12,7 @@
 </style>
 
 <section id="<?= $introduccion['id'] ?>">
-  <h2 class="text-3xl font-bold text-emerald-700 mb-4"><?= $introduccion['titulo'] ?></h2>
+  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?php //echo $introduccion['titulo'] ?>Información</h2>
 
   <?php if (!empty($introduccion['parrafos'])): ?>
     <?php foreach ($introduccion['parrafos'] as $parrafo): ?>
@@ -22,7 +22,7 @@
     <?php endforeach; ?>
   <?php endif; ?>
 
-  <h2 class="text-3xl font-bold text-emerald-700 mb-4"><?= $titulo ?></h2>
+  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $titulo ?></h2>
   <p class="text-gray-700 mb-4"><?= $texto ?></p>
 
   <div class="relative w-full overflow-hidden">

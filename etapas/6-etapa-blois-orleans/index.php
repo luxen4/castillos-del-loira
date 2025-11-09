@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,72 +42,83 @@
     });
   </script>
 
-  <!-- 🔹 Header -->
-  <header class="bg-emerald-700 text-white shadow-md py-6">
-    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
-      <h1 class="text-3xl md:text-4xl font-extrabold">🌿 Valle del Loira: Blois – Orléans</h1>
-      <nav class="mt-4 md:mt-0 flex gap-4">
-        <a href="../index.php" class="px-4 py-2 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-gray-100 transition">🏠 Página Principal</a>
-        <a href="formulario-chat-gpt.html" class="px-4 py-2 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-gray-100 transition">✍️ Ir al Formulario</a>
-      </nav>
-    </div>
-  </header>
+  <?php
+  $etapa = 'Blois – Orléans';
+  require "../estructura/header/enlaces-principales-generico.php"; ?>
+
+  <?php
+  $introduccion = '';
+
+  ?>
 
   <!-- 🔹 Introducción -->
-  <section class="container mx-auto px-6 py-10 text-center bg-emerald-50 rounded-lg shadow-lg mt-6">
-    <h2 class="text-3xl md:text-5xl font-extrabold text-emerald-700 mb-4">Ruta entre Blois y Orléans</h2>
+  <section class="container mx-auto px-2 py-1 text-center bg-emerald-50 rounded-lg shadow-lg mt-6">
+    <h2 class="text-3xl md:text-5xl font-extrabold text-emerald-700 mb-4">Ruta <br><?= $etapa; ?></h2>
     <p class="text-lg md:text-xl text-gray-700 mb-6">
       Esta etapa recorre el corazón del Loira, desde la ciudad histórica de Blois hasta la majestuosa Orléans, con castillos, ríos y paisajes que muestran la esencia de Francia.
     </p>
 
-    <div class="flex flex-col md:flex-row justify-center gap-6 flex-wrap">
-      <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow hover:scale-105 transition">
-        <i class="fas fa-chess-rook text-emerald-600 text-2xl"></i> <span>Castillos históricos</span>
+
+
+    <div class="bg-white px-4 py-4 rounded-lg shadow hover:scale-105 transition mb-6">
+      <div class="text-center mb-4">
+        <i class="fas fa-chess-rook text-emerald-600 text-2xl"></i>
+        <span class="font-semibold block mt-2 text-lg md:text-xl">Castillos históricos</span>
+         <p class="text-gray-600 text-sm md:text-base mt-1">
+          Recorre fortalezas medievales y palacios renacentistas, como Chambord, Chenonceau o Amboise. <br>
+          Descubre su arquitectura única, murallas, torres y salones que narran siglos de historia. <br>
+          Ideal para quienes aman la historia y la fotografía de patrimonio arquitectónico.
+        </p>
       </div>
-      <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow hover:scale-105 transition">
-        <i class="fas fa-water text-emerald-600 text-2xl"></i> <span>Ríos y paisajes</span>
+        <?php
+        $slug_actual = 'etapa-6-castillos-historicos'; // Cambia según la sección que quieras mostrar
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php"; 
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
+
+
+      <div class="text-center mb-4">
+        <i class="fas fa-chess-rook text-emerald-600 text-2xl"></i>
+        <span class="font-semibold block mt-2 text-lg md:text-xl">Ríos y paisajes</span>
+          <p class="text-gray-600 text-sm md:text-base mt-1">
+            Admira el Loira y sus afluentes, pasea por jardines históricos junto a los castillos. <br>
+            Contempla los viñedos y campos que cambian de color según la estación. <br>
+            Ideal para fotos panorámicas inolvidables.
+          </p>
       </div>
-      <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow hover:scale-105 transition">
-        <i class="fas fa-wine-glass text-emerald-600 text-2xl"></i> <span>Vinos y gastronomía</span>
+        <?php
+        $slug_actual = 'etapa-6-rios-y-paisajes'; // Cambia según la sección que quieras mostrar
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
+
+
+
+
+
+
+
+
       </div>
-    </div>
+
+      <!-- Vinos y gastronomía -->
+      <div class="bg-white px-4 py-4 rounded-lg shadow hover:scale-105 transition mb-6">
+        <div class="text-center mb-4">
+          <i class="fas fa-wine-glass text-emerald-600 text-2xl"></i>
+          <span class="font-semibold block mt-2 text-lg md:text-xl">Vinos y gastronomía</span>
+          <p class="text-gray-600 text-sm md:text-base mt-1">
+            Prueba los vinos de la región, desde tintos robustos hasta suaves blancos y espumosos. <br>
+            Disfruta de quesos locales, pasteles y platos tradicionales franceses en los restaurantes y bodegas a lo largo de la ruta.
+          </p>
+        </div>
+        <?php
+        $slug_actual = 'etapa-6-vinos-y-gastronomia'; // Cambia según la sección que quieras mostrar
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
+        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
+
+      </div>
+
   </section>
 
-  <!-- 🔹 Bloque de navegación de etapas -->
-  <section class="text-center mt-10 flex justify-center gap-4 flex-wrap">
-    <a href="<?php echo isset($etapaAnterior) ? $etapaAnterior['url'] : '../index.php'; ?>" 
-       class="inline-block px-6 py-3 <?php echo isset($etapaAnterior) ? $etapaAnterior['bgColor'] . ' ' . $etapaAnterior['textoColor'] . ' ' . $etapaAnterior['hoverColor'] : 'bg-gray-300 text-gray-800 hover:bg-gray-400'; ?> font-semibold rounded-lg shadow transition">
-       <?php echo isset($etapaAnterior) ? $etapaAnterior['texto'] : '🏠 Volver al inicio'; ?>
-    </a>
 
-    <a href="<?php echo isset($etapaSiguiente) ? $etapaSiguiente['url'] : '../index.php'; ?>" 
-       class="inline-block px-6 py-3 <?php echo isset($etapaSiguiente) ? $etapaSiguiente['bgColor'] . ' ' . $etapaSiguiente['textoColor'] . ' ' . $etapaSiguiente['hoverColor'] : 'bg-gray-300 text-gray-800 hover:bg-gray-400'; ?> font-semibold rounded-lg shadow transition">
-       <?php echo isset($etapaSiguiente) ? $etapaSiguiente['texto'] : '🏠 Volver al inicio'; ?>
-    </a>
-  </section>
-
-  <!-- 🔹 Castillos cercanos -->
-  <section id="nav1" class="container mx-auto px-6 py-8 bg-white rounded-lg shadow mt-6">
-    <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">Castillos cercanos para visitar</h3>
-
-    <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <li class="text-center">
-        <a href="https://www.chateaudeblois.fr/" target="_blank">
-          <img class="rounded-lg shadow mb-2 mx-auto" src="images/blois.jpg" alt="Château Royal de Blois">
-          <p class="text-emerald-700 font-semibold">Château Royal de Blois</p>
-        </a>
-      </li>
-      <li class="text-center">
-        <a href="https://www.chateau-cosson.fr/" target="_blank">
-          <img class="rounded-lg shadow mb-2 mx-auto" src="images/cosson.jpg" alt="Château de Cosson">
-          <p class="text-emerald-700 font-semibold">Château de Cosson</p>
-        </a>
-      </li>
-      <li class="text-center">
-        <a href="https://www.orleans.fr/" target="_blank" class="text-emerald-600 hover:underline font-semibold">Ciudad de Orléans</a>
-      </li>
-    </ul>
-  </section>
 
   <!-- 🔹 Mapa -->
   <section id="mapa" class="container mx-auto px-6 py-10">
@@ -115,8 +127,8 @@
       width="100%" height="450" class="rounded-lg shadow-md" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   </section>
 
-<?php require "data.php"; ?>
-<?php require "../template-navegacion-etapas.php"; ?>
+  <?php require "data.php"; ?>
+  <?php require "../template-navegacion-etapas.php"; ?>
 
   <!-- 🔹 Footer -->
   <footer class="bg-gray-100 mt-12 py-6 text-center text-gray-600">
@@ -124,4 +136,5 @@
   </footer>
 
 </body>
+
 </html>

@@ -11,7 +11,7 @@
     "addressLocality": "<?= $ciudad ?>",
     "addressCountry": "FR"
   },
-  "url": "https://www.tusitioweb.com/val-de-loire/orleans/<?= $slug ?>.php",
+  "url": "https://www.alayag82.kesug.com/val-de-loire/orleans/<?= $slug ?>.php",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": <?= $latitude ?>,

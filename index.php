@@ -16,7 +16,7 @@
 
   <!-- ✅ Open Graph (Facebook / LinkedIn) -->
   <meta property="og:title" content="Castillos del Valle del Loira | Guía de Viaje">
-  <meta property="og:description" content="Explora la magia del Valle del Loira: Chambord, Chenonceau, Villandri y más. Guía, fotos y consejos para tu viaje.">
+  <meta property="og:description" content="Explora la magia del Valle del Loira: Chambord, Chenonceau, Villandry y más. Guía, fotos y consejos para tu viaje.">
   <meta property="og:image" content="https://tusitio.com/img/logo.png">
   <meta property="og:url" content="https://---playas2024----.kesug.com/castillos-del-loira">
   <meta property="og:type" content="website">
@@ -78,7 +78,7 @@
     <div class="py-12 text-center px-6 container mx-auto">
       <h2 class="text-4xl md:text-5xl font-extrabold">🌿 Ruta por el Valle del Loira</h2>
       <p class="mt-3 text-lg md:text-xl text-emerald-100">
-        Explora la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandri y más.
+        Explora la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandry y más.
       </p>
       <a href="#mapa"
         class="mt-6 inline-block bg-white text-emerald-700 px-5 py-2 rounded-lg font-semibold shadow hover:bg-emerald-100 transition">
@@ -236,7 +236,7 @@
       <?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
 
       <section class="space-y-6">
-        <h2 class="text-3xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
+        <h2 class="text-2xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
 
         <p>
           El <strong>Valle del Loira</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.

@@ -2,7 +2,7 @@
 $nombreLugar = "Castillo de Chenonceau";
 $ciudad = "Chenonceau";
 $slug_Mayuscula = "Chenonceau";
-//$descripcion = "El Castillo de Chenonceau, conocido como el 'Castillo de las Damas', es una joya renacentista del Valle del Loira. Famoso por su galería sobre el río Cher y sus elegantes jardines, combina historia, arte y arquitectura en un entorno natural único.";
+$descripcion = "El Castillo de Chenonceau, conocido como el 'Castillo de las Damas', es una joya renacentista del Valle del Loira. Famoso por su galería sobre el río Cher y sus elegantes jardines, combina historia, arte y arquitectura en un entorno natural único.";
 $imagenHero = "https://cultures-j.com/wp-content/uploads/Le-chateau-de-Chenonceau.jpg";
 $web_oficial = "https://www.airtouraine.fr/es/chateau/chateau-de-chenonceau/";
 $fuenteHero_texto = "www.airtouraine.fr";

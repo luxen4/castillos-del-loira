@@ -25,13 +25,13 @@ function esc($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
   <meta name="description" content="<?= esc($descripcion) ?>">
   <meta name="keywords" content="<?= esc($keywords) ?>">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.tusitioweb.com/val-de-loire/chateaux/<?= esc($slug) ?>.php">
+  <link rel="canonical" href="https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= esc($slug) ?>.php">
 
   <!-- Open Graph / Social -->
   <meta property="og:title" content="<?= esc($nombreLugar) ?>">
   <meta property="og:description" content="<?= esc($descripcion) ?>">
   <meta property="og:image" content="<?= esc($imagenHero) ?>">
-  <meta property="og:url" content="https://www.tusitioweb.com/val-de-loire/chateaux/<?= esc($slug) ?>.php">
+  <meta property="og:url" content="https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= esc($slug) ?>.php">
   <meta property="og:type" content="place">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@TuCuentaTwitter">
@@ -156,7 +156,7 @@ function esc($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
     "latitude": <?= $latitude ?>,
     "longitude": <?= $longitude ?>
   },
-  "url": "https://www.tusitioweb.com/val-de-loire/chateaux/<?= esc($slug) ?>.php",
+  "url": "https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= esc($slug) ?>.php",
   "sameAs": [
     "<?= esc($web_oficial) ?>",
     "https://www.loirevalley.net/chateau-de-gien",
