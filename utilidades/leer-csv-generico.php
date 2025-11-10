@@ -1,6 +1,6 @@
 <?php
 // Leer CSV
-$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/data-etapas.csv";
+$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/{$archivo_csv}";
 $data = array_map('str_getcsv', file($archivo_csv));
 $headers = array_shift($data); // Elimina la primera fila (encabezados)
 
@@ -8,10 +8,8 @@ $headers = array_shift($data); // Elimina la primera fila (encabezados)
 $items = [];
 foreach ($data as $row) {
     $items[] = array_combine($headers, $row);
-}
+} //var_dump($items);
 
 // Filtrar por slug
 $items_filtrados = array_filter($items, fn($item) => $item['slug'] === $slug_actual);
 ?>
-
-</div>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrián Laya García - Desarrollador</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Contenedor principal -->
+  <div class="min-h-screen flex items-center justify-center px-4 py-8">
+
+    <!-- Tarjeta de presentación -->
+    <div class="bg-white shadow-xl rounded-xl p-6 max-w-lg w-full text-center">
+
+      <!-- Imagen -->
+      <img src="tu-imagen.jpg" alt="Adrián Laya García" class="w-32 h-32 mx-auto rounded-full shadow-md mb-4 object-cover">
+
+      <!-- Nombre y título -->
+      <h1 class="text-3xl font-bold text-emerald-700 mb-1">Adrián Laya García</h1>
+      <p class="text-gray-600 mb-4">Desarrollador de Apps & Entusiasta Tecnológico</p>
+
+      <!-- Cursos y formación -->
+      <div class="text-left mb-4">
+        <h2 class="text-lg font-semibold text-emerald-700 mb-2">🎓 Formación y Especializaciones</h2>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>DAM (Desarrollo de Aplicaciones Multiplataforma)</li>
+          <li>DAW (Desarrollo de Aplicaciones Web)</li>
+          <li>Curso de Especialización en Inteligencia Artificial y Big Data</li>
+          <li>Curso de Desarrollo de Videojuegos 2D/3D, Realidad Virtual y Aumentada</li>
+        </ul>
+      </div>
+
+      <!-- Inquietudes -->
+      <div class="text-left mb-4">
+        <h2 class="text-lg font-semibold text-emerald-700 mb-2">💡 Inquietudes</h2>
+        <p class="text-gray-700">
+          Me apasiona crear aplicaciones útiles, explorar nuevas tecnologías, integrar inteligencia artificial en proyectos y desarrollar videojuegos interactivos.
+        </p>
+      </div>
+
+      <!-- Contacto -->
+      <div class="text-left mb-4">
+        <h2 class="text-lg font-semibold text-emerald-700 mb-2">✉️ Contacto</h2>
+        <p class="text-gray-700">
+          Correo: <a href="mailto:tucorreo@ejemplo.com" class="text-emerald-600 hover:underline">tucorreo@ejemplo.com</a>
+        </p>
+      </div>
+
+      <!-- Enlaces a proyectos -->
+      <div class="mt-4">
+        <h2 class="text-lg font-semibold text-emerald-700 mb-2">🌐 Mis proyectos</h2>
+        <div class="flex flex-col gap-2">
+          <a href="https://github.com/tuusuario" target="_blank" class="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition flex items-center justify-center gap-2">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://linkedin.com/in/tuusuario" target="_blank" class="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition flex items-center justify-center gap-2">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://tuproyecto1.com" target="_blank" class="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition flex items-center justify-center gap-2">
+            Proyecto 1
+          </a>
+          <a href="https://tuproyecto2.com" target="_blank" class="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition flex items-center justify-center gap-2">
+            Proyecto 2
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

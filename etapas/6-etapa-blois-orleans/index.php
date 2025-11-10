@@ -21,12 +21,17 @@
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 
+<?php $etapa = 'Blois – Orléans'; require "../estructura/header/enlaces-principales-generico.php";?>
+
+
+
+
   <!-- 🎶 Música de fondo -->
   <audio id="bg-music" autoplay loop muted>
-    <source src="../audio/musica-ambiental-1.mp3" type="audio/mpeg">
+    <source src="../../audio/musica-ambiental-1.mp3" type="audio/mpeg">
   </audio>
 
-  <div class="fixed bottom-4 right-4">
+  <div class="fixed bottom-4 right-4 z-50">
     <button id="toggle-sound" class="px-4 py-2 bg-emerald-600 text-white rounded-full shadow-lg hover:bg-emerald-700 transition">
       🔊 Activar sonido
     </button>
@@ -42,93 +47,139 @@
     });
   </script>
 
-  <?php
-  $etapa = 'Blois – Orléans';
-  require "../estructura/header/enlaces-principales-generico.php"; ?>
+ 
 
-  <?php
-  $introduccion = '';
+  <!-- LAYOUT PRINCIPAL: asides a los lados y main en el centro -->
+  <div class="container mx-auto px-4 grid grid-cols-12 gap-6 mt-6">
 
-  ?>
-
-  <!-- 🔹 Introducción -->
-  <section class="container mx-auto px-2 py-1 text-center bg-emerald-50 rounded-lg shadow-lg mt-6">
-    <h2 class="text-3xl md:text-5xl font-extrabold text-emerald-700 mb-4">Ruta <br><?= $etapa; ?></h2>
-    <p class="text-lg md:text-xl text-gray-700 mb-6">
-      Esta etapa recorre el corazón del Loira, desde la ciudad histórica de Blois hasta la majestuosa Orléans, con castillos, ríos y paisajes que muestran la esencia de Francia.
-    </p>
-
-
-
-    <div class="bg-white px-4 py-4 rounded-lg shadow hover:scale-105 transition mb-6">
-      <div class="text-center mb-4">
-        <i class="fas fa-chess-rook text-emerald-600 text-2xl"></i>
-        <span class="font-semibold block mt-2 text-lg md:text-xl">Castillos históricos</span>
-         <p class="text-gray-600 text-sm md:text-base mt-1">
-          Recorre fortalezas medievales y palacios renacentistas, como Chambord, Chenonceau o Amboise. <br>
-          Descubre su arquitectura única, murallas, torres y salones que narran siglos de historia. <br>
-          Ideal para quienes aman la historia y la fotografía de patrimonio arquitectónico.
-        </p>
-      </div>
-        <?php
-        $slug_actual = 'etapa-6-castillos-historicos'; // Cambia según la sección que quieras mostrar
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php"; 
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
-
-
-      <div class="text-center mb-4">
-        <i class="fas fa-chess-rook text-emerald-600 text-2xl"></i>
-        <span class="font-semibold block mt-2 text-lg md:text-xl">Ríos y paisajes</span>
-          <p class="text-gray-600 text-sm md:text-base mt-1">
-            Admira el Loira y sus afluentes, pasea por jardines históricos junto a los castillos. <br>
-            Contempla los viñedos y campos que cambian de color según la estación. <br>
-            Ideal para fotos panorámicas inolvidables.
-          </p>
-      </div>
-        <?php
-        $slug_actual = 'etapa-6-rios-y-paisajes'; // Cambia según la sección que quieras mostrar
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
-
-
-
-
-
-
-
-
-      </div>
-
-      <!-- Vinos y gastronomía -->
-      <div class="bg-white px-4 py-4 rounded-lg shadow hover:scale-105 transition mb-6">
-        <div class="text-center mb-4">
-          <i class="fas fa-wine-glass text-emerald-600 text-2xl"></i>
-          <span class="font-semibold block mt-2 text-lg md:text-xl">Vinos y gastronomía</span>
-          <p class="text-gray-600 text-sm md:text-base mt-1">
-            Prueba los vinos de la región, desde tintos robustos hasta suaves blancos y espumosos. <br>
-            Disfruta de quesos locales, pasteles y platos tradicionales franceses en los restaurantes y bodegas a lo largo de la ruta.
-          </p>
+    <!-- ASIDE IZQUIERDO (solo escritorio) -->
+    <aside class="hidden lg:block col-span-2">
+      <div class="aside-sticky bg-white p-4 rounded-lg shadow">
+        <h4 class="font-semibold text-emerald-700 mb-2">Publicidad</h4>
+        <div class="h-40 bg-gray-100 rounded flex items-center justify-center text-gray-500">
+          AD 160×600
         </div>
-        <?php
-        $slug_actual = 'etapa-6-vinos-y-gastronomia'; // Cambia según la sección que quieras mostrar
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
-        require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";?>
+        <hr class="my-4" />
+        <p class="text-sm text-gray-600">Widget o enlaces rápidos</p>
+      </div>
+    </aside>
 
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="col-span-12 lg:col-span-8">
+      <article class="bg-white p-6 rounded-lg shadow mb-6">
+<h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
+
+<p class="text-lg md:text-xl text-gray-700 mb-4">
+  Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="https://www.chateaudeblois.fr/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="https://www.orleans-tourisme.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>. 
+  A lo largo del recorrido, podrás admirar castillos renacentistas y medievales, ríos serpenteantes, jardines impresionantes y paisajes que capturan la esencia de Francia.
+</p>
+
+<p class="text-lg md:text-xl text-gray-700 mb-4">
+  Entre los puntos destacados se encuentran:
+</p>
+
+<ul class="list-disc list-inside text-gray-700 mb-4">
+  <li><a href="https://www.chateau-chenonceau.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Chenonceau</a>, famoso por su arquitectura sobre el río Cher y sus jardines renacentistas.</li>
+  <li><a href="https://www.vinci-closluce.com/es" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
+  <li><a href="https://www.chateau-amboise.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
+  <li><a href="https://www.valdeloire-france.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
+</ul>
+
+<p class="text-lg md:text-xl text-gray-700 mb-6">
+  Además, los amantes de la naturaleza pueden disfrutar de paseos por los <a href="https://www.touraine-valdeloire.com/es/descubra/jardines" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">jardines históricos</a> y las riberas del río, ideales para fotografía, picnic y observación de aves.
+</p>
+
+
+        <?php
+        // Definir las etapas en orden
+        $bloques = [
+          [
+            "orden" => 0,
+            "slug_parrafo" => "parrafo_etapa_6_castillos_historicos",
+            "slug_imagenes" => "etapa-6-castillos-historicos"
+          ],
+          [
+            "orden" => 1,
+            "slug_parrafo" => "parrafo-etapa-6-rios-y-paisajes",
+            "slug_imagenes" => "etapa-6-rios-y-paisajes"
+          ],
+          [
+            "orden" => 2,
+            "slug_parrafo" => "parrafo-etapa-6-vinos-y-gastronomia",
+            "slug_imagenes" => "etapa-6-vinos-y-gastronomia"
+          ]
+        ];
+        ?>
+
+        <div class="bg-white px-4 py-4 rounded-lg shadow mb-1">
+
+          <?php foreach ($bloques as $bloque): ?>
+
+            <?php
+            // --- PARTE DEL PÁRRAFO ----
+            $orden = $bloque["orden"];
+            $slug_actual = $bloque["slug_parrafo"];
+            $archivo_csv = 'data-etapas-partes.csv';
+
+            require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
+            require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-cabeceras-generico.php";
+
+
+            // --- PARTE DE LAS IMÁGENES ---
+            $slug_actual = $bloque["slug_imagenes"];
+            $archivo_csv = 'data-etapas.csv';
+
+            require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
+            require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-imagenes-generico.php";
+            ?>
+
+          <?php endforeach; ?>
+
+        </div>
+
+        <section class="grid gap-4 md:grid-cols-2">
+          <div class="bg-gray-50 p-4 rounded">
+            <h3 class="font-semibold mb-1">Sección A</h3>
+            <p class="text-sm text-gray-600">Texto de ejemplo para la sección A.</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded">
+            <h3 class="font-semibold mb-1">Sección B</h3>
+            <p class="text-sm text-gray-600">Texto de ejemplo para la sección B.</p>
+          </div>
+        </section>
+      </article>
+
+
+      <!-- 🔹 Mapa -->
+      <section id="mapa" class="max-w-6xl mx-auto px-4">
+        <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">🗺️ Mapa de la ruta Blois – Orléans</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d978168.6647341252!2d1.903!3d47.600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1759333355000!5m2!1ses!2ses"
+          width="100%" height="450" class="rounded-lg shadow-md" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </section>
+
+      <!-- Navegación entre etapas -->
+      <?php require "data.php"; ?>
+      <?php require "../template-navegacion-etapas.php"; ?>
+
+    </main>
+
+
+    <!-- ➡️ ASIDE DERECHO (solo escritorio) -->
+    <aside class="hidden lg:block col-span-2">
+      <div class="aside-sticky bg-white p-4 rounded-lg shadow">
+        <h4 class="font-semibold text-emerald-700 mb-2">Destacados</h4>
+        <ul class="text-sm space-y-2 text-gray-700">
+          <li><a href="#" class="hover:underline">Castillo de Chambord</a></li>
+          <li><a href="#" class="hover:underline">Chenonceau</a></li>
+          <li><a href="#" class="hover:underline">Amboise</a></li>
+        </ul>
+        <hr class="my-4" />
+        <div class="h-24 bg-gray-100 rounded flex items-center justify-center text-gray-500">AD 160×600</div>
       </div>
 
-  </section>
+    </aside>
 
-
-
-  <!-- 🔹 Mapa -->
-  <section id="mapa" class="container mx-auto px-6 py-10">
-    <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">🗺️ Mapa de la ruta Blois – Orléans</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d978168.6647341252!2d1.903!3d47.600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1759333355000!5m2!1ses!2ses"
-      width="100%" height="450" class="rounded-lg shadow-md" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </section>
-
-  <?php require "data.php"; ?>
-  <?php require "../template-navegacion-etapas.php"; ?>
+  </div>
 
   <!-- 🔹 Footer -->
   <footer class="bg-gray-100 mt-12 py-6 text-center text-gray-600">
