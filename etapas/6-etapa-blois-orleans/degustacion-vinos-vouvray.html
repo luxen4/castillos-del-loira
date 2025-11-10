@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Degustación de vinos en Vouvray — Valle del Loira</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Guía para descubrir las mejores catas y bodegas de Vouvray, corazón del Chenin Blanc en el Valle del Loira. Info, mapas, tours y reservas." />
+  <meta name="keywords" content="Vouvray, vinos, loira, Chenin Blanc, cata de vinos, bodegas, enoturismo" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- ✅ HEADER -->
+  <header class="bg-emerald-700 text-white py-4">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Vouvray — Catas & Bodegas</h1>
+      <nav class="flex gap-6 text-sm">
+        <a href="#intro" class="hover:underline">Inicio</a>
+        <a href="#bodegas" class="hover:underline">Bodegas</a>
+        <a href="#tours" class="hover:underline">Tours</a>
+        <a href="#contacto" class="hover:underline">Reservas</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ✅ LAYOUT (asides + main) -->
+  <div class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-[220px_1fr_220px] gap-6 px-4 mt-8">
+
+    <!-- ASIDE IZQUIERDO -->
+    <aside class="bg-white hidden lg:block rounded-lg shadow p-4 sticky top-6 h-fit">
+      <h3 class="text-lg font-semibold text-emerald-700 mb-3">Enlaces útiles</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a class="text-emerald-600 hover:underline" href="https://www.vouvray-tourisme.com" target="_blank">Turismo de Vouvray</a></li>
+        <li><a class="text-emerald-600 hover:underline" href="https://www.loirevalley-france.co.uk" target="_blank">Loire Valley</a></li>
+        <li><a class="text-emerald-600 hover:underline" href="https://www.domaine-huet.com/" target="_blank">Domaine Huet</a></li>
+      </ul>
+    </aside>
+
+
+    <!-- ✅ CONTENIDO PRINCIPAL -->
+    <main class="bg-white rounded-lg shadow p-6 space-y-12">
+
+      <!-- Intro -->
+      <section id="intro">
+        <h2 class="text-3xl font-bold text-emerald-700 mb-4">Degustación de vinos en Vouvray</h2>
+
+        <p class="text-lg leading-relaxed mb-6">
+          Vouvray es una de las joyas del <strong>Valle del Loira</strong>, famosa por sus vinos de uva
+          <strong>Chenin Blanc</strong>. Entre bodegas excavadas en roca y viñedos que se extienden hasta el horizonte,
+          podrás disfrutar de catas guiadas, vinos espumosos, blancos secos y dulces.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?auto=format&fit=crop&w=1200&q=60"
+             alt="Viñedos de Vouvray"
+             class="rounded-lg shadow-md w-full">
+      </section>
+
+
+      <!-- Bodegas destacadas -->
+      <section id="bodegas">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Bodegas recomendadas</h3>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+
+          <article class="bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-emerald-700 mb-1">🍇 Domaine Huet</h4>
+            <p class="text-sm text-gray-600 mb-4">Referente mundial del Chenin Blanc, certificado biodinámico.</p>
+            <a href="https://www.domaine-huet.com" target="_blank"
+               class="inline-block text-emerald-600 hover:underline text-sm">
+              Sitio oficial →
+            </a>
+          </article>
+
+          <article class="bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-bold text-emerald-700 mb-1">🏞️ Cave de Vouvray</h4>
+            <p class="text-sm text-gray-600 mb-4">Bodega histórica con kilómetros de galerías subterráneas.</p>
+            <a href="https://www.vinsvouvray.com" target="_blank"
+               class="inline-block text-emerald-600 hover:underline text-sm">
+              Visitar web →
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+
+      <!-- Tours -->
+      <section id="tours">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Tours de degustación</h3>
+
+        <div class="space-y-4">
+
+          <div class="border-l-4 border-emerald-700 pl-4">
+            <h4 class="font-semibold">Tour clásico — 2h</h4>
+            <p class="text-sm text-gray-600">Incluye visita a galería, cata + copa conmemorativa.</p>
+          </div>
+
+          <div class="border-l-4 border-emerald-700 pl-4">
+            <h4 class="font-semibold">Cata premium — 3h</h4>
+            <p class="text-sm text-gray-600">Comparativa de vinos secos, semidulces y espumosos.</p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- Contacto -->
+      <section id="contacto">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Reservas</h3>
+
+        <form class="space-y-4">
+          <input type="text" placeholder="Nombre" class="w-full p-3 border rounded-lg" required>
+          <input type="email" placeholder="Email" class="w-full p-3 border rounded-lg" required>
+          <textarea placeholder="Mensaje" class="w-full p-3 border rounded-lg" rows="4"></textarea>
+          <button class="bg-emerald-700 text-white px-6 py-3 rounded-lg hover:bg-emerald-800">
+            Enviar solicitud
+          </button>
+        </form>
+      </section>
+
+    </main>
+
+
+    <!-- ASIDE DERECHO -->
+    <aside class="bg-white hidden lg:block rounded-lg shadow p-4 sticky top-6 h-fit">
+      <h3 class="text-lg font-semibold text-emerald-700">Mapa rápido</h3>
+      <div class="mt-3 rounded-lg overflow-hidden shadow">
+        <iframe class="w-full" style="aspect-ratio:16/9"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21569.123456789!2d0.75!3d47.38"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </aside>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="mt-12 py-6 bg-gray-100 text-center text-sm text-gray-600">
+    © 2025 Valle del Loira — Guía de Enoturismo
+  </footer>
+
+</body>
+</html>
+
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Degustación de vinos en Vouvray — Ruta y visitas | Valle del Loira</title>
+  <meta name="description" content="Descubre tours y catas en Vouvray (Valle del Loira). Bodegas recomendadas, horarios, reservas, mapa y consejos para una experiencia enoturística inolvidable." />
+  <meta name="keywords" content="Vouvray, cata de vinos, Chenin Blanc, enoturismo, Valle del Loira, bodegas Vouvray, visitas guiadas" />
+  <meta name="author" content="Tu Nombre / Tu Proyecto" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Degustación de vinos en Vouvray — Valle del Loira" />
+  <meta property="og:description" content="Guía de bodegas, tours, horarios y reservas para disfrutar las mejores catas en Vouvray (Chenin Blanc)." />
+  <meta property="og:image" content="https://example.com/img/vouvray-hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tusitioweb.com/vouvray" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@TuCuenta" />
+
+  <!-- JSON-LD (TouristAttraction / LocalBusiness hints for SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"TouristAttraction",
+    "name":"Degustación de vinos en Vouvray",
+    "description":"Tours de cata en bodegas de Vouvray, especialidad en vinos Chenin Blanc. Reservas, horarios y recomendaciones para enoturismo en el Valle del Loira.",
+    "image":["https://example.com/img/vouvray-hero.jpg"],
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Vouvray",
+      "addressRegion":"Centre-Val de Loire",
+      "addressCountry":"FR"
+    },
+    "url":"https://tusitioweb.com/vouvray",
+    "telephone":"+33-0-000-000-000",
+    "sameAs":["https://www.tourisme-vouvray.fr/","https://www.loirevalley-france.co.uk/"]
+  }
+  </script>
+
+  <!-- Tailwind + Font Awesome CDN (rápido para prototipo) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Pequeños ajustes visuales */
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    /* Forzar que asides no bajen en pantallas grandes */
+    @media (min-width: 1024px) {
+      main.layout-grid { display: grid; grid-template-columns: 240px 1fr 240px; gap: 24px; align-items: start; }
+      aside.left, aside.right { position: sticky; top: 80px; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-emerald-700 text-white">
+    <div class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="https://example.com/img/logo.png" alt="Logo" class="h-10 w-10 rounded-full object-cover">
+        <div>
+          <h1 class="text-2xl font-extrabold leading-tight">Degustación en Vouvray</h1>
+          <p class="text-sm text-emerald-200">Enoturismo · Catas · Tours · Chenin Blanc</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#sobre" class="hover:underline">Sobre</a>
+        <a href="#bodegas" class="hover:underline">Bodegas</a>
+        <a href="#tours" class="hover:underline">Tours</a>
+        <a href="#faq" class="hover:underline">FAQ</a>
+        <a href="#contacto" class="bg-white text-emerald-700 px-3 py-2 rounded-lg font-medium hover:shadow">Reservar</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="btnMenu" class="p-2 rounded-md bg-emerald-600/40 hover:bg-emerald-600/60">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Layout with left/right asides and main -->
+  <div class="container mx-auto px-4 pt-8 layout-grid">
+
+    <!-- ASIDE IZQUIERDO -->
+    <aside class="left hidden lg:block">
+      <div class="bg-white rounded-xl p-4 shadow">
+        <p class="text-xs text-gray-500 mb-2">Publicidad</p>
+        <div class="w-full h-72 bg-gray-100 rounded flex items-center justify-center text-gray-400">AD 160×600</div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow mt-6">
+        <h4 class="text-sm font-semibold text-emerald-700 mb-2">Enlaces útiles</h4>
+        <ul class="text-sm space-y-2">
+          <li><a href="https://www.tourisme-vouvray.fr/" target="_blank" class="hover:underline text-emerald-600">Oficina de turismo Vouvray</a></li>
+          <li><a href="https://www.winetourism.fr/" target="_blank" class="hover:underline text-emerald-600">Enoturismo en Francia</a></li>
+          <li><a href="https://www.loirevalley-france.co.uk/" target="_blank" class="hover:underline text-emerald-600">Valle del Loira - Turismo</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="bg-white rounded-xl shadow p-6">
+
+      <!-- Hero -->
+      <section id="sobre" class="mb-8">
+        <div class="md:flex md:items-center md:gap-6">
+          <div class="md:flex-1">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-emerald-700 mb-2">Catas & Tours en Vouvray</h2>
+            <p class="text-gray-700 mb-4">Vouvray, cuna del <strong>Chenin Blanc</strong>, ofrece bodegas familiares, cuevas históricas y experiencias de cata para todos los públicos. Te guiamos por las mejores visitas, reservas y consejos para disfrutar la región.</p>
+
+            <div class="flex gap-3">
+              <a href="#tours" class="inline-flex items-center gap-2 bg-emerald-700 text-white px-4 py-2 rounded-lg shadow hover:bg-emerald-800">
+                <i class="fa fa-wine-glass"></i> Ver tours disponibles
+              </a>
+              <a href="#bodegas" class="inline-flex items-center gap-2 border border-emerald-700 text-emerald-700 px-4 py-2 rounded-lg hover:bg-emerald-50">
+                <i class="fa fa-map-marker-alt"></i> Bodegas destacadas
+              </a>
+            </div>
+          </div>
+
+          <div class="md:w-80 mt-6 md:mt-0">
+            <img src="https://example.com/img/vouvray-hero.jpg" alt="Vouvray viñedos" class="rounded-xl w-full h-48 object-cover shadow">
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick facts -->
+      <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+        <div class="bg-emerald-50 rounded-lg p-4 text-center">
+          <i class="fa fa-clock text-emerald-700 text-2xl mb-2"></i>
+          <div class="text-sm text-gray-600">Horario típico</div>
+          <div class="font-semibold">09:00 — 18:00</div>
+        </div>
+        <div class="bg-emerald-50 rounded-lg p-4 text-center">
+          <i class="fa fa-globe text-emerald-700 text-2xl mb-2"></i>
+          <div class="text-sm text-gray-600">Idioma</div>
+          <div class="font-semibold">FR / EN (según bodega)</div>
+        </div>
+        <div class="bg-emerald-50 rounded-lg p-4 text-center">
+          <i class="fa fa-money-bill-wave text-emerald-700 text-2xl mb-2"></i>
+          <div class="text-sm text-gray-600">Precio cata</div>
+          <div class="font-semibold">10€ – 40€</div>
+        </div>
+      </section>
+
+      <!-- Bodegas destacadas (grid 2 columnas) -->
+      <section id="bodegas" class="mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Bodegas destacadas en Vouvray</h3>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <!-- Bodega 1 -->
+          <article class="bg-gray-50 rounded-lg p-4 shadow-sm">
+            <div class="flex gap-4">
+              <img src="https://example.com/img/bodega1.jpg" alt="Bodega A" class="w-28 h-20 object-cover rounded-md">
+              <div>
+                <h4 class="font-semibold text-emerald-700">Domaine Huet</h4>
+                <p class="text-sm text-gray-600 mb-2">Referente histórico de Vouvray; catas guiadas y visita a cuevas.</p>
+                <div class="text-sm"><a href="https://www.domaine-huet.com/" target="_blank" class="text-emerald-600 hover:underline">Web oficial</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Bodega 2 -->
+          <article class="bg-gray-50 rounded-lg p-4 shadow-sm">
+            <div class="flex gap-4">
+              <img src="https://example.com/img/bodega2.jpg" alt="Bodega B" class="w-28 h-20 object-cover rounded-md">
+              <div>
+                <h4 class="font-semibold text-emerald-700">Domaine Réveille</h4>
+                <p class="text-sm text-gray-600 mb-2">Pequeña bodega familiar con enfoque biodinámico y catas proactivas.</p>
+                <div class="text-sm"><a href="https://www.example.com/reveille" target="_blank" class="text-emerald-600 hover:underline">Web / Reservas</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Tours y experiencias -->
+      <section id="tours" class="mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Tours recomendados</h3>
+
+        <div class="space-y-4">
+          <div class="bg-white rounded-lg p-4 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+              <h4 class="font-semibold text-emerald-700">Tour Clásico Vouvray — 2h</h4>
+              <p class="text-sm text-gray-600">Visita 2 bodegas con cata de 4 vinos y explicación sobre Chenin Blanc.</p>
+            </div>
+            <div class="text-sm flex gap-2 items-center">
+              <span class="font-semibold">Desde 28€</span>
+              <a href="#" class="ml-2 px-3 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800">Reservar</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg p-4 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+              <h4 class="font-semibold text-emerald-700">Visita Familiar — 1.5h</h4>
+              <p class="text-sm text-gray-600">Degustación guiada y visita a las cuevas (apto para principiantes).</p>
+            </div>
+            <div class="text-sm flex gap-2 items-center">
+              <span class="font-semibold">Desde 15€</span>
+              <a href="#" class="ml-2 px-3 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mapa -->
+      <section id="mapa" class="mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">📍 Localización: Vouvray</h3>
+        <div class="rounded-lg overflow-hidden shadow">
+          <!-- iframe responsive -->
+          <div class="w-full" style="aspect-ratio: 16/7;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21569.123456789!2d0.750000!3d47.383333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fddc123456789%3A0xabcdef1234567890!2sVouvray%2C%20Francia!5e0!3m2!1ses!2ses!4v0000000000000"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">❓ Preguntas frecuentes</h3>
+        <div class="space-y-3">
+          <details class="bg-gray-50 p-4 rounded-md">
+            <summary class="font-semibold text-emerald-700">¿Necesito reservar con antelación?</summary>
+            <p class="mt-2 text-gray-600">Sí, especialmente en temporada alta (mayo–septiembre). Recomendamos reservar con al menos 48 horas de antelación.</p>
+          </details>
+
+          <details class="bg-gray-50 p-4 rounded-md">
+            <summary class="font-semibold text-emerald-700">¿Se admiten menores?</summary>
+            <p class="mt-2 text-gray-600">Los menores pueden acceder a algunas zonas, pero las catas son para adultos. Consulta cada bodega.</p>
+          </details>
+
+          <details class="bg-gray-50 p-4 rounded-md">
+            <summary class="font-semibold text-emerald-700">¿Hay transporte público?</summary>
+            <p class="mt-2 text-gray-600">Vouvray está accesible desde Tours en tren o coche. Para tours con cata, muchas compañías incluyen transporte.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">✉️ Contacto & Reservas</h3>
+
+        <form class="grid gap-3 sm:grid-cols-2">
+          <input type="text" placeholder="Nombre" class="col-span-2 sm:col-span-1 p-3 rounded border" required>
+          <input type="email" placeholder="Correo electrónico" class="col-span-2 sm:col-span-1 p-3 rounded border" required>
+          <input type="tel" placeholder="Teléfono (opcional)" class="col-span-2 p-3 rounded border">
+          <select class="col-span-2 p-3 rounded border">
+            <option>Tour Clásico — 2h</option>
+            <option>Visita Familiar — 1.5h</option>
+            <option>Tour Privado — 3h</option>
+          </select>
+          <textarea placeholder="Mensaje / Fecha preferida" class="col-span-2 p-3 rounded border"></textarea>
+          <div class="col-span-2 flex gap-3">
+            <button type="submit" class="px-4 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800">Enviar reserva</button>
+            <button type="reset" class="px-4 py-2 border rounded">Limpiar</button>
+          </div>
+        </form>
+
+        <p class="text-xs text-gray-500 mt-3">También puedes escribir a <a href="mailto:info@tusitioweb.com" class="text-emerald-600 hover:underline">info@tusitioweb.com</a></p>
+      </section>
+
+    </main>
+
+    <!-- ASIDE DERECHO -->
+    <aside class="right hidden lg:block">
+      <div class="bg-white rounded-xl p-4 shadow">
+        <p class="text-xs text-gray-500 mb-2">Patrocinadores</p>
+        <div class="space-y-4">
+          <div class="w-full h-28 bg-gray-100 rounded flex items-center justify-center">Logo Patrocinador 1</div>
+          <div class="w-full h-28 bg-gray-100 rounded flex items-center justify-center">Logo Patrocinador 2</div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow mt-6">
+        <h4 class="text-sm font-semibold text-emerald-700 mb-2">Recomendado</h4>
+        <ul class="text-sm space-y-2">
+          <li><a href="https://www.domaine-huet.com/" target="_blank" class="hover:underline text-emerald-600">Domaine Huet</a></li>
+          <li><a href="https://www.vouvray-tourisme.com/" target="_blank" class="hover:underline text-emerald-600">Oficina de turismo Vouvray</a></li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 mt-12 py-6">
+    <div class="container mx-auto px-4 text-sm text-gray-600 flex flex-col md:flex-row justify-between items-center gap-3">
+      <div>© <?= date('Y') ?> Valle del Loira — Guía de enoturismo</div>
+      <div class="flex gap-4">
+        <a href="/politica-privacidad" class="hover:underline">Política de privacidad</a>
+        <a href="/aviso-legal" class="hover:underline">Aviso legal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Small script: mobile menu toggle -->
+  <script>
+    document.getElementById('btnMenu')?.addEventListener('click', () => {
+      const nav = document.querySelector('header nav');
+      if (!nav) return;
+      nav.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

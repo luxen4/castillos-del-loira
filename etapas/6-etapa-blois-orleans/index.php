@@ -21,7 +21,8 @@
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-<?php $etapa = 'Blois – Orléans'; require "../estructura/header/enlaces-principales-generico.php";?>
+  <?php $etapa = 'Blois – Orléans';
+  require "../estructura/header/enlaces-principales-generico.php"; ?>
 
 
 
@@ -47,7 +48,7 @@
     });
   </script>
 
- 
+
 
   <!-- LAYOUT PRINCIPAL: asides a los lados y main en el centro -->
   <div class="container mx-auto px-4 grid grid-cols-12 gap-6 mt-6">
@@ -67,27 +68,27 @@
     <!-- CONTENIDO PRINCIPAL -->
     <main class="col-span-12 lg:col-span-8">
       <article class="bg-white p-6 rounded-lg shadow mb-6">
-<h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
+        <h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
 
-<p class="text-lg md:text-xl text-gray-700 mb-4">
-  Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="https://www.chateaudeblois.fr/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="https://www.orleans-tourisme.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>. 
-  A lo largo del recorrido, podrás admirar castillos renacentistas y medievales, ríos serpenteantes, jardines impresionantes y paisajes que capturan la esencia de Francia.
-</p>
+        <p class="text-lg md:text-xl text-gray-700 mb-4">
+          Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="../../ciudades/blois.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="../../ciudades/orleans.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>.
+          A lo largo del recorrido, podrás admirar castillos renacentistas y medievales, ríos serpenteantes, jardines impresionantes y paisajes que capturan la esencia de Francia.
+        </p>
 
-<p class="text-lg md:text-xl text-gray-700 mb-4">
-  Entre los puntos destacados se encuentran:
-</p>
+        <p class="text-lg md:text-xl text-gray-700 mb-4">
+          Entre los puntos destacados se encuentran:
+        </p>
 
-<ul class="list-disc list-inside text-gray-700 mb-4">
-  <li><a href="https://www.chateau-chenonceau.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Chenonceau</a>, famoso por su arquitectura sobre el río Cher y sus jardines renacentistas.</li>
-  <li><a href="https://www.vinci-closluce.com/es" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
-  <li><a href="https://www.chateau-amboise.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
-  <li><a href="https://www.valdeloire-france.com/" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
-</ul>
+        <ul class="list-disc list-inside text-gray-700 mb-4">
+          <li><a href="../../chateaux/chenonceau.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Chenonceau</a>, famoso por su arquitectura sobre el río Cher y sus jardines renacentistas.</li>
+          <li><a href="../../ciudades/clos-luce.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
+          <li><a href="../../ciudades/amboise.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
+          <li><a href="../../rutas-val-de-loire.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
+        </ul>
 
-<p class="text-lg md:text-xl text-gray-700 mb-6">
-  Además, los amantes de la naturaleza pueden disfrutar de paseos por los <a href="https://www.touraine-valdeloire.com/es/descubra/jardines" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">jardines históricos</a> y las riberas del río, ideales para fotografía, picnic y observación de aves.
-</p>
+        <p class="text-lg md:text-xl text-gray-700 mb-6">
+          Además, los amantes de la naturaleza pueden disfrutar de paseos por los <a href="../../jardines-loira.html" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">jardines históricos</a> y las riberas del río, ideales para fotografía, picnic y observación de aves.
+        </p>
 
 
         <?php
@@ -139,27 +140,40 @@
 
         <section class="grid gap-4 md:grid-cols-2">
           <div class="bg-gray-50 p-4 rounded">
-            <h3 class="font-semibold mb-1">Sección A</h3>
-            <p class="text-sm text-gray-600">Texto de ejemplo para la sección A.</p>
+            <h3 class="font-semibold mb-1">🍇 Degustación de vinos en Vouvray</h3>
+            <p class="text-sm text-gray-600">
+              Entre Blois y Orléans se encuentra la región de Vouvray, famosa por sus vinos
+              blancos elaborados con uva <strong>Chenin Blanc</strong>. Varias bodegas ofrecen
+              catas y visitas guiadas en antiguas galerías excavadas en la roca.
+            </p>
+            <a href="../../etapas/6-etapa-blois-orleans/degustacion-vinos-vouvray.html" target="_blank"
+              class="text-emerald-600 text-sm hover:underline">Sitio oficial →</a>
           </div>
+
           <div class="bg-gray-50 p-4 rounded">
-            <h3 class="font-semibold mb-1">Sección B</h3>
-            <p class="text-sm text-gray-600">Texto de ejemplo para la sección B.</p>
+            <h3 class="font-semibold mb-1">🧀 Productos locales en los mercados</h3>
+            <p class="text-sm text-gray-600">
+              Los mercados de <strong>Blois (martes y sábado)</strong> y de
+              <strong>Les Halles d’Orléans</strong> son lugares ideales para comprar miel,
+              rillettes, quesos de cabra y dulces tradicionales. Perfecto para un picnic junto al Loira.
+            </p>
+            <a href="https://www.orleans-metropole.fr/" target="_blank"
+              class="text-emerald-600 text-sm hover:underline">Calendario de mercados →</a>
           </div>
         </section>
-      </article>
 
 
-      <!-- 🔹 Mapa -->
-      <section id="mapa" class="max-w-6xl mx-auto px-4">
-        <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">🗺️ Mapa de la ruta Blois – Orléans</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d978168.6647341252!2d1.903!3d47.600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1759333355000!5m2!1ses!2ses"
-          width="100%" height="450" class="rounded-lg shadow-md" style="border:0;" allowfullscreen loading="lazy"></iframe>
-      </section>
 
-      <!-- Navegación entre etapas -->
-      <?php require "data.php"; ?>
-      <?php require "../template-navegacion-etapas.php"; ?>
+        <!-- 🔹 Mapa -->
+        <section id="mapa" class="max-w-6xl mx-auto px-4">
+          <h3 class="text-2xl font-bold text-emerald-700 mb-4 text-center">🗺️ Mapa de la ruta Blois – Orléans</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d978168.6647341252!2d1.903!3d47.600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1759333355000!5m2!1ses!2ses"
+            width="100%" height="450" class="rounded-lg shadow-md" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </section>
+
+        <!-- Navegación entre etapas -->
+        <?php require "data.php"; ?>
+        <?php require "../template-navegacion-etapas.php"; ?>
 
     </main>
 

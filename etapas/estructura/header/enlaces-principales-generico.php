@@ -26,7 +26,7 @@
         <li><a href="../../index.php" class="hover:underline">🏠 Inicio</a></li>
         <li><a href="#" class="hover:underline">Rutas</a></li>
         <li><a href="../../formulario.html" class="hover:underline">✍️ Ir al Formulario</a></li>
-        <li><a href="#" class="hover:underline">Contacto</a></li>
+        <li><a href="../../contacto.html" class="hover:underline">Contacto</a></li>
       </ul>
     </nav>
 
