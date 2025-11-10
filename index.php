@@ -61,90 +61,155 @@
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
 
-  <!-- 🔹 Header con Navbar + Hero -->
-  <header class="bg-emerald-700 text-white shadow-lg">
-    <!-- 🔗 Navbar -->
-    <div class="p-4 flex justify-between items-center container mx-auto">
-      <!-- Logo / título -->
-      <h1 class="text-xl font-bold">🌍 Val de Loire</h1>
+  <!-- 🔹 Header con Navbar + Hero (estilo moderno) -->
+  <header class="bg-emerald-700 text-white shadow">
+    <div class="container mx-auto px-4 py-4 flex flex-col items-center gap-3">
 
-      <!-- Navegación -->
-      <nav class="flex items-center gap-6">
-        <a href="index.php" class="hover:underline">🏠 Home</a>
+      <!-- Títulos centrados -->
+      <div class="text-center">
+        <!-- H1 principal -->
+        <h1 class="text-3xl md:text-4xl font-extrabold tracking-wide">🌿 Valle del Loira</h1>
+
+        <!-- H2 subtítulo con borde izquierdo y derecho -->
+        <h2 class="mt-1 text-lg md:text-xl font-semibold text-emerald-200 border-l-4 border-r-4 border-emerald-200 px-3 inline-block">
+          <p class="mt-4 text-lg md:text-2xl text-emerald-100 max-w-3xl mx-auto leading-relaxed">
+            Recorre la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandry y muchos más. Vive historia, arte y naturaleza en cada etapa.
+          </p>
+        </h2>
+      </div>
+
+      <!-- Menú de navegación -->
+      <nav class="w-full md:w-auto">
+        <!-- Botón hamburguesa -->
+        <div class="flex justify-end md:hidden">
+          <button id="menu-toggle" class="text-white focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+
+        <!-- Links -->
+        <ul id="menu-items" class="hidden md:flex flex-col md:flex-row gap-4 mt-2 md:mt-0 text-center transition-all duration-300">
+          <li><a href="../../index.php" class="hover:underline">🏠 Inicio</a></li>
+          <li><a href="#" class="hover:underline">Rutas</a></li>
+          <li><a href="../../formulario.html" class="hover:underline">✍️ Formulario</a></li>
+          <li><a href="../../contacto.html" class="hover:underline">Contacto</a></li>
+        </ul>
       </nav>
+
+<nav class="bg-gray-100 rounded-2xl shadow mt-1 w-full">
+  <!-- Botón hamburguesa móvil -->
+  <div class="flex justify-end md:hidden p-2">
+    <button id="menu-toggle2" class="text-gray-800 focus:outline-none font-semibold">
+      ☰ Menú
+    </button>
+  </div>
+
+  <!-- Menú horizontal -->
+  <ul id="menu-items2" class="hidden md:flex flex-wrap gap-2 text-gray-800 font-medium text-sm px-2 py-2">
+    
+    <!-- Secciones simples -->
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🧳 Turismo</a></li>
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍴 Gastronomía</a></li>
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🚶 Paseos</a></li>
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">⭐ Actividades</a></li>
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">✅ Acontecimientos</a></li>
+    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍽️ Restaurantes</a></li>
+
+    <!-- Dropdown Alojamientos -->
+    <li class="relative group">
+      <button class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1 w-full text-left md:w-auto md:inline-flex">
+        🛏️ Alojamientos
+        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <ul class="absolute left-0 mt-1 w-44 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-10 md:absolute">
+        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Hoteles</a></li>
+        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Alquileres de vacaciones</a></li>
+        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Casas rurales</a></li>
+      </ul>
+    </li>
+
+    <!-- Dropdown Transportes -->
+    <li class="relative group">
+      <button class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1 w-full text-left md:w-auto md:inline-flex">
+        🚗 Transportes
+        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <ul class="absolute left-0 mt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-10 md:absolute">
+        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cómo llegar</a></li>
+        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Coches de alquiler</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</nav>
+
+<!-- Script para togglear menú móvil -->
+<script>
+  const toggle2 = document.getElementById('menu-toggle2');
+  const menu2 = document.getElementById('menu-items2');
+
+  toggle2.addEventListener('click', () => {
+    menu2.classList.toggle('hidden');
+  });
+</script>
+
+
     </div>
 
-    <!-- 🌟 Hero -->
-    <div class="py-12 text-center px-6 container mx-auto">
-      <h2 class="text-4xl md:text-5xl font-extrabold">🌿 Ruta por el Valle del Loira</h2>
-      <p class="mt-3 text-lg md:text-xl text-emerald-100">
-        Explora la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandry y más.
-      </p>
-      <a href="#mapa"
-        class="mt-6 inline-block bg-white text-emerald-700 px-5 py-2 rounded-lg font-semibold shadow hover:bg-emerald-100 transition">
-        🗺️ Ver Ruta
-      </a>
-    </div>
+    <!-- Script simple para togglear el menú en mobile -->
+    <script>
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.getElementById('menu-items');
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    </script>
   </header>
+
+
   <!-- 🔹 Layout con 3 columnas: lateral-izquierdo / contenido / lateral-derecho -->
   <div class="container mx-auto px-6 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
     <!-- 🧭 Columna 1: Sidebar izquierdo -->
-    <aside class="lg:col-span-2 bg-emerald-50 p-6 rounded-xl shadow space-y-6">
-      <h3 class="text-lg font-bold text-emerald-700 mb-4">🏙️ Ciudades y Castillos</h3>
+    <aside class="lg:col-span-2 bg-emerald-50 p-2 rounded-xl shadow space-y-1">
+      <h3 class="text-lg font-bold text-emerald-700 mb-2">➤ Enlaces</h3>
 
       <div>
-        <h4 class="font-semibold text-gray-700 mb-2">Ciudades Principales</h4>
-        <ul class="list-disc list-inside text-gray-600 space-y-1">
-          <li><a href="ciudades/Nantes.php" class="hover:text-emerald-700 underline">Nantes</a></li>
-          <li><a href="ciudades/Angers.php" class="hover:text-emerald-700 underline">Angers</a></li>
-          <li><a href="ciudades/Saumur.php" class="hover:text-emerald-700 underline">Saumur</a></li>
-          <li><a href="ciudades/Tours.php" class="hover:text-emerald-700 underline">Tours</a></li>
-          <li><a href="ciudades/Blois.php" class="hover:text-emerald-700 underline">Blois</a></li>
-          <li><a href="ciudades/Orleans.php" class="hover:text-emerald-700 underline">Orleans</a></li>
-        </ul>
+        <h4 class="font-semibold text-gray-700 mb-1">
+          <a href="#ciudades-principales" class="hover:text-emerald-700 underline">
+            Ciudades Principales
+          </a>
+        </h4>
+
+        <h4 class="font-semibold text-gray-700 mb-1">
+          <a href="#castillos-destacados" class="hover:text-emerald-700 underline">
+            Castillos Destacados
+          </a>
+        </h4>
+
+        <h4 class="font-semibold text-gray-700 mb-1">
+          <a href="oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
+            🗺️ Oficinas de Turismo
+          </a>
+        </h4>
+
+        <h4 class="font-semibold text-gray-700 mb-1">
+          <a href="oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
+            🏨 Alojamientos
+          </a>
+        </h4>
+
+
       </div>
 
-      <div>
-  <h4 class="font-semibold text-gray-700 mb-2">Castillos</h4>
-  <ul class="list-disc list-inside text-gray-600 space-y-1">
-    <?php
-      // Lista de castillos
-      $castillos = ['Chambord', 'Chenonceau', 'Villandry'];
-
-      foreach ($castillos as $castillo) {
-        // URL amigable o ruta PHP según entorno
-        if ($_SERVER['SERVER_NAME'] == 'localhost') {
-          $url = strtolower($castillo); // ejemplo: 'chambord'
-        } else {
-          $url = "chateaux/{$castillo}.php";
-        }
-
-        echo "<li>
-                <a href='{$url}' class='hover:text-emerald-700 underline'>{$castillo}</a>
-              </li>";
-      }
-    ?>
-  </ul>
-</div>
 
 
 
 
-
-
-
-
-
-      <a href="oficinas-turismo-val-de-loire.html"
-        class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
-        🗺️ Oficinas de Turismo
-      </a>
-
-      <a href="alojamientos-val-de-loire.html"
-        class="inline-block bg-emerald-600 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition">
-        🏨 Alojamientos
-      </a>
 
       <div class="my-6 max-w-md mx-auto">
         <label for="etapas" class="block mb-2 text-gray-700 font-semibold">Selecciona una etapa:</label>
@@ -163,75 +228,14 @@
       </div>
 
 
-
-      <!-- Menú de secciones compacto -->
-      <nav class="bg-gray-100 rounded-2xl shadow p-2 mt-8 max-w-4xl mx-auto">
-        <ul class="flex flex-wrap justify-center gap-2 text-gray-800 font-medium text-sm">
-
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🧳 Turismo</a></li>
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍴 Gastronomía</a></li>
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🚶 Paseos</a></li>
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">⭐ Actividades</a></li>
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">✅ Acontecimientos</a></li>
-          <li><a href="#" class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍽️ Restaurantes</a></li>
-
-          <!-- Dropdown Alojamientos -->
-          <li class="relative group">
-            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-              🛏️ Alojamientos
-              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <ul class="absolute left-0 mt-1 w-40 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Hoteles</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Alquileres de vacaciones</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Casas rurales</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Campings</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Transportes -->
-          <li class="relative group">
-            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-              🚗 Transportes
-              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <ul class="absolute left-0 mt-1 w-44 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cómo llegar</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Coches de alquiler</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de tren</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Billetes de avión</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Seguro vacaciones</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cursos de francés</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Fin de semana -->
-          <li class="relative group">
-            <button class="px-2 py-1 rounded hover:bg-emerald-200 transition flex items-center gap-1">
-              📊 Fin de semana
-              <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <ul class="absolute left-0 mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity z-10">
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en pareja</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana en familia</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana barato</a></li>
-              <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Fin de semana insólito</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </nav>
     </aside>
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
+
+
+
+
 
       <?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
 
@@ -241,6 +245,10 @@
         <p>
           El <strong>Valle del Loira</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.
           A lo largo de sus orillas, se levantan más de <strong>80 castillos</strong> que fueron residencia de reyes, nobles y artistas del Renacimiento francés, cada uno con su propio encanto y leyenda.
+          <a href="#mapa" class="text-emerald-700 hover:underline">
+            🗺️ Ver Mapa
+          </a>
+
         </p>
 
         <p>
@@ -321,6 +329,11 @@
             <p>Chambord, Chenonceau, Amboise, Villandri y Ussé, cada uno con su propia historia y encanto.</p>
             <a href="#castillos-destacados" class="text-blue-600 hover:underline">ir</a>
           </div>
+
+
+
+
+
 
 
 
@@ -456,26 +469,12 @@
         </div>
       </section>
 
+      <?php require "estructura/index/main/sections/ciudades-principales.php"; // Ejemplar 
+      ?>
 
-      <section id="clima" class="mt-10">
-        <h3 class="text-2xl font-bold text-gray-700 mb-4">🌦️ Clima en el Valle del Loira</h3>
-        <p>El Valle del Loira disfruta de un clima templado oceánico:</p>
-        <ul class="list-disc list-inside text-gray-600 mt-3 space-y-2">
-          <li>Veranos suaves, ideales para recorrer castillos y jardines.</li>
-          <li>Inviernos frescos, con pocas lluvias fuertes.</li>
-          <li>Otoño y primavera agradables para paseos y fotografía.</li>
-          <li>Prepara ropa ligera en verano y capas en invierno.</li>
-        </ul>
-      </section>
+      <?php require "estructura/index/main/sections/clima.php"; ?>
+      <?php require "estructura/index/main/sections/consejos-viaje.php"; ?>
 
-      <section id="consejos" class="mt-12 bg-emerald-50 p-6 rounded-xl shadow">
-        <h3 class="text-xl font-bold text-emerald-800 mb-4">📝 Consejos para tu viaje</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Alquila un coche para moverte cómodamente entre los castillos.</li>
-          <li>Divide tu ruta en etapas de 7 días para disfrutar sin prisas.</li>
-          <li>Consulta la web oficial de <a href="https://www.valdeloire-france.com/es" target="_blank" class="text-emerald-600 font-semibold hover:underline">Turismo Valle del Loira</a>.</li>
-        </ul>
-      </section>
 
 
     </main>
@@ -497,7 +496,8 @@
 
   </div>
 
-<?php // require "galeria-imagenes-carrusel-automático.php"; ?>
+  <?php // require "galeria-imagenes-carrusel-automático.php"; 
+  ?>
 
 
 
