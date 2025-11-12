@@ -32,7 +32,8 @@
 
           <li>
             <a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors">
-              <?= $slug_Mayuscula; ?>
+              <?= $carpeta='chateaux';
+$slug_Mayuscula; ?>
             </a>
           </li>
         </ol>

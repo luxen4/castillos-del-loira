@@ -1,52 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ruta Valle del Loira: Blois – Orléans</title>
-  <meta name="description" content="Descubre la ruta del Valle del Loira entre Blois y Orléans: castillos, ríos, historia y paisajes únicos.">
-  <meta name="keywords" content="Valle del Loira, Blois, Orléans, castillos, turismo Francia, viaje">
-  <meta name="author" content="TuNombre">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Ruta Valle del Loira: Blois – Orléans">
-  <meta property="og:description" content="Explora castillos y paisajes entre Blois y Orléans. Información práctica y fotos.">
-  <meta property="og:image" content="img/logo.png">
-  <meta property="og:type" content="website">
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <?php 
+  $nombreLugar='Etapa Blois - Orleans';
+  $carpeta='etapas'; 
+  $slug='6-etapa-blois-orleans/index';
+  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-  <?php $etapa = 'Blois – Orléans';
-  require "../estructura/header/enlaces-principales-generico.php"; ?>
-
-
-
-
-  <!-- 🎶 Música de fondo -->
-  <audio id="bg-music" autoplay loop muted>
-    <source src="../../audio/musica-ambiental-1.mp3" type="audio/mpeg">
-  </audio>
-
-  <div class="fixed bottom-4 right-4 z-50">
-    <button id="toggle-sound" class="px-4 py-2 bg-emerald-600 text-white rounded-full shadow-lg hover:bg-emerald-700 transition">
-      🔊 Activar sonido
-    </button>
-  </div>
-
-  <script>
-    const audio = document.getElementById("bg-music");
-    const btn = document.getElementById("toggle-sound");
-    btn.addEventListener("click", () => {
-      audio.muted = !audio.muted;
-      btn.textContent = audio.muted ? "🔊 Activar sonido" : "🔈 Silenciar";
-      if (!audio.muted) audio.play();
-    });
-  </script>
+  <?php $etapa = 'Blois – Orléans'; require "../estructura/header/enlaces-principales-generico.php"; ?>
+  
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
 
 
 
@@ -110,7 +76,15 @@
             "slug_imagenes" => "etapa-6-vinos-y-gastronomia"
           ]
         ];
+
+
+            //require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
+
+
         ?>
+
+
+
 
         <div class="bg-white px-4 py-4 rounded-lg shadow mb-1">
 

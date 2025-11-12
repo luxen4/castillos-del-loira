@@ -34,11 +34,21 @@ $items = [
 ?>
 
 <?php
-// Variables principales del bloque "Actividades en Orléans"
+// Variables de la sección "Actividades en Orléans"
 $section = [
   "id" => "actividades",
   "titulo" => "⭐ Actividades en Orléans",
-  "descripcion" => "Orléans ofrece actividades culturales, al aire libre y familiares. Desde visitar su catedral y museos hasta recorrer la ribera del Loira, hay opciones para todos los gustos.",
-  "tip" => "👉 Tip: combina la visita al centro histórico con un paseo en bicicleta a lo largo del Loira para aprovechar al máximo tu estancia."
+  "descripcion" => "
+    Orléans ofrece una combinación perfecta de cultura, historia y naturaleza.  
+    Desde la imponente <strong>Catedral Sainte-Croix</strong> hasta museos, parques y paseos junto al río Loira.  
+    Ideal para familias, amantes del arte o quienes buscan actividades al aire libre. <br><br>
+
+    Además, puedes recorrer numerosas rutas en bicicleta por la ribera del río:  
+    <a href='/val-de-loire/ciudades/{$slug}/actividades/rutas-ciclo-turisticas-orleans/index.php' class='text-emerald-700 font-semibold hover:underline'>
+      🚴 Ver rutas cicloturistas por Orléans
+    </a>
+  ",
+  "tip" => "👉 Tip: Combina la visita al centro histórico con un paseo en bicicleta junto al Loira al atardecer. ¡Es una experiencia inolvidable!"
 ];
 ?>
+  

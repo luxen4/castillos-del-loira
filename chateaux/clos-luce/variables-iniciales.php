@@ -2,6 +2,7 @@
 // 🏰 Variables generales - Château du Clos-Lucé
 $nombreLugar = "Château du Clos-Lucé";
 $ciudad = "Amboise";
+$carpeta='chateaux';
 $slug_Mayuscula = "Clos-Luce";
 $descripcion = "El Château du Clos-Lucé, última residencia de Leonardo da Vinci, combina historia, arte e innovación renacentista. Aquí vivió y trabajó sus últimos años el genio italiano.";
 $imagenHero = "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cDovL21lZGlhcy50b3VyaXNtLXN5c3RlbS5jb20vZC80LzQ5OTY0NV9sZV9jbG9zX2x1Y2VfX2xlb25hcmRfZGVfc2VycmVzLmpwZw==/image.jpg";

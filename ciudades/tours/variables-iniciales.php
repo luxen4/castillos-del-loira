@@ -2,6 +2,7 @@
 $nombreLugar = "Tours";
 $ciudad = "Tours";
 $slug = "tours";
+$carpeta='chateaux';
 $slug_Mayuscula = "Tours";
 $descripcion = "En el corazón del <strong>Valle del Loira</strong>, la elegante ciudad de <strong>Tours</strong> combina historia, cultura y encanto francés. 
 Conocida como la “puerta de los castillos del Loira”, es un punto de partida ideal para explorar esta región Patrimonio de la Humanidad.<br><br>

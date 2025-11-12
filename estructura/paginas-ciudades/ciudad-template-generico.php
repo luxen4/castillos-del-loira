@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/head/head-generico.php"; ?>
+    <?php 
+    //$carpeta='ciudades';
+    require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
 
 
 <body class="bg-gray-50 text-gray-800 ">

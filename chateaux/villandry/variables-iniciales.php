@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Villandry";
 $ciudad = "Villandry";
+$carpeta='chateaux';
 $slug_Mayuscula = "Villandry";
 $descripcion = "El Castillo de Villandry es célebre por sus impresionantes jardines renacentistas, considerados entre los más bellos de Francia. Su armoniosa combinación de arquitectura y naturaleza lo convierte en una joya del Valle del Loira.";
 $imagenHero = "https://www.valdeloire-france.com/app/uploads/iris-images/197283/a-la-une-villandry-02-credit-averger-crtcentrevaldeloire-1920x1080-f50_50.webp";

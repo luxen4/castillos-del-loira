@@ -2,6 +2,7 @@
 $nombreLugar = "Blois";
 $ciudad = "Blois";
 $slug = "blois";
+$carpeta='chateaux';
 $slug_Mayuscula = "Blois";
 $descripcion = "A orillas del <strong>río Loira</strong>, la elegante ciudad de <strong>Blois</strong> es una de las joyas históricas del Valle del Loira. 
 Famosa por su <strong>Château Royal de Blois</strong>, residencia de reyes y símbolo del Renacimiento francés, esta ciudad combina historia, arte y una atmósfera encantadora.<br><br>

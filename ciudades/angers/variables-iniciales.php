@@ -2,6 +2,7 @@
 $nombreLugar = "Angers";
 $ciudad = "Angers";
 $slug = "angers";
+$carpeta='chateaux';
 $slug_Mayuscula = "Angers";
 $descripcion = "Conocida como la <strong>puerta del Valle del Loira</strong>, <strong>Angers</strong> es una ciudad llena de historia, arte y elegancia. 
 Dominada por su imponente <strong>Château d’Angers</strong>, hogar del famoso tapiz del Apocalipsis, esta ciudad combina patrimonio medieval con modernidad y vida cultural vibrante.<br><br>

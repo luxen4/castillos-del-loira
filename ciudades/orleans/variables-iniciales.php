@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Orléans";
 $ciudad = "Orléans";          $slug = "orleans"; 
+$carpeta='chateaux';
 $slug_Mayuscula = "Orleans";
 $descripcion = "Orléans, situada a orillas del majestuoso río Loira, es una de las ciudades más emblemáticas de Francia. 
 Famosa por su estrecha relación con Juana de Arco, esta ciudad combina historia, arte y modernidad de forma equilibrada.<br><br>
@@ -36,11 +37,11 @@ $enlaces = [
   ["Turismo oficial", "https://www.tourisme-orleansmetropole.com/"],
   ["Catedral Sainte-Croix", "https://www.cathedrale-orleans.fr/"],
   ["Google Maps", "https://maps.app.goo.gl/gpQmfi6X2sFKXx8A8"],
-];*/
+];
 
 $relacionadas = [
   ["Blois", "Blois.php"],
   ["Tours", "Tours.php"],
   ["Nantes", "Nantes.php"],
-];
+];*/
 ?>

@@ -22,7 +22,9 @@ require RUTA_CHATEAUX . "/{$slug}/variables-iniciales.php";
 <!DOCTYPE html>
 <html lang="es">
 
-  <?php require RUTA_ESTRUCTURA . "/paginas-castillos/head/head-generico.php"; ?>
+  <?php 
+  $carpeta='chateaux';
+  require RUTA_ESTRUCTURA . "/head-generico.php"; ?>
 
   <body class="bg-gray-50 text-gray-800">
 

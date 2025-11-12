@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Chamerolles";
 $ciudad = "Chilleurs-aux-Bois";
+$carpeta='chateaux';
 $slug_Mayuscula = "Chamerolles";
 $descripcion = "El Castillo de Chamerolles, cerca de Orleans, es un elegante ejemplo del Renacimiento francés, famoso por sus jardines, su arquitectura refinada y su Museo del Perfume.";
 $imagenHero = "URL_DE_LA_IMAGEN_DEL_CASTILLO"; // reemplazar por imagen representativa

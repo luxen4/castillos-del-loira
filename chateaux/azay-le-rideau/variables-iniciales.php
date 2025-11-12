@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Azay-le-Rideau";
 $ciudad = "Azay-le-Rideau";
+$carpeta='chateaux';
 $slug_Mayuscula = "Azay-le-Rideau";
 $descripcion = "El Castillo de Azay-le-Rideau, situado sobre una isla en el río Indre, es un destacado ejemplo de arquitectura renacentista francesa. Su reflejo en el río, sus torres elegantes y sus jardines cuidadosamente diseñados lo convierten en una joya del Valle del Loira.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_d%27Azay-le-Rideau_001.jpg";

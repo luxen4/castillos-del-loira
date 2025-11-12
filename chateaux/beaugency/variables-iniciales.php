@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Beaugency";
 $ciudad = "Beaugency";
+$carpeta='chateaux';
 $slug_Mayuscula = "Beaugency";
 $descripcion = "El Castillo de Beaugency, fortaleza medieval situada junto al río Loira, combina historia, arquitectura y patrimonio cultural. Destaca su torre del homenaje, sus muros de piedra caliza y su entorno histórico bien conservado.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/45/Beaugency_Chateau.jpg";

@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Château de Gien";
 $ciudad = "Gien";
+$carpeta='chateaux';
 $slug_Mayuscula = "Gien";
 $descripcion = "El Château de Gien, situado a orillas del río Loira, destaca por su arquitectura renacentista y por albergar el Museo Internacional de la Caza. Su ubicación elevada ofrece vistas excepcionales del río y del casco histórico de la ciudad.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/4/40/Chateau_de_Gien_-_Fa%C3%A7ade_sur_la_Loire.jpg";

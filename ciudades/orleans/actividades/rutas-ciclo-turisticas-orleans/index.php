@@ -1,6 +1,6 @@
 <?php
 // rutas-orleans-2025.php
-$ciudad = "Orléans";
+$ciudad = "Orléans"; $slug='orleans';
 $region = "Valle del Loira";
 $year = 2025;
 $slug = "rutas-cicloturisticas-orleans-{$year}";
@@ -55,8 +55,6 @@ $canonical = "https://tusitio.com/val-de-loire/ciudades/orleans/{$slug}.php";
       <nav class="hidden md:flex gap-6">
         <a href="/val-de-loire/index.php" class="hover:underline">Inicio</a>
         <a href="/val-de-loire/ciudades/orleans.php" class="hover:underline">Orléans</a>
-        <a href="/val-de-loire/rutas.php" class="hover:underline">Rutas</a>
-        <a href="/val-de-loire/contacto.php" class="hover:underline">Contacto</a>
       </nav>
       <!-- mobile menu trigger -->
       <div class="md:hidden">

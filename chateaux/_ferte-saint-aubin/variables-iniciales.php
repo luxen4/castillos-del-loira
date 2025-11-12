@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Castillo de Chenonceau";
 $ciudad = "Chenonceaux";
+$carpeta='chateaux';
 $slug_Mayuscula = "Chenonceau";
 $descripcion = "El Castillo de Chenonceau, conocido como el 'Castillo de las Damas', es una joya renacentista del Valle del Loira. Famoso por su galería sobre el río Cher y sus elegantes jardines, combina historia, arte y arquitectura en un entorno natural único.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A2teau_de_Chenonceau%2C_vue_depuis_le_Cher_01.jpg";

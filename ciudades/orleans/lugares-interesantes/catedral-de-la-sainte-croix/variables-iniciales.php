@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Catedral de Sainte-Croix de Orléans";
 $ciudad = "Orléans"; $ciudad_minuscula = "orleans";
+$carpeta='chateaux';
 $slug_Mayuscula = "Sainte-Croix";
 $descripcion = "La Catedral de Sainte-Croix de Orléans, ejemplo del estilo gótico francés, destaca por sus impresionantes vidrieras, su historia ligada a Juana de Arco y su arquitectura monumental. Un imprescindible del patrimonio del Valle del Loira.";
 $imagenHero = "https://thumbs.dreamstime.com/b/catedral-sainte-croix-francia-de-orleans-137139196.jpg";

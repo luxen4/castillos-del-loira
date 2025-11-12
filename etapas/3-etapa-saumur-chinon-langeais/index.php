@@ -47,7 +47,7 @@
       <h1 class="text-3xl md:text-4xl font-extrabold">🌿 Valle del Loira: Saumur – Chinon – Langeais</h1>
       <nav class="mt-4 md:mt-0 flex gap-4">
         <a href="../index.php" class="px-4 py-2 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-gray-100 transition">🏠 Página Principal</a>
-        <a href="formulario-chat-gpt.html" class="px-4 py-2 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-gray-100 transition">✍️ Ir al Formulario</a>
+        <?php /*<a href="formulario-chat-gpt.html" class="px-4 py-2 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-gray-100 transition">✍️ Ir al Formulario</a> */
       </nav>
     </div>
   </header>

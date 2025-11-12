@@ -90,9 +90,8 @@
         <!-- Links -->
         <ul id="menu-items" class="hidden md:flex flex-col md:flex-row gap-4 mt-2 md:mt-0 text-center transition-all duration-300">
           <li><a href="../../index.php" class="hover:underline">🏠 Inicio</a></li>
-          <li><a href="#" class="hover:underline">Rutas</a></li>
-          <li><a href="../../formulario.html" class="hover:underline">✍️ Formulario</a></li>
-          <li><a href="../../contacto.html" class="hover:underline">Contacto</a></li>
+          <li><a href="/val-de-loire/rutas.php" class="hover:underline">Rutas</a></li>
+          <li><a href="../../val-de-loire/formulario.html" class="hover:underline">✍️ Formulario</a></li>
         </ul>
       </nav>
 
@@ -504,10 +503,13 @@
   <!-- 🔹 Footer -->
   <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
     <div class="container mx-auto px-6 text-center space-y-2">
-      <p>&copy; <?= date('Y'); ?> Adrián Laya García. Todos los derechos reservados.</p>
+      <p>&copy; <?= date('Y'); ?> 
+        <a href="/val-de-loire/contacto.html" class="hover:underline">Adrián Laya García.</a>
+      </p>
       <p>
         📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">superlaya50@gmail.com</a>
       </p>
+              
       <p>
         🌐 <a href="https://www.valdeloire-france.com/es" class="hover:text-white">Turismo oficial del Valle del Loira</a>
       </p>

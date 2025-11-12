@@ -2,6 +2,7 @@
 $nombreLugar = "Saumur";
 $ciudad = "Saumur";
 $slug = "saumur";
+$carpeta='chateaux';
 $slug_Mayuscula = "Saumur";
 $descripcion = "Situada en el corazón del <strong>Valle del Loira</strong>, la encantadora ciudad de <strong>Saumur</strong> es conocida por su imponente castillo, sus vinos espumosos y su tradición ecuestre.<br><br>
 

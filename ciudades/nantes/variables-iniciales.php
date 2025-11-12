@@ -2,6 +2,7 @@
 $nombreLugar = "Nantes";
 $ciudad = "Nantes";
 $slug = "nantes";
+$carpeta='chateaux';
 $slug_Mayuscula = "Nantes";
 $descripcion = "Capital histórica del Ducado de Bretaña, <strong>Nantes</strong> es una ciudad vibrante situada en el estuario del <strong>Loira</strong>. 
 Con una mezcla única de patrimonio medieval, arte contemporáneo y vida urbana moderna, Nantes se ha convertido en uno de los destinos culturales más dinámicos del oeste de Francia.<br><br>

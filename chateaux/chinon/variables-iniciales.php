@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Fortaleza Real de Chinon";
 $ciudad = "Chinon";
+$carpeta='chateaux';
 $slug_Mayuscula = "Chinon";
 $descripcion = "La Fortaleza Real de Chinon es una imponente fortaleza medieval del Valle del Loira, famosa por sus murallas, torres defensivas y su papel histórico en la Guerra de los Cien Años y el encuentro de Juana de Arco con Carlos VII.";
 $imagenHero = "https://www.larocheposay-tourisme.com/app/uploads/iris-images/4572/forteresse-royale-de-chinon-credit-adt-touraine-jc-coutand-2029-1-1920x1080-f50_50.webp";

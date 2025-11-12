@@ -1,6 +1,7 @@
 <?php
 $nombreLugar = "Château de Talcy";
 $ciudad = "Talcy";
+$carpeta='chateaux';
 $slug_Mayuscula = "Talcy";
 $descripcion = "El Château de Talcy es una elegante residencia renacentista del Valle del Loira, famosa por su arquitectura histórica y su vínculo con la poetisa Marie de Médicis. Sus muros guardan siglos de historia y un encanto rural único.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chateau_de_Talcy_01.jpg";
