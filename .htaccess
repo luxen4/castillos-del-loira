@@ -10,8 +10,8 @@ RewriteEngine On
 # Castillos principales
 RewriteRule ^beaugency$                chateaux/Beaugency.php [L]
 RewriteRule ^beauregard$               chateaux/Beauregard.php [L]
-RewriteRule ^chambord$                 chateaux/Chambord.php [L]
-RewriteRule ^chenonceau$               chateaux/Chenonceau.php [L]
+RewriteRule ^chambord$                 chateaux/chambord.php [L]
+RewriteRule ^chenonceau$               chateaux/chenonceau.php [L]
 RewriteRule ^villandry$                chateaux/Villandry.php [L]
 RewriteRule ^azay-le-rideau$           chateaux/Azay-le-Rideau.php [L]
 RewriteRule ^langeais$                 chateaux/Langeais.php [L]

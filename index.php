@@ -252,15 +252,15 @@
 
         <p>
           En esta región declarada <strong>Patrimonio Mundial por la UNESCO</strong>, se mezclan los paisajes bucólicos con la elegancia arquitectónica. Los jardines geométricos de
-          <a href="chateaux/Villandri.php" class="text-emerald-700 hover:underline">Villandri</a>, los reflejos sobre el agua del majestuoso
-          <a href="chateaux/Chenonceau.php" class="text-emerald-700 hover:underline">Chenonceau</a> o las torres de cuento de
+          <a href="/val-de-loire/chateaux/Villandry.php" class="text-emerald-700 hover:underline">Villandry</a>, los reflejos sobre el agua del majestuoso
+          <a href="chateaux/chenonceau.php" class="text-emerald-700 hover:underline">Chenonceau</a> o las torres de cuento de
           <a href="chateaux/Ussé.php" class="text-emerald-700 hover:underline">Ussé</a> —que inspiraron <em>La Bella Durmiente</em>— son solo algunas de las joyas que te esperan.
         </p>
 
         <p>
           Pero el Loira no es solo historia y piedra: también es <strong>gastronomía, vino y naturaleza</strong>. En cada etapa del recorrido podrás degustar quesos artesanos, vinos blancos del <em>Sauvignon</em> o tintos suaves del <em>Cabernet Franc</em>, acompañados de un paisaje de ensueño.
           Los caminos ciclistas de la
-          <a href="https://www.cycling-loire.com/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a>
+          <a href="/val-de-loire/loire-a-velo.php" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a>
           te permiten explorar a tu ritmo, mientras que los cruceros fluviales ofrecen una perspectiva tranquila y romántica del valle.
         </p>
 
@@ -495,26 +495,11 @@
 
   </div>
 
-  <?php // require "galeria-imagenes-carrusel-automático.php"; 
-  ?>
+  <?php  require "galeria-imagenes-carrusel-automático.php"; ?>
+
+<?php require 'estructura/footer-index.php'; ?>
 
 
-
-  <!-- 🔹 Footer -->
-  <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
-    <div class="container mx-auto px-6 text-center space-y-2">
-      <p>&copy; <?= date('Y'); ?> 
-        <a href="/val-de-loire/contacto.html" class="hover:underline">Adrián Laya García.</a>
-      </p>
-      <p>
-        📧 <a href="mailto:superlaya50@gmail.com" class="hover:text-white">superlaya50@gmail.com</a>
-      </p>
-              
-      <p>
-        🌐 <a href="https://www.valdeloire-france.com/es" class="hover:text-white">Turismo oficial del Valle del Loira</a>
-      </p>
-    </div>
-  </footer>
 
 
   <script>
