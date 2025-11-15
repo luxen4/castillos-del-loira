@@ -47,7 +47,9 @@
         </figure>
       <?php endforeach; ?>
 
-    </div>
+    
+    </div>  <?php require RUTA_ESTRUCTURA . "/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
+
   </div>
 
 </section>

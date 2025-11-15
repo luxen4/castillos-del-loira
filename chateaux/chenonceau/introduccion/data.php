@@ -27,7 +27,7 @@ $introduccion = [
     ]
 ];
 
-$titulo = "📸 Galería";
+$titulo = "📸 Galería de imágenes";
 $texto = "Imágenes del elegante Castillo de Chenonceau, conocido por su galería sobre el río Cher y sus hermosos jardines renacentistas.";
 
 $figuras = [

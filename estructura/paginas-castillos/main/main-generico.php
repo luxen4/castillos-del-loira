@@ -1,13 +1,14 @@
   <!-- Contenido principal -->
   <main class="container mx-auto px-1 py-2 grid lg:grid-cols-12 gap-8">
-    <!-- Aside izquierdo -->
+    <!-- 📌 ASIDE IZQUIERDO – PUBLICIDAD RECOMENDADA -->
     <aside class="lg:col-span-3 space-y-6">
+
+
       <div class="bg-emerald-50 p-4 rounded-lg shadow">
 
         <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-izquierdo/anclas/data.php"; 
         ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
-
 
         <?php //<a href="chaumont/mapa-chaumont.php">ir</a> 
         ?>
@@ -53,11 +54,9 @@
         <?php $slug_section = "opiniones";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/opiniones-generico.php"; ?>
 
-
         <!-- faqs -->
         <?php $slug_section = "faqs";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/faqs-generico.php"; ?>
-
 
         <!-- Visitas -->
         <?php $slug_section = "visitas";
@@ -66,16 +65,7 @@
         <!-- Mapa -->
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
 
-
-        <?php
-        function estrellas($num)
-        {
-          return str_repeat("⭐", $num);
-        }
-
-       ?>
-
-
+        <?php function estrellas($num) { return str_repeat("⭐", $num); } ?>
 
         <?php /*
 Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos o que permita enviar nuevos comentarios desde un formulario con validación 📝. Solo dime si quieres:

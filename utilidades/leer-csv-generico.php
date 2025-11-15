@@ -1,6 +1,6 @@
 <?php
 // Leer CSV
-$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/{$archivo_csv}";
+$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/{$carpeta}/{$archivo_csv}";
 $data = array_map('str_getcsv', file($archivo_csv));
 $headers = array_shift($data); // Elimina la primera fila (encabezados)
 
