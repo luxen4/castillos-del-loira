@@ -1,0 +1,11 @@
+id,slug,name,short_description,location,region,year,src,alt,url
+1,chenonceau,Castillo de Chenonceau,Puente del río Cher y jardines,Chenonceaux,Indre-et-Loire,1513,https://upload.wikimedia.org/wikipedia/commons/3/30/Chenonceau-20050320.jpg,Castillo de Chenonceau,/val-de-loire/castillo.php?slug=chenonceau
+2,chambord,Castillo de Chambord,Obra maestra renacentista,Chambord,Loir-et-Cher,1547,https://upload.wikimedia.org/wikipedia/commons/7/77/Chambord_1.jpg,Castillo de Chambord,/val-de-loire/castillo.php?slug=chambord
+3,amboise,Castillo de Amboise,Fortaleza real con vistas al Loira,Amboise,Indre-et-Loire,1430,https://upload.wikimedia.org/wikipedia/commons/b/bc/Ambuaz_IMG_1760.JPG,Castillo de Amboise,/val-de-loire/castillo.php?slug=amboise
+4,azay-le-rideau,Castillo de Azay-le-Rideau,Isla rodeada por agua,Azay-le-Rideau,Indre-et-Loire,1518,https://upload.wikimedia.org/wikipedia/commons/4/4b/Azay-le-Rideau_01.jpg,Castillo de Azay-le-Rideau,/val-de-loire/castillo.php?slug=azay-le-rideau
+5,cheverny,Castillo de Cheverny,Fama por sus interiores conservados,Cheverny,Loir-et-Cher,1624,https://upload.wikimedia.org/wikipedia/commons/6/6f/Cheverny_Castle.jpg,Castillo de Cheverny,/val-de-loire/castillo.php?slug=cheverny
+6,clos-luc%C3%A9,Castillo de Clos Lucé,Última residencia de Leonardo da Vinci,Amboise,Indre-et-Loire,1471,https://upload.wikimedia.org/wikipedia/commons/9/9b/Clos_Luc%C3%A9.jpg,Castillo de Clos Lucé,/val-de-loire/castillo.php?slug=clos-luce
+7,chaumont,Castillo de Chaumont-sur-Loire,Famoso festival de jardines,Chaumont-sur-Loire,Loir-et-Cher,1465,https://upload.wikimedia.org/wikipedia/commons/3/3d/Chaumont_sur_Loire_01.jpg,Castillo de Chaumont-sur-Loire,/val-de-loire/castillo.php?slug=chaumont
+8,valencay,Castillo de Valencay,Residencia señorial con jardines,Valençay,Indre,16th,https://upload.wikimedia.org/wikipedia/commons/2/2b/Valencay_Castle.jpg,Castillo de Valencay,/val-de-loire/castillo.php?slug=valencay
+9,ussé,Castillo de Ussé,El castillo que inspiró a Perrault,Rigny-Ussé,Indre-et-Loire,15th,https://upload.wikimedia.org/wikipedia/commons/1/19/Chateau_de_USSE.jpg,Castillo de Ussé,/val-de-loire/castillo.php?slug=usse
+10,tours,tours,Ciudad de Tours (entrada),Tours,Indre-et-Loire,0,https://upload.wikimedia.org/wikipedia/commons/8/8b/Tours_view.jpg,Tours,/val-de-loire/castillo.php?slug=tours

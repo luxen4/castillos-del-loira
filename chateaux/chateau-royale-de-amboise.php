@@ -1,2 +1,2 @@
-<?php $slug = "amboise"; ?>
+<?php $slug = "chateau-royale-de-amboise"; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/html-castillos-generico.php"; ?>

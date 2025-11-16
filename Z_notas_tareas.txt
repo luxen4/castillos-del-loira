@@ -37,7 +37,15 @@ Control Tareas Mapa || Párrafos con imágenes || Galería Propia
     F. Real de Chinon   ->   OK - OK - NO
     Castillo de Beaugency->  OK - OK - NO
 
+    Todos los castillos, suscarpetas como se llama el castillo realmente
+    Todos los enlaces funcionas en producción (Etapa-6)
 
+Trabajar el buscador: Imágenes...
+http://localhost/val-de-loire/castillos-val-de-loire.php
+
+
+Hacer un carrusel de anuncios de tourguide
+https://www.getyourguide.com/loire-valley-chateaux-l7956/chambord-skip-the-line-chateau-de-chambord-ticket-t183794/?ranking_uuid=75047625-26bb-46be-b7b7-c44688c51de4&utm_medium=sharing&utm_campaign=activity_details_desktop
 
 🎠
 🔰 🏰 (castillo)

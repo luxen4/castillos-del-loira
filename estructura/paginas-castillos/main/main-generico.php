@@ -24,18 +24,18 @@
       <nav class="text-sm breadcrumb mt-4 mb-8" aria-label="Breadcrumb">
         <ol class="flex flex-wrap items-center gap-2 text-gray-600">
           <li>
-            <a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Valle del Loira</a>
+            <a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a>
           </li>
           <li class="text-gray-400">/</li>
 
           <li>
-            <a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Castillos</a>
+            <a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a>
           </li>
           <li class="text-gray-400">/</li>
 
           <li>
             <a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors">
-              <?= $slug_Mayuscula; ?>
+              <?= $nombreLugar; ?>
             </a>
           </li>
         </ol>
