@@ -34,7 +34,7 @@
           </a>
           <!-- Submenú -->
           <ul class="absolute left-0 top-full mt-1 bg-emerald-700 rounded shadow-md hidden min-w-[180px] z-50" id="submenu">
-            <li><a href="/val-de-loire/castillos-val-de-loire.php" class="block px-4 py-2 hover:bg-emerald-600 transition">Buscador/Castillos</a></li>
+            <li><a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php" class="block px-4 py-2 hover:bg-emerald-600 transition">Buscador/Castillos</a></li>
             <li><a href="/val-de-loire/hoteles.html" class="block px-4 py-2 hover:bg-emerald-600 transition">Hoteles</a></li>
             <li><a href="/val-de-loire/b-b.html" class="block px-4 py-2 hover:bg-emerald-600 transition">Bed & Breakfast</a></li>
           </ul>

@@ -96,8 +96,8 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 
     <!-- Hero simple -->
     <div class="mb-6">
-      <figure class="relative h-[260px] md:h-[360px] rounded-lg overflow-hidden bg-cover bg-center"
-              style="background-image:url('/val-de-loire/assets/valle-loira-hero.jpg')">
+      <figure class="relative h-[360px] md:h-[460px] rounded-lg overflow-hidden bg-cover bg-center"
+              style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ch%C3%A2teaux_de_la_Loire_-_Karte.jpg/960px-Ch%C3%A2teaux_de_la_Loire_-_Karte.jpg')">
         <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center">
           <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl text-white font-extrabold">Castillos del Valle del Loira</h2>
@@ -127,7 +127,8 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
     </div>
 
     <!-- Resultados -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <?php if (empty($filtered)): ?>
         <div class="col-span-full bg-white p-6 rounded shadow-sm text-center">
           <p class="text-gray-600">No se han encontrado castillos. Prueba otra búsqueda.</p>
@@ -194,11 +195,27 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 
 <!-- Footer -->
 <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
+<!-- Autor vertical centrado con tooltip -->
+<div class="flex flex-col items-center gap-1 group relative">
+  <a href="/val-de-loire/contacto.html" class="flex flex-col items-center gap-1">
+    <img src="/val-de-loire/assets/adrian.png"
+         alt="Adrián Laya García"
+         class="w-10 h-10 rounded-full border-2 border-white shadow-lg object-cover"
+         title="superlaya50@gmail.com"> <!-- tooltip nativo -->
+    <span class="text-sm text-white opacity-80">Adrián Laya García</span>
+  </a>
+
+  <!-- Tooltip personalizado (opcional, más elegante que title) -->
+  <span class="absolute bottom-full mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity">
+    📧 superlaya50@gmail.com
+  </span>
+</div>
+
+
+
+
   <div class="container mx-auto px-6 text-center">
       <p>&copy; <?= date('Y'); ?> Val de Loire | Turismo</p>
-      <p class="mt-2">
-          <a href="mailto:superlaya50@gmail.com" class="hover:text-white">📧 superlaya50@gmail.com</a>
-      </p>
 
       <ul class="mt-4 flex justify-center gap-6">
           <li><a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="hover:underline">Oficinas de Turismo</a></li>

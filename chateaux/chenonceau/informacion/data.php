@@ -12,7 +12,7 @@ $introduccion = [
   "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chenonceau",
   "parrafos" => [
-    "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <strong>Valle del Loira</strong>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
+    "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
 
     "Su historia está marcada por la influencia de mujeres poderosas como <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>, que embellecieron el castillo y dejaron en él una profunda huella artística y arquitectónica."
     . $retratos_Diana_y_Catalina,

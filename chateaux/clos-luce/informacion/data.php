@@ -14,7 +14,7 @@ $introduccion = [
 
   "Más que un castillo, Clos-Lucé es un lugar de inspiración y conocimiento, donde arte, ciencia y naturaleza se unen para rendir homenaje al espíritu del <strong>Renacimiento</strong>.",
 
-  "Hoy en día, es una de las visitas imprescindibles del <strong>Valle del Loira</strong>, un espacio que combina historia, innovación y el legado universal de <strong>Leonardo da Vinci</strong>."
+  "Hoy en día, es una de las visitas imprescindibles del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, un espacio que combina historia, innovación y el legado universal de <strong>Leonardo da Vinci</strong>."
 ]
 
 ];

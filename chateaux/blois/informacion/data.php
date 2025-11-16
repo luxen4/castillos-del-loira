@@ -4,7 +4,7 @@ $introduccion = [
   "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Blois",
 "parrafos" => [
-  "El <strong>Castillo Real de Blois</strong>, situado en el corazón del <strong>Valle del Loira</strong>, es una joya arquitectónica que reúne en un solo lugar cuatro estilos distintos: <strong>gótico, renacentista, clásico y barroco</strong>. Esta diversidad refleja la evolución de la monarquía francesa y la historia del arte entre los siglos XIII y XVII.",
+  "El <strong>Castillo Real de Blois</strong>, situado en el corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, es una joya arquitectónica que reúne en un solo lugar cuatro estilos distintos: <strong>gótico, renacentista, clásico y barroco</strong>. Esta diversidad refleja la evolución de la monarquía francesa y la historia del arte entre los siglos XIII y XVII.",
 
   "Residencia favorita de <strong>siete reyes y diez reinas de Francia</strong>, el castillo fue escenario de intrigas políticas, conspiraciones cortesanas y episodios clave en la historia del reino. Entre sus muros se desarrollaron los grandes acontecimientos del Renacimiento francés.",
 

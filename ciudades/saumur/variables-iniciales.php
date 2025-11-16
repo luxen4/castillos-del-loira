@@ -4,7 +4,7 @@ $ciudad = "Saumur";
 $slug = "saumur";
 $carpeta='chateaux';
 $slug_Mayuscula = "Saumur";
-$descripcion = "Situada en el corazón del <strong>Valle del Loira</strong>, la encantadora ciudad de <strong>Saumur</strong> es conocida por su imponente castillo, sus vinos espumosos y su tradición ecuestre.<br><br>
+$descripcion = "Situada en el corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, la encantadora ciudad de <strong>Saumur</strong> es conocida por su imponente castillo, sus vinos espumosos y su tradición ecuestre.<br><br>
 
 El <strong>Château de Saumur</strong>, dominando el Loira desde lo alto de una colina, ofrece vistas espectaculares y una visita imprescindible para los amantes de la historia. 
 Pasear por sus calles medievales, llenas de flores, cafés y tiendas artesanales, es una experiencia que combina cultura y tranquilidad a orillas del río.<br><br>

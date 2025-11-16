@@ -11,7 +11,7 @@ Su emblema, el <strong>Château des Ducs de Bretagne</strong>, alberga el museo 
 Las calles del barrio de Bouffay, llenas de cafés y restaurantes, invitan a perderse entre fachadas medievales y ambiente bohemio.<br><br>
 
 Nantes también es famosa por sus sorprendentes creaciones artísticas, como las <strong>Machines de l’Île</strong>, donde un gigantesco elefante mecánico recorre la ciudad, y por su compromiso con la sostenibilidad y el arte urbano. 
-Además, su cercanía al océano Atlántico y su animada escena cultural la convierten en una parada imprescindible en cualquier ruta por el <strong>Valle del Loira</strong>.<br><br>
+Además, su cercanía al océano Atlántico y su animada escena cultural la convierten en una parada imprescindible en cualquier ruta por el <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.<br><br>
 
 Con historia, creatividad y espíritu joven, <strong>Nantes</strong> combina lo mejor del pasado y del futuro francés en un entorno acogedor y cosmopolita.";
 

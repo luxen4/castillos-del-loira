@@ -13,7 +13,7 @@ $historia = [
       En el siglo <strong>XII</strong>, perteneció a los condes de Blois y luego pasó a manos de los reyes franceses. 
       Durante la <strong>Guerra de los Cien Años</strong>, Beaugency sufrió asedios y fue escenario de importantes enfrentamientos entre franceses e ingleses.
       Su imponente <strong>torre del homenaje</strong> y los restos de sus murallas evocan la solidez de su pasado medieval.
-      Hoy, el castillo alberga exposiciones y eventos culturales, manteniendo viva su herencia histórica en el <strong>Valle del Loira</strong>.
+      Hoy, el castillo alberga exposiciones y eventos culturales, manteniendo viva su herencia histórica en el <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.
     </p>
   '
 ];

@@ -12,7 +12,7 @@ $introduccion = [
 
   "parrafos" => [
 
-    "Considerado uno de los castillos más elegantes del <strong>Valle del Loira</strong>, el <strong>Castillo de Azay-le-Rideau</strong> se alza como un sueño de piedra blanca flotando sobre las aguas del río <strong>Indre</strong>. Su reflejo perfecto crea un efecto mágico que ha convertido este castillo en una de las estampas más románticas del patrimonio francés.",
+    "Considerado uno de los castillos más elegantes del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, el <strong>Castillo de Azay-le-Rideau</strong> se alza como un sueño de piedra blanca flotando sobre las aguas del río <strong>Indre</strong>. Su reflejo perfecto crea un efecto mágico que ha convertido este castillo en una de las estampas más románticas del patrimonio francés.",
 
     "Construido en el siglo <strong>XVI</strong> por <strong>Gilles Berthelot</strong>, un rico tesorero de Francisco I, Azay-le-Rideau es una joya del primer <strong>Renacimiento francés</strong>. Fusiona la tradición defensiva medieval —torres, matacanes, fosos— con la elegancia renacentista inspirada en los palacios italianos. Armonía, proporción y refinamiento son las palabras que mejor definen su arquitectura.",
 

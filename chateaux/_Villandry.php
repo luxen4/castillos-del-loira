@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Castillo de Villandry"; $ciudad = ""; $slug = "villandry";
+$nombreLugar = "Chateau de Villandry"; $ciudad = ""; $slug = "villandry";
 $descripcion = "El Castillo de Villandry, situado en el Valle del Loira, es un espléndido ejemplo de la arquitectura renacentista francesa. Rodeado de jardines y viñedos, ofrece visitas guiadas y eventos culturales que permiten disfrutar de su historia y encanto.";
 $imagenHero = "https://st4.depositphotos.com/1766887/38614/i/450/depositphotos_386148530-stock-photo-most-beautiful-castles-europe-chateau.jpg";
 $web_oficial = "https://www.chateauvillandry.fr/";

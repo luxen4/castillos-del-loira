@@ -4,7 +4,7 @@ $ciudad = "Tours";
 $slug = "tours";
 $carpeta='chateaux';
 $slug_Mayuscula = "Tours";
-$descripcion = "En el corazón del <strong>Valle del Loira</strong>, la elegante ciudad de <strong>Tours</strong> combina historia, cultura y encanto francés. 
+$descripcion = "En el corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, la elegante ciudad de <strong>Tours</strong> combina historia, cultura y encanto francés. 
 Conocida como la “puerta de los castillos del Loira”, es un punto de partida ideal para explorar esta región Patrimonio de la Humanidad.<br><br>
 
 El centro histórico de <strong>Tours</strong>, con su famosa <em>Place Plumereau</em>, ofrece un ambiente animado entre casas de entramado de madera, terrazas y restaurantes típicos. 

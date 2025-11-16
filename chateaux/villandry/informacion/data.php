@@ -23,7 +23,7 @@ $introduccion = [
 
   "Villandry destaca también por su compromiso con la <strong>sostenibilidad</strong> y el respeto al medio ambiente: sus jardines se cultivan siguiendo métodos ecológicos, sin pesticidas ni fertilizantes químicos, lo que refuerza su vínculo entre historia y naturaleza viva.",
 
-  "Hoy, el <strong>Castillo de Villandry</strong> es uno de los destinos más visitados del <strong>Valle del Loira</strong>, reconocido mundialmente por la belleza geométrica de sus jardines y su ambiente sereno, que invita a la contemplación y al disfrute de la armonía renacentista."
+  "Hoy, el <strong>Castillo de Villandry</strong> es uno de los destinos más visitados del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, reconocido mundialmente por la belleza geométrica de sus jardines y su ambiente sereno, que invita a la contemplación y al disfrute de la armonía renacentista."
 ]
 
 ];

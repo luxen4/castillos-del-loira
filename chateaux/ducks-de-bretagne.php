@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Castillo de los Duques de Bretaña";
+$nombreLugar = "Chateau de los Duques de Bretaña";
 $ciudad = "Nantes";
 $descripcion = "El Castillo de los Duques de Bretaña (Château des Ducs de Bretagne) es una fortaleza medieval y palacio renacentista en el corazón de Nantes. Alberga el Museo de Historia de la ciudad y combina patrimonio, arte y tecnología para ofrecer una experiencia cultural única.";
 $imagenHero = "https://i.ytimg.com/vi/qS0HxHLBBLc/maxresdefault.jpg";

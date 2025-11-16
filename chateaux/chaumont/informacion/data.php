@@ -86,7 +86,7 @@ $introduccion = [
   "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chaumont-sur-Loire",
 "parrafos" => [
-  "El <strong>Castillo de Chaumont-sur-Loire</strong> es una de las joyas más evocadoras del <strong>Valle del Loira</strong>. Erigido sobre un promontorio con vistas al río <strong>Loira</strong>, combina la majestuosidad medieval con la delicadeza renacentista, ofreciendo una panorámica espectacular del paisaje natural circundante.",
+  "El <strong>Castillo de Chaumont-sur-Loire</strong> es una de las joyas más evocadoras del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>. Erigido sobre un promontorio con vistas al río <strong>Loira</strong>, combina la majestuosidad medieval con la delicadeza renacentista, ofreciendo una panorámica espectacular del paisaje natural circundante.",
 
   "El <strong>Castillo de Chaumont-sur-Loire</strong> es una Fortaleza histórica y data del siglo X, aunque su estructura actual se consolidó en el siglo XV. 
   Ha sido residencia de nobles y un lugar de poder a lo largo de la historia francesa. Desde el siglo XX, es reconocido por su <strong>
@@ -108,7 +108,7 @@ $introduccion = [
 
 
 
-  "Más que una fortaleza o residencia real, <strong>Chaumont-sur-Loire</strong> es un símbolo del diálogo entre el patrimonio histórico y la expresión contemporánea. Su fusión de arquitectura, arte y naturaleza lo convierte en una visita imprescindible en el <strong>Valle del Loira</strong>.",
+  "Más que una fortaleza o residencia real, <strong>Chaumont-sur-Loire</strong> es un símbolo del diálogo entre el patrimonio histórico y la expresión contemporánea. Su fusión de arquitectura, arte y naturaleza lo convierte en una visita imprescindible en el <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.",
 
   "Hoy, el castillo es un centro cultural vibrante, donde la historia y la innovación se encuentran a orillas del Loira, celebrando tanto su pasado real como su papel actual en el arte y la ecología."
 ]

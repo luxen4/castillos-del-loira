@@ -4,7 +4,7 @@ $introduccion = [
   "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chambord",
 "parrafos" => [
-  "El <strong>Castillo de Chambord</strong>, situado en el corazón del <strong>Valle del Loira</strong>, es una obra maestra del <strong>Renacimiento francés</strong> y uno de los monumentos más reconocidos de Francia. Su imponente silueta, con más de 400 habitaciones y 282 chimeneas, encarna la grandeza y la ambición de <strong>Francisco I</strong>.",
+  "El <strong>Castillo de Chambord</strong>, situado en el corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, es una obra maestra del <strong>Renacimiento francés</strong> y uno de los monumentos más reconocidos de Francia. Su imponente silueta, con más de 400 habitaciones y 282 chimeneas, encarna la grandeza y la ambición de <strong>Francisco I</strong>.",
 
   "Construido a partir de 1519, Chambord fue concebido como un pabellón de caza real, aunque su escala monumental lo convirtió en un símbolo del poder monárquico. Su diseño refleja la fusión entre la arquitectura tradicional francesa y la influencia renacentista italiana.",
 
@@ -14,7 +14,7 @@ $introduccion = [
 
   "Más allá de su esplendor arquitectónico, Chambord representa el ideal del Renacimiento: la búsqueda del equilibrio entre arte, ciencia y naturaleza, reflejada en su simetría perfecta y su armonía visual.",
 
-  "Hoy en día, el <strong>Castillo de Chambord</strong> es Patrimonio Mundial de la UNESCO y uno de los destinos más emblemáticos del <strong>Valle del Loira</strong>, atrayendo a millones de visitantes que vienen a admirar su belleza, historia y legado cultural."
+  "Hoy en día, el <strong>Castillo de Chambord</strong> es Patrimonio Mundial de la UNESCO y uno de los destinos más emblemáticos del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, atrayendo a millones de visitantes que vienen a admirar su belleza, historia y legado cultural."
 ]
 
 ];

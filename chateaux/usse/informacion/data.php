@@ -11,7 +11,7 @@ $introduccion = [
   "titulo" => "🏰 Descubre el Castillo de Ussé",
   "parrafos" => [
 
-    "Conocido como el <strong>castillo de los cuentos de hadas</strong>, el <strong>Château d’Ussé</strong> se alza entre bosques y viñedos en la orilla del <strong>río Indre</strong>, en pleno corazón del <strong>Valle del Loira</strong>. Sus torres puntiagudas, tejados de pizarra y elegantes balcones parecen surgir directamente de un libro ilustrado.",
+    "Conocido como el <strong>castillo de los cuentos de hadas</strong>, el <strong>Château d’Ussé</strong> se alza entre bosques y viñedos en la orilla del <strong>río Indre</strong>, en pleno corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>. Sus torres puntiagudas, tejados de pizarra y elegantes balcones parecen surgir directamente de un libro ilustrado.",
 
     "Originalmente construido en el siglo <strong>XI</strong> como fortaleza defensiva, Ussé evolucionó con el tiempo hacia una refinada <strong>residencia renacentista</strong>. Sus propietarios —entre ellos los poderosos <strong>duques de Blois</strong> y la familia <strong>de Rohan</strong>— transformaron la antigua fortaleza en un palacio elegante, rodeado de jardines diseñados al estilo francés.",
 

@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Castillo de Azay-le-Rideau";
+$nombreLugar = "Chateau de Azay-le-Rideau";
 $ciudad = "Azay-le-Rideau";
 $carpeta='chateaux';
 $slug_Mayuscula = "Azay-le-Rideau";

@@ -14,7 +14,7 @@ $introduccion = [
   "titulo" => "🏰 Descubre el Castillo de Langeais",
 "parrafos" => [
 
-  "El <strong>Castillo de Langeais</strong> se alza majestuoso sobre una escarpada colina que domina el tranquilo curso del <strong>río Loira</strong>. A primera vista, su perfil severo de torres almenadas, puente levadizo y murallas imponentes transporta al visitante a los días de la caballería y los torneos. Es una de las fortalezas mejor conservadas del <strong>Valle del Loira</strong>, donde aún late el espíritu de la Edad Media y el refinamiento del Renacimiento temprano.",
+  "El <strong>Castillo de Langeais</strong> se alza majestuoso sobre una escarpada colina que domina el tranquilo curso del <strong>río Loira</strong>. A primera vista, su perfil severo de torres almenadas, puente levadizo y murallas imponentes transporta al visitante a los días de la caballería y los torneos. Es una de las fortalezas mejor conservadas del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, donde aún late el espíritu de la Edad Media y el refinamiento del Renacimiento temprano.",
 
   "Su origen se remonta al siglo <strong>X</strong>, cuando <strong>Fulco Nerra</strong>, conde de Anjou, erigió en este lugar una fortaleza de madera para controlar el valle. Sin embargo, el castillo actual fue reconstruido en piedra en el siglo XV por orden de <strong>Luis XI</strong>, convirtiéndose en una joya del gótico tardío. Langeais se distingue por su doble alma: una cara exterior fortificada, testimonio de la era feudal, y una interior que revela la elegancia y el confort de la nobleza renacentista.",
 

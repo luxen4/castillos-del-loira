@@ -11,7 +11,7 @@ El <strong>castillo de Blois</strong> destaca por su arquitectura única que re�
 Su casco antiguo, con calles empedradas, fachadas coloridas y plazas animadas, invita a pasear y disfrutar del ambiente local.<br><br>
 
 Blois también ofrece una rica oferta cultural, con museos, espectáculos de luz y sonido, y su cercanía a otros castillos como Chambord, Cheverny o Chaumont-sur-Loire. 
-Además, su ubicación central la convierte en una excelente base para explorar todo el <strong>Valle del Loira</strong>.<br><br>
+Además, su ubicación central la convierte en una excelente base para explorar todo el <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.<br><br>
 
 Entre historia, arquitectura y encanto, <strong>Blois</strong> es una parada imprescindible para los amantes del patrimonio francés.";
 

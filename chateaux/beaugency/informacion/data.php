@@ -24,7 +24,7 @@ $introduccion = [
     
     "En la actualidad, sus salas acogen exposiciones y experiencias inmersivas de arte digital que combinan patrimonio histórico con tecnología contemporánea.",
 
-    "El castillo forma parte del conjunto monumental de Beaugency, junto con el majestuoso <strong>puente medieval</strong> y la <strong><a href='/val-de-loire/ciudades/beaugency/abadia-de-notre-dame.php'>Abadía Notre-Dame</a></strong>, uno de los conjuntos patrimoniales más singulares del <strong>Valle del Loira</strong>."
+    "El castillo forma parte del conjunto monumental de Beaugency, junto con el majestuoso <strong>puente medieval</strong> y la <strong><a href='/val-de-loire/ciudades/beaugency/abadia-de-notre-dame.php'>Abadía Notre-Dame</a></strong>, uno de los conjuntos patrimoniales más singulares del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>."
   ]
 ];
 

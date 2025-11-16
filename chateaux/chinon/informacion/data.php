@@ -13,7 +13,7 @@ $introduccion = [
   "titulo" => "🏰 Descubre la Fortaleza Real de Chinon",
   "parrafos" => [
 
-    "La <strong>Fortaleza Real de Chinon</strong>, erguida sobre un espolón rocoso que domina las aguas tranquilas del <strong>río Vienne</strong>, es uno de los enclaves más emblemáticos de la historia de Francia. Su silueta alargada, recortada contra el horizonte del <strong>Valle del Loira</strong>, recuerda los días en que era bastión de poder, escenario de alianzas, intrigas y decisiones que marcaron el destino de reinos enteros.",
+    "La <strong>Fortaleza Real de Chinon</strong>, erguida sobre un espolón rocoso que domina las aguas tranquilas del <strong>río Vienne</strong>, es uno de los enclaves más emblemáticos de la historia de Francia. Su silueta alargada, recortada contra el horizonte del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, recuerda los días en que era bastión de poder, escenario de alianzas, intrigas y decisiones que marcaron el destino de reinos enteros.",
 
     "Originaria del siglo <strong>X</strong> y ampliada a lo largo de los siglos siguientes, la fortaleza fue primero un baluarte de los condes de Blois y de Anjou antes de convertirse en una de las principales residencias de los <strong>Plantagenet</strong>. En sus murallas resonaron las voces de <strong>Enrique II de Inglaterra</strong> y de su esposa <strong>Leonor de Aquitania</strong>, dos de las figuras más poderosas y fascinantes del medievo. Fue en Chinon donde Enrique II respiró por última vez en 1189, cerrando un capítulo legendario de la historia europea."
     . $arquitectura_Chinon,

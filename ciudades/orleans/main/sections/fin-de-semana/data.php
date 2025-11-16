@@ -58,7 +58,7 @@ echo '
 <section id="fin-de-semana" class="my-10 px-6 lg:px-0">
   <h2 class="text-2xl font-bold text-amber-700 mb-4">🌞 Fin de semana en Orléans</h2>
   <p class="text-gray-700 leading-relaxed">
-    Pasar un <strong>fin de semana en Orléans</strong> es una excelente manera de descubrir la historia, la cultura y el encanto del <strong>Valle del Loira</strong>. 
+    Pasar un <strong>fin de semana en Orléans</strong> es una excelente manera de descubrir la historia, la cultura y el encanto del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>. 
     Puedes comenzar explorando la majestuosa 
     <a href="orleans/lugares-interesantes/Catedral-Sainte-Croix.php" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Catedral Sainte-Croix</a>, 
     pasear por la <strong>Place du Martroi</strong> con su icónica estatua de Juana de Arco y recorrer las calles peatonales del centro histórico llenas de tiendas y cafés.  

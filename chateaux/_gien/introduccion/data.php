@@ -46,7 +46,7 @@ $introduccion = [
   "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Gien",
   "parrafos" => [
-    "El <strong>Château de Gien</strong> es un elegante castillo renacentista situado en la localidad de <strong>Gien</strong>, en la región del <strong>Valle del Loira</strong>. Construido en el siglo XV por orden de Ana de Francia, hija de Luis XI, domina las orillas del río <strong>Loira</strong> con una silueta majestuosa.",
+    "El <strong>Château de Gien</strong> es un elegante castillo renacentista situado en la localidad de <strong>Gien</strong>, en la región del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>. Construido en el siglo XV por orden de Ana de Francia, hija de Luis XI, domina las orillas del río <strong>Loira</strong> con una silueta majestuosa.",
 
     "Durante siglos desempeñó un papel estratégico y aristocrático, acogiendo a personajes ilustres como Francisco I y Luis XIV durante sus viajes por el valle.",
 

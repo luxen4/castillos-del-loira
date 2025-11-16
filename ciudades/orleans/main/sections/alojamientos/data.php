@@ -57,7 +57,7 @@ echo '
     son una opción ideal para familias o estancias largas, combinando comodidad y ubicación céntrica.  
     Y para los amantes de la naturaleza, las 
     <a href="https://www.campings.com/es/camping/orleans" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">casas rurales y campings</a> 
-    alrededor de Orléans permiten disfrutar del entorno tranquilo y verde del <strong>Valle del Loira</strong> en un ambiente relajado.
+    alrededor de Orléans permiten disfrutar del entorno tranquilo y verde del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a> en un ambiente relajado.
   </p>
   <p class="mt-4 text-gray-600 text-sm italic">
     👉 Consejo: reserva con antelación durante la temporada alta para conseguir las mejores tarifas y asegurar disponibilidad en tus fechas.

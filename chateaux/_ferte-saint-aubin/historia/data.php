@@ -12,7 +12,7 @@ $historia = [
       <strong>Katherine Briçonnet</strong>, <strong>Diana de Poitiers</strong> y <strong>Catalina de Médici</strong>. 
       Su galería sobre el río <strong>Cher</strong> y sus refinados jardines reflejan la armonía entre la arquitectura y la naturaleza. 
       A lo largo de los siglos, Chenonceau ha sido escenario de fiestas, intrigas cortesanas y, más tarde, refugio durante las guerras. 
-      Hoy sigue siendo uno de los castillos más visitados y admirados del <strong>Valle del Loira</strong>.
+      Hoy sigue siendo uno de los castillos más visitados y admirados del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.
     </p>
   '
 ];

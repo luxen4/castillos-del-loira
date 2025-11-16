@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Castillo de Beauregard";
+$nombreLugar = "Chateau de Beauregard";
 $ciudad = "Cellettes";  // localidad cercana al castillo
 $carpeta='chateaux';
 $slug_Mayuscula = "Beauregard";
