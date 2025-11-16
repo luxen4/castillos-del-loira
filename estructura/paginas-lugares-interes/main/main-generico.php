@@ -16,7 +16,7 @@
       <article class="space-y-10">
 
         <!-- Introducción -->
-        <?php $slug_section = "introduccion";
+        <?php $slug_section = "informacion";
         require "{$slug}/{$slug_section}/data.php"; ?>
 
         <!-- Historia -->

@@ -1,7 +1,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHEVERNY
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Cheverny",
 "parrafos" => [
 

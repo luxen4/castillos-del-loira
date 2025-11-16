@@ -6,7 +6,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE BEAUREGARD
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🖼️ Château de Beauregard: la Galería de los 327 retratos",
 
   "parrafos" => [

@@ -1,7 +1,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CLOS-LUCÉ
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Clos-Lucé",
 "parrafos" => [
   "El <strong>Castillo de Clos-Lucé</strong>, situado en <strong>Amboise</strong>, es célebre por haber sido la última residencia de <strong>Leonardo da Vinci</strong>. En este entorno sereno, el genio del Renacimiento italiano pasó sus últimos años trabajando al servicio de <strong>Francisco I de Francia</strong>.",

@@ -10,7 +10,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE LANGEAIS
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Langeais",
 "parrafos" => [
 

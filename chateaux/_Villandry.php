@@ -64,7 +64,7 @@ $castillos_cercanos = [
   <article class="lg:col-span-8 space-y-10">
 
     <!-- Introducción -->
-    <section id="introduccion">
+    <section id="informacion">
       <h2 class="text-2xl font-bold text-emerald-700 mb-4">✨ Descubre Villandry</h2>
       <p>El <strong>Castillo de Villandry</strong> es un viaje a través de la historia, el arte y la naturaleza de Francia. Sus jardines renacentistas son mundialmente famosos, y cada detalle de su arquitectura refleja siglos de tradición.</p>
       <p>Ubicado en el corazón del Valle del Loira, Villandry ofrece paseos por laberintos de flores, huertos ornamentales y fuentes cuidadosamente diseñadas, haciendo de cada visita una experiencia inolvidable.</p>
@@ -149,7 +149,7 @@ $castillos_cercanos = [
 
 
       <!-- Introducción -->
-      <?php $slug_section = "introduccion"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/introduccion/data.php"; ?>
+      <?php $slug_section = "informacion"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/introduccion/data.php"; ?>
 
 
 

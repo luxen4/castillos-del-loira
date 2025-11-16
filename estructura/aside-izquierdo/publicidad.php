@@ -1,5 +1,4 @@
-<div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500 mt-6">
-    [Publicidad lateral]
+
         <!-- 🟣 CIVITATIS – Mejor conversión -->
     <div class="bg-white shadow rounded-xl p-4 border border-emerald-100">
         <h3 class="text-xl font-bold text-emerald-700 mb-3">Tours en el Valle del Loira</h3>
@@ -16,8 +15,6 @@
             Excursiones, entradas y visitas guiadas a los mejores castillos del Loira: Chenonceau, Chambord, Amboise y más.
         </p>
     </div>
-
-
 
     <!-- 🟡 AMAZON – Productos que convierten -->
     <div class="bg-white shadow rounded-xl p-4 border border-gray-100">
@@ -63,4 +60,3 @@
             <span>Anuncio de Google</span>
         </div>
     </div>
-</div>

@@ -9,7 +9,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHENONCEAU
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chenonceau",
   "parrafos" => [
     "El <strong>Castillo de Chenonceau</strong> es una de las joyas del <strong>Valle del Loira</strong>, célebre por su elegante galería construida sobre el río <strong>Cher</strong> y sus cuidados jardines renacentistas. Su silueta reflejada en el agua crea una de las vistas más emblemáticas de Francia.",
@@ -21,7 +21,7 @@ $introduccion = [
 
     "Los jardines, diseñados con precisión geométrica, ofrecen una vista magnífica del castillo y del río. Cada rincón combina arte, naturaleza y armonía, reflejando el gusto y la elegancia de sus antiguas propietarias.",
 
-    "Más que una residencia real, Chenonceau es un símbolo de equilibrio entre poder, belleza y sensibilidad artística, lo que lo convierte en uno de los destinos más admirados del <strong>Valle del Loira</strong>.",
+    "Más que una residencia real, Chenonceau es un símbolo de equilibrio entre poder, belleza y sensibilidad artística, lo que lo convierte en uno de los destinos más admirados del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.",
 
     "A lo largo de los siglos, Chenonceau ha sido escenario de fiestas, intrigas cortesanas y, más tarde, refugio durante las guerras."
     ]
@@ -54,4 +54,3 @@ $figuras = [
   ]
 ];
 ?>
-

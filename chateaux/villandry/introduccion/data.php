@@ -9,7 +9,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE VILLANDRY
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Villandry",
 "parrafos" => [
   "El <strong>Castillo de Villandry</strong>, situado a orillas del <strong>río Loira</strong>, es una de las joyas más refinadas del <strong>Renacimiento francés</strong>. Su elegancia arquitectónica y la perfección de sus jardines lo convierten en un símbolo de armonía entre arte, naturaleza y geometría.",

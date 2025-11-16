@@ -7,7 +7,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE AZAY-LE-RIDEAU
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "✨ Azay-le-Rideau: un palacio sobre el agua",
 
   "parrafos" => [

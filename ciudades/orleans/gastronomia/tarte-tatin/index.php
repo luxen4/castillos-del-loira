@@ -107,7 +107,7 @@ $reviewCount = "214";
     <article class="lg:col-span-2 space-y-8">
 
       <!-- Introducción / Historia -->
-      <section id="introduccion" class="bg-white p-6 rounded-2xl shadow">
+      <section id="informacion" class="bg-white p-6 rounded-2xl shadow">
         <h2 class="text-2xl font-bold text-amber-700 mb-3">🥧 Introducción e historia</h2>
         <p class="text-gray-700 leading-relaxed">
           La <strong>Tarte Tatin</strong> es una tarta invertida de manzana caramelizada, creada por las hermanas Tatin en el siglo XIX. 

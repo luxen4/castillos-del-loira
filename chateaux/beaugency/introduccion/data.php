@@ -7,7 +7,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE BEAUGENCY
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Castillo de Beaugency",
   "parrafos" => [
 

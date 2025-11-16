@@ -83,7 +83,7 @@ $festival_jardines_chaumont = '
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHAUMONT-SUR-LOIRE
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chaumont-sur-Loire",
 "parrafos" => [
   "El <strong>Castillo de Chaumont-sur-Loire</strong> es una de las joyas más evocadoras del <strong>Valle del Loira</strong>. Erigido sobre un promontorio con vistas al río <strong>Loira</strong>, combina la majestuosidad medieval con la delicadeza renacentista, ofreciendo una panorámica espectacular del paisaje natural circundante.",

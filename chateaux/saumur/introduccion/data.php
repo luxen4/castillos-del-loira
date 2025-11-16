@@ -1,7 +1,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE SAUMUR
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Château de Saumur",
   "parrafos" => [
     "<?= \$descripcion ?>",

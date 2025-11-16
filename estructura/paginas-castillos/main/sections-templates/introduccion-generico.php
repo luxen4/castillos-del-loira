@@ -28,27 +28,29 @@
   <div class="relative w-full overflow-hidden">
 
     <!-- CARRUSEL -->
-    <div id="carousel"
-        class="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 no-scrollbar">
+<div id="carousel"
+     class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-      <?php foreach($figuras as $fig): ?>
-        <figure class="min-w-[85%] md:min-w-[32%] bg-white rounded-lg shadow overflow-hidden snap-center">
-          <img src="<?= $fig['src'] ?>"
-                alt="<?= $fig['alt'] ?>"
-                class="w-full h-48 object-cover">
+  <?php foreach($figuras as $fig): ?>
+    <figure class="bg-white rounded-lg shadow overflow-hidden">
+      <img src="<?= $fig['src'] ?>"
+           alt="<?= $fig['alt'] ?>"
+           class="w-full h-64 object-cover">
 
-          <figcaption class="p-2 text-gray-600 text-sm text-center">
-            <?= $fig['pie'] ?><br>
-            Fuente:
-            <a href="<?= $fig['fuente_url'] ?>" target="_blank" class="text-blue-600 underline">
-              <?= $fig['fuente_texto'] ?>
-            </a>
-          </figcaption>
-        </figure>
-      <?php endforeach; ?>
+      <figcaption class="p-2 text-gray-600 text-sm text-center">
+        <?= $fig['pie'] ?><br>
+        Fuente:
+        <a href="<?= $fig['fuente_url'] ?>" target="_blank" class="text-blue-600 underline">
+          <?= $fig['fuente_texto'] ?>
+        </a>
+      </figcaption>
+    </figure>
+  <?php endforeach; ?>
+<?php require RUTA_ESTRUCTURA . "/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
 
-    
-    </div>  <?php require RUTA_ESTRUCTURA . "/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
+</div>
+
+
 
   </div>
 

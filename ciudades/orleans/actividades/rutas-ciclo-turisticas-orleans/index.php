@@ -125,7 +125,7 @@ $canonical = "https://tusitio.com/val-de-loire/ciudades/orleans/{$slug}.php";
     
       <!-- Introducción -->
       <article>
-        <h2 id="introduccion" class="text-2xl font-bold text-emerald-700 mb-3">🚴 Rutas cicloturísticas actualizadas <?= $year ?> — <?= $ciudad ?></h2>
+        <h2 id="informacion" class="text-2xl font-bold text-emerald-700 mb-3">🚴 Rutas cicloturísticas actualizadas <?= $year ?> — <?= $ciudad ?></h2>
         <p class="text-gray-700 leading-relaxed">
           Aquí encontrarás las rutas cicloturísticas más interesantes alrededor de <?= $ciudad ?>: recorridos señalizados, variantes para gravel y BTT,
           información sobre firme, nivel técnico y enlaces a archivos GPX para descargar. Las rutas están pensadas para distintos perfiles: familias, cicloturistas de un día y viajeros en etapa.

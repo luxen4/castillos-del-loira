@@ -1,7 +1,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE BLOIS
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Blois",
 "parrafos" => [
   "El <strong>Castillo Real de Blois</strong>, situado en el corazón del <strong>Valle del Loira</strong>, es una joya arquitectónica que reúne en un solo lugar cuatro estilos distintos: <strong>gótico, renacentista, clásico y barroco</strong>. Esta diversidad refleja la evolución de la monarquía francesa y la historia del arte entre los siglos XIII y XVII.",

@@ -43,7 +43,7 @@ $museo_caza_gien = '
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CHÂTEAU DE GIEN
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Gien",
   "parrafos" => [
     "El <strong>Château de Gien</strong> es un elegante castillo renacentista situado en la localidad de <strong>Gien</strong>, en la región del <strong>Valle del Loira</strong>. Construido en el siglo XV por orden de Ana de Francia, hija de Luis XI, domina las orillas del río <strong>Loira</strong> con una silueta majestuosa.",

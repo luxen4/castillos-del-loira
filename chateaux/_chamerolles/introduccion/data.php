@@ -3,7 +3,7 @@
 $descripcion = "El Château de Chamerolles es un elegante castillo renacentista situado cerca de Orleans, famoso por su arquitectura, jardines y su museo del perfume.";
 
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Château de Chamerolles",
   "parrafos" => [
     "<?= \$descripcion ?>",

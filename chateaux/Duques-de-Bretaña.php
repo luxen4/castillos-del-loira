@@ -63,7 +63,7 @@ $castillos_cercanos = [
   <article class="lg:col-span-8 space-y-10">
 
     <!-- Introducción -->
-    <section id="introduccion">
+    <section id="informacion">
       <h2 class="text-2xl font-bold text-emerald-700 mb-4">🏰 Descubre el Castillo de los Duques de Bretaña</h2>
       <p>En pleno centro histórico de <strong>Nantes</strong>, el Castillo de los Duques de Bretaña es una joya arquitectónica que combina <em>murallas medievales</em>, un elegante <em>palacio renacentista</em> y un moderno <strong>museo interactivo</strong>.</p>
       <p>Su foso, jardines interiores y pasarelas permiten recorrer la historia bretona mientras se disfruta de vistas únicas de la ciudad.</p>

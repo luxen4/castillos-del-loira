@@ -1,5 +1,5 @@
 <!-- ✅ Galería -->
-<div class="max-w-6xl mx-auto px-4"> <!-- evita invadir aside -->
+<div class="max-w-6xl mx-auto px-1"> <!-- evita invadir aside -->
 
 <div class="grid grid-cols-1 md:grid-cols-1 gap-y-10 gap-x-6 mb-10 place-items-center">
 

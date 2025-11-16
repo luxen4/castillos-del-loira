@@ -1,7 +1,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHAMBORD
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Chambord",
 "parrafos" => [
   "El <strong>Castillo de Chambord</strong>, situado en el corazón del <strong>Valle del Loira</strong>, es una obra maestra del <strong>Renacimiento francés</strong> y uno de los monumentos más reconocidos de Francia. Su imponente silueta, con más de 400 habitaciones y 282 chimeneas, encarna la grandeza y la ambición de <strong>Francisco I</strong>.",

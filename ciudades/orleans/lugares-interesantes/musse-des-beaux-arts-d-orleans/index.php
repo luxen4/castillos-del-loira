@@ -144,7 +144,7 @@ $relacionadas = [
     <article class="lg:col-span-2 space-y-8">
 
       <!-- Introducción -->
-      <section id="introduccion">
+      <section id="informacion">
         <h2 class="text-2xl font-bold text-emerald-700 mb-3">🏛️ Introducción</h2>
         <p class="text-gray-700"><?= htmlspecialchars($descripcion) ?></p>
       </section>

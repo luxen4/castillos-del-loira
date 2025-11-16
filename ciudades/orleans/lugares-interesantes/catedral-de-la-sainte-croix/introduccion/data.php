@@ -1,7 +1,7 @@
 <?php
 // ⛪ SECCIÓN: INTRODUCCIÓN - CATEDRAL DE SAINTE-CROIX
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "⛪ Descubre la Catedral de Sainte-Croix de Orléans",
   "parrafos" => [
     "<?= \$descripcion ?>",

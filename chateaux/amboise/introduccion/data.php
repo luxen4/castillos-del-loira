@@ -8,12 +8,12 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE AMBOISE
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Castillo de Amboise",
   "parrafos" => [
 
     // ✅ concatenación del bloque imágenes
-    "El <strong>Castillo de Amboise</strong> se alza majestuoso sobre el <strong>Valle del Loira</strong>, dominando el río desde su colina. Fue una de las residencias favoritas de los reyes de Francia durante el Renacimiento y símbolo del poder monárquico en la región."
+    "El <strong>Castillo de Amboise</strong> se alza majestuoso sobre el <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, dominando el río desde su colina. Fue una de las residencias favoritas de los reyes de Francia durante el Renacimiento y símbolo del poder monárquico en la región."
       . $vistas_castillo,
 
     // ✅ concatenación del bloque retratos
@@ -28,7 +28,9 @@ $introduccion = [
     "El castillo está íntimamente ligado a <strong>Leonardo da Vinci</strong>, quien pasó sus últimos años en la vecina residencia de Clos-Lucé. Su tumba se encuentra en la <strong>capilla de Saint-Hubert</strong>, dentro del recinto del castillo."
       . $retratos_LeonardoDaVinci_y_CapillaDeSaintHubert,
 
-    "Más que una fortaleza real, Amboise es un testimonio vivo del encuentro entre la historia, el arte y la ciencia, y una de las visitas imprescindibles del <strong>Valle del Loira</strong>."
+    "Más que una fortaleza real, Amboise es un testimonio vivo del encuentro entre la historia, el arte y la ciencia, 
+    y una de las visitas imprescindibles del 
+    <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>."
   ]
 ];
 

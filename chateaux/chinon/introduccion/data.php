@@ -9,7 +9,7 @@
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - FORTALEZA REAL DE CHINON
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre la Fortaleza Real de Chinon",
   "parrafos" => [
 

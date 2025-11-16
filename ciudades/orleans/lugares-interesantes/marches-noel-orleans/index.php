@@ -96,7 +96,7 @@ $web_oficial    = "https://www.orleansmetropole.fr/marche-noel"; // ejemplo ofic
     <article class="lg:col-span-2 space-y-8">
 
       <!-- Introducción -->
-      <section id="introduccion">
+      <section id="informacion">
         <h2 class="text-2xl font-bold text-red-700 mb-3">🎄 Espíritu navideño en Orléans</h2>
         <p>Durante la temporada navideña, la ciudad de <strong>Orléans</strong> se viste de luces, música y aromas de chocolate y vino caliente. En la <strong>Place du Martroi</strong> se instala un encantador mercado con decenas de chalets que ofrecen artesanías, productos locales y decoración navideña.</p>
       </section>

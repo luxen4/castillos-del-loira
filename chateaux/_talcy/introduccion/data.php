@@ -3,7 +3,7 @@
 $descripcion = "El Château de Talcy es una elegante residencia renacentista del Valle del Loira, famosa por su arquitectura histórica y su vínculo con la poetisa Marie de Médicis. Sus muros guardan siglos de historia y un encanto rural único.";
 
 $introduccion = [
-  "id" => "introduccion",
+  "id" => "informacion",
   "titulo" => "🏰 Descubre el Château de Talcy",
   "parrafos" => [
     "<?= \$descripcion ?>",

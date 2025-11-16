@@ -49,7 +49,7 @@
   <main class="max-w-5xl mx-auto px-6 md:px-10 py-10">
 
     <!-- Descripción -->
-    <section id="introduccion" class="mb-10">
+    <section id="informacion" class="mb-10">
       <h2 class="text-2xl font-bold text-emerald-700 mb-4">📖 Introducción</h2>
       <p>
         Situado en el corazón de <strong>Nantes</strong>, el <em>Museo de Historia de Nantes</em> se encuentra dentro del 

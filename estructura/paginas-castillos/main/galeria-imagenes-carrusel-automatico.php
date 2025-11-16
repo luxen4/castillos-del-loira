@@ -1,26 +1,44 @@
-<!-- 🔹 Carrusel de imágenes del Castillo de Chenonceau -->
-<section class="mt-1">
-  <h3 class="text-xl sm:text-1xl md:text-3xl font-bold text-emerald-700 mb-4 text-center">Más imágenes <?= $nombreLugar; ?></h3>
-  <div id="carrusel" class="relative overflow-hidden w-full cursor-grab">
-    <div id="carrusel-track" class="flex gap-4">
-      <?php
-      $carpeta = 'chateaux';
-      $slug_actual = 'castillo-chenonceau';
-      $archivo_csv = 'csv-imagenes-carrusel-automatico.csv';
-      require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; ?>
+<?php
+$carpeta = 'chateaux';
+$slug_actual = 'castillo-' . $slug;
+$archivo_csv = 'csv-imagenes-carrusel-automatico.csv';
+require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php';
+?>
 
-      <div class="flex gap-4">
-        <?php foreach ($items_filtrados as $img): ?>
-          <img src="<?= $img['src'] ?>"
-            alt="<?= $img['alt'] ?>"
-            class="w-32 h-32 object-cover rounded-lg shadow-md select-none">
-        <?php endforeach; ?>
+<?php if (!empty($items_filtrados)): ?>
+
+<!-- 🔹 Botón para abrir modal -->
+<div class="text-center my-4">
+  <button id="openCarouselBtn"
+          class="bg-emerald-700 text-white px-4 py-2 rounded shadow hover:bg-emerald-800 transition">
+    Ver más imágenes
+  </button>
+</div>
+
+<!-- 🔹 Modal -->
+<div id="carouselModal" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center z-50">
+  <div class="bg-white rounded-lg shadow-lg max-w-4xl w-full relative p-4">
+    <!-- Botón cerrar -->
+    <button id="closeCarouselBtn" class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-xl font-bold">&times;</button>
+
+    <!-- Carrusel -->
+    <div id="carrusel" class="relative overflow-hidden w-full cursor-grab mt-2">
+      <div id="carrusel-track" class="flex gap-4">
+
+        <div class="flex gap-4">
+          <?php foreach ($items_filtrados as $img): ?>
+            <img src="<?= $img['src'] ?>"
+                 alt="<?= $img['alt'] ?>"
+                 class="w-32 h-32 object-cover rounded-lg shadow-md select-none">
+          <?php endforeach; ?>
+        </div>
+
       </div>
-
     </div>
   </div>
-</section>
+</div>
 
+<!-- 🔹 Estilos y animación -->
 <style>
   #carrusel-track {
     width: max-content;
@@ -28,13 +46,8 @@
   }
 
   @keyframes scroll-loop {
-    0% {
-      transform: translateX(0);
-    }
-
-    100% {
-      transform: translateX(-50%);
-    }
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
   }
 
   #carrusel:hover #carrusel-track {
@@ -42,6 +55,7 @@
   }
 </style>
 
+<!-- 🔹 Script para carrusel y modal -->
 <script>
   const track = document.getElementById("carrusel-track");
   let isDown = false;
@@ -93,4 +107,29 @@
     track.scrollLeft += (startTouchX - moveX);
     startTouchX = moveX;
   });
+
+  // 🔹 Modal
+  const openBtn = document.getElementById("openCarouselBtn");
+  const closeBtn = document.getElementById("closeCarouselBtn");
+  const modal = document.getElementById("carouselModal");
+
+  openBtn.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+  });
+
+  // Cerrar modal al click fuera del contenido
+  modal.addEventListener("click", (e) => {
+    if(e.target === modal){
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+  });
 </script>
+
+<?php endif; ?>

@@ -33,7 +33,7 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <main class="col-span-12 lg:col-span-8">
-      <article class="bg-white p-6 rounded-lg shadow mb-6">
+      <article class="bg-white p-1 rounded-lg shadow mb-6">
         <h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
 
         <p class="text-lg md:text-xl text-gray-700 mb-4">
@@ -86,7 +86,7 @@
 
 
 
-        <div class="bg-white px-4 py-4 rounded-lg shadow mb-1">
+        <div class="bg-white px-1 py-4 rounded-lg shadow mb-1">
 
           <?php foreach ($bloques as $bloque): ?>
 
@@ -157,9 +157,9 @@
       <div class="aside-sticky bg-white p-4 rounded-lg shadow">
         <h4 class="font-semibold text-emerald-700 mb-2">Destacados</h4>
         <ul class="text-sm space-y-2 text-gray-700">
-          <li><a href="#" class="hover:underline">Castillo de Chambord</a></li>
-          <li><a href="#" class="hover:underline">Chenonceau</a></li>
-          <li><a href="#" class="hover:underline">Amboise</a></li>
+          <li><a href="/val-de-loire/chateaux/chambord.php" class="hover:underline">Castillo de Chambord</a></li>
+          <li><a href="/val-de-loire/chateaux/chenonceau.php" class="hover:underline">Chenonceau</a></li>
+          <li><a href="/val-de-loire/chateaux/amboise.php" class="hover:underline">Amboise</a></li>
         </ul>
         <hr class="my-4" />
         <div class="h-24 bg-gray-100 rounded flex items-center justify-center text-gray-500">AD 160×600</div>
