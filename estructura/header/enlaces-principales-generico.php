@@ -1,18 +1,25 @@
 <header class="bg-emerald-700 text-white shadow-md relative z-50">
     <div class="container mx-auto px-6 flex justify-between items-center py-4">
 
+<!-- Logo + título -->
+<a href="/val-de-loire/index.php" class="flex items-center gap-3">
+    <img src="/val-de-loire/assets/logo.png" 
+         alt="Val de Loire" 
+         class="w-10 h-10 object-contain">
 
+    <div class="flex flex-col">
+        <!-- Nombre principal -->
+        <h1 class="text-lg md:text-xl font-bold text-white leading-tight">
+            Val de Loire
+        </h1>
 
-    <!-- Logo + título -->
-    <a href="/val-de-loire/index.php" class="flex items-center gap-3">
-      <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10 object-contain">
-      <div>
-        <h1 class="text-lg font-bold text-white">Val de Loire</h1>
-        <p class="text-xs text-white">🌿 Oficinas de Turismo del Valle del Loira</p>
-      </div>
-    </a>
-
-
+        <!-- Etapa -->
+        <p class="text-xs md:text-sm font-medium text-emerald-200
+                   border-l-4 border-emerald-200 pl-2 mt-1">
+            <?= $nombreLugar; ?>
+        </p>
+    </div>
+</a>
 
 
         <!-- Botón hamburguesa (solo móvil) -->
@@ -27,35 +34,63 @@
         <nav id="menu" class="hidden md:flex md:items-center md:gap-6 absolute md:static top-full left-0 w-full md:w-auto bg-emerald-700 md:bg-transparent transition-all duration-300">
             <ul class="flex flex-col md:flex-row md:gap-6 p-4 md:p-0">
 
-                <li><a href="/val-de-loire" class="block py-2 px-4 hover:bg-emerald-600 md:hover:bg-transparent rounded transition">Inicio</a></li>
+                <li><a href="/val-de-loire" class="block py-2 px-4 hover:underline">🏠 Inicio</a></li>
 
-                <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php#informacion" class="block py-2 px-4 hover:bg-emerald-600 md:hover:bg-transparent rounded transition">Informacion</a></li>
+                <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php#informacion" class="block py-2 px-4 hover:underline">Informacion</a></li>
 
                 <!-- Desplegable Alojamientos -->
-                <li class="relative" id="alojamientos-menu">
-                    <a href="#"
-                        class="block py-2 px-4 hover:bg-emerald-600 md:hover:bg-transparent rounded flex items-center justify-between transition">
-                        🛎️ Alojamientos
-                        <svg class="w-4 h-4 ml-1 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </a>
-                    <!-- Submenú -->
-                    <ul class="absolute left-0 top-full mt-1 bg-emerald-700 rounded shadow-md hidden min-w-[180px] z-50" id="submenu">
-                        <li>
-                            <a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php"
-                                class="flex items-center justify-between w-full px-1 py-3 rounded hover:bg-emerald-600 transition">
-                                <span class="flex items-center gap-3 text-base">🔍Buscador / Castillos</span>
-                            </a>
-                        </li>
+<li class="relative group" id="alojamientos-menu">
 
-                        <li><a href="/val-de-loire/hoteles.html" class="block px-1 py-2 hover:bg-emerald-600 transition">🏨 Hoteles</a></li>
-                        <li><a href="/val-de-loire/b-b.html" class="block px-1 py-2 hover:bg-emerald-600 transition">🍳🛏️ Bed & Breakfast</a></li>
-                    </ul>
-                </li>
+    <!-- Botón del dropdown -->
+    <button
+        class="w-full text-left block py-2 px-4 hover:underline rounded flex items-center justify-between transition group-hover:bg-emerald-600">
+         Dropdown
+        <svg class="w-4 h-4 ml-1 transform transition-transform group-hover:rotate-180" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+    </button>
 
-                <li><a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="block py-2 px-1 hover:bg-emerald-600 md:hover:bg-transparent rounded transition">Turismo</a></li>
-                <li><a href="/val-de-loire/contacto.html" class="block py-2 px-1 hover:bg-emerald-600 md:hover:bg-transparent rounded transition">Contacto</a></li>
+    <!-- Submenú -->
+    <ul class="absolute left-0 top-full mt-1 bg-emerald-700 rounded shadow-md hidden group-hover:block min-w-[220px] z-50"
+        id="submenu">
+
+        <!-- Título del submenu -->
+        <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
+            <a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php"
+                class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
+            🛎️ Explorar Alojamientos
+            </a>
+        </li>
+
+        <!-- Opciones -->
+        <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
+            <a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php"
+                class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
+                🔍 Buscador / Castillos
+            </a>
+        </li>
+
+        <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
+            <a href="/val-de-loire/hoteles.html"
+                class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
+                🏨 Hoteles
+            </a>
+        </li>
+
+        <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
+            <a href="/val-de-loire/b-b.html"
+                class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
+                🍳🛏️ Bed & Breakfast
+            </a>
+        </li>
+
+    </ul>
+</li>
+
+                <li><a href="../../general/formulario.html" class="block py-2 px-4 hover:underline">✍️ Ir al Formulario</a></li>
+                <li><a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="block py-2 px-4 hover:underline">Turismo</a></li>
+                <li><a href="/val-de-loire/contacto.html" class="block py-2 px-4 hover:underline">Contacto</a></li>
 
             </ul>
         </nav>

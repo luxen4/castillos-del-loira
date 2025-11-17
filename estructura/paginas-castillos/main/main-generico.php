@@ -18,9 +18,15 @@
       </div>
     </aside>
 
+   
 
     <!-- Contenedor con scroll -->
-    <div class="lg:col-span-6 h-[80vh] overflow-y-auto space-y-10 p-1">
+    <div class="lg:col-span-6 h-[80vh] overflow-y-auto space-y-10 p-1"> 
+      
+    <?php /*
+      <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+    */ ?>
+
       <nav class="text-sm breadcrumb mt-4 mb-8" aria-label="Breadcrumb">
         <ol class="flex flex-wrap items-center gap-2 text-gray-600">
           <li>
@@ -78,13 +84,28 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
 ✅ Guardar comentarios en un archivo JSON
 ✅ Guardarlos en MySQL
 ✅ O integrarlo con un formulario en la web */ ?>
+<!-- Banner de tours / actividades - GetYourGuide -->
+<div class="border border-gray-200 rounded-lg overflow-hidden shadow-lg">
+  <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Tours y actividades</h3>
+  <a href="https://getyourguide.tpo.lu/FPvBISCi" target="_blank" rel="nofollow">
+    <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=535,height=400,dpr=1/tour_img/514f6debe7856996d676b2e9e9cb60ec776bdf4826ac7e5e1b1e842fd9168a17.jpg" 
+         alt="Reserva tours en el Valle del Loira" 
+         class="w-full h-40 object-cover">
+  </a>
+  <p class="text-sm text-gray-600 mt-2 px-2 text-center">
+    Descubre excursiones y actividades únicas en el Valle del Loira.
+  </p>
+</div><?php // https://app.travelpayouts.com/programs/84/about Crear links ?>
 
         <?php 
         $numeroAleatorio = 5; $alineacion=4;
         $archivoPublicidad = "sneakers";
         require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
 
+
+
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
+
 
       </article>
     </div>
@@ -122,18 +143,6 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
 
 
 
-<!-- Banner de tours / actividades - GetYourGuide -->
-<div class="border border-gray-200 rounded-lg overflow-hidden shadow-lg">
-  <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Tours y actividades</h3>
-  <a href="https://getyourguide.tpo.lu/FPvBISCi" target="_blank" rel="nofollow">
-    <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=535,height=400,dpr=1/tour_img/514f6debe7856996d676b2e9e9cb60ec776bdf4826ac7e5e1b1e842fd9168a17.jpg" 
-         alt="Reserva tours en el Valle del Loira" 
-         class="w-full h-40 object-cover">
-  </a>
-  <p class="text-sm text-gray-600 mt-2 px-2 text-center">
-    Descubre excursiones y actividades únicas en el Valle del Loira.
-  </p>
-</div><?php // https://app.travelpayouts.com/programs/84/about Crear links ?>
 
 
 

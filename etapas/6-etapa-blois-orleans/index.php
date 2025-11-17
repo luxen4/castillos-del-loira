@@ -10,7 +10,9 @@
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-  <?php $etapa = 'Blois – Orléans'; require "../estructura/header/enlaces-principales-generico.php"; ?>
+  <?php $etapa = 'Blois – Orléans'; 
+  //require "../estructura/header/enlaces-principales-generico.php"; 
+  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
   
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
 
@@ -47,8 +49,8 @@
 
         <ul class="list-disc list-inside text-gray-700 mb-4">
           <li><a href="../../chateaux/chenonceau.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Chenonceau</a>, famoso por su arquitectura sobre el río Cher y sus jardines renacentistas.</li>
-          <li><a href="../../ciudades/clos-luce.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
-          <li><a href="../../ciudades/amboise.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
+          <li><a href="../../chateaux/clos-luce.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
+          <li><a href="../../chateaux/chateau-royale-de-amboise.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
           <li><a href="../../rutas-val-de-loire.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
         </ul>
 
@@ -159,7 +161,7 @@
         <ul class="text-sm space-y-2 text-gray-700">
           <li><a href="/val-de-loire/chateaux/chambord.php" class="hover:underline">Castillo de Chambord</a></li>
           <li><a href="/val-de-loire/chateaux/chenonceau.php" class="hover:underline">Chenonceau</a></li>
-          <li><a href="/val-de-loire/chateaux/amboise.php" class="hover:underline">Amboise</a></li>
+          <li><a href="/val-de-loire/chateaux/chateau-royal🛎️ Alojamientose-de-amboise.php" class="hover:underline">Amboise</a></li>
         </ul>
         <hr class="my-4" />
         <div class="h-24 bg-gray-100 rounded flex items-center justify-center text-gray-500">AD 160×600</div>

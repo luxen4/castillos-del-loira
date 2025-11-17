@@ -10,18 +10,12 @@
 
     <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-generico.php"; ?>
 
-    <!-- 🔹 Header -->
-    <header class="bg-emerald-700 text-white py-6 shadow-md">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">🏙️ Valle del Loira</h1>
-            <nav class="flex gap-6">
-                <a href="../index.php" class="hover:underline"><H1>Home</H1></a>
-                <?php /* <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline">Castillos</a>
-                <a href="../alojamientos.php" class="hover:underline">Alojamientos</a>
-                <a href="../oficinas-turismo.php" class="hover:underline">Turismo</a> */?>
-            </nav>
-        </div>
-    </header>
+  <?php $etapa = 'Nantes'; 
+  //require "../estructura/header/enlaces-principales-generico.php"; 
+  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+  
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
+
 
 <!-- 🔹 Hero responsivo -->
 <section
@@ -96,7 +90,9 @@
           <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
       <!-- Carrusel Amazon -->
       <div class="w-full h-auto flex items-center justify-center px-2">
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
+        <?php 
+        $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=4;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
       </div>
       </div>
 

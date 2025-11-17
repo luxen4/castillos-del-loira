@@ -15,9 +15,9 @@ Además, su ubicación central la convierte en una excelente base para explorar 
 
 Entre historia, arquitectura y encanto, <strong>Blois</strong> es una parada imprescindible para los amantes del patrimonio francés.";
 
-$imagenHero = "https://www.valdeloire-france.com/sites/default/files/styles/slider_full/public/thumbnails/image/blois-chateau-royal.jpg?itok=F9KtoG5Q";
+$imagenHero = "https://img.francerent.com/articles/Cities/Blois/blois-a-royal-gem-on-the-loire-1.jpg?w=400&dpr=2.6";
 $web_oficial = "https://www.blois.fr/";
-$fuenteHero_texto = "blois.fr";
+$fuenteHero_texto = "https://francerent.com/es/destinations/Blois?srsltid=AfmBOoqPYIrOztp8trepC6XX9cFBUJzKtVtIA_llch5WD5tkIQq7tdcF";
 
 $otros_castillos = [
   ["Chambord", "Chambord.php"],
