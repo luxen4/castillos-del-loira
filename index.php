@@ -89,9 +89,9 @@
 
         <!-- Links -->
         <ul id="menu-items" class="hidden md:flex flex-col md:flex-row gap-4 mt-2 md:mt-0 text-center transition-all duration-300">
-          <li><a href="../../index.php" class="hover:underline">🏠 Inicio</a></li>
-          <li><a href="/val-de-loire/rutas.php" class="hover:underline">Rutas</a></li>
-          <li><a href="../../val-de-loire/formulario.html" class="hover:underline">✍️ Formulario</a></li>
+          <li><a href="../../../general/index.php" class="hover:underline">🏠 Inicio</a></li>
+          <li><a href="/val-de-loire/general/rutas-loira.php" class="hover:underline">Rutas</a></li>
+          <li><a href="../../val-de-loire/general/formulario.html" class="hover:underline">✍️ Formulario</a></li>
         </ul>
       </nav>
 
@@ -191,7 +191,7 @@
         </h4>
 
         <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
+          <a href="/val-de-loire/servicios/oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
             🗺️ Oficinas de Turismo
           </a>
         </h4>
@@ -231,11 +231,6 @@
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
-
-
-
-
-
       <?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
 
       <section class="space-y-6">
@@ -260,7 +255,7 @@
         <p>
           Pero el Loira no es solo historia y piedra: también es <strong>gastronomía, vino y naturaleza</strong>. En cada etapa del recorrido podrás degustar quesos artesanos, vinos blancos del <em>Sauvignon</em> o tintos suaves del <em>Cabernet Franc</em>, acompañados de un paisaje de ensueño.
           Los caminos ciclistas de la
-          <a href="/val-de-loire/loire-a-velo.php" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a>
+          <a href="/val-de-loire/actividades/loire-a-velo.php" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Loire à Vélo</a>
           te permiten explorar a tu ritmo, mientras que los cruceros fluviales ofrecen una perspectiva tranquila y romántica del valle.
         </p>
 
@@ -285,8 +280,6 @@
           Planifica tu viaje, sigue las etapas recomendadas y déjate seducir por la magia de los castillos, el murmullo del río y la hospitalidad de su gente.
         </p>
       </section>
-
-
 
       <!-- 🔹 Datos Rápidos del Valle del Loira (con animación al hacer scroll) -->
       <section
@@ -328,13 +321,6 @@
             <p>Chambord, Chenonceau, Amboise, Villandri y Ussé, cada uno con su propia historia y encanto.</p>
             <a href="#castillos-destacados" class="text-blue-600 hover:underline">ir</a>
           </div>
-
-
-
-
-
-
-
 
           <div class="bg-white rounded-lg p-4 shadow-sm">
             <h4 class="font-semibold text-emerald-800 mb-1">🌦️ Clima</h4>
@@ -399,8 +385,6 @@
           <li>10 días: ruta completa, incluyendo pueblos, viñedos y actividades culturales.</li>
         </ul>
       </section>
-
-
 
       <section id="vinos-emblematicos" class="mt-10">
         <h3 class="text-2xl font-bold text-gray-700 mb-6">🍷 Vinos emblemáticos del Valle del Loira</h3>
@@ -468,8 +452,7 @@
         </div>
       </section>
 
-      <?php require "estructura/index/main/sections/ciudades-principales.php"; // Ejemplar 
-      ?>
+      <?php require "estructura/index/main/sections/ciudades-principales.php"; // Ejemplar ?>
 
       <?php require "estructura/index/main/sections/clima.php"; ?>
       <?php require "estructura/index/main/sections/consejos-viaje.php"; ?>

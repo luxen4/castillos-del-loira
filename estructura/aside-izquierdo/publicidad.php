@@ -47,6 +47,73 @@
 </div>
 
 
+<section class="my-12">
+  <h2 class="text-3xl font-bold text-emerald-600 text-center mb-6">📍 Localización</h2>
+
+  <div class="flex justify-center">
+    <!-- Preview clicable -->
+    <div id="mapPreview" class="relative w-full max-w-3xl h-64 rounded-2xl overflow-hidden shadow-lg border-4 border-emerald-600 cursor-pointer hover:shadow-2xl transition-shadow duration-300">
+      
+      <!-- Imagen de fondo o iframe reducido -->
+      <iframe 
+          src="<?= $src_google_maps; ?>" 
+          class="w-full h-full pointer-events-none"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <!-- Overlay indicativo -->
+      <div class="absolute inset-0 bg-black/20 flex items-center justify-center text-white font-semibold text-lg hover:bg-black/30 transition">
+        Haz clic para ampliar
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal popup -->
+<div id="mapModal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+  <div class="relative w-full max-w-4xl rounded-2xl overflow-hidden bg-white shadow-2xl">
+    <!-- Botón cerrar -->
+    <button id="closeModal" class="absolute top-2 right-2 text-gray-700 hover:text-gray-900 font-bold text-xl">&times;</button>
+    
+    <!-- Mapa completo -->
+    <iframe 
+        src="<?= $src_google_maps; ?>" 
+        class="w-full h-96 md:h-[500px]"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+<!-- JS para abrir/cerrar modal -->
+<script>
+  const mapPreview = document.getElementById('mapPreview');
+  const mapModal = document.getElementById('mapModal');
+  const closeModal = document.getElementById('closeModal');
+
+  mapPreview.addEventListener('click', () => {
+    mapModal.classList.remove('hidden');
+    mapModal.classList.add('flex');
+  });
+
+  closeModal.addEventListener('click', () => {
+    mapModal.classList.add('hidden');
+    mapModal.classList.remove('flex');
+  });
+
+  // Cerrar al hacer clic fuera del contenido
+  mapModal.addEventListener('click', (e) => {
+    if(e.target === mapModal){
+      mapModal.classList.add('hidden');
+      mapModal.classList.remove('flex');
+    }
+  });
+</script>
+
 
 <!-- 🔵 ADSENSE – Solo actívalo si quieres -->
 <div class="bg-white shadow rounded-xl p-4 border border-blue-100">

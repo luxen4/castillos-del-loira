@@ -78,7 +78,7 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 
     <nav class="hidden md:flex md:items-center md:gap-6">
       <a href="/val-de-loire" class="hover:underline">Inicio</a>
-      <a href="/val-de-loire/alojamientos-val-de-loire.php" class="hover:underline">Alojamientos</a>
+      <a href="/val-de-loire/alojamientos-val-de-loire.php" class="hover:underline">🛎️ Alojamientos</a>
       <a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="hover:underline">Turismo</a>
       <a href="/val-de-loire/contacto.html" class="hover:underline">Contacto</a>
     </nav>

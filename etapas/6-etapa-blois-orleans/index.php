@@ -53,7 +53,7 @@
         </ul>
 
         <p class="text-lg md:text-xl text-gray-700 mb-6">
-          Además, los amantes de la naturaleza pueden disfrutar de paseos por los <a href="../../jardines-loira.html" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">jardines históricos</a> y las riberas del río, ideales para fotografía, picnic y observación de aves.
+          Además, los amantes de la naturaleza pueden disfrutar de paseos por los <a href="../../general/jardines-loira.html" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">jardines históricos</a> y las riberas del río, ideales para fotografía, picnic y observación de aves.
         </p>
 
 

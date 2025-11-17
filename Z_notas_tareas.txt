@@ -29,6 +29,10 @@ Objetivo:
     -Idem con visitas, que hasta ahora se llama por una variable "información útil"
 
     -Desarrollo de la Etapa 6
+    -16/11/2025 Organización de archivos 
+
+
+
 
 Control Tareas Mapa || Párrafos con imágenes || Galería Propia
     Amboise             ->   OK - OK - NO

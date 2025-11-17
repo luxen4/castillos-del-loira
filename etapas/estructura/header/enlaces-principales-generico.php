@@ -23,8 +23,8 @@
 
       <!-- Links -->
       <ul id="menu-items" class="hidden md:flex flex-col md:flex-row gap-4 mt-2 md:mt-0 text-center">
-        <li><a href="../../index.php" class="hover:underline">🏠 Inicio</a></li>
-        <li><a href="../../formulario.html" class="hover:underline">✍️ Ir al Formulario</a></li>
+        <li><a href="../../../index.php" class="hover:underline">🏠 Inicio</a></li>
+        <li><a href="../../general/formulario.html" class="hover:underline">✍️ Ir al Formulario</a></li>
         <li><a href="../../contacto.html" class="hover:underline">Contacto</a></li>
       </ul>
     </nav>

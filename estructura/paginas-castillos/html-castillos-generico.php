@@ -16,7 +16,7 @@ if(file_exists($dataFile)) {
 
 <?php
 // Incluir variables iniciales del castillo
-require RUTA_CHATEAUX . "/{$slug}/variables-iniciales.php";
+require RUTA_CHATEAUX . "/chateaux-folders/{$slug}/variables-iniciales.php";
 ?>
 
 <!DOCTYPE html>

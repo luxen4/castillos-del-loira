@@ -6,7 +6,7 @@
 
       <div class="hidden lg:block bg-emerald-50 p-4 rounded-lg shadow">
 
-        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-izquierdo/anclas/data.php"; 
+        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-izquierdo/anclas/data.php"; 
         ?>
 
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
@@ -45,7 +45,7 @@
 
         <!-- Introducción -->
         <?php $slug_section = "informacion";
-        require "{$slug}/{$slug_section}/data.php";
+        require "chateaux-folders/{$slug}/{$slug_section}/data.php";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/introduccion-generico.php"; ?>
 
         <!-- Consejos -->
@@ -79,7 +79,13 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
 ✅ Guardarlos en MySQL
 ✅ O integrarlo con un formulario en la web */ ?>
 
-        <?php require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
+        <?php 
+        $numeroAleatorio = 5; $alineacion=4;
+        $archivoPublicidad = "sneakers";
+        require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
+
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
+
       </article>
     </div>
 
@@ -147,8 +153,7 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
 
 
 
-      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
-
+   
     </aside>
 
   </main>
