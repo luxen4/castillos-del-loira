@@ -191,7 +191,7 @@
         </h4>
 
         <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="/val-de-loire/servicios/oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
+          <a href="/val-de-loire/servicios/oficinas-turismo-val-de-loire.php" class="hover:text-emerald-700 underline">
             🗺️ Oficinas de Turismo
           </a>
         </h4>
@@ -231,7 +231,9 @@
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
-      <?php require  "anuncios/amazon/carrusel-horizontal-generico.php"; ?>
+      <?php 
+      $archivoPublicidad = "sneakers"; $alineacion=4; $numeroAleatorio = 5;
+      require "anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
 
       <section class="space-y-6">
         <h2 class="text-2xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
@@ -478,7 +480,7 @@
 
   </div>
 
-  <?php  require "galeria-imagenes-carrusel-automático.php"; ?>
+  <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
 
 <?php require 'estructura/footer-index.php'; ?>
 

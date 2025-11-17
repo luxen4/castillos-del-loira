@@ -52,7 +52,7 @@
 
 
 <!-- 🔹 Contenido Principal -->
-<main class="container mx-auto px-6 py-12 grid lg:grid-cols-12 gap-10">
+<main class="container mx-auto px-1 py-12 grid lg:grid-cols-12 gap-10">
 
   <!-- 📢 ASIDE IZQUIERDO -->
   <aside class="space-y-8 hidden lg:block lg:col-span-2">

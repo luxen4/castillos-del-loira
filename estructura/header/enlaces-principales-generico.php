@@ -1,11 +1,19 @@
 <header class="bg-emerald-700 text-white shadow-md relative z-50">
     <div class="container mx-auto px-6 flex justify-between items-center py-4">
 
-        <!-- Logo + nombre -->
-        <a href="/val-de-loire" class="flex items-center gap-2">
-            <img src="/val-de-loire/assets/favicon.png" alt="Val de Loire" class="w-8 h-8 object-contain">
-            <h1 class="text-xl font-bold">Val de Loire</h1>
-        </a>
+
+
+    <!-- Logo + título -->
+    <a href="/val-de-loire/index.php" class="flex items-center gap-3">
+      <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10 object-contain">
+      <div>
+        <h1 class="text-lg font-bold text-white">Val de Loire</h1>
+        <p class="text-xs text-white">🌿 Oficinas de Turismo del Valle del Loira</p>
+      </div>
+    </a>
+
+
+
 
         <!-- Botón hamburguesa (solo móvil) -->
         <button id="menu-btn" class="md:hidden focus:outline-none">
@@ -25,9 +33,9 @@
 
                 <!-- Desplegable Alojamientos -->
                 <li class="relative" id="alojamientos-menu">
-                    <a href="/val-de-loire/alojamientos-val-de-loire.php"
+                    <a href="#"
                         class="block py-2 px-4 hover:bg-emerald-600 md:hover:bg-transparent rounded flex items-center justify-between transition">
-                        Alojamientos
+                        🛎️ Alojamientos
                         <svg class="w-4 h-4 ml-1 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>

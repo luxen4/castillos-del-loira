@@ -65,7 +65,7 @@
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/visitas-generico.php"; ?>
 
         <!-- Mapa -->
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
+        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
 
         <?php function estrellas($num)
         {

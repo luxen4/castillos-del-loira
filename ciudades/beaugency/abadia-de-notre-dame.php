@@ -80,7 +80,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
     </div>
   </section>
 
-  <main class="container mx-auto px-6 py-12 grid lg:grid-cols-4 gap-10">
+  <main class="container mx-auto px-1 py-12 grid lg:grid-cols-4 gap-10">
 
     <aside class="hidden lg:block space-y-8">
       <section class="bg-white p-6 rounded-2xl shadow">

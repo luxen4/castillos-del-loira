@@ -127,7 +127,7 @@ $artistas       = [
   </nav>
 
   <!-- MAIN -->
-  <main class="container mx-auto px-6 py-12 grid lg:grid-cols-3 gap-10">
+  <main class="container mx-auto px-1 py-12 grid lg:grid-cols-3 gap-10">
 
     <!-- Article -->
     <article class="lg:col-span-2 space-y-8">

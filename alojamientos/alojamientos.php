@@ -44,7 +44,7 @@
   </header>
 
   <!-- 🔹 Hero -->
-  <section class="container mx-auto px-6 py-12 text-center">
+  <section class="container mx-auto px-1 py-12 text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold text-emerald-700">Encuentra tu alojamiento ideal</h2>
     <p class="mt-4 text-lg text-gray-600">Hoteles, casas rurales y experiencias únicas en el Valle del Loira.</p>
   </section>

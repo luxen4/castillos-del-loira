@@ -44,7 +44,7 @@
   </header>
 
   <!-- 🔹 Hero -->
-  <section class="container mx-auto px-6 py-12 text-center">
+  <section class="container mx-auto px-1 py-12 text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold text-blue-700">Encuentra la Oficina de Turismo</h2>
     <p class="mt-4 text-lg text-gray-600">Información oficial, contacto y mapas de las principales ciudades del Valle del Loira.</p>
   </section>

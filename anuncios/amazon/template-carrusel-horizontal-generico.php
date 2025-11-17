@@ -1,5 +1,5 @@
 <div class="w-full py-2 carrusel_auxiliar1">
-    <div class="w-full max-w-screen-2xl mx-auto px-2 sm:px-2 lg:px-2">
+    <div class="w-full max-w-screen-2xl mx-auto px-1 sm:px-2 lg:px-2">
 
         <h6 class="text-center text-sm font-semibold text-gray-500 uppercase tracking-widest mb-2">
             — Publicidad —
@@ -29,7 +29,7 @@
 if($alineacion == 4){
     echo "md:grid-cols-4 gap-4";
 }else if($alineacion == 2){
-    echo "md:grid-cols-2 gap-6";}
+    echo "md:grid-cols-2 gap-1";}
 ?>
 
                                 

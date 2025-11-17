@@ -20,8 +20,8 @@
   </header>
 
   <!-- Main -->
-  <main class="container mx-auto px-6 py-12 flex justify-center">
-    <section id="alojamientos" class="bg-white rounded-2xl shadow p-8 max-w-4xl w-full">
+  <main class="container mx-auto px-1 py-12 flex justify-center">
+    <section id="alojamientos" class="bg-white rounded-2xl shadow p-2 max-w-4xl w-full">
       <h2 class="text-2xl font-bold text-emerald-700 mb-6 text-center">🏨 Alojamientos en el Valle del Loira</h2>
       <p class="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
         Descubre opciones de alojamiento en las principales ciudades del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, desde hoteles históricos hasta casas rurales con encanto.

@@ -90,7 +90,7 @@ $web_oficial    = "https://www.orleansmetropole.fr/marche-noel"; // ejemplo ofic
   </section>
 
   <!-- CONTENIDO -->
-  <main class="container mx-auto px-6 py-12 grid lg:grid-cols-3 gap-10">
+  <main class="container mx-auto px-1 py-12 grid lg:grid-cols-3 gap-10">
 
     <!-- Artículo -->
     <article class="lg:col-span-2 space-y-8">
