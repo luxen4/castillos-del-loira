@@ -191,7 +191,7 @@
         </h4>
 
         <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="/val-de-loire/servicios/oficinas-turismo-val-de-loire.php" class="hover:text-emerald-700 underline">
+          <a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="hover:text-emerald-700 underline">
             🗺️ Oficinas de Turismo
           </a>
         </h4>
@@ -468,8 +468,8 @@
       <h3 class="text-lg font-bold text-gray-700">📰 Noticias y Enlaces</h3>
       <ul class="list-disc pl-6 space-y-2 text-gray-600">
         <li><a href="https://www.france.fr/es" target="_blank" class="hover:text-emerald-700 underline">Turismo de Francia</a></li>
-        <li><a href="https://www.valdeloire-france.com/es" target="_blank" class="hover:text-emerald-700 underline">Valle del Loira</a></li>
-        <li><a href="https://www.nantes-tourisme.com" target="_blank" class="hover:text-emerald-700 underline">Nantes Turismo</a></li>
+        <li><a href="/val-de-loire/general/noticias-val-de-loire.php" target="_blank" class="hover:text-emerald-700 underline">Noticias Valle del Loira</a></li>
+        <li><a href="/val-de-loire/ciudades/nantes.php" target="_blank" class="hover:text-emerald-700 underline">Nantes Turismo</a></li>
       </ul>
 
       <div class="text-center">
@@ -482,7 +482,8 @@
 
   <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
 
-<?php require 'estructura/footer-index.php'; ?>
+
+<?php require 'estructura/footer/footer-generico.php'; ?>
 
 
 

@@ -54,9 +54,9 @@ $castillos_cercanos = [
         <?php endforeach; ?>
       </ul>
     </div>
-    <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-      [Publicidad lateral]
-    </div>
+<?php /*     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
+      [Publicidad lateral] 
+    </div> */ ?>
   </aside>
 
   <!-- Artículo central -->
@@ -160,9 +160,9 @@ $castillos_cercanos = [
 
   <!-- Aside derecho -->
   <aside class="lg:col-span-2 space-y-6">
-    <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-      [Publicidad lateral]
-    </div>
+<?php /*     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
+      [Publicidad lateral] 
+    </div> */ ?>
     <div class="bg-emerald-50 p-4 rounded-lg shadow">
       <h3 class="font-semibold text-emerald-700 mb-2">📌 Consejos</h3>
       <ul class="list-disc list-inside space-y-1 text-gray-700">

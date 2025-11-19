@@ -47,10 +47,10 @@
     <!-- Aside derecho -->
     <aside class="lg:col-span-3 space-y-6">
 
-      <!-- Publicidad lateral -->
+      <?php /* <!-- Publicidad lateral -->
       <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
         [Publicidad lateral]
-      </div>
+      </div> */ ?>
 
       <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
 

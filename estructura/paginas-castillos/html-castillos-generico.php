@@ -33,8 +33,7 @@ require RUTA_CHATEAUX . "/chateaux-folders/{$slug}/variables-iniciales.php";
     <?php require RUTA_ESTRUCTURA . "/hero/hero-generico.php"; ?>
 
     <?php require RUTA_ESTRUCTURA . "/paginas-castillos/main/main-generico.php"; ?>
-  <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
-    
+  
     <?php require RUTA_ESTRUCTURA . "/footer/footer-generico.php"; ?>
 
     <?php //require RUTA_CHATEAUX . "/{$slug}/schemas/schemas-body.php"; ?>

@@ -68,26 +68,13 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<!-- Header (importa tu header si lo tienes en otro archivo) -->
-<header class="bg-emerald-700 text-white shadow-md relative z-50">
-  <div class="container mx-auto px-6 flex justify-between items-center py-4">
-    <a href="/val-de-loire" class="flex items-center gap-2">
-      <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-8 h-8 object-contain">
-      <h1 class="text-xl font-bold">Val de Loire</h1>
-    </a>
+<!-- Header -->
 
-    <nav class="hidden md:flex md:items-center md:gap-6">
-      <a href="/val-de-loire" class="hover:underline">Inicio</a>
-      <a href="/val-de-loire/alojamientos-val-de-loire.php" class="hover:underline">🛎️ Alojamientos</a>
-      <a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="hover:underline">Turismo</a>
-      <a href="/val-de-loire/contacto.html" class="hover:underline">Contacto</a>
-    </nav>
 
-    <div class="md:hidden">
-      <button id="btn-menu" class="p-2 rounded bg-emerald-600">Menu</button>
-    </div>
-  </div>
-</header>
+<?php 
+$nombreLugar = "Castillos del Valle del Loira";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+
 
 <main class="container mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
 
@@ -161,9 +148,12 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 
       <!-- Publicidad lateral (placeholder) -->
       <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-        [Publicidad lateral]
+        <?php /* [Publicidad lateral] */ ?>
+          <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+    
       </div>
 
+      <?php /*
       <!-- Banner vuelos (Kiwi) -->
       <div class="border border-gray-200 rounded-lg overflow-hidden">
         <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Busca tus vuelos</h3>
@@ -180,7 +170,7 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
           <img src="/val-de-loire/assets/banner-tours-valle-loira.jpg" alt="Reserva tours" class="w-full object-cover">
         </a>
         <p class="text-sm text-gray-600 mt-2 px-2 text-center">Descubre excursiones y actividades en el Valle del Loira.</p>
-      </div>
+      </div> */ ?>
 
       <!-- Castillos cercanos: include opcional -->
       <?php

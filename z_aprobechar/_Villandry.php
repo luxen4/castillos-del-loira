@@ -56,7 +56,7 @@ $castillos_cercanos = [
     </div>
 
     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-      [Publicidad lateral]
+      <?php /* [Publicidad lateral] */ ?>
     </div>
   </aside>
 
@@ -219,7 +219,7 @@ $castillos_cercanos = [
   <!-- Columna derecha: aside -->
   <aside class="lg:col-span-2 space-y-6">
     <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-      [Publicidad lateral]
+      <?php /* [Publicidad lateral] */ ?>
     </div>
 
     <div class="bg-emerald-50 p-4 rounded-lg shadow">

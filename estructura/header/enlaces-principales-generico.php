@@ -36,8 +36,8 @@
 
                 <li><a href="/val-de-loire" class="block py-2 px-4 hover:underline">🏠 Inicio</a></li>
 
-                <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php#informacion" class="block py-2 px-4 hover:underline">Informacion</a></li>
-
+                <?php /* <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php#informacion" class="block py-2 px-4 hover:underline">Informacion</a></li> */ ?>
+                <li><a href="#informacion" class="block py-2 px-4 hover:underline">Informacion</a></li> 
                 <!-- Desplegable Alojamientos -->
 <li class="relative group" id="alojamientos-menu">
 
@@ -57,7 +57,7 @@
 
         <!-- Título del submenu -->
         <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
-            <a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php"
+            <a href="/val-de-loire/alojamientos/a_buscador/alojamientos-val-de-loire.php"
                 class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
             🛎️ Explorar Alojamientos
             </a>
@@ -65,21 +65,21 @@
 
         <!-- Opciones -->
         <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
-            <a href="/val-de-loire/chateaux/a_buscador/castillos-val-de-loire.php"
+            <a href="/val-de-loire/chateaux/buscador/index.php"
                 class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
                 🔍 Buscador / Castillos
             </a>
         </li>
 
         <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
-            <a href="/val-de-loire/hoteles.html"
+            <a href="/val-de-loire/hoteles/a_buscador/hoteles-val-de-loire.php"
                 class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
                 🏨 Hoteles
             </a>
         </li>
 
         <li class="text-emerald-200 font-semibold text-sm border-b border-emerald-600">
-            <a href="/val-de-loire/b-b.html"
+            <a href="//val-de-loire/bed_breakfast/a_buscador/bed_breakfast-val-de-loire.php"
                 class="flex items-center gap-3 w-full px-4 py-3 hover:bg-emerald-600 transition">
                 🍳🛏️ Bed & Breakfast
             </a>
@@ -88,9 +88,9 @@
     </ul>
 </li>
 
-                <li><a href="../../general/formulario.html" class="block py-2 px-4 hover:underline">✍️ Ir al Formulario</a></li>
-                <li><a href="/val-de-loire/oficinas-turismo-val-de-loire.html" class="block py-2 px-4 hover:underline">Turismo</a></li>
-                <li><a href="/val-de-loire/contacto.html" class="block py-2 px-4 hover:underline">Contacto</a></li>
+                <li><a href="/val-de-loire/general/formulario.html" class="block py-2 px-4 hover:underline">✍️ Ir al Formulario</a></li>
+                <li><a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="block py-2 px-4 hover:underline">Turismo</a></li>
+                <?php /* <li><a href="/val-de-loire/contacto.html" class="block py-2 px-4 hover:underline">Contacto</a></li> No pega */ ?>
 
             </ul>
         </nav>
@@ -122,3 +122,12 @@
         }, 200); // 200ms de retardo
     });
 </script>
+
+  <script>
+    const toggleButton = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    toggleButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>

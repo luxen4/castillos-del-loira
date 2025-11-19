@@ -32,6 +32,15 @@ Objetivo:
     -16/11/2025 Organización de archivos 
 
 
+19//11/2025
+    Webs sean navegables OK -> Entrada y Salida desde y a todas webs, es decir, todos los enlaces funcionan. 
+        Nada está haciendo feo estéticamente
+        Partes sin desarrollar, no se suben a producción
+
+            Oficinas de turismo  -> http://localhost/val-de-loire/general/oficinas-turismo-val-de-loire.php#informacion
+
+
+
 
 
 Control Tareas Mapa || Párrafos con imágenes || Galería Propia

@@ -1,27 +1,23 @@
   <!-- Contenido principal -->
-  <main class="container mx-auto px-1 py-2 grid lg:grid-cols-12 gap-8">
+
+<div class="flex flex-col items-center">
+
+  <main class="container mx-auto px-4 py-2 grid lg:grid-cols-12 gap-8">
+
+
     <!-- 📌 ASIDE IZQUIERDO – PUBLICIDAD RECOMENDADA -->
-    <aside class="lg:col-span-3 space-y-6">
-
-
+    <aside class="hidden lg:block lg:col-span-3 mx-auto space-y-6">
       <div class="hidden lg:block bg-emerald-50 p-4 rounded-lg shadow">
 
-        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-izquierdo/anclas/data.php"; 
-        ?>
-
+        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-izquierdo/anclas/data.php"; ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
-
-
-        <?php //<a href="chaumont/mapa-chaumont.php">ir</a> 
-        ?>
+        <?php //<a href="chaumont/mapa-chaumont.php">ir</a> ?>
 
       </div>
     </aside>
 
-   
-
     <!-- Contenedor con scroll -->
-    <div class="lg:col-span-6 h-[80vh] overflow-y-auto space-y-10 p-1"> 
+    <div class="lg:col-span-6 mx-auto h-[200vh] overflow-y-auto space-y-10 p-1"> 
       
     <?php /*
       <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
@@ -53,10 +49,19 @@
         <?php $slug_section = "informacion";
         require "chateaux-folders/{$slug}/{$slug_section}/data.php";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/introduccion-generico.php"; ?>
-
+        
         <!-- Consejos -->
         <?php $slug_section = "consejos";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/consejos-generico.php"; ?>
+
+
+        <?php 
+        $numeroAleatorio = 3; $alineacion=4;
+        $archivoPublicidad = "jeans_man";
+        require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
+
+
+
 
         <!-- Opiniones -->
         <?php $slug_section = "opiniones";
@@ -69,6 +74,10 @@
         <!-- Visitas -->
         <?php $slug_section = "visitas";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/visitas-generico.php"; ?>
+
+
+        <?php /* <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script> */ ?>
+    
 
         <!-- Mapa -->
         <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
@@ -102,8 +111,6 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
         $archivoPublicidad = "sneakers";
         require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
 
-
-
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
 
 
@@ -111,12 +118,19 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
     </div>
 
     <!-- Aside derecho -->
-    <aside class="hidden lg:block w-64 p-4 bg-gray-50 rounded-lg shadow-md space-y-6">
+    <aside aside class="hidden lg:block lg:col-span-3 mx-auto w-64 p-4 bg-gray-50 rounded-lg shadow-md space-y-6">
 
-      <!-- Publicidad lateral -->
-      <div class="bg-gray-100 p-4 rounded-lg shadow text-center text-gray-500">
-        [Publicidad lateral]
+       <!-- Publicidad lateral -->
+      <div class="bg-gray-100 p-1 rounded-lg shadow text-center text-gray-500">
+        <!-- Publicidad -->
+        <?php $numeroAleatorio = 0;
+        $archivoPublicidad = "botas_hombre";
+        $alineacion = 2;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+
       </div>
+
+
 
       <!-- Banner de vuelos -->
       <div class="border border-gray-200 rounded-lg overflow-hidden">
@@ -166,3 +180,20 @@ Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos
     </aside>
 
   </main>
+</div>
+
+
+
+
+
+
+<style>
+  /* Para pantallas grandes */
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1900px;   /* Ancho máximo deseado */
+      margin-left: auto;    /* Centrado horizontal */
+      margin-right: auto;   /* Centrado horizontal */
+    }
+  }
+</style>
