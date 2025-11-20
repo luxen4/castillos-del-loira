@@ -192,7 +192,7 @@
                         </li>
 
                         <li>
-                            <a href="/val-de-loire/coches-de-alquiler.php"
+                            <a href="/val-de-loire/alquiler-vehiculos.php"
                                class="flex items-center gap-3 px-4 py-2 text-emerald-100 hover:bg-emerald-600">
                                 🚘 Coches de alquiler
                             </a>
