@@ -7,15 +7,8 @@
 
 
 <body class="bg-gray-50 text-gray-800 ">
-
-    <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-generico.php"; ?>
-
-  <?php $etapa = 'Nantes'; 
-  //require "../estructura/header/enlaces-principales-generico.php"; 
-  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
-  
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
-
 
 <!-- 🔹 Hero responsivo -->
 <section
@@ -29,19 +22,6 @@
     </div>
 </section>
 
-
-<nav class="bg-gray-100 py-4 shadow-inner mt-8 overflow-x-auto">
-    <div class="container mx-auto px-6 flex gap-4 whitespace-nowrap text-gray-700">
-        <a href="#gastronomia" class="hover:text-emerald-700 inline-block">🍴 Gastronomía</a>
-        <a href="#paseos" class="hover:text-emerald-700 inline-block">🚶 Paseos</a>
-        <a href="#actividades" class="hover:text-emerald-700 inline-block">⭐ Actividades</a>
-        <a href="#acontecimientos" class="hover:text-emerald-700 inline-block">📅 Acontecimientos</a>
-        <a href="#restaurantes" class="hover:text-emerald-700 inline-block">🍽️ Restaurantes</a>
-        <a href="#alojamientos" class="hover:text-emerald-700 inline-block">🏨 Alojamientos</a>
-        <a href="#transportes" class="hover:text-emerald-700 inline-block">🚗 Transportes</a>
-        <a href="#fin-de-semana" class="hover:text-emerald-700 inline-block">📊 Fin de semana</a>
-    </div>
-</nav>
 
 
 
@@ -69,11 +49,9 @@
 
 
       <!-- 💰 Publicidad lateral -->
-      <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
-          <p class="text-gray-500 text-sm mb-2">Publicidad</p>
-          <div class="bg-white rounded-lg h-56 flex items-center justify-center">
-              <span class="text-gray-400 text-sm">Espacio reservado (300x250)</span>
-          </div>
+      <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
+            <?php $numeroAleatorio=0; $archivoPublicidad='botas_hombre'; $alineacion=2;
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
       </div>
 
   </aside>
@@ -86,14 +64,10 @@
       <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
       <!-- 💰 Bloque publicitario intermedio -->
-      <div class="bg-gray-100 border rounded-2xl p-4 my-8 text-center shadow-sm">
-          <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
-      <!-- Carrusel Amazon -->
-      <div class="w-full h-auto flex items-center justify-center px-2">
+      <div class="bg-gray-100 border rounded-2xl p-1 my-1 text-center shadow-sm">
         <?php 
         $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=4;
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
-      </div>
       </div>
 
       <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php";?>
@@ -146,13 +120,16 @@
               <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
           </ul>
       </section>
+              <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+
 
       <!-- 💰 Publicidad lateral -->
-      <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
-          <p class="text-gray-500 text-sm mb-2">Publicidad</p>
-          <div class="bg-white rounded-lg h-56 flex items-center justify-center">
-              <span class="text-gray-400 text-sm">Espacio reservado (300x250)</span>
-          </div>
+      <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
+          
+        <?php 
+            $numeroAleatorio=5; $archivoPublicidad='sneakers'; $alineacion=2;
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
+        
       </div>
 
       <!-- 💰 Publicidad larga -->

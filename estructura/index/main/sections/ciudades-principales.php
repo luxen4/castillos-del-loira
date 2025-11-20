@@ -1,5 +1,5 @@
 <!-- 🏙️ CIUDADES PRINCIPALES -->
-<?php 
+<?php
 // Datos de ciudades (variables centralizadas). Pasarlo a un archivo .csv si crece mucho
 $ciudades = [
     [
@@ -43,17 +43,21 @@ $ciudades = [
     </p>
 
     <?php foreach ($ciudades as $ciudad): ?>
-        <article class="mt-4">
-            <header>
-                <h4 class="font-semibold text-gray-800 mb-1"><?= $ciudad['nombre'] ?></h4>
-            </header>
 
-            <p class="text-gray-600 text-sm mb-3">
-                <?= $ciudad['desc'] ?>
-                <a href="<?= $ciudad['href'] ?>" class="text-emerald-700 hover:underline ml-1">
-                    ➤ Más info…
-                </a>
-            </p>
-        </article>
+        <a href="<?= $ciudad['href'] ?>" class="text-emerald-700 hover:underline">
+
+            <article class=" transition-all duration-200 hover:bg-emerald-50 hover:shadow-md hover:-translate-y-1 rounded-lg p-3">
+                <header>
+                    <h4 class="font-semibold text-gray-800"><?= $ciudad['nombre'] ?></h4>
+                </header>
+
+                <p class="text-gray-600 text-sm">
+                    <?= $ciudad['desc'] ?>
+                </p>
+            </article>
+
+        </a>
+
+
     <?php endforeach; ?>
 </section>

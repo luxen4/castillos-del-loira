@@ -28,7 +28,8 @@
                   </div>';
           }
       }
-      ?><?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico.php"; ?>
+      ?>
+      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
       <section id="otros-castillos" class="bg-gray-50 py-10 rounded-xl shadow-inner mt-10">
   <div class="max-w-5xl mx-auto px-6">
     
