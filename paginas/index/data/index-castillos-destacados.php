@@ -18,7 +18,7 @@ $castillos = [
         "nombre" => "Château d'Amboise",
         "imagen" => "https://www.valledelloira-francia.es/app/uploads/iris-images/633776/a-la-une-amboise-hiver-74-2031-credit-adttouraine-jccoutand-1-1920x1080-f50_50.webp",
         "foto_fuente" => "https://www.valledelloira-francia.es/descubrir/castillos-loira/castillo-real-amboise/",
-        "nombre_fuente" => "https://www.valledelloira-francia.es/descubrir/castillos-loira/castillo-real-amboise/",
+        "nombre_fuente" => "valledelloira-francia.es",
         "web_oficial" => "https://www.chateau-amboise.com/en-espanol/"
     ],
     [

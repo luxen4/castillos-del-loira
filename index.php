@@ -1,177 +1,35 @@
+<?php $nombreLugar = "";
+$descripcion = "Descubre los castillos más impresionantes del Valle del Loira en Francia: Chambord, Chenonceau, Villandri, Cheverny, Ussé y más. Guía de viaje, consejos y rutas.";
+$keywords = "Valle del Loira, castillos Francia, Chambord, Chenonceau, Villandry, turismo Francia, ruta castillos";
+$carpeta = "";
+$slug = "index";
+$imagenHero = "";
+$twitter = "@AdrianTwitter";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <!-- ✅ Meta básicos -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Descubre los castillos más impresionantes del Valle del Loira en Francia: Chambord, Chenonceau, Villandri, Cheverny, Ussé y más. Guía de viaje, consejos y rutas.">
-  <meta name="keywords" content="Valle del Loira, castillos Francia, Chambord, Chenonceau, Villandri, turismo Francia, ruta castillos">
-  <meta name="author" content="Adrián Laya García">
-  <meta name="rating" content="General">
 
-  <!-- ✅ Título de la página -->
-  <title>Castillos del Valle del Loira | Guía de Viaje</title>
-
-  <!-- ✅ Open Graph (Facebook / LinkedIn) -->
-  <meta property="og:title" content="Castillos del Valle del Loira | Guía de Viaje">
-  <meta property="og:description" content="Explora la magia del Valle del Loira: Chambord, Chenonceau, Villandry y más. Guía, fotos y consejos para tu viaje.">
-  <meta property="og:image" content="https://tusitio.com/img/logo.png">
-  <meta property="og:url" content="https://---playas2024----.kesug.com/castillos-del-loira">
-  <meta property="og:type" content="website">
-
-  <!-- ✅ Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Castillos del Valle del Loira">
-  <meta name="twitter:description" content="Viaja por los castillos del Valle del Loira, una experiencia inolvidable en Francia.">
-  <meta name="twitter:image" content="https://tusitio.com/img/logo.png">
-
-  <!-- ✅ Geolocalización -->
-  <meta name="geo.position" content="42.470395, -2.429884" />
-  <meta name="geo.placename" content="La Rioja" />
-  <meta name="geo.region" content="ES-LO" />
-
-  <!-- ✅ Seguridad / Robots -->
-  <meta name="robots" content="noindex">
-  <meta name="googlebot" content="index,follow">
-  <meta name="google:dnt" content="off">
-  <meta name="twitter:dnt" content="off">
-  <meta name="google" content="notranslate">
-
-  <!-- ✅ Favicon -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <link rel="shortcut icon" type="image/x-icon" href="img/iconos/castillo.png" />
-
-  <!-- ✅ Estilos y frameworks -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-
-  <!-- ✅ Generador / Editor -->
-  <meta name="generator" content="VS Code">
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head-generico.php";
+require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; 
+?>
 
 
-
-  <?php require 'paginas/index/schemas/index-schemas-head.php'; ?>
-
-</head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
 
-  <!-- 🔹 Header con Navbar + Hero (estilo moderno) -->
-  <header class="bg-emerald-700 text-white shadow">
-    <div class="container mx-auto px-4 py-4 flex flex-col items-center gap-3">
 
-      <!-- Títulos centrados -->
-      <div class="text-center">
-        <!-- H1 principal -->
-        <h1 class="text-3xl md:text-4xl font-extrabold tracking-wide">🌿 Valle del Loira</h1>
-
-        <!-- H2 subtítulo con borde izquierdo y derecho -->
-        <h2 class="mt-1 text-lg md:text-xl font-semibold text-emerald-200 border-l-4 border-r-4 border-emerald-200 px-3 inline-block">
-          <p class="mt-4 text-lg md:text-2xl text-emerald-100 max-w-3xl mx-auto leading-relaxed">
-            Recorre la ruta de los castillos más bellos de Francia: Chambord, Chenonceau, Villandry y muchos más. Vive historia, arte y naturaleza en cada etapa.
-          </p>
-        </h2>
-      </div>
-
-      <!-- Menú de navegación -->
-      <nav class="w-full md:w-auto">
-        <!-- Botón hamburguesa -->
-        <div class="flex justify-end md:hidden">
-          <button id="menu-toggle" class="text-white focus:outline-none">
-            <i class="fas fa-bars text-2xl"></i>
-          </button>
-        </div>
-
-        <!-- Links -->
-        <ul id="menu-items" class="hidden md:flex flex-col md:flex-row gap-4 mt-2 md:mt-0 text-center transition-all duration-300">
-          <li><a href="../../../general/index.php" class="hover:underline">🏠 Inicio</a></li>
-          <li><a href="/val-de-loire/general/rutas-loira.php" class="hover:underline">Rutas</a></li>
-          <li><a href="../../val-de-loire/general/formulario.html" class="hover:underline">✍️ Formulario</a></li>
-        </ul>
-      </nav>
-
-<nav class="bg-gray-100 rounded-2xl shadow mt-1 w-full">
-  <!-- Botón hamburguesa móvil -->
-  <div class="flex justify-end md:hidden p-2">
-    <button id="menu-toggle2" class="text-gray-800 focus:outline-none font-semibold">
-      ☰ Menú
-    </button>
-  </div>
-
-  <!-- Menú horizontal -->
-  <ul id="menu-items2" class="hidden md:flex flex-wrap gap-2 text-gray-800 font-medium text-sm px-2 py-2">
-    
-    <!-- Secciones simples -->
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🧳 Turismo</a></li>
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍴 Gastronomía</a></li>
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🚶 Paseos</a></li>
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">⭐ Actividades</a></li>
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">✅ Acontecimientos</a></li>
-    <li><a href="#" class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1">🍽️ Restaurantes</a></li>
-
-    <!-- Dropdown Alojamientos -->
-    <li class="relative group">
-      <button class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1 w-full text-left md:w-auto md:inline-flex">
-        🛏️ Alojamientos
-        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
-      <ul class="absolute left-0 mt-1 w-44 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-10 md:absolute">
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Hoteles</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Alquileres de vacaciones</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Casas rurales</a></li>
-      </ul>
-    </li>
-
-    <!-- Dropdown Transportes -->
-    <li class="relative group">
-      <button class="px-3 py-2 rounded hover:bg-emerald-200 transition flex items-center gap-1 w-full text-left md:w-auto md:inline-flex">
-        🚗 Transportes
-        <svg class="w-3 h-3 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
-      <ul class="absolute left-0 mt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-10 md:absolute">
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Cómo llegar</a></li>
-        <li><a href="#" class="block px-3 py-1 hover:bg-emerald-100 text-sm">Coches de alquiler</a></li>
-      </ul>
-    </li>
-
-  </ul>
-</nav>
-
-<!-- Script para togglear menú móvil -->
-<script>
-  const toggle2 = document.getElementById('menu-toggle2');
-  const menu2 = document.getElementById('menu-items2');
-
-  toggle2.addEventListener('click', () => {
-    menu2.classList.toggle('hidden');
-  });
-</script>
+  <?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
 
 
-    </div>
 
-    <!-- Script simple para togglear el menú en mobile -->
-    <script>
-      const toggle = document.getElementById('menu-toggle');
-      const menu = document.getElementById('menu-items');
-      toggle.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-      });
-    </script>
-  </header>
 
 
   <!-- 🔹 Layout con 3 columnas: lateral-izquierdo / contenido / lateral-derecho -->
-  <div class="container mx-auto px-6 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+  <div class="container mx-auto px-1 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
 
     <!-- 🧭 Columna 1: Sidebar izquierdo -->
     <aside class="lg:col-span-2 bg-emerald-50 p-2 rounded-xl shadow space-y-1">
@@ -187,18 +45,6 @@
         <h4 class="font-semibold text-gray-700 mb-1">
           <a href="#castillos-destacados" class="hover:text-emerald-700 underline">
             Castillos Destacados
-          </a>
-        </h4>
-
-        <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="hover:text-emerald-700 underline">
-            🗺️ Oficinas de Turismo
-          </a>
-        </h4>
-
-        <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="oficinas-turismo-val-de-loire.html" class="hover:text-emerald-700 underline">
-            🏨 Alojamientos
           </a>
         </h4>
 
@@ -231,12 +77,26 @@
 
     <!-- 🏰 Columna 2: Contenido principal (más ancha) -->
     <main class="lg:col-span-7 space-y-10">
-      <?php 
-      $archivoPublicidad = "sneakers"; $alineacion=4; $numeroAleatorio = 5;
-      require "anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
+
 
       <section class="space-y-6">
         <h2 class="text-2xl font-bold text-emerald-700 mb-4">✨ El Encanto del Valle del Loira</h2>
+
+
+
+        <p>
+          Recorre las
+          <a href="/val-de-loire/general/rutas-loire.php"
+            class="text-emerald-600 font-semibold underline hover:text-emerald-800 transition">
+            Rutas
+          </a>
+          de los castillos más bellos de Francia: Chambord, Chenonceau, Villandry y muchos más.
+          Vive historia, arte y naturaleza en cada etapa.
+        </p>
+
+
+
+
 
         <p>
           El <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.
@@ -283,77 +143,20 @@
         </p>
       </section>
 
-      <!-- 🔹 Datos Rápidos del Valle del Loira (con animación al hacer scroll) -->
-      <section
-        id="datos-loira"
-        class="mt-10 bg-emerald-50 p-6 rounded-xl shadow-md opacity-0 translate-y-6 transition-all duration-700">
-        <h3 class="text-xl font-bold text-emerald-700 mb-4 text-center">
-          📊 Datos rápidos del Valle del Loira
-        </h3>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-gray-700">
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🗓️ Mejor época</h4>
-            <p>De mayo a septiembre, cuando los jardines florecen y el clima es ideal para pasear o pedalear junto al río.</p>
-            <a href="#mejor-epoca" class="text-blue-600 hover:underline">ir</a>
-          </div>
-
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🚴 Ideal para</h4>
-            <p>Amantes de la historia, la fotografía, el vino y la arquitectura. Perfecto para recorrer en bici o coche.</p>
-            <a href="#ideal-para" class="text-blue-600 hover:underline">ir</a>
-          </div>
-
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🕰️ Duración recomendada</h4>
-            <p>Entre 5 y 10 días para explorar las principales etapas sin prisas y empaparte del ritmo tranquilo del valle.</p>
-            <a href="#duracion-recomendada" class="text-blue-600 hover:underline">ir</a>
-          </div>
+      <?php 
+      $archivoPublicidad = "sneakers"; $alineacion=4; $numeroAleatorio = 5;
+      require "anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
 
 
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🍷 Vinos emblemáticos</h4>
-            <p>Muscadet, Sancerre, Chinon y Saumur-Champigny: auténticas joyas enológicas de la región.</p>
-            <a href="#vinos-emblematicos" class="text-blue-600 hover:underline">ir</a>
-          </div>
+      <?php
+      require  $_SERVER["DOCUMENT_ROOT"] . '/val-de-loire/paginas/index/main/sections/data-datos-rapidos.php'; ?>
 
 
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🏰 Castillos destacados</h4>
-            <p>Chambord, Chenonceau, Amboise, Villandri y Ussé, cada uno con su propia historia y encanto.</p>
-            <a href="#castillos-destacados" class="text-blue-600 hover:underline">ir</a>
-          </div>
 
-          <div class="bg-white rounded-lg p-4 shadow-sm">
-            <h4 class="font-semibold text-emerald-800 mb-1">🌦️ Clima</h4>
-            <p>Templado oceánico, con veranos suaves e inviernos frescos. Perfecto para actividades al aire libre todo el año.</p>
-            <a href="#clima" class="text-blue-600 hover:underline">ir</a>
-          </div>
-        </div>
 
-        <p class="mt-6 text-sm text-gray-500 text-center">
-          ℹ️ Consejo: organiza tu ruta por etapas —de <strong>Nantes a Orleans</strong>— para disfrutar cada zona sin prisas.
-        </p>
-      </section>
 
-      <!-- 🔹 Script de animación (fade-in al hacer scroll) -->
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const section = document.getElementById("datos-loira");
-          const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.remove("opacity-0", "translate-y-6");
-                entry.target.classList.add("opacity-100", "translate-y-0");
-              }
-            });
-          }, {
-            threshold: 0.2
-          });
 
-          observer.observe(section);
-        });
-      </script>
 
 
       <section id="mejor-epoca" class="mt-10">
@@ -378,15 +181,10 @@
         </ul>
       </section>
 
-      <section id="duracion-recomendada" class="mt-10">
-        <h3 class="text-2xl font-bold text-gray-700 mb-6">🕰️ Duración recomendada de la ruta</h3>
-        <p>Para disfrutar plenamente del Valle del Loira, se recomienda una estancia de entre 5 y 10 días. Esto permite recorrer las etapas principales con calma, visitar los castillos más emblemáticos y disfrutar de la gastronomía y los vinos locales sin prisas.</p>
-        <ul class="list-disc list-inside text-gray-600 space-y-2 mt-4">
-          <li>5 días: recorrido exprés visitando los castillos imprescindibles.</li>
-          <li>7 días: permite disfrutar de cada etapa con más detalle.</li>
-          <li>10 días: ruta completa, incluyendo pueblos, viñedos y actividades culturales.</li>
-        </ul>
-      </section>
+      <?php require "estructura/index/main/sections/duracion-y-consejos.php"; ?>
+
+
+
 
       <section id="vinos-emblematicos" class="mt-10">
         <h3 class="text-2xl font-bold text-gray-700 mb-6">🍷 Vinos emblemáticos del Valle del Loira</h3>
@@ -448,16 +246,16 @@
           A continuación, te mostramos algunos de los más impresionantes que no puedes perderte en tu viaje.
         </p>
 
-        <div class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-3 gap-4">
           <?php require 'paginas/index/data/index-castillos-destacados.php'; ?>
           <?php require 'paginas/index/templates/index-castillos-destacados.php'; ?>
         </div>
       </section>
 
-      <?php require "estructura/index/main/sections/ciudades-principales.php"; // Ejemplar ?>
+      <?php require "estructura/index/main/sections/ciudades-principales.php"; // Ejemplar 
+      ?>
 
       <?php require "estructura/index/main/sections/clima.php"; ?>
-      <?php require "estructura/index/main/sections/consejos-viaje.php"; ?>
 
 
 
@@ -473,17 +271,24 @@
       </ul>
 
       <div class="text-center">
-        <img src="https://source.unsplash.com/400x300/?loire,castle" alt="Castillo del Loira" class="rounded-lg shadow">
-        <p class="text-gray-600 text-sm mt-2">Publicidad o enlaces patrocinados.</p>
+        <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 382 302' width='56' height='64'%3E%3Cpath d='M98.273 125.538c-5.904 0-10.574 4.553-10.574 10.574s4.67 10.574 10.574 10.574 10.574-4.553 10.574-10.574-4.67-10.574-10.574-10.574zm60.37-51.987h-37.392V55.594h33.329V37.637h-33.329V19.925h36.775V1.84h-56.944v89.795h57.561V73.551zm-41.668 54.2c5.904 0 10.574-4.553 10.574-10.574s-4.67-10.574-10.574-10.574-10.575 4.553-10.575 10.574 4.671 10.574 10.575 10.574zM38.498 93.475c13.042 0 24.478-6.638 31.243-16.85v15.01h17.713V41.701H39.977v17.222h19.925c-1.84 9.223-9.968 16.362-19.808 16.362-10.947 0-19.808-8.862-19.808-21.776V40.222c0-12.67 9.468-22.02 22.754-22.02 10.33 0 19.553 5.659 22.627 13.903l18.702-6.52C79.199 9.84 62.476 0 43.168 0 18.818 0 .606 16.361.606 40.222v13.287c.01 22.988 16.978 39.966 37.892 39.966zm172.909-66.401h-19.903v28.69h19.903v-28.69zM235.396 1.84h-68.147v18.085h68.147V1.84zM33.829 195.887h20.17v-34.063l33.817-55.721H65.061l-21.275 36.775-21.032-36.775H0l33.829 55.966v33.818zM211.407 62.923h-19.903v28.68h19.903v-28.68zM364.87 195.887l-24.478-34.318c11.936-3.692 20.297-14.149 20.297-26.935 0-16.234-13.403-28.542-30.382-28.542h-11.808v18.201h11.074c5.904 0 10.457 4.671 10.457 10.819 0 6.149-4.553 10.83-10.457 10.83h-11.074v17.222l21.893 32.723h24.478zm-99.964 14.35h-29.648v89.912h29.648c27.796 0 47.477-19.063 47.477-44.892 0-25.829-19.681-45.02-47.477-45.02zm1.595 71.827h-11.074v-53.753h11.074c15.01 0 25.212 11.563 25.212 26.935 0 15.372-10.202 26.818-25.212 26.818zm78.104-17.956h33.328v-17.957h-33.328v-17.712h36.775v-18.074h-56.945v89.784h57.562v-18.085h-37.392v-17.956zm-32.137-98.582-10.426-14.776 10.287-14.946-10.425-14.766 10.298-14.935-20.797.01-10.298 15.095 10.436 14.777-10.298 14.946 10.436 14.765-10.297 14.957 11.074 15.372h21.02l-11.308-15.542 10.298-14.957zm-45.924-4.564v-54.859h-20.053v55.232c0 10.329-7.383 17.957-17.467 17.957-10.085 0-17.468-7.628-17.468-17.957v-55.232h-20.052v54.859c0 21.159 15.872 36.776 37.52 36.776 21.648 0 37.52-15.627 37.52-36.776zM156.452 265.586c0 10.33-7.383 17.957-17.468 17.957-10.084 0-17.467-7.627-17.467-17.957v-55.232h-20.053v54.86c0 21.159 15.872 36.775 37.52 36.775 21.649 0 37.52-15.616 37.52-36.775v-54.86h-20.052v55.232zm-116.475 1.851h19.925c-1.84 9.223-9.968 16.361-19.808 16.361-10.946 0-19.807-8.861-19.807-21.775v-13.287c0-12.67 9.467-22.021 22.754-22.021 10.33 0 19.553 5.66 22.627 13.904l18.701-6.521c-5.17-15.744-21.892-25.584-41.2-25.584-24.35 0-42.563 16.361-42.563 40.222v13.287C.606 285.022 17.584 302 38.488 302c13.042 0 24.478-6.638 31.244-16.85v15.01h17.712v-49.935H39.977v17.212z' fill='%23F53'/%3E%3Cpath d='M132.102 104.252v18.946c14.765 0 26.446 12.053 26.446 27.797s-11.681 27.797-26.446 27.797c-14.755 0-26.446-12.053-26.446-27.797h-20.67c0 26.201 20.915 46.743 47.105 46.743 26.201 0 47.105-20.542 47.105-46.743 0-26.202-20.893-46.743-47.094-46.743zm82.497 148.377c2.978-2.691 7.968-7.191 7.968-15.435 0-8.245-4.99-12.744-7.968-15.436a9.787 9.787 0 0 0-.373-.33c-1.489-1.563-1.744-3.808-1.776-4.872v-6.319h-20.201v8.404h.01c0 .107-.01.202-.01.309 0 8.244 4.989 12.744 7.967 15.435 2.139 1.936 2.139 2.032 2.139 2.809 0 .776 0 .872-2.139 2.808-2.861 2.585-7.574 6.862-7.925 14.532h-.021c0 .148-.021.287-.021.425 0 .085.01.16.01.234 0 .085-.01.16-.01.234 0 .149.01.287.021.426h.021c.351 7.67 5.064 11.946 7.925 14.531 2.139 1.936 2.139 2.032 2.139 2.808 0 .777 0 .873-2.139 2.809-2.978 2.691-7.967 7.191-7.967 15.435 0 .107 0 .213.01.309h-.01v8.404h20.201v-6.319c.032-1.053.287-3.308 1.776-4.872.117-.107.234-.213.373-.33 2.978-2.691 7.968-7.191 7.968-15.436 0-8.244-4.99-12.744-7.968-15.435-1.904-1.713-2.117-1.989-2.138-2.564.021-.574.234-.851 2.138-2.564z' fill='%23F53'/%3E%3C/svg%3E" alt="Castillo del Loira" class="rounded-lg shadow">
+        <p class="text-gray-500 text-xs mt-2 inline-flex items-center justify-center gap-1">
+          🤝 <span>Colabora con nuestra web mediante estos enlaces</span>
+        </p>
+        <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+
       </div>
+
+
+
     </aside>
 
   </div>
 
-  <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
 
 
-<?php require 'estructura/footer/footer-generico.php'; ?>
+  <?php require 'estructura/footer/footer-generico.php'; ?>
 
 
 
