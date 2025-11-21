@@ -22,9 +22,6 @@
     </div>
 </section>
 
-
-
-
 <!-- 🔹 Contenido Principal -->
 <main class="container mx-auto px-1 py-12 grid lg:grid-cols-12 gap-10">
 
@@ -115,8 +112,16 @@
       <section class="bg-white rounded-2xl shadow p-6">
           <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
           <ul class="space-y-3 text-sm text-gray-700">
-              <li><a href="#" class="hover:underline">Nueva exposición en el Castillo de Chambord</a></li>
-              <li><a href="#" class="hover:underline">Festival de vinos en Saumur este fin de semana</a></li>
+            <li>
+                <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
+                    Exposiciones en el Castillo de Chambord
+                </a>
+            </li>
+
+              
+              
+              
+              <li><a href="/val-de-loire/ciudades/nantes/lugares-interesantes/festival-vinos-saumur.php" class="hover:underline">Festival de vinos en Saumur</a></li>
               <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
           </ul>
       </section>

@@ -102,7 +102,7 @@ $canonical = "https://tusitio.com/val-de-loire/ciudades/orleans/{$slug}.php";
       <h4 class="font-semibold text-emerald-700 mb-3">🔗 Enlaces útiles</h4>
       <ul class="text-sm text-gray-700 space-y-2">
         <li><a href="https://www.orleans-metropole.fr/" class="hover:underline" target="_blank">Orléans Métropole</a></li>
-        <li><a href="https://www.loireavelo.fr/" class="hover:underline" target="_blank">Loire à Vélo</a></li>
+        <li><a href="/val-de-loire/general/loire-a-velo.php" class="hover:underline" target="_blank">Loire à Vélo</a></li>
         <li><a href="https://www.tourisme-valdeloire.com/" class="hover:underline" target="_blank">Valle del Loira - Turismo</a></li>
       </ul>
     </section>

@@ -37,7 +37,7 @@
 
     <!-- 🔹 Lista de otros castillos -->
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-      <a href="../chateaux/Duques-de-Bretaña.php" 
+      <a href="../chateaux/ducks-de-bretagne.php" 
          class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-4 transition-all duration-300 hover:shadow-md">
         <h3 class="font-semibold text-lg text-gray-700">Château des Ducs de Bretagne</h3>
         <p class="text-sm text-blue-600 mt-1">Ver más →</p>
@@ -55,6 +55,32 @@
         <p class="text-sm text-blue-600 mt-1">Ver más →</p>
       </a>
     </div>
+
+
+
+<?php // Bloque para mostrar castillos cercanos
+$archivo_csv = 'castillos-cercanos.csv'; $slug_filtrado = $slug_castillos_cercanos_csv;
+require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/castillos-cercanos/template.php"; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- 🔗 Enlaces útiles -->
     <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
@@ -77,6 +103,14 @@
         </li>
       </ul>
     </div>
+
+
+
+
+
+
+
+
 
   </div>
 </section>

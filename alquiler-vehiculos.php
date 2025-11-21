@@ -111,7 +111,7 @@ $marcas = [
           <li>Si solo vas en una parte del viaje, puedes devolver el coche en un punto diferente (one-way), dependiendo de la empresa.</li>
         </ul>
       </section>
-              <?php 
+        <?php 
         $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=4;
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
 

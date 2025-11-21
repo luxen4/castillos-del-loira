@@ -132,8 +132,8 @@
         <hr class="my-4">
         <h5 class="text-sm font-semibold text-gray-700 mb-2">Enlaces útiles</h5>
         <ul class="text-sm space-y-2">
-          <li><a href="https://www.loireavelo.fr/en" target="_blank" class="text-emerald-600 hover:underline">Sitio oficial Loire à Vélo</a></li>
-          <li><a href="https://www.tourisme-valdeloire.fr/" target="_blank" class="hover:underline">Oficinas de turismo</a></li>
+          <?php /*<li><a  href="https://www.loireavelo.fr/en"  href="/val-de-loire/general/loire-a-velo.php" target="_blank" class="text-emerald-600 hover:underline">Sitio oficial Loire à Vélo</a></li>*/?>
+          <li><a <?php /* href="https://www.tourisme-valdeloire.fr/"*/?> href="/val-de-loire/general/oficinas-turismo-val-de-loire.php"target="_blank" class="hover:underline">Oficinas de turismo</a></li>
           <li><a href="#alquiler" class="hover:underline">Alquiler de bicis</a></li>
         </ul>
       </div>
