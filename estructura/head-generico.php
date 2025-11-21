@@ -64,12 +64,13 @@
   <link rel="preload" as="image" href="<?= $imagenHero ?>">
   <link rel="preload" as="font" href="/fonts/tu-font.woff2" type="font/woff2" crossorigin="anonymous">
 
-  <!-- Open Graph -->
+<!-- ✅ Open Graph (Facebook / LinkedIn) -->
   <meta property="og:title" content="<?= $nombreLugar ?> | Valle del Loira">
   <meta property="og:description" content="<?= $descripcion ?>">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
-  <meta property="og:image" content="<?= $imagenHero ?>">
+  <meta property="og:image" content="https://alayag82.kesug.com/val-de-loire/assets/logo.png">
+
   <meta property="og:site_name" content="Valle del Loira Turismo">
   <meta property="og:locale" content="es_ES">
 
@@ -121,12 +122,6 @@
   <link rel="preload" as="image" href="<?= $imagenHero ?>">
   <link rel="preload" as="font" href="/fonts/tu-font.woff2" type="font/woff2" crossorigin="anonymous">
 
-  <!-- ✅ Open Graph (Facebook / LinkedIn) -->
-  <meta property="og:title" content="Castillos del Valle del Loira | Guía de Viaje">
-  <meta property="og:description" content="Explora la magia del Valle del Loira: Chambord, Chenonceau, Villandry y más. Guía, fotos y consejos para tu viaje.">
-  <meta property="og:image" content="https://tusitio.com/img/logo.png">
-  <meta property="og:url" content="https://---playas2024----.kesug.com/castillos-del-loira">
-  <meta property="og:type" content="website">
 
 
   <!-- ✅ Geolocalización -->
