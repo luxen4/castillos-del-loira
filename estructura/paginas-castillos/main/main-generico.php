@@ -1,199 +1,180 @@
-  <!-- Contenido principal -->
-
-<div class="flex flex-col items-center">
+<div class="flex flex-col min-h-screen">
 
   <main class="container mx-auto px-4 py-2 grid lg:grid-cols-12 gap-8">
 
-
-    <!-- 📌 ASIDE IZQUIERDO – PUBLICIDAD RECOMENDADA -->
-    <aside class="hidden lg:block lg:col-span-3 mx-auto space-y-6">
-      <div class="hidden lg:block bg-emerald-50 p-4 rounded-lg shadow">
-
-        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-izquierdo/anclas/data.php"; ?>
+    <!-- ASIDE IZQUIERDO -->
+    <aside class="hidden lg:block lg:col-span-3 space-y-6 max-w-[500px] overflow-hidden">
+      <div class="bg-emerald-50 p-4 rounded-lg shadow w-full">
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
-        <?php //<a href="chaumont/mapa-chaumont.php">ir</a> ?>
-
       </div>
     </aside>
 
-    <!-- Contenedor con scroll -->
-    <div class="lg:col-span-6 mx-auto h-[200vh] overflow-y-auto space-y-10 p-1"> 
-      
-    <?php /*
-      <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
-    */ ?>
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="lg:col-span-6 w-full max-w-full overflow-y-auto space-y-1 p-1">
 
-      <nav class="text-sm breadcrumb mt-4 mb-8" aria-label="Breadcrumb">
-        <ol class="flex flex-wrap items-center gap-2 text-gray-600">
-          <li>
-            <a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a>
-          </li>
-          <li class="text-gray-400">/</li>
+<nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
+  <!-- Breadcrumb a la izquierda -->
+  <ol class="flex flex-wrap items-center gap-2">
+    <li><a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a></li>
+    <li class="text-gray-400">/</li>
+    <li><a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a></li>
+    <li class="text-gray-400">/</li>
+    <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
+  </ol>
 
-          <li>
-            <a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a>
-          </li>
-          <li class="text-gray-400">/</li>
+  <!-- Enlace del mapa a la derecha -->
+  <a href="#" id="openMapLink" class="text-emerald-700 font-semibold underline hover:text-emerald-800 transition">
+    Ver mapa ampliado
+  </a>
+</nav>
 
-          <li>
-            <a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors">
-              <?= $nombreLugar; ?>
-            </a>
-          </li>
-        </ol>
-      </nav>
+<!-- línea decorativa debajo, ancho completo -->
+<div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
-      <article class="space-y-10">
 
+
+    
+
+
+      <!-- Modal Google Maps -->
+      <div id="mapModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-center justify-center z-50">
+        <div class="bg-white w-11/12 max-w-4xl rounded-2xl shadow-lg overflow-hidden relative animate-[fadeIn_0.2s_ease]">
+          <!-- Botón cerrar -->
+          <button id="closeMapBtn" class="absolute top-3 right-3 bg-white rounded-full shadow p-2 hover:bg-gray-100">✖</button>
+          <!-- Contenedor del mapa -->
+          <div class="w-full h-[70vh]">
+            <iframe
+              src="<?= $src_google_maps; ?>"
+              class="w-full h-full"
+              style="border:0;"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <article class="space-y-1 w-full max-w-full h-[80vh] overflow-y-auto p-1">
+
+
+
+
+        <script>
+          const mapModal = document.getElementById("mapModal");
+          const openMapLink = document.getElementById("openMapLink");
+          const closeMapBtn = document.getElementById("closeMapBtn");
+
+          // Abrir modal al clicar el enlace
+          openMapLink.addEventListener("click", (e) => {
+            e.preventDefault(); // evita que el enlace navegue
+            mapModal.classList.remove("hidden");
+            mapModal.classList.add("flex");
+          });
+
+          // Cerrar modal
+          closeMapBtn.addEventListener("click", () => {
+            mapModal.classList.add("hidden");
+            mapModal.classList.remove("flex");
+          });
+
+          // Cerrar al hacer clic fuera del contenido
+          mapModal.addEventListener("click", (e) => {
+            if (e.target === mapModal) {
+              mapModal.classList.add("hidden");
+              mapModal.classList.remove("flex");
+            }
+          });
+        </script>
         <!-- Introducción -->
         <?php $slug_section = "informacion";
         require "chateaux-folders/{$slug}/{$slug_section}/data.php";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/introduccion-generico.php"; ?>
-        
+
+
+
+
+
+
+
+
+
         <!-- Consejos -->
         <?php $slug_section = "consejos";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/consejos-generico.php"; ?>
 
-
-        <?php 
-        $numeroAleatorio = 3; $alineacion=4;
-        $archivoPublicidad = "jeans_man";
-        require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
-
-
+        <!-- Publicidad intermedia -->
+        <?php $alineacion = 4;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 
 
         <!-- Opiniones -->
         <?php $slug_section = "opiniones";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/opiniones-generico.php"; ?>
 
-        <!-- faqs -->
+        <!-- FAQs -->
         <?php $slug_section = "faqs";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/faqs-generico.php"; ?>
+
+
+        <?php $alineacion = 4;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+
 
         <!-- Visitas -->
         <?php $slug_section = "visitas";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/visitas-generico.php"; ?>
 
-
-        <?php /* <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script> */ ?>
-    
-
-        <!-- Mapa -->
-        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mapa-generico.php"; ?>
-
-        <?php function estrellas($num)
-        {
-          return str_repeat("⭐", $num);
-        } ?>
-
-        <?php /*
-Si quieres, puedo hacer que estos comentarios se carguen desde una base de datos o que permita enviar nuevos comentarios desde un formulario con validación 📝. Solo dime si quieres:
-
-✅ Guardar comentarios en un archivo JSON
-✅ Guardarlos en MySQL
-✅ O integrarlo con un formulario en la web */ ?>
-<!-- Banner de tours / actividades - GetYourGuide -->
-<div class="border border-gray-200 rounded-lg overflow-hidden shadow-lg">
-  <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Tours y actividades</h3>
-  <a href="https://getyourguide.tpo.lu/FPvBISCi" target="_blank" rel="nofollow">
-    <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=535,height=400,dpr=1/tour_img/514f6debe7856996d676b2e9e9cb60ec776bdf4826ac7e5e1b1e842fd9168a17.jpg" 
-         alt="Reserva tours en el Valle del Loira" 
-         class="w-full h-40 object-cover">
-  </a>
-  <p class="text-sm text-gray-600 mt-2 px-2 text-center">
-    Descubre excursiones y actividades únicas en el Valle del Loira.
-  </p>
-</div><?php // https://app.travelpayouts.com/programs/84/about Crear links ?>
-
-        <?php 
-        $numeroAleatorio = 5; $alineacion=4;
-        $archivoPublicidad = "sneakers";
-        require  $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
-
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
-
+        <!-- Castillos cercanos -->
+        <?php
+        $archivo_csv = 'castillos-cercanos.csv';
+        $slug_filtrado = $slug_castillos_cercanos_csv;
+        require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php';
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/castillos-cercanos/template.php";
+        ?>
 
       </article>
+
     </div>
 
-    <!-- Aside derecho -->
-    <aside aside class="hidden lg:block lg:col-span-3 mx-auto w-64 p-4 bg-gray-50 rounded-lg shadow-md space-y-6">
+    <!-- ASIDE DERECHO -->
+    <aside class="hidden lg:block lg:col-span-3 max-w-[400px] w-full space-y-6">
 
-       <!-- Publicidad lateral -->
-      <div class="bg-gray-100 p-1 rounded-lg shadow text-center text-gray-500">
-        <!-- Publicidad -->
-        <?php $numeroAleatorio = 0;
-        $archivoPublicidad = "botas_hombre";
-        $alineacion = 2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+      <!-- Publicidad lateral -->
+      <div class="bg-gray-100 p-2 rounded-lg shadow text-center text-gray-500 w-full overflow-hidden">
+
+        <?php $alineacion = 2;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+
+
+
+
+
 
       </div>
 
-
-
-      <!-- Banner de vuelos -->
-      <div class="border border-gray-200 rounded-lg overflow-hidden">
-        <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Busca tus vuelos</h3>
-        <a href="https://www.skyscanner.net/affiliate-link" target="_blank" rel="nofollow">
-          <img src="/val-de-loire/assets/banner-vuelos.jpg" alt="Reserva vuelos" class="w-full object-cover">
-        </a>
-        <p class="text-sm text-gray-600 mt-2 px-2 text-center">
-          Reserva tus vuelos y apoya nuestra web sin costo adicional.
-        </p>
-      </div>
-
-      <!-- Banner de vuelos Kiwi.com -->
-<div class="border border-gray-200 rounded-lg overflow-hidden">
-  <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Busca tus vuelos</h3>
-  <a href="https://c111.travelpayouts.com/click?shmarker=iddqd&promo_id=3612&source_type=customlink&type=click&custom_url=https%3A%2F%2Fwww.kiwi.com%2Fen%2Fsearch%2Ftiles/" 
-     target="_blank" rel="nofollow">
-    <img src="/val-de-loire/assets/banner-vuelos.jpg" alt="Reserva vuelos" class="w-full object-cover">
-  </a>
-  <p class="text-sm text-gray-600 mt-2 px-2 text-center">
-    Reserva tus vuelos y apoya nuestra web sin costo adicional.
-  </p>
-</div>
-
-
-
-
-
-
-<script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
-
-      <!-- Banner de tours / excursiones -->
-      <div class="border border-gray-200 rounded-lg overflow-hidden">
+      <?php /*
+      <!-- Banner tours -->
+      <div class="border border-gray-200 rounded-lg overflow-hidden w-full">
         <h3 class="text-lg font-bold bg-emerald-700 text-white py-2 text-center">Tours y actividades</h3>
         <a href="https://www.civitatis.com/es/affiliate-link" target="_blank" rel="nofollow">
           <img src="/val-de-loire/assets/banner-tours.jpg" alt="Reserva tours" class="w-full object-cover">
         </a>
-        <p class="text-sm text-gray-600 mt-2 px-2 text-center">
-          Descubre excursiones y actividades en el Valle del Loira.
-        </p>
-      </div>
+        <p class="text-sm text-gray-600 mt-2 px-2 text-center">Descubre excursiones y actividades en el Valle del Loira.</p>
+      </div> */ ?>
+      <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
 
 
-
-
-   
     </aside>
 
   </main>
 </div>
 
-
-
-
-
-
 <style>
-  /* Para pantallas grandes */
   @media (min-width: 1280px) {
     .container {
-      max-width: 1900px;   /* Ancho máximo deseado */
-      margin-left: auto;    /* Centrado horizontal */
-      margin-right: auto;   /* Centrado horizontal */
+      max-width: 1900px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 </style>

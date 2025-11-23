@@ -1,7 +1,7 @@
 <?php
 $nombreLugar = "Angers";
 $ciudad = "Angers";
-$slug = "angers";
+$slug = "angers"; $slug_castillos_cercanos_csv = 'ciudad-angers';
 $carpeta='chateaux';
 $slug_Mayuscula = "Angers";
 $descripcion = "Conocida como la <strong>puerta del Valle del Loira</strong>, <strong>Angers</strong> es una ciudad llena de historia, arte y elegancia. 

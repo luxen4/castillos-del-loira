@@ -41,15 +41,3 @@ $longitude = -1.5536;
 $direccion = "Nantes, Valle del Loira, Francia";
 $horario_apertura = "00:00";
 $horario_cierre = "23:59";
-
-
-
-$relacionadas = [
-  ["Angers", "angers.php"],
-  ["Saumur", "saumur.php"],
-  ["Tours", "tours.php"],
-];
-?>
-
-
-<a href="<?php $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/lugares-interesantes/las-maquinas-de-la-isla.php' ?>"><strong>Machines de l’Île</strong></a>

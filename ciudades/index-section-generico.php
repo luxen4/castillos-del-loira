@@ -13,7 +13,7 @@
   <p class="text-gray-700 mb-6"><?= $section['descripcion'] ?></p>
 
   <!-- Paseos -->
-  <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+  <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-6">
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/nantes/main/sections/template.php"; ?>
   </div>
 

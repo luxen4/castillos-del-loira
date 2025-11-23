@@ -100,7 +100,7 @@
                                 📅 Acontecimientos
                             </a>
                         </li>
-                        
+
                         <li class="border-b border-emerald-600">
                             <a href="/val-de-loire/turismo"
                                 class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
@@ -133,6 +133,19 @@
                             <a href="/val-de-loire/eventos"
                                 class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
                                 🎉 Acontecimientos
+                            </a>
+                        </li>
+
+                         <li>
+                            <a href="/val-de-loire/general/noticias.php"
+                                class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                                🎉 Noticias
+                            </a>
+                        </li>
+                         <li>
+                            <a href="/val-de-loire/guia"
+                                class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                                🎉 Guía
                             </a>
                         </li>
 
@@ -177,17 +190,6 @@
 
                     </ul>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
 
                 <!-- Dropdown Transportes -->
                 <li class="relative group">

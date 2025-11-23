@@ -1,3 +1,11 @@
+<?php $nombreLugar = "Noticias del Valle del Loira";
+$descripcion = "Noticias y actualidad del Valle del Loira: eventos, guías, aperturas y consejos para visitar los castillos y ciudades del Loira.";
+$keywords = "noticias Valle del Loira, eventos Valle del Loira, guías Valle del Loira, castillos Valle del Loira, turismo Valle del Loira, actualidad Loira, visitar Loira, consejos viaje Loira";
+$carpeta = "general";
+$slug = "noticias-val-de-loire";
+$imagenHero = "https://www.turismovalledelloira.com/val-de-loire/assets/imagenes/noticias-val-de-loire/noticias-val-loira-hero.jpg";
+$twitter = "@TuTwitter"; ?>
+
 <?php
 /*
   valle-loira-noticias.html
@@ -43,22 +51,22 @@ if (empty($news_items)) {
       'title' => 'Festival de los Castillos 2025: programación y cómo llegar',
       'date' => '2025-07-12',
       'excerpt' => 'La temporada cultural del Valle del Loira arranca con conciertos, visitas nocturnas y actividades familiares en los principales châteaux.',
-      'image' => $base_url_for_images . 'festival-castillos-2025.jpg',
-      'url' => '/val-de-loire/noticias/festival-castillos-2025.php'
+      'image' => 'https://woody.cloudly.space/app/uploads/adt-touraine/2025/03/thumbs/Chateau-Islette-belle-etoile-Credit_ADT_Touraine_JC-Coutand-2032-31-360x180.webp',
+      'url' => '/val-de-loire/general/festival-castillos-2025-loira.php'
     ],
     [
       'title' => 'Cómo visitar el Château de Chambord: horarios y consejos',
       'date' => '2025-05-03',
       'excerpt' => 'Guía práctica para moverte por Chambord, aparcamientos, y qué ver si solo tienes medio día.',
-      'image' => $base_url_for_images . 'chambord-visita.jpg',
-      'url' => '/val-de-loire/noticias/chambord-horarios.php'
+      'image' => 'https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/2a3/-domaine-national-de-chambord.webp',
+      'url' => '/val-de-loire/chateaux/chambord.php#visitas-informacion-util'
     ],
     [
       'title' => 'Rutas en bicicleta por el Loira: 5 recorridos imprescindibles',
       'date' => '2025-04-20',
       'excerpt' => 'Recorridos familiares y etapas para cicloturistas con puntos de interés, dificultades y alojamientos recomendados.',
-      'image' => $base_url_for_images . 'bicicleta-loira.jpg',
-      'url' => '/val-de-loire/noticias/rutas-bici-loira.php'
+      'image' => 'https://www.cyclespleinair.fr/uploads/loire-velo-parcours-65b77aca97325.webp',
+      'url' => '/val-de-loire/general/rutas-bici-loira.php' /*'url' => '/val-de-loire/general/loire-a-velo.php'*/
     ],
   ];
 }
@@ -78,36 +86,8 @@ function esc($s){ return htmlspecialchars($s, ENT_QUOTES); }
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
+  <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/enlaces-principales-generico.php'; ?>
 
-  <!-- Header simple -->
-  <header class="bg-emerald-700 text-white">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/val-de-loire/" class="flex items-center gap-3">
-        <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10 object-contain">
-        <div>
-          <h1 class="text-lg font-bold">Val de Loire</h1>
-          <p class="text-xs">Noticias y actualidad del Valle del Loira</p>
-        </div>
-      </a>
-
-      <nav class="hidden md:flex gap-4 items-center">
-        <a href="/val-de-loire/" class="text-sm hover:underline">Inicio</a>
-        <a href="/val-de-loire/noticias/" class="text-sm font-semibold underline">Noticias</a>
-        <a href="/val-de-loire/guia/" class="text-sm hover:underline">Guía</a>
-      </nav>
-
-      <button id="menu-toggle" class="md:hidden mr-2">
-        <!-- hamburguesa -->
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-      </button>
-    </div>
-
-    <nav id="mobile-menu" class="hidden bg-emerald-700 px-4 pb-4 md:hidden">
-      <a href="/val-de-loire/" class="block py-2 text-white">Inicio</a>
-      <a href="/val-de-loire/noticias/" class="block py-2 text-white">Noticias</a>
-      <a href="/val-de-loire/guia/" class="block py-2 text-white">Guía</a>
-    </nav>
-  </header>
 
 
 <?php /*
@@ -170,10 +150,14 @@ if (($handle = fopen($csv_path, "r")) !== false) {
       <aside class="hidden lg:block lg:w-72 bg-white rounded-lg shadow p-4">
         <h4 class="font-semibold text-gray-700 mb-3">Destacados</h4>
         <ul class="space-y-2 text-sm text-gray-600">
-          <li><a href="#" class="hover:underline">Rutas en bicicleta</a></li>
-          <li><a href="#" class="hover:underline">Castillos abiertos hoy</a></li>
-          <li><a href="#" class="hover:underline">Oficinas de turismo</a></li>
+          <li><a href="/val-de-loire/general/loire-a-velo.php" class="hover:underline">Rutas en bicicleta</a></li>
+          <li><a href="/val-de-loire/general/castillos-abiertos-hoy.php" class="hover:underline">Castillos abiertos hoy</a></li>
+          <li><a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="hover:underline">Oficinas de turismo</a></li>
         </ul>
+
+                <?php 
+        $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=2;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
       </aside>
 
       <!-- LISTA DE NOTICIAS (centro) -->
@@ -208,6 +192,11 @@ if (($handle = fopen($csv_path, "r")) !== false) {
           <?php endforeach; ?>
         </div>
 
+                            <?php $numeroAleatorio = 0;
+        $archivoPublicidad = "botas_hombre";
+        $alineacion = 4;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+
         <!-- Paginación simple (placeholder) -->
         <div class="mt-8 flex justify-center">
           <nav class="inline-flex rounded-md shadow-sm" role="navigation">
@@ -221,8 +210,13 @@ if (($handle = fopen($csv_path, "r")) !== false) {
       <aside class="hidden lg:block lg:w-72 bg-white rounded-lg shadow p-4">
         <h4 class="font-semibold text-gray-700 mb-3">Apoya la web</h4>
         <div class="space-y-3 text-sm text-gray-600">
-          <div class="bg-gray-100 p-2 rounded">Banner / afiliado</div>
-          <div class="bg-gray-100 p-2 rounded">Tours recomendados</div>
+          <div class="bg-gray-100 p-2 rounded">...
+
+          </div>
+          <div class="bg-gray-100 p-2 rounded">
+                    <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+
+          </div>
         </div>
       </aside>
     </div>

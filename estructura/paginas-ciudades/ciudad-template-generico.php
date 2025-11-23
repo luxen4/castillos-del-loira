@@ -1,156 +1,196 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <?php 
-    //$carpeta='ciudades';
-    require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
+<?php
+//$carpeta='ciudades';
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
 
 
-<body class="bg-gray-50 text-gray-800 ">
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
+<body class="flex flex-col min-h-screen bg-gray-50 text-gray-800 ">
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
 
-<!-- 🔹 Hero responsivo -->
-<section
-    class="relative bg-cover bg-center h-80 sm:h-96 md:h-[500px] lg:h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110"
-    style="background-image: url('<?= $imagenHero ?>');">
+    <!-- 🔹 Hero responsivo -->
+    <section
+        class="relative bg-cover bg-center h-80 sm:h-96 md:h-[500px] lg:h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110"
+        style="background-image: url('<?= $imagenHero ?>');">
 
-    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
-        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-extrabold text-center px-4">
-            Bienvenido a <?= $ciudad ?>
-        </h2>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-extrabold text-center px-4">
+                Bienvenido a <?= $ciudad ?>
+            </h2>
+        </div>
+    </section>
+
+    <!-- 🔹 Contenido Principal -->
+<main class="flex-1 h-screen lg:h-screen container mx-auto px-1 py-12 grid lg:grid-cols-12 gap-10">
+
+
+        <!-- 📢 ASIDE IZQUIERDO -->
+<aside class="space-y-8 hidden lg:block lg:col-span-3 h-full overflow-y-auto">
+
+            <!-- 🔗 Enlaces útiles -->
+            <?php if (!empty($enlaces)): ?>
+                <section class="bg-white p-6 rounded-2xl shadow">
+                    <h4 class="text-lg font-semibold text-emerald-700 mb-3">🔗 Enlaces útiles</h4>
+                    <ul class="space-y-2">
+                        <?php foreach ($enlaces as $enlace): ?>
+                            <li>
+                                <a href="<?= $enlace[1] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
+                                    <?= $enlace[0] ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </section>
+            <?php endif; ?>
+
+
+            <!-- 💰 Publicidad lateral -->
+            <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
+                <?php $numeroAleatorio = 0;
+                $archivoPublicidad = 'botas_hombre';
+                $alineacion = 2;
+                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+            </div>
+
+
+
+
+  <div class="max-w-5xl mx-auto px-1">
+
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">🏰 Otros castillos y recursos útiles</h2>
+
+    <!-- 🔹 Lista de otros castillos -->
+    <div class="grid sm:grid-cols-2 md:grid-cols-1 gap-4 mb-8">
+      <a href="../chateaux/ducks-de-bretagne.php"
+        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
+        <h3 class="font-semibold text-lg text-gray-700">Château des Ducs de Bretagne</h3>
+        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
+      </a>
+
+      <a href="../chateaux/Clisson.php"
+        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
+        <h3 class="font-semibold text-lg text-gray-700">Château de Clisson</h3>
+        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
+      </a>
+
+      <a href="../chateaux/Goulaine.php"
+        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
+        <h3 class="font-semibold text-lg text-gray-700">Château de Goulaine</h3>
+        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
+      </a>
     </div>
-</section>
-
-<!-- 🔹 Contenido Principal -->
-<main class="container mx-auto px-1 py-12 grid lg:grid-cols-12 gap-10">
-
-  <!-- 📢 ASIDE IZQUIERDO -->
-  <aside class="space-y-8 hidden lg:block lg:col-span-2">
-
-      <!-- 🔗 Enlaces útiles -->
-      <?php if (!empty($enlaces)): ?>
-          <section class="bg-white p-6 rounded-2xl shadow">
-              <h4 class="text-lg font-semibold text-emerald-700 mb-3">🔗 Enlaces útiles</h4>
-              <ul class="space-y-2">
-                  <?php foreach ($enlaces as $enlace): ?>
-                      <li>
-                          <a href="<?= $enlace[1] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
-                              <?= $enlace[0] ?>
-                          </a>
-                      </li>
-                  <?php endforeach; ?>
-              </ul>
-          </section>
-      <?php endif; ?>
+  </div>
 
 
-      <!-- 💰 Publicidad lateral -->
-      <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-            <?php $numeroAleatorio=0; $archivoPublicidad='botas_hombre'; $alineacion=2;
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
-      </div>
-
-  </aside>
-
-  <!-- 🏙️ ARTÍCULO PRINCIPAL -->
-<article class="lg:col-span-7 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
-      <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4">
-          <?= $ciudad ?> en el Valle del Loira
-      </h3>
-      <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
-
-      <!-- 💰 Bloque publicitario intermedio -->
-      <div class="bg-gray-100 border rounded-2xl p-1 my-1 text-center shadow-sm">
-        <?php 
-        $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=4;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
-      </div>
-
-      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php";?>
-
-<!-- 🌆 Sección integrada en el contenido principal -->
-<section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
-  <h2 class="text-xl font-semibold text-gray-800 mb-4">🌆 Otras Ciudades del Valle del Loira</h2>
-
-  <p class="mb-4">
-    El Valle del Loira está salpicado de encantadoras ciudades que combinan historia, arte y paisajes únicos. 
-    Entre las más destacadas se encuentran 
-    <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>, 
-    conocida por su castillo real y su vínculo con Leonardo da Vinci; 
-    <a href="/val-de-loire/ciudades/blois.php" class="text-emerald-700 hover:underline">Blois</a>, 
-    con su imponente palacio renacentista y calles empedradas; y 
-    <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>, 
-    una animada ciudad universitaria con un precioso casco antiguo.
-  </p>
-
-  <?php if (!empty($relacionadas)): ?>
-  <p class="mb-4">
-    También puedes descubrir otras localidades cercanas que comparten la misma riqueza cultural y arquitectónica, como 
-    <?php
-      $enlaces = [];
-      foreach ($relacionadas as $rel) {
-        $enlaces[] = '<a href="../ciudades/' . $rel[1] . '" class="text-emerald-700 hover:underline">' . $rel[0] . '</a>';
-      }
-      echo implode(', ', array_slice($enlaces, 0, -1)) . ' y ' . end($enlaces) . '.';
-    ?>
-  </p>
-  <?php endif; ?>
-
-  <p>
-    Cada una de estas ciudades ofrece una experiencia distinta del Loira, 
-    ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
-  </p>
-</section>
-
-  </article>
-
-  <!-- 📢 ASIDE DERECHO -->
-  <aside class="space-y-8 lg:col-span-3">
-
-      <!-- 📰 Noticias -->
-      <section class="bg-white rounded-2xl shadow p-6">
-          <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
-          <ul class="space-y-3 text-sm text-gray-700">
-            <li>
-                <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
-                    Exposiciones en el Castillo de Chambord
-                </a>
-            </li>
-
-              
-              
-              
-              <li><a href="/val-de-loire/ciudades/nantes/lugares-interesantes/festival-vinos-saumur.php" class="hover:underline">Festival de vinos en Saumur</a></li>
-              <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
-          </ul>
-      </section>
-              <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
 
 
-      <!-- 💰 Publicidad lateral -->
-      <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-          
-        <?php 
-            $numeroAleatorio=5; $archivoPublicidad='sneakers'; $alineacion=2;
-            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
-        
-      </div>
+        </aside>
 
-      <!-- 💰 Publicidad larga -->
-      <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
-          <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
-          <div class="bg-white rounded-lg h-60 flex items-center justify-center">
-              <span class="text-gray-400 text-sm">Banner adaptable (300x600)</span>
-          </div>
-      </div>
+        <!-- 🏙️ ARTÍCULO PRINCIPAL -->
+        <article class="lg:col-span-6 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
+            <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4">
+                <?= $ciudad ?> en el Valle del Loira
+            </h3>
+            <p class="text-gray-700 mb-6"><?= $descripcion ?></p>
 
-  </aside>
+            <!-- 💰 Bloque publicitario intermedio -->
+            <div class="bg-gray-100 border rounded-2xl p-1 my-1 text-center shadow-sm">
+                <?php
+                $numeroAleatorio = 3;
+                $archivoPublicidad = 'jeans_man';
+                $alineacion = 4;
+                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
+            </div>
 
-</main>
+            <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
+
+            <!-- 🌆 Sección integrada en el contenido principal -->
+            <section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">🌆 Otras Ciudades del Valle del Loira</h2>
+
+                <p class="mb-4">
+                    El Valle del Loira está salpicado de encantadoras ciudades que combinan historia, arte y paisajes únicos.
+                    Entre las más destacadas se encuentran
+                    <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>,
+                    conocida por su castillo real y su vínculo con Leonardo da Vinci;
+                    <a href="/val-de-loire/ciudades/blois.php" class="text-emerald-700 hover:underline">Blois</a>,
+                    con su imponente palacio renacentista y calles empedradas; y
+                    <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>,
+                    una animada ciudad universitaria con un precioso casco antiguo.
+                </p>
+
+                <?php if (!empty($relacionadas)): ?>
+                    <p class="mb-4">
+                        También puedes descubrir otras localidades cercanas que comparten la misma riqueza cultural y arquitectónica, como
+                        <?php
+                        $enlaces = [];
+                        foreach ($relacionadas as $rel) {
+                            $enlaces[] = '<a href="../ciudades/' . $rel[1] . '" class="text-emerald-700 hover:underline">' . $rel[0] . '</a>';
+                        }
+                        echo implode(', ', array_slice($enlaces, 0, -1)) . ' y ' . end($enlaces) . '.';
+                        ?>
+                    </p>
+                <?php endif; ?>
+
+                <p>
+                    Cada una de estas ciudades ofrece una experiencia distinta del Loira,
+                    ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
+                </p>
+            </section>
+
+        </article>
+
+        <!-- 📢 ASIDE DERECHO -->
+        <aside class="space-y-8 lg:col-span-3">
+
+            <!-- 📰 Noticias -->
+            <section class="bg-white rounded-2xl shadow p-6">
+                <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
+                <ul class="space-y-3 text-sm text-gray-700">
+                    <li>
+                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
+                            Exposiciones en el Castillo de Chambord
+                        </a>
+                    </li>
 
 
-<?php /*
+
+
+                    <li><a href="/val-de-loire/ciudades/nantes/lugares-interesantes/festival-vinos-saumur.php" class="hover:underline">Festival de vinos en Saumur</a></li>
+                    <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
+                </ul>
+            </section>
+            <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+
+
+            <!-- 💰 Publicidad lateral -->
+            <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
+
+                <?php
+                $numeroAleatorio = 5;
+                $archivoPublicidad = 'sneakers';
+                $alineacion = 2;
+                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
+
+            </div>
+
+            <!-- 💰 Publicidad larga -->
+            <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
+                <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
+                <div class="bg-white rounded-lg h-60 flex items-center justify-center">
+                    <span class="text-gray-400 text-sm">Banner adaptable (300x600)</span>
+                </div>
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <?php /*
     <!-- 🤝 Patrocinadores -->
     <section class="bg-emerald-50 py-10 mt-12">
         <div class="container mx-auto px-6 text-center">
@@ -191,5 +231,5 @@
     </script>
 
 </body>
-</html>
+
 </html>

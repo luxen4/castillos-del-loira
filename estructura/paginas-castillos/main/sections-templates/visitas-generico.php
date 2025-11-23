@@ -37,7 +37,7 @@ $data_items = array_filter($info, fn($item) => $item['slug'] === $slug);
 
 ?>
 
-<section class="bg-gray-100 p-6 rounded-xl shadow-md my-8">
+<section id="visitas-informacion-util" class="bg-gray-100 p-6 rounded-xl shadow-md my-8">
   <h2 class="text-2xl font-bold text-emerald-700 mb-4">ℹ️ Visitas Información útil</h2>
 
   <div class="space-y-3">

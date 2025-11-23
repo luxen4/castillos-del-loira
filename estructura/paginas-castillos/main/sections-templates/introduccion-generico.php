@@ -99,7 +99,7 @@
 
 
 
-
+<?php /*
 <section class="my-16">
   <h2 class="text-4xl font-extrabold text-emerald-700 text-center mb-3 tracking-tight">
     📍 Localización
@@ -193,7 +193,7 @@
       mapModal.classList.remove("flex");
     }
   });
-</script>
+</script> */ ?>
 
 
 

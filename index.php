@@ -266,7 +266,7 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
       <h3 class="text-lg font-bold text-gray-700">📰 Noticias y Enlaces</h3>
       <ul class="list-disc pl-6 space-y-2 text-gray-600">
         <li><a href="https://www.france.fr/es" target="_blank" class="hover:text-emerald-700 underline">Turismo de Francia</a></li>
-        <li><a href="/val-de-loire/general/noticias-val-de-loire.php" target="_blank" class="hover:text-emerald-700 underline">Noticias Valle del Loira</a></li>
+        <li><a href="/val-de-loire/general/noticias.php" target="_blank" class="hover:text-emerald-700 underline">Noticias Valle del Loira</a></li>
         <li><a href="/val-de-loire/ciudades/nantes.php" target="_blank" class="hover:text-emerald-700 underline">Nantes Turismo</a></li>
       </ul>
 
@@ -285,7 +285,7 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
 
   </div>
 
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
+  <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
 
 
   <?php require 'estructura/footer/footer-generico.php'; ?>

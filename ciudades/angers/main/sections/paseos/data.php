@@ -6,7 +6,7 @@ $items = [
     "imagen" => [
       "src" => "https://www.chateau-angers.fr/var/cmn_inter/storage/images/_aliases/article_image_webp/5/2/2/0/120260225-1-fre-FR/ee9aa876a811-rvw17_0802.webp.webp",
       "alt" => "Château d’Angers",
-      "fuente" => "https://www.chateau-angers.fr/decouvrir/histoire-du-chateau-d",
+      "fuente" => "/val-de-loire/chateaux/chateau-de-angers.php",
       "fuente_texto" => "chateau-angers.fr"
     ]
   ],

@@ -2,14 +2,17 @@
 $nombreLugar = "Chateau de Chambord";
 $ciudad = "Chambord";
 $carpeta='chateaux';
-$slug_Mayuscula = "Chambord"; $slug_filtrado = 'castillo-de-chambord'; $slug_castillos_cercanos_csv= 'castillo-de-chambord';
-
+$slug_Mayuscula = "Chambord";
 $descripcion = "El Castillo de Chambord, una joya del Renacimiento francés, es el más grande y majestuoso de los castillos del Valle del Loira. Famoso por su arquitectura única inspirada por Leonardo da Vinci, combina el esplendor real con la armonía del entorno natural.";
 $imagenHero = "https://media.traveler.es/photos/61377563d4923f67e298f5c2/master/w_1600%2Cc_limit/111804.jpg";
 $web_oficial = "https://www.traveler.es/naturaleza/articulos/castillo-del-loira-chambord-nuevo-jardin/10879";
 $fuenteHero_texto = "Traveler.es";
 
-$src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.53079648689!2d1.5143386120289368!3d47.615812487221035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4add37eb82821%3A0x6d1fb075610e2871!2sCastillo%20de%20Chambord!5e0!3m2!1ses!2ses!4v1763522891912!5m2!1ses!2ses';
+$otros_castillos = [
+  ["Villandry", "Villandry.php"],
+  ["Chenonceau", "Chenonceau.php"],
+  ["Cheverny", "Cheverny.php"]
+];
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
@@ -19,3 +22,4 @@ $longitude = 1.5164;
 $direccion = "Château de Chambord, 41250 Chambord, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
+?>
