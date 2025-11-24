@@ -1,35 +1,34 @@
-PERIODO MAQUINA,TURNO,(F.D.),H.MUESTRAS,(TMPP),(HMDP),(TSP),(TPCP),H.REFORMA,H.ESP.URG,H.P.PROGRAMADA,(DP),OEE,,,PRODUCCION,DESP,VEL.,CAMBIO,RELAJE,MNTO.,ATASCOS,FALTAS PERSONA,N.P.ATEND,F.MOTIVO
-PERIODO G-1019,     A
-PERIODO G-1015,     A
-PERIODO G-1034,     A
-PERIODO G-1012,     A
-PERIODO G-1013,     A
-PERIODO G-1037,     A
-PERIODO U-1,        A
-PERIODO U2,         A
-PERIODO TOTAL-TURNO
+PERIODO MAQUINA,TURNO,(T.P.),H.MUESTRAS,(TMPP),(HMDP),(TSP),(TPCP),H.REFORMA,H.ESP.URG,H.P.PROGRAMADA,(DP),OEE,,,PRODUCCION,DESP,VEL.,CAMBIO,RELAJE,MNTO.,ATASCOS,FALTAS PERSONA,N.P.ATEND,F.MOTIVO
+PERIODO G-1019,     A,  0.86,   ,  0.13,       8,,,,,      ,       8,   0.79,,,45.936,  3.6,    114,        ,   0:33,       ,,,,        0:34
+PERIODO G-1015,     A,  0.8,    ,  1.64,       8,,,,,      ,       4,   0.76,,,47.484,  10.4,   132,    0:44,       ,       ,,,,        0:48
+PERIODO G-1034,     A,     ,    ,      ,        ,,,,,     8,        ,       ,,,0,       10.4,   130,        ,       ,       ,,,,        0:00
+PERIODO G-1012,     A,  0.45,   ,  4.41,       8,,,,,      ,       4,   0.39,,,26.834,  10.4,   131,    1:10,       ,   2;19,,, 0:39,   0:13
+PERIODO G-1013,     A,  0.85,   ,  1.21,       8,,,,,      ,       4,   0.84,,,52.512,  10.4,   132,        ,       ,       ,,,,        0:22
+PERIODO G-1037,     A,  0.87,   ,  1.06,       8,,,,,      ,       8,   0.82,,,51.540,  10.4,   130,        ,       ,   0:14,,,,        0:48
+PERIODO U-1,        A,      ,   ,      ,        ,,,,,      ,        ,       ,,,0,       10.4,   132,        ,       ,       ,,,,        0:00
+PERIODO U2,         A,  0.78,   ,  1.49,     6.9,,,,,   1.1,     6.9,   0.72,,,44.804,  9.4,    132,        ,       ,       ,,,,        1:29
+PERIODO TOTAL-TURNO,A,  0.77,   ,  10.93,   46.9,8,,,,  9.1,        ,   0.72,,,269.110, 6.2,    129,    1:54,       ,   2:34,,,,        4:17
 
-PERIODO G-1019,     B
-PERIODO G-1015,     B
-PERIODO G-1034,     B
-PERIODO G-1012,     B
-PERIODO G-1013,     B
-PERIODO G-1037,     B
-PERIODO U-1,        B
-PERIODO U2,         B
-PERIODO TOTAL-TURNO
+PERIODO G-1019,     B,  0.56,   ,  3.55,       8,,,,,      ,       4,   0.43,,,26.410,  14.1,  109,    0.01,      0:40,     ,,,2.01,    0:49
+PERIODO G-1015,     B,  0.88,   ,  0.97,       8,,,,,      ,       8,   0.87,,,54.308,  2.5,   132,        ,      0.21,     ,,,,        0:36
+PERIODO G-1034,     B,      ,   ,      ,        ,,,,,     8,        ,       ,,,0,       0.0,   130,        ,          ,     ,,,,        0:00
+PERIODO G-1012,     B,  0.25,   ,     6,       8,,,,,      ,       8,   0.21,,,14.356,  16.7,   131,    1:02,     4.32,     ,,,,        0:25
+PERIODO G-1013,     B,  0.81,   ,  1.51,       8,,,,,      ,       8,   0.77,,,47.840,  5.3,   131,         ,         ,     ,,,,        1:30
+PERIODO G-1037,     B,  0.9,    ,  0.82,       8,,,,,      ,       4,   0.83,,,51.940,  7.6,   130,     0.16,         ,     ,,,,        0:26
+PERIODO U-1,        B,      ,   ,      ,       ,,,,,        ,        ,       ,,,0,       10.4, 132,        ,          ,     ,,,,        0:00
+PERIODO U2,         B,  0.79,   ,   1.6,     7.78,,,,,   0.22,   7.78,   0.73,,,45.116,  9.4,  132,        ,      0.10,     ,,,,        1:25
+PERIODO TOTAL-TURNO,B,  0.7,    ,  14.44,  47.78,8,,,,   8.22,       ,   0.65,,,239.970, 6.2,  129,    1:54,          , 2:34,,,,        5:12
 
-PERIODO G-1019,   
-PERIODO G-1015,   
-PERIODO G-1034,   
-PERIODO G-1012,   
-PERIODO G-1013,   
-PERIODO G-1037,   
-PERIODO U-1,      
-PERIODO U2,       
-PERIODO TOTAL-TURNO
-PERIODO TOTAL-CELULA
-
+PERIODO G-1019,     C,  0.81,, 1.54,            8,,,,,          ,       8,      0.75,,, 43.510,     2.0,    115,    , 0.21,  ,,,,           1:10
+PERIODO G-1015,     C,  0.9, ,  0.8,            8,,,,,          ,       8,      0.87,,, 54.408,     4.2,    132,    ,     ,  ,,,,           0:47
+PERIODO G-1034,     C,      ,,     ,,,,,             ,   8      ,       ,,,,                0.0,    0,      130,    ,     ,  ,,,,           0:00
+PERIODO G-1012,     C,  0.25,,    8,            8,,,,,          ,       8,      0.21,,,     0,      100.0,  132,    ,     ,  8,,,       ,   0:00
+PERIODO G-1013,     C,  0.76,, 1.92,            8,,,,,          ,       4,      0.73,,,     45.604,  4.7,   131, 0.07,0.09,   ,,,   0:30,   1:07
+PERIODO G-1037,     C,   0.9,, 0.83,            8,,,,,          ,       8,      0.87,,,     54.140,  2.7,   130,     ,    ,   ,,,,          0:49
+PERIODO U-1,        C,      ,,     ,             ,8,,,,         ,        ,       ,,,        0,       0.0,   132,     ,    ,   ,,,,          0:00
+PERIODO U2,         C,  0.88,, 0.93,     7.93,,,,,      0.07    ,   3.96,       0.88,,,     52.204,  1.7,  133,  0.01,    ,   ,,,,          0:52
+PERIODO TOTAL-TURNO,C,  0.71,,14.02,    47.93,8,,,,   8.07,             ,       0.68,,,     252.866, 3.3,  129,   0:09,   , 8,,,,           4:48
+PERIODO TOTAL-CELULA ,, 0.72,,39.38,    142.61,24,,,,   25.39,          ,       0.68,,,     761.946, 5.7,  129,   3:23,2:17, 15.06,,,3.31, 14:00
 
 PERIODO MAJER-FA,   A
 PERIODO R-2002,     A
