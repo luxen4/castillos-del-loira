@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://alayag82.kesug.com/val-de-loire/sitemap.xml
