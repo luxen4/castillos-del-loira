@@ -85,6 +85,10 @@
                 <p class="text-sm font-semibold mb-3 text-gray-500">— Publicidad —</p>
                 <div class="w-full h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
                     AD 160×600
+                            <?php $numeroAleatorio = 0;
+        $archivoPublicidad = "botas_hombre";
+        $alineacion = 2;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
                 </div>
             </div>
         </aside>
@@ -99,7 +103,7 @@
 
                 <!-- 🌿 Ruta 1: Castillos -->
                 <div>
-                    <h2 class="text-3xl font-bold text-emerald-700 mb-4">Ruta: Castillos imprescindibles</h2>
+                    <h2 id="ruta-castillos-imprescindibles" class="text-3xl font-bold text-emerald-700 mb-4">Ruta: Castillos imprescindibles</h2>
                     <p class="text-lg mb-4">
                         El Valle del Loira es Patrimonio de la UNESCO. Aquí encontrarás palacios,
                         jardines renacentistas y paisajes fluviales únicos en Europa.
@@ -133,7 +137,7 @@
 
                 <!-- 🍷 Ruta 2: Vino & Gastronomía -->
                 <div>
-                    <h2 class="text-3xl font-bold text-emerald-700 mb-4">Ruta: Vinos del Loira & Gastronomía</h2>
+                    <h2 id="ruta-vino-gastronomia" class="text-3xl font-bold text-emerald-700 mb-4">Ruta: Vinos del Loira & Gastronomía</h2>
                     <p class="text-lg mb-4">
                         Cata vinos únicos como Sauvignon Blanc, Touraine o Chinon. Descubre queserías y
                         restaurantes tradicionales en pequeños pueblos encantadores.
@@ -164,10 +168,47 @@
                     </ul>
                 </div>
 
-
-                <!-- 🚴 Ruta 3: Bicicleta por el Loira -->
+                <!-- 🌿 Ruta 3: Ríos & Paisajes del Valle del Loira -->
                 <div>
-                    <h2 class="text-3xl font-bold text-emerald-700 mb-4">Ruta: "La Loire à Vélo" (Cicloturismo)</h2>
+                    <h2 id="ruta-rios-paisajes" class="text-3xl font-bold text-emerald-700 mb-4">Ruta: Ríos y Paisajes del Valle del Loira</h2>
+                    <p class="text-lg mb-4">
+                        Recorre las orillas del Loira, observa sus islas naturales, sus afluentes
+                        y sus paisajes cambiantes. Ideal para rutas en bicicleta, paseos tranquilos
+                        y fotografía de naturaleza.
+                    </p>
+
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="https://www.loireavelo.fr/" target="_blank"
+                            class="text-emerald-700 font-semibold hover:underline">
+                                🚴 Ruta Loire à Vélo (Loira en bicicleta)
+                            </a>
+                            — La ruta ciclista más famosa de Francia, 900 km siguiendo el río Loira.
+                        </li>
+
+                        <li>
+                            <a href="https://www.valdeloire-france.com/es/explorar/actividades-naturaleza" target="_blank"
+                            class="text-emerald-700 font-semibold hover:underline">
+                                🌿 Naturaleza y espacios protegidos del Loira
+                            </a>
+                            — Reservas naturales, humedales, aves migratorias y miradores panorámicos.
+                        </li>
+
+                        <li>
+                            <a href="https://www.valdeloire-france.com/es/explorar" target="_blank"
+                            class="text-emerald-700 font-semibold hover:underline">
+                                🗺️ Senderos y miradores del Valle del Loira
+                            </a>
+                            — Caminos señalizados a lo largo del río, perfectos para senderismo fotográfico.
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!-- 🚴 Ruta 4: Bicicleta por el Loira -->
+                <div>
+                    <h2 id="ruta-la-loire-a-velo" class="text-3xl font-bold text-emerald-700 mb-4">Ruta: "La Loire à Vélo" (Cicloturismo)</h2>
                     <p class="text-lg mb-4">
                         Una de las rutas en bicicleta más bonitas de Europa: 900 km de carril bici
                         con castillos, puentes históricos y pueblos medievales.

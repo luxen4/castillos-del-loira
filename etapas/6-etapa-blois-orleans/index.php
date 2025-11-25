@@ -1,3 +1,6 @@
+<?php 
+$slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -51,7 +54,7 @@
           <li><a href="../../chateaux/chenonceau.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Chenonceau</a>, famoso por su arquitectura sobre el río Cher y sus jardines renacentistas.</li>
           <li><a href="../../chateaux/clos-luce.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Clos Lucé</a>, la última residencia de Leonardo da Vinci, con exposiciones interactivas y jardines temáticos.</li>
           <li><a href="../../chateaux/chateau-royale-de-amboise.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Castillo de Amboise</a>, un lugar histórico con vistas panorámicas del Loira y salas decoradas del Renacimiento.</li>
-          <li><a href="../../rutas-val-de-loire.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
+          <li><a href="/val-de-loire/general/rutas-loire.php#rutas-castillos-imprescindibles" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Ruta de los castillos del Loira</a>, con recomendaciones para visitar múltiples fortalezas y palacios a lo largo del valle.</li>
         </ul>
 
         <p class="text-lg md:text-xl text-gray-700 mb-6">
@@ -76,6 +79,10 @@
             "orden" => 2,
             "slug_parrafo" => "parrafo-etapa-6-vinos-y-gastronomia",
             "slug_imagenes" => "etapa-6-vinos-y-gastronomia"
+          ],          [
+            "orden" => 3,
+            "slug_parrafo" => "parrafo-etapa-6-loire-a-velo",
+            "slug_imagenes" => "etapa-6-vinos-loire-a-velo"
           ]
         ];
 
@@ -97,7 +104,8 @@
             $orden = $bloque["orden"];
             $slug_actual = $bloque["slug_parrafo"];
             $archivo_csv = 'data-etapas-partes.csv';
-
+            // Bloque para mostrar castillos cercanos
+            $slug_filtrado = $slug_castillos_cercanos_csv;
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-cabeceras-generico.php";
 

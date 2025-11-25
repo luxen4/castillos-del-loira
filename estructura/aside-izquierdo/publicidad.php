@@ -70,5 +70,21 @@
 
     <div class="text-center py-10 text-gray-400 text-sm italic">
         <span>Anuncio de Google</span>
+
+
+
+<!-- anuncio google 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8224668217749275"
+     data-ad-slot="7712880193"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
     </div>
 </div>

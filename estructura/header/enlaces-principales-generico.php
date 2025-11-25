@@ -219,7 +219,7 @@
 
                 <li><a href="/val-de-loire/general/formulario.html" class="block py-2 px-4 hover:underline">✍️ Formulario</a></li>
 
-                <li><a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="block py-2 px-4 hover:underline">🏛️ Turismo</a></li>
+                <li><a href="/val-de-loire/general/oficinas-de-turismo.php" class="block py-2 px-4 hover:underline">🏛️ Turismo</a></li>
 
             </ul>
         </nav>

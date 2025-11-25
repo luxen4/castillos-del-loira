@@ -29,11 +29,10 @@ $twitter = "@@TuTwitter";
 
       <!-- Aside izquierdo -->
       <aside class="hidden lg:block bg-gray-200 text-gray-500 p-1 rounded-lg">
-        <?php $numeroAleatorio = 3;
-        $archivoPublicidad = "jeans_man";
-        $alineacion = 2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
-      </aside>
+        <!-- Publicidad aside izquierdo -->
+        <?php $alineacion = 2;
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+    </aside>
 
 
 
@@ -93,22 +92,15 @@ $twitter = "@@TuTwitter";
           </a>
         </div>
 
-        <!-- Publicidad -->
-        <?php $numeroAleatorio = 5;
-        $archivoPublicidad = "sneakers";
-        $alineacion = 4;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
-
+        <!-- Publicidad central-->
+        <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
       </section>
 
       <!-- Aside derecho -->
       <aside class="hidden lg:block bg-gray-200 text-gray-500 p-1 rounded-lg">
-        <?php $numeroAleatorio = 0;
-        $archivoPublicidad = "botas_hombre";
-        $alineacion = 2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+         <!-- Publicidad aside derecho -->
+        <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
       </aside>
-
     </div>
   </main>
 

@@ -46,12 +46,9 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
             <?php endif; ?>
 
 
-            <!-- 💰 Publicidad lateral -->
+            <!-- 💰 Publicidad aside izquierdo -->
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-                <?php $numeroAleatorio = 0;
-                $archivoPublicidad = 'botas_hombre';
-                $alineacion = 2;
-                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
 
@@ -98,11 +95,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
 
             <!-- 💰 Bloque publicitario intermedio -->
             <div class="bg-gray-100 border rounded-2xl p-1 my-1 text-center shadow-sm">
-                <?php
-                $numeroAleatorio = 3;
-                $archivoPublicidad = 'jeans_man';
-                $alineacion = 4;
-                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
+                <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
             <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
@@ -155,27 +148,15 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                             Exposiciones en el Castillo de Chambord
                         </a>
                     </li>
-
-
-
-
                     <li><a href="/val-de-loire/ciudades/nantes/lugares-interesantes/festival-vinos-saumur.php" class="hover:underline">Festival de vinos en Saumur</a></li>
                     <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
                 </ul>
-            </section>
-            <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
-
-
-            <!-- 💰 Publicidad lateral -->
+            </section>            
+            <!-- 💰 Publicidad aside derecho -->
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-
-                <?php
-                $numeroAleatorio = 5;
-                $archivoPublicidad = 'sneakers';
-                $alineacion = 2;
-                require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-sneakers.php"; ?>
-
+                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
+            <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
 
             <!-- 💰 Publicidad larga -->
             <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
