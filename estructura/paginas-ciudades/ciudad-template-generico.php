@@ -148,7 +148,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                             Exposiciones en el Castillo de Chambord
                         </a>
                     </li>
-                    <li><a href="/val-de-loire/ciudades/nantes/lugares-interesantes/festival-vinos-saumur.php" class="hover:underline">Festival de vinos en Saumur</a></li>
+                    <li><a href="/val-de-loire/ciudades/saumur/festival-vinos.php" class="hover:underline">Festival de vinos en Saumur</a></li>
                     <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
                 </ul>
             </section>            
