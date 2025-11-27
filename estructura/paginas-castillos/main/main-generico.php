@@ -12,37 +12,37 @@
     <!-- CONTENIDO PRINCIPAL -->
     <div class="lg:col-span-6 w-full max-w-full overflow-y-auto space-y-1 p-1">
 
-<nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
-  <!-- Breadcrumb a la izquierda -->
-  <ol class="flex flex-wrap items-center gap-2">
-    <li><a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a></li>
-    <li class="text-gray-400">/</li>
-    <li><a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a></li>
-    <li class="text-gray-400">/</li>
-    <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
-  </ol>
+      <nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
+        <!-- Breadcrumb a la izquierda -->
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a></li>
+          <li class="text-gray-400">/</li>
+          <li><a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a></li>
+          <li class="text-gray-400">/</li>
+          <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
+        </ol>
 
-  <!-- Enlace del mapa a la derecha -->
-<a href="#" id="openMapLink" 
-   class="flex items-center gap-1 text-emerald-700 font-semibold underline hover:text-emerald-800 transition">
-  
-  <!-- Icono Google Maps -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" 
-       class="w-5 h-5">
-    <path fill="#4285F4" d="M187.5 0h-119C30.7 0 0 30.7 0 68.5v119C0 225.3 30.7 256 68.5 256h119c37.8 0 68.5-30.7 68.5-68.5v-119C256 30.7 225.3 0 187.5 0z"/>
-    <path fill="#34A853" d="M128 38c-33.1 0-60 26.9-60 60 0 46.5 60 120 60 120s60-73.5 60-120c0-33.1-26.9-60-60-60z"/>
-    <circle cx="128" cy="98" r="28" fill="#FBBC04"/>
-    <path fill="#EA4335" d="M188 98c0 33.1-26.9 60-60 60s-60-26.9-60-60 26.9-60 60-60 60 26.9 60 60z"/>
-  </svg> Google Maps
-</a>
-</nav>
+        <!-- Enlace del mapa a la derecha -->
+        <a href="#" id="openMapLink"
+          class="flex items-center gap-1 text-emerald-700 font-semibold underline hover:text-emerald-800 transition">
 
-<!-- línea decorativa debajo, ancho completo -->
-<div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
+          <!-- Icono Google Maps -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+            class="w-5 h-5">
+            <path fill="#4285F4" d="M187.5 0h-119C30.7 0 0 30.7 0 68.5v119C0 225.3 30.7 256 68.5 256h119c37.8 0 68.5-30.7 68.5-68.5v-119C256 30.7 225.3 0 187.5 0z" />
+            <path fill="#34A853" d="M128 38c-33.1 0-60 26.9-60 60 0 46.5 60 120 60 120s60-73.5 60-120c0-33.1-26.9-60-60-60z" />
+            <circle cx="128" cy="98" r="28" fill="#FBBC04" />
+            <path fill="#EA4335" d="M188 98c0 33.1-26.9 60-60 60s-60-26.9-60-60 26.9-60 60-60 60 26.9 60 60z" />
+          </svg> Google Maps
+        </a>
+      </nav>
+
+      <!-- línea decorativa debajo, ancho completo -->
+      <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
 
 
-    
+
 
 
       <!-- Modal Google Maps -->
