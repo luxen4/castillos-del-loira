@@ -60,6 +60,20 @@ http://localhost/val-de-loire/castillos-val-de-loire.php
 Hacer un carrusel de anuncios de tourguide
 https://www.getyourguide.com/loire-valley-chateaux-l7956/chambord-skip-the-line-chateau-de-chambord-ticket-t183794/?ranking_uuid=75047625-26bb-46be-b7b7-c44688c51de4&utm_medium=sharing&utm_campaign=activity_details_desktop
 
+
+En ciudades/saumur/festival-vinos.php queda de desarrollar el carrusel de artículos en la parte baja.
+
+(Para subir a produción, deben quedar presentables y noa medias)
+Meter esto donde haga falta // ... a dersarrollar ... //
+
+
+
+Relación de Webs
+    ciudades/saumur/festival-vinos.php  (Hecha 3/5)
+
+
+
+
 🎠
 🔰 🏰 (castillo)
 🗼 🗼 (torre tipo Eiffel)

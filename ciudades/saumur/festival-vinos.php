@@ -43,6 +43,7 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
         </div>
 
         <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="/val-de-loire/index.php" class="hover:underline">Home</a>
           <a href="#programa" class="hover:underline">Programa</a>
           <a href="#productores" class="hover:underline">Productores</a>
           <a href="#entradas" class="hover:underline">Entradas</a>
@@ -124,7 +125,7 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
         <!-- línea decorativa debajo, ancho completo -->
         <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
-        <article class="space-y-1 w-full max-w-full h-[80vh] overflow-y-auto p-1">
+        <article class="space-y-1 w-full max-w-full h-[109vh] overflow-y-auto p-1">
 
           <article class="bg-white rounded-xl shadow overflow-hidden">
             <img src="https://www.ot-saumur.fr/wp-content/uploads/2023/01/vin-et-vignoble-23-scaled.jpg" alt="Festival de vinos" class="w-full object-cover" />
@@ -174,10 +175,8 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
 
 
             <div class="block lg:hidden">
-              <?php
-              $alineacion = 2;
-              require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php";
-              ?>
+              <?php $alineacion = 2;
+              require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
 
@@ -274,12 +273,12 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
               <div class="p-4 border rounded">
                 <h4 class="font-medium">Entrada general</h4>
                 <p class="text-sm text-gray-600 mt-2">Acceso a zona de stands y conciertos.</p>
-                <div class="mt-3"><a href="#" class="text-sm px-3 py-2 bg-red-700 text-white rounded">Comprar</a></div>
+                <div class="mt-3"><a href="https://boutique.ot-saumur.fr/billetteries-evenements/festivini" class="text-sm px-3 py-2 bg-red-700 text-white rounded">Comprar</a></div>
               </div>
               <div class="p-4 border rounded">
                 <h4 class="font-medium">Pase cata</h4>
                 <p class="text-sm text-gray-600 mt-2">Incluye catas guiadas y guía de bodegas.</p>
-                <div class="mt-3"><a href="#" class="text-sm px-3 py-2 bg-red-700 text-white rounded">Comprar</a></div>
+                <div class="mt-3"><a href="https://boutique.ot-saumur.fr/billetteries-evenements/festivini" class="text-sm px-3 py-2 bg-red-700 text-white rounded">Comprar</a></div>
               </div>
             </div>
           </section>
@@ -327,56 +326,26 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
           </div>
         </div>
 
+        <?php /* Patrocinadores */
+        // ... a dersarrollar ... // 
+        /*
         <div class="bg-white rounded-lg p-4 shadow">
           <h4 class="font-semibold">Patrocinadores</h4>
           <div class="mt-3 grid grid-cols-2 gap-2">
             <div class="h-12 bg-gray-100 rounded flex items-center justify-center text-sm">Sponsor A</div>
             <div class="h-12 bg-gray-100 rounded flex items-center justify-center text-sm">Sponsor B</div>
           </div>
-        </div>
+        </div> */  ?>
 
       </aside>
 
     </div>
 
-    <!-- Leaderboard con carrusel y botón de cerrar -->
-    <div id="leaderboard" class="mt-8 bg-white rounded-lg border p-4 text-center overflow-hidden relative opacity-100 transition-opacity duration-700">
-      <!-- Botón cerrar -->
-      <button id="closeLeaderboard" class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 font-bold">&times;</button>
-
-      <small class="text-xs text-gray-400"><?php /* Publicidad */; ?></small>
-
-      <div class="carousel flex gap-4 animate-marquee">
-        <a href="https://amzn.to/3EGKcQ3" class="block w-100 h-96">
-          <img src="https://m.media-amazon.com/images/I/812ECg25X7L._AC_SY575_.jpg"
-            alt="Imagen 1"
-            class="w-full h-full object-cover rounded">
-        </a>
-
-        <a href="https://amzn.to/3MaLNOt" class="block w-40 h-96">
-          <img src="https://m.media-amazon.com/images/I/61vr30uGwPL._AC_SY741_.jpg"
-            alt="Imagen 2"
-            class="w-full h-full object-cover rounded">
-        </a>
-
-        <a href="#" class="block w-40 h-24">
-          <img src="https://via.placeholder.com/150x90?text=3"
-            alt="Imagen 3"
-            class="w-full h-full object-cover rounded">
-        </a>
+    <?php // ... a dersarrollar ... // 
+    // require $_SERVER["DOCUMENT_ROOT"] . '/val-de-loire/anuncios/carrusel-leaderboard.php'; 
+    ?>
 
 
-
-
-        <img src="https://via.placeholder.com/150x90?text=3" alt="Imagen 3" class="w-40 h-24 object-cover rounded">
-        <img src="https://via.placeholder.com/150x90?text=4" alt="Imagen 4" class="w-40 h-24 object-cover rounded">
-        <img src="https://via.placeholder.com/150x90?text=5" alt="Imagen 5" class="w-40 h-24 object-cover rounded">
-        <!-- repetir para efecto infinito -->
-        <img src="https://via.placeholder.com/150x90?text=1" alt="Imagen 1" class="w-40 h-24 object-cover rounded">
-        <img src="https://via.placeholder.com/150x90?text=2" alt="Imagen 2" class="w-40 h-24 object-cover rounded">
-        <img src="https://via.placeholder.com/150x90?text=3" alt="Imagen 3" class="w-40 h-24 object-cover rounded">
-      </div>
-    </div>
     </div>
 
     <style>
@@ -439,16 +408,29 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
     <!-- Footer -->
     <footer class="mt-10 border-t pt-6 pb-12 text-sm text-gray-600">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+
         <div>
           <p>© Festival de Vinos de Saumur</p>
           <p class="mt-1">Saumur, Valle del Loira</p>
+          <p class="mt-1">Diseño web: <span class="font-medium">Adrián Laya García</span></p>
+          <p id="contacto" class="mt-1">
+            Contacto:
+            <a href="mailto:superlaya50@gmail.com" class="underline hover:text-gray-800">
+              superlaya50@gmail.com.com
+            </a>
+          </p>
         </div>
+
         <div class="flex items-center gap-4">
-          <a href="#" class="underline">Cómo llegar</a>
-          <a href="#" class="underline">Aviso legal</a>
+          <?php /* <a href="#" class="underline">Cómo llegar</a> */ ?>
+          <a href="/val-de-loire/index.php" class="underline hover:text-gray-800">Home</a>
+          <a href="/val-de-loire/ciudades/saumur.php" class="underline hover:text-gray-800">Saumur</a>
+          <?php /* <a href="#" class="underline hover:text-gray-800">Aviso legal</a> */ ?>
         </div>
+
       </div>
     </footer>
+
   </main>
 </body>
 

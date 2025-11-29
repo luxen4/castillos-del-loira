@@ -1,3 +1,8 @@
+<?php 
+$sitio_web = "https://alayag82.kesug.com/val-de-loire";
+
+?>
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -17,6 +22,12 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@tu_twitter" />
   <meta name="theme-color" content="#0f766e" />
+
+  <link rel="icon" href="<?= $sitio_web; ?>/assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= $sitio_web; ?>/assets/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= $sitio_web; ?>/assets/logo.png">
+  <link rel="apple-touch-icon" href="<?= $sitio_web; ?>/assets/logo.png">
+
 
   <!-- Tailwind CDN (prototipo) -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -58,10 +69,10 @@
       <div class="hidden md:flex items-center gap-4">
         <nav class="flex gap-4">
           <a href="/val-de-loire" class="hover:underline">Inicio</a>
-          <a href="/val-de-loire/castillos-val-de-loire.php" class="hover:underline">Castillos</a>
-          <a href="/val-de-loire/alojamientos-val-de-loire.php" class="hover:underline">Alojamientos</a>
+          <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline">Castillos</a>
+          <a href="/val-de-loire/general/alojamientos.php" class="hover:underline">Alojamientos</a>
         </nav>
-        <a href="/val-de-loire/contacto.php" class="inline-flex items-center gap-2 bg-white text-emerald-700 px-3 py-1 rounded shadow-sm hover:shadow">Contacto <i class="fa-solid fa-envelope"></i></a>
+        <a href="/val-de-loire/contacto.html" class="inline-flex items-center gap-2 bg-white text-emerald-700 px-3 py-1 rounded shadow-sm hover:shadow">Contacto <i class="fa-solid fa-envelope"></i></a>
       </div>
 
       <button id="btn-menu" class="md:hidden p-2 rounded bg-emerald-600" aria-label="Abrir menú">
@@ -73,7 +84,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-emerald-700 px-6 pb-4">
       <nav class="flex flex-col gap-2">
         <a href="/val-de-loire" class="py-2">Inicio</a>
-        <a href="/val-de-loire/castillos-val-de-loire.php" class="py-2">Castillos</a>
+        <a href="/val-de-loire/index/castillos-val-de-loire.php" class="py-2">Castillos</a>
         <a href="/val-de-loire/alojamientos-val-de-loire.php" class="py-2">Alojamientos</a>
         <a href="/val-de-loire/contacto.php" class="py-2">Contacto</a>
       </nav>
@@ -202,13 +213,32 @@
 
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-gray-300 py-8 mt-12">
-    <div class="container mx-auto px-6 text-center">
-      <p>&copy; <span id="year"></span> Val de Loire | Turismo</p>
-      <p class="mt-2"><a href="mailto:superlaya50@gmail.com" class="hover:text-white">📧 superlaya50@gmail.com</a></p>
+<!-- Footer -->
+<footer class="mt-10 bg-emerald-700 text-emerald-100 pt-6 pb-6 text-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    
+    <!-- Columna izquierda -->
+    <div>
+      <p class="font-medium">© Agenda & Eventos del Valle del Loira</p>
+      <?php /* <p class="mt-1">Alojamientos, Valle del Loira</p> */ ?>
+
+      <!-- Tu info -->
+      <p class="mt-3">
+        Web creada por  <a href="/val-de-loire/contacto.html" class="underline hover:text-white">
+          <span class="font-semibold">Adrián Laya García</span>
+        </a>
+      </p>
     </div>
-  </footer>
+
+    <!-- Enlaces -->
+    <div class="flex items-center gap-4">
+      <a href="/val-de-loire/index.html" class="underline hover:text-white">Home</a>
+      <?php /* <a href="#" class="underline hover:text-white">Aviso legal</a> */ ?>
+    </div>
+
+  </div>
+</footer>
+
 
   <!-- JSON-LD placeholder (will be updated by JS) -->
   <script type="application/ld+json" id="jsonld-web"></script>

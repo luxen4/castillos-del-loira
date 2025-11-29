@@ -34,6 +34,7 @@ $reviewCount = "214";
   <meta name="keywords" content="<?= htmlspecialchars($keywords) ?>" />
   <meta name="author" content="<?= htmlspecialchars($author) ?>" />
   <link rel="canonical" href="<?= htmlspecialchars($canonical) ?>" />
+  
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="<?= htmlspecialchars($siteName) ?>">

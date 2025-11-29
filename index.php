@@ -150,14 +150,7 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
 
 
       <?php
-      require  $_SERVER["DOCUMENT_ROOT"] . '/val-de-loire/paginas/index/main/sections/data-datos-rapidos.php'; ?>
-
-
-
-
-
-
-
+      require $_SERVER["DOCUMENT_ROOT"] . '/val-de-loire/paginas/index/main/sections/data-datos-rapidos.php'; ?>
 
       <section id="mejor-epoca" class="mt-10">
         <h3 class="text-2xl font-bold text-gray-700 mb-4">🗓️ Mejor época para visitar</h3>
