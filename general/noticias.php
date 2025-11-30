@@ -143,7 +143,7 @@ if (($handle = fopen($csv_path, "r")) !== false) {
 
 
 
-  <main class="container mx-auto px-4 py-8">
+  <main class="container mx-auto px-1 py-2">
     <div class="flex flex-col lg:flex-row gap-6">
 
       <!-- ASIDE lateral (visible en desktop) -->
@@ -155,9 +155,8 @@ if (($handle = fopen($csv_path, "r")) !== false) {
           <li><a href="/val-de-loire/general/oficinas-turismo-val-de-loire.php" class="hover:underline">Oficinas de turismo</a></li>
         </ul>
 
-                <?php 
-        $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
+          <?php $alineacion = 2;
+          require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
       </aside>
 
       <!-- LISTA DE NOTICIAS (centro) -->
@@ -192,10 +191,8 @@ if (($handle = fopen($csv_path, "r")) !== false) {
           <?php endforeach; ?>
         </div>
 
-                            <?php $numeroAleatorio = 0;
-        $archivoPublicidad = "botas_hombre";
-        $alineacion = 4;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
+                                 <?php $alineacion = 4;
+          require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 
         <!-- Paginación simple (placeholder) -->
         <div class="mt-8 flex justify-center">

@@ -84,3 +84,6 @@ Relación de Webs
 Buenas páginas 
 https://www.vinos-fr.com/val-de-loire/?A=aoc-saumur-champigny
 https://francerent.com/es/destinations/Blois?srsltid=AfmBOoqPYIrOztp8trepC6XX9cFBUJzKtVtIA_llch5WD5tkIQq7tdcF
+
+Para poner en contacto:
+<?php /* Soy el autor y mantenedor de este proyecto sobre el Valle del Loira. Escribo guías, rutas y contenidos turísticos con la intención de facilitar planes y experiencias a viajeros interesados en la región.</p> */; ?>

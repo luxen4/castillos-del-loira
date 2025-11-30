@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <article class="space-y-1 w-full max-w-full h-[80vh] overflow-y-auto p-1">
+      <article class="space-y-1 w-full max-w-full h-[148vh] overflow-y-auto p-1">
 
 
 

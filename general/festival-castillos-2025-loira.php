@@ -60,11 +60,8 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-lg border p-4">
-          <h4 class="font-semibold">Publicidad</h4>
-          <div class="mt-4 h-36 bg-gray-100 rounded flex items-center justify-center text-sm text-gray-500">
-            Espacio publicitario 300×250
-          </div>
+        <div class="bg-white rounded-lg border">
+            <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
         </div>
 
         <div class="bg-white rounded-lg p-4 shadow">
@@ -210,6 +207,8 @@
             </div>
           </article>
 
+          <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+
           <!-- Château 3 -->
           <article class="bg-white p-4 rounded-lg border">
             <div class="flex gap-4">
@@ -271,11 +270,10 @@
           <p class="text-sm text-gray-500 mt-2">Mapa interactivo (integración opcional con Leaflet/Mapbox).</p>
         </div>
 
-        <div class="bg-white rounded-lg p-4 border">
-          <h4 class="font-semibold">Publicidad</h4>
-          <div class="mt-4 h-36 bg-gray-100 rounded flex items-center justify-center text-sm text-gray-500">
-            Espacio publicitario 300×250
-          </div>
+               
+
+        <div class="bg-white rounded-lg border">
+          <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
         </div>
 
         <div class="bg-white rounded-lg p-4 shadow">
@@ -314,6 +312,9 @@
         </div>
       </div>
     </section>
+
+     <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+
 
     <footer id="entradas" class="mt-10 border-t pt-6 pb-12 text-sm text-gray-600">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
