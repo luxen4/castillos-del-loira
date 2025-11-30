@@ -1,57 +1,17 @@
+<?php 
+$title = "Rutas Valle del Loira 🌿 | Castillos, vino y naturaleza";
+$carpeta = "general";
+$slug = "rutas-loire";
+$nombreLugar = "Rutas por el Valle del Loira"; $keywords = "Rutas Valle del Loira, Castillos Loira, Vino Valle del Loira, Gastronomía Loira, Naturaleza Loira, Turismo Loira, Loire à Vélo, Cicloturismo Loira, Paisajes Valle del Loira";
+$descripcion = "Descubre las mejores rutas por el Valle del Loira: castillos como Chambord, Chenonceau, Amboise, gastronomía francesa, vino y paisajes inolvidables.";
+$imagenHero = "https://alayag82.kesug.com/val-de-loire/assets/logo.png";
+$sitio_web = "https://alayag82.kesug.com/val-de-loire";
+$twitter = "@tu_twitter";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <!-- SEO -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Descubre las mejores rutas por el Valle del Loira: castillos como Chambord, Chenonceau, Amboise, gastronomía francesa, vino y paisajes inolvidables.">
-    <meta name="keywords"
-        content="Valle del Loira, Castillos del Loira, Francia, Turismo, Rutas, Viajes, Cicloturismo, Chambord, Chenonceau, Amboise">
-    <meta name="author" content="Adrián Laya García">
-
-    <!-- Social / Open Graph -->
-    <meta property="og:title" content="Rutas por el Valle del Loira — Castillos, naturaleza y vino">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://tuweb.com/imagenes/og-portada.jpg">
-    <meta property="og:url" content="https://tuweb.com/valle-del-loira">
-    <meta property="og:description"
-        content="Ruta completa por el Valle del Loira. Explora los castillos más bellos de Francia.">
-
-    <!-- JSON-LD Schema SEO -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Ruta turística por el Valle del Loira",
-            "description": "Recorrido por castillos, naturaleza y pueblos del Valle del Loira.",
-            "image": "https://tuweb.com/imagenes/og-portada.jpg",
-            "url": "https://tuweb.com/valle-del-loira",
-            "itinerary": [{
-                    "@type": "Place",
-                    "name": "Château de Chambord"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Château de Chenonceau"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Château de Amboise"
-                }
-            ]
-        }
-    </script>
-
-    <title>Rutas Valle del Loira 🌿 | Castillos, vino y naturaleza</title>
-
-    <!-- TailwindCSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
 
 <body class="bg-gray-100 text-gray-800 font-sans">
 
@@ -81,16 +41,7 @@
 
         <!-- ASIDE IZQUIERDO (anuncio) -->
         <aside class="hidden lg:block col-span-2">
-            <div class="sticky top-6 bg-white shadow-lg rounded-lg p-4">
-                <p class="text-sm font-semibold mb-3 text-gray-500">— Publicidad —</p>
-                <div class="w-full h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                    AD 160×600
-                            <?php $numeroAleatorio = 0;
-        $archivoPublicidad = "botas_hombre";
-        $alineacion = 2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
-                </div>
-            </div>
+            <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
         </aside>
 
         <!-- ✅ CONTENIDO PRINCIPAL -->
@@ -257,7 +208,7 @@
                     <li><a href="#" class="hover:underline">Amboise</a></li>
                 </ul>
                 <hr class="my-4" />
-                <div class="h-24 bg-gray-100 rounded flex items-center justify-center text-gray-500">AD 160×600</div>
+                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
         </aside>
