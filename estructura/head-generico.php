@@ -1,4 +1,4 @@
-<?php $sitio_web = "https://alayag82.kesug.com/val-de-loire"; ?>
+<?php $web_site = "https://alayag82.kesug.com/val-de-loire"; ?>
 <head>
   <!-- ✅ Título -->
   <title><?= $nombreLugar ?> | Valle del Loira</title>
@@ -18,16 +18,16 @@
   <meta name="google-site-verification" content="64zT14bhNAiyx4jzOrlbe6Wd6efBXIs-UI7WD3frNBM" />
 
   <!-- ✅ Canonical y multilenguaje -->
-  <link rel="canonical" href="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
-  <link rel="alternate" hreflang="es" href="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
-  <link rel="alternate" hreflang="fr" href="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
-  <link rel="alternate" hreflang="en" href="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
+  <link rel="canonical" href="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="es" href="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="fr" href="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
+  <link rel="alternate" hreflang="en" href="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
 
   <!-- ✅ Favicon -->
-  <link rel="icon" href="<?= $sitio_web; ?>/assets/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?= $sitio_web; ?>/assets/logo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?= $sitio_web; ?>/assets/logo.png">
-  <link rel="apple-touch-icon" href="<?= $sitio_web; ?>/assets/logo.png">
+  <link rel="icon" href="<?= $web_site; ?>/assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= $web_site; ?>/assets/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= $web_site; ?>/assets/logo.png">
+  <link rel="apple-touch-icon" href="<?= $web_site; ?>/assets/logo.png">
 
   <!-- ✅ Preload de recursos -->
   <link rel="preload" as="image" href="<?= $imagenHero ?>">
@@ -37,8 +37,8 @@
   <meta property="og:title" content="<?= $nombreLugar ?> | Valle del Loira">
   <meta property="og:description" content="<?= $descripcion ?>">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="<?= $sitio_web; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
-  <meta property="og:image" content="<?= $sitio_web; ?>/assets/logo.png">
+  <meta property="og:url" content="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
+  <meta property="og:image" content="<?= $web_site; ?>/assets/logo.png">
   <meta property="og:site_name" content="Valle del Loira Turismo">
   <meta property="og:locale" content="es_ES">
 

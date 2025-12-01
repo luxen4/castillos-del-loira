@@ -43,19 +43,19 @@
           "@type": "Winery",
           "name": "Ruta oficial de vinos del Valle del Loira",
           "description": "Bodegas abiertas a visitas, degustaciones y recorridos subterráneos.",
-          "url": "<?= $web_site; ?>ruta-de-vinos"
+          "url": "<?= $web_site; ?>general/ruta-de-vinos/index.php"
         },
         {
           "@type": "Winery",
           "name": "Bourgueil",
           "description": "Cuna del vino tinto del Loira; bodegas subterráneas y Cabernet Franc.",
-          "url": "<?= $web_site; ?>bourgueil"
+          "url": "<?= $web_site; ?>general/bourgueil/index.php"
         },
         {
           "@type": "FoodEstablishment",
           "name": "Gastronomía del Valle del Loira",
           "description": "Quesos locales, foie, repostería tradicional y productos de mercado.",
-          "url": "<?= $web_site; ?>gastronomia"
+          "url": "<?= $web_site; ?>general/gastronomia/index.php"
         }
       ]
     },
@@ -68,19 +68,19 @@
           "@type": "TouristAttraction",
           "name": "Ruta Loire à Vélo",
           "description": "Ruta ciclista de 900 km siguiendo el río Loira.",
-          "url": "<?= $web_site; ?>loire-a-velo"
+          "url": "<?= $web_site; ?>general/loire-a-velo/index.php"
         },
         {
           "@type": "TouristDestination",
           "name": "Naturaleza y espacios protegidos del Loira",
           "description": "Reservas naturales, humedales y zonas de aves migratorias.",
-          "url": "<?= $web_site; ?>naturaleza"
+          "url": "<?= $web_site; ?>general/naturaleza/index.php"
         },
         {
           "@type": "TouristAttraction",
           "name": "Senderos y miradores del Valle del Loira",
           "description": "Caminos señalizados ideales para fotografía y excursiones.",
-          "url": "<?= $web_site; ?>senderos"
+          "url": "<?= $web_site; ?>general/senderos/index.php"
         }
       ]
     },
@@ -139,7 +139,7 @@ Ejemplo para rutas-loire.php: */ ?>
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Inicio",
+      "name": "Val-de-Loire",
       "item": "https://alayag82.kesug.com/val-de-loire/"
     },
     {
