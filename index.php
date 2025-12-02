@@ -86,7 +86,7 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
 
         <p>
           Recorre las
-          <a href="/val-de-loire/general/rutas-loire.php"
+          <a href="/val-de-loire/general/rutas-loire/index.php"
             class="text-emerald-600 font-semibold underline hover:text-emerald-800 transition">
             Rutas
           </a>

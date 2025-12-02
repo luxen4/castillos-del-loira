@@ -36,6 +36,7 @@
                 <li><a href="/val-de-loire" class="block py-2 px-4 hover:underline">🏠 Inicio</a></li>
 
                 <li><a href="#informacion" class="block py-2 px-4 hover:underline">ℹ️ Información</a></li>
+                <li><a href="/val-de-loire/general/rutas-loire/index.php" class="hover:underline">🚴 Rutas</a></li>
 
                 <?php /*
                 <!-- Dropdown Alojamientos -->

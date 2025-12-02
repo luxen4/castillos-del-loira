@@ -1,5 +1,3 @@
-
-
 <!-- 🔹 Footer -->
 <footer class="bg-emerald-800 text-gray-300 text-center py-1 mt-1">
     <div class="container mx-auto px-1 space-y-1">
