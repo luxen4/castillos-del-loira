@@ -1,5 +1,5 @@
 <?php
-$title = "Rutas Valle del Loira 🌿 | Castillos, vino y naturaleza";
+$title = "🌿 Rutas entre Castillos, vino y naturaleza";
 $carpeta = "general";
 $slug = "rutas-loire";
 $nombreLugar = "Rutas por el Valle del Loira";
@@ -32,7 +32,6 @@ $a_style_emerald_700_semibold_hover_underline='text-emerald-700 font-semibold ho
 
             <nav class="hidden md:flex gap-6 text-sm font-medium">
                 <a href="/val-de-loire/index.php" class="hover:underline"><i class="fas fa-home"></i> Inicio</a>
-                <a href="/val-de-loire/general/rutas-loire/index.php" class="hover:underline">🚴 Rutas</a>
             </nav>
 
         </div>
@@ -49,7 +48,7 @@ $a_style_emerald_700_semibold_hover_underline='text-emerald-700 font-semibold ho
     </h3>
 
     <nav class="flex flex-col space-y-3 text-emerald-700 font-medium">
-
+        
         <a href="#ruta-castillos-imprescindibles" 
            class="flex items-center gap-2 hover:text-emerald-900 hover:underline">
             🏰 Castillos imprescindibles
@@ -71,6 +70,8 @@ $a_style_emerald_700_semibold_hover_underline='text-emerald-700 font-semibold ho
         </a>
 
     </nav>
+
+    <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 </aside>
 
 <!-- Botón móvil para abrir el menú lateral -->
@@ -91,12 +92,10 @@ $a_style_emerald_700_semibold_hover_underline='text-emerald-700 font-semibold ho
     </h3>
 
     <nav class="flex flex-col space-y-3 text-emerald-700 font-medium">
-
         <a href="#ruta-castillos-imprescindibles" class="hover:underline">🏰 Castillos imprescindibles</a>
         <a href="#ruta-vino-gastronomia" class="hover:underline">🍷 Vinos del Loira & Gastronomía</a>
         <a href="#ruta-rios-paisajes" class="hover:underline">🌿 Ríos y Paisajes del Valle</a>
         <a href="#ruta-loire-a-velo" class="hover:underline">🚴‍♂️ “La Loire à Vélo”</a>
-
     </nav>
 </div>
 
@@ -338,6 +337,24 @@ document.getElementById("closeAsideBtn").addEventListener("click", () => {
 
         </aside>
     </div>
+
+    <style>
+/* Scrollbar elegante */
+.custom-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+    background: #e5e7eb; /* gris claro */
+    border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #059669; /* emerald-600 */
+    border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #047857; /* emerald-700 */
+}
+</style>
 
 
 

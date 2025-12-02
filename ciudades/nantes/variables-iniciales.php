@@ -1,7 +1,7 @@
 <?php
 $nombreLugar = "Nantes";
 $ciudad = "Nantes";
-$slug = "nantes"; $slug_castillos_cercanos_csv = 'ciudad-nantes';
+$slug = "nantes"; $slug_castillos_cercanos_csv = 'ciudad-nantes'; 
 $carpeta='chateaux';
 $slug_Mayuscula = "Nantes";
 $descripcion = "Capital histórica del Ducado de Bretaña, <strong>Nantes</strong> es una ciudad vibrante situada en el estuario del <strong>Loira</strong>. 

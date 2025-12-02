@@ -1,6 +1,6 @@
 <?php
 $nombreLugar = "Orléans";
-$ciudad = "Orléans";          $slug = "orleans"; 
+$ciudad = "Orléans";          $slug = "orleans"; $slug_castillos_cercanos_csv= 'ciudad-de-orleans';
 $carpeta='chateaux';
 $slug_Mayuscula = "Orleans";
 $descripcion = "Orléans, situada a orillas del majestuoso río Loira, es una de las ciudades más emblemáticas de Francia. 

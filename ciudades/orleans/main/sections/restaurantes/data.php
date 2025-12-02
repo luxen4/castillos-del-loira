@@ -60,7 +60,7 @@ echo '
     un espacio elegante cerca del casco histórico, conocido por su ambiente acogedor y sus platos modernos con toques creativos. 
     Por último, 
     <a href="https://www.facebook.com/lebrindezincorleans/" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:underline font-semibold">Le Brin de Zinc</a> 
-    es un bistró moderno muy popular entre los locales, ideal para disfrutar de buena comida y vinos del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a> en un ambiente relajado.
+    es un bistró moderno muy popular entre los locales, ideal para disfrutar de buena comida y vinos del <a class="text-emerald-600 font-semibold underline hover:text-emerald-800 transition" href="/val-de-loire/index.php"><strong>Valle del Loira</strong></a> en un ambiente relajado.
   </p>
   <p class="mt-4 text-gray-600 text-sm italic">
     👉 Consejo: acompaña tus platos con un <strong>vino de Orléans-Cléry</strong> o prueba las <strong>rillettes d’Orléans</strong> en alguna terraza junto al Loira.
