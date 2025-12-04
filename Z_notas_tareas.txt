@@ -95,3 +95,8 @@ Para incluir como valle del loira -> https://www.valdeloire-france.com/
 
 Para poner en contacto:
 <?php /* Soy el autor y mantenedor de este proyecto sobre el Valle del Loira. Escribo guías, rutas y contenidos turísticos con la intención de facilitar planes y experiencias a viajeros interesados en la región.</p> */; ?>
+
+
+
+Dibujo
+    Aprender a dibujar la anátomía principal a tablet y gran resolución con GIMP

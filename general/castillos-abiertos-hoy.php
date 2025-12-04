@@ -30,6 +30,7 @@
   </header>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
       <!-- Left aside -->
       <aside class="lg:col-span-3 space-y-6">
@@ -60,8 +61,12 @@
         </div>
       </aside>
 
+
+
       <!-- Main content -->
-      <section class="lg:col-span-6 space-y-6">
+  <section class="lg:col-span-6 space-y-6">
+      <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/a-componentes/boton-volver-generico.php'; ?>
+      
         <article class="bg-white p-4 rounded-xl shadow">
           <div class="flex items-center justify-between">
             <div>

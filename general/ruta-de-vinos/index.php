@@ -97,6 +97,22 @@ html { scroll-behavior: smooth; }
         <p class="text-gray-600">Vinos biodinámicos entre los más prestigiosos del Loira.</p>
       </div>
 
+<div class="p-5 bg-white shadow rounded-xl border">
+  <p class="text-sm text-gray-500 mt-1">
+    Puedes visitar la web oficial para más información: 
+    <a href="https://www.vinsvaldeloire.fr/es" target="_blank"
+       class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
+       🍇 Ruta oficial de vinos del Valle del Loira 🍇
+    </a>
+  </p>
+</div>
+
+
+
+
+
+
+
     </div>
   </section>
 
