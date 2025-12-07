@@ -9,10 +9,9 @@ function crearFAQ($pregunta, $respuesta) {
 }
 ?>
 
-<section class="max-w-4xl mx-auto py-10">
+<section id="faqs" class="max-w-4xl mx-auto py-10">
   <h2 class="text-2xl font-bold text-emerald-700 mb-6">
-    Preguntas frecuentes sobre el Castillo de <?= $carpeta='chateaux';
-$slug_Mayuscula; ?>
+    Preguntas frecuenteds sobre el Castillo de <?= $slug_Mayuscula; ?>
   </h2>
 
   <div class="space-y-4">

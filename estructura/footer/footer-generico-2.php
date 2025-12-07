@@ -1,5 +1,6 @@
 <!-- ✅ FOOTER -->
 <footer class="mt-1 py-6 bg-emerald-700 text-emerald-100 text-center text-sm">
+  
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 
               flex flex-col md:flex-row 
               items-center md:items-start 
@@ -31,6 +32,8 @@
       <a href="#" class="hover:underline">Privacidad</a>
       <a href="/val-de-loire/index.php" class="underline hover:text-white">Home</a>
     </div>
+
+
 
   </div>
 </footer>

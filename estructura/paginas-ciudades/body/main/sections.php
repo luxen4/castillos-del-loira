@@ -59,7 +59,7 @@ foreach ($sections as $slug_section_main_title) {
     $archivo_csv = 'castillos-cercanos.csv';
     $slug_filtrado = $slug_castillos_cercanos_csv;
     require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; ?>
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/castillos-cercanos/template.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/template-castillos-cercanos-generico.php"; ?>
 
     <!-- 🔗 Enlaces útiles -->
     <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">

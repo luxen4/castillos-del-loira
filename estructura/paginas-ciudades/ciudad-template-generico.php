@@ -7,7 +7,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
 
 
 <body class="flex flex-col min-h-screen bg-gray-50 text-gray-800 ">
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+    <?php $carpeta='chateaux'; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
 
     <!-- 🔹 Hero responsivo -->
@@ -22,13 +22,12 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
         </div>
     </section>
 
-    <!-- 🔹 Contenido Principal -->
-<main class="flex-1 h-screen lg:h-screen container mx-auto px-1 py-12 grid lg:grid-cols-12 gap-10">
 
+<!-- 🔹 Contenido Principal -->
+<main class="flex-1 h-screen lg:h-screen container mx-auto max-w-[1900px] px-1 py-12 grid lg:grid-cols-12 gap-10">
 
         <!-- 📢 ASIDE IZQUIERDO -->
-<aside class="space-y-8 hidden lg:block lg:col-span-3 h-full overflow-y-auto">
-
+        <aside class="space-y-8 hidden lg:block lg:col-span-3 h-full overflow-y-auto">
             <!-- 🔗 Enlaces útiles -->
             <?php if (!empty($enlaces)): ?>
                 <section class="bg-white p-6 rounded-2xl shadow">
@@ -45,49 +44,30 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                 </section>
             <?php endif; ?>
 
-
             <!-- 💰 Publicidad aside izquierdo -->
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
                 <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
+            <!-- 📰 Noticias -->
+            <section class="bg-white rounded-2xl shadow p-6">
+                <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
+                <ul class="space-y-3 text-sm text-gray-700">
+                    <li>
+                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
+                            Exposiciones en el Castillo de Chambord
+                        </a>
+                    </li>
+                    <li><a href="/val-de-loire/ciudades/saumur/festival-vinos.php" class="hover:underline">Festival de vinos en Saumur</a></li>
+                    <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
+                </ul>
+            </section>  
 
-
-
-  <div class="max-w-5xl mx-auto px-1">
-
-    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">🏰 Otros castillos y recursos útiles</h2>
-
-    <!-- 🔹 Lista de otros castillos -->
-    <div class="grid sm:grid-cols-2 md:grid-cols-1 gap-4 mb-8">
-      <a href="../chateaux/ducks-de-bretagne.php"
-        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
-        <h3 class="font-semibold text-lg text-gray-700">Château des Ducs de Bretagne</h3>
-        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
-      </a>
-
-      <a href="../chateaux/Clisson.php"
-        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
-        <h3 class="font-semibold text-lg text-gray-700">Château de Clisson</h3>
-        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
-      </a>
-
-      <a href="../chateaux/Goulaine.php"
-        class="block bg-white hover:bg-blue-50 border border-gray-200 rounded-lg shadow-sm p-1 transition-all duration-300 hover:shadow-md">
-        <h3 class="font-semibold text-lg text-gray-700">Château de Goulaine</h3>
-        <p class="text-sm text-blue-600 mt-1">Ver más →</p>
-      </a>
-    </div>
-  </div>
-
-
-        <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
-
-
+            <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
         </aside>
 
         <!-- 🏙️ ARTÍCULO PRINCIPAL -->
-        <article class="lg:col-span-6 overflow-y-auto" style="max-height: 80vh; padding-right: 1rem;">
+        <article class="lg:col-span-7 overflow-y-auto" style="max-height: 95vh; padding-right: 1rem;">
             <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4">
                 <?= $ciudad ?> en el Valle del Loira
             </h3>
@@ -99,6 +79,11 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
             </div>
 
             <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
+
+
+            <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
+                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+            </div>
 
             <!-- 🌆 Sección integrada en el contenido principal -->
             <section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
@@ -137,34 +122,13 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
         </article>
 
         <!-- 📢 ASIDE DERECHO -->
-        <aside class="space-y-8 lg:col-span-3">
+        <aside class="space-y-8 lg:col-span-2">
 
-            <!-- 📰 Noticias -->
-            <section class="bg-white rounded-2xl shadow p-6">
-                <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
-                <ul class="space-y-3 text-sm text-gray-700">
-                    <li>
-                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
-                            Exposiciones en el Castillo de Chambord
-                        </a>
-                    </li>
-                    <li><a href="/val-de-loire/ciudades/saumur/festival-vinos.php" class="hover:underline">Festival de vinos en Saumur</a></li>
-                    <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
-                </ul>
-            </section>            
+          
             <!-- 💰 Publicidad aside derecho -->
-            <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
-            </div>
             <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
 
-            <!-- 💰 Publicidad larga -->
-            <div class="bg-gray-100 border rounded-2xl p-4 text-center shadow-sm">
-                <p class="text-gray-500 text-sm mb-2">Anuncio patrocinado</p>
-                <div class="bg-white rounded-lg h-60 flex items-center justify-center">
-                    <span class="text-gray-400 text-sm">Banner adaptable (300x600)</span>
-                </div>
-            </div>
+
 
         </aside>
 

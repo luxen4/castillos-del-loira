@@ -6,7 +6,8 @@ $items = [
     "imagen" => [
       "src" => "https://www.levoyageanantes.fr/wp-content/uploads/2022/03/chateau-ducs-bretagne-nantes.jpg",
       "alt" => "Castillo de los Duques de Bretaña",
-      "fuente" => "https://www.levoyageanantes.fr/fr/lieux/chateau-des-ducs-de-bretagne/",
+      /*"fuente" => "https://www.levoyageanantes.fr/fr/lieux/chateau-des-ducs-de-bretagne/",*/
+      "fuente" => '/val-de-loire/chateaux/ducks-de-bretagne.php',
       "fuente_texto" => "Le Voyage à Nantes"
     ]
   ],
@@ -16,7 +17,8 @@ $items = [
     "imagen" => [
       "src" => "https://photos.smugmug.com/Vallee-loire/Mus%C3%A9e/Nantes-Musee-Arts/i-GtB8rGr/0/1fc4cad5/L/nantes-musee-arts-5-L.jpg",
       "alt" => "Museos de Nantes",
-      "fuente" => "https://loirelovers.fr/es/museos-nantes/",
+      /* "fuente" => "https://loirelovers.fr/es/museos-nantes/", */
+      "fuente" => "/val-de-loire/ciudades/nantes/lugares-interesantes/museos-nantes/index.php",
       "fuente_texto" => "loirelovers.fr"
     ]
   ],
@@ -26,7 +28,8 @@ $items = [
     "imagen" => [
       "src" => "https://www.levoyageanantes.fr/wp-content/uploads/2022/07/Voyage-permanent-a-velo-Nantes-centre-ville-768x439.jpg",
       "alt" => "Bicicletas Nantes",
-      "fuente" => "https://www.levoyageanantes.fr/es/el-viaje-permanente-en-bici/visitar-nantes-en-bici/",
+      /*"fuente" => "https://www.levoyageanantes.fr/es/el-viaje-permanente-en-bici/visitar-nantes-en-bici/",*/
+      "fuente" => "/val-de-loire/general/loire-a-velo/index.php",
       "fuente_texto" => "levoyageanantes.fr"
     ]
   ]

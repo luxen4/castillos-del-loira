@@ -40,7 +40,20 @@ Objetivo:
             Oficinas de turismo  -> http://localhost/val-de-loire/general/oficinas-turismo-val-de-loire.php#informacion
 
 
+7/12/2025
+    Todas las paginas deben tener sus enlaces en perfecto estado, al margen de su estilo y apertura en otra pestaña por comodidad para el usuario.
+        Index ->    Aside izquierdo con etapa 6 ok, "Faltan las otras etapas" 
+                    Aside derecho OK
+                    Main -> Castillos imprescindibles, Chambord OK, los demás deben ir a páginas internas ya que el 
+                            usuario se sale de nuestro site, Ya en cada página dedicada se procede con cada castillo.
+                            En castillos imprescindibles, una tabla de otros 5 castillos y al final el buscador 
+                            que se accede por el enlace de arriba.
+                            Cambiar el footer e incluir lo que tiene ahora.
+                            Simplificar código.
 
+        Nantes -> Maquetación OK
+                    Enlaces que abran en otra pestaña
+                    http://localhost/val-de-loire/ciudades/nantes/lugares-interesantes/museos-nantes/index.php Seguir aquí, schemas(canonical,etc)
 
 
 Control Tareas Mapa || Párrafos con imágenes || Galería Propia

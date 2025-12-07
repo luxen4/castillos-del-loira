@@ -9,22 +9,32 @@ Con una mezcla única de patrimonio medieval, arte contemporáneo y vida urbana 
 
 Su emblema, el 
 <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' 
-  href='/val-de-loire/chateaux/ducks-de-bretagne.php'>
-  Château des Ducs de Bretagne</a>, alberga el museo de historia de la ciudad y domina el centro histórico con su arquitectura imponente. 
+   href='/val-de-loire/chateaux/ducks-de-bretagne.php'
+   target='_blank' 
+   rel='noopener noreferrer'>
+   Château des Ducs de Bretagne
+</a>
+, alberga el museo de historia de la ciudad y domina el centro histórico con su arquitectura imponente. 
 Las calles del barrio de Bouffay, llenas de cafés y restaurantes, invitan a perderse entre fachadas medievales y ambiente bohemio.<br><br>
 
 Nantes también es famosa por sus sorprendentes creaciones artísticas, como las 
 <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' 
-  href='/val-de-loire/ciudades/nantes/lugares-interesantes/las-maquinas-de-la-isla.php'>
+  href='/val-de-loire/ciudades/nantes/lugares-interesantes/las-maquinas-de-la-isla.php'
+  target='_blank' 
+  rel='noopener noreferrer'>
   Machines de l’Île</a>, 
 donde un gigantesco elefante mecánico recorre la ciudad, y por su compromiso con la sostenibilidad y el arte urbano.<br><br>
 Además, su cercanía al océano Atlántico y su animada escena cultural la convierten en una parada imprescindible en cualquier ruta por el 
-<a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'>
-  Valle del Loira</a>.<br><br>
+<a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' 
+href='/val-de-loire/index.php'
+target='_blank' 
+rel='noopener noreferrer'>
+Valle del Loira</a>.<br><br>
 
 Con historia, creatividad y espíritu joven, 
 <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' 
-  href='/val-de-loire/ciudades/nantes.php'>
+  href='/val-de-loire/ciudades/nantes.php'target='_blank' 
+  rel='noopener noreferrer'>
   Nantes</a> combina lo mejor del pasado y del futuro francés en un entorno acogedor y cosmopolita.";
 
 $imagenHero = "https://asset-prod.france.fr/Adobe_Stock_369913603_Editorial_Use_Only_2_b21813ce36.jpeg";

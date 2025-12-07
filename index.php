@@ -1,12 +1,12 @@
-<?php $nombreLugar = "";
+<?php 
+$title='Web-site';
+$nombreLugar = "";
 $descripcion = "Descubre los castillos más impresionantes del Valle del Loira en Francia: Chambord, Chenonceau, Villandri, Cheverny, Ussé y más. Guía de viaje, consejos y rutas.";
 $keywords = "Valle del Loira, castillos Francia, Chambord, Chenonceau, Villandry, turismo Francia, ruta castillos";
 $carpeta = "";
 $slug = "index";
 $imagenHero = "";
 $twitter = "@AdrianTwitter";
-
-
 ?>
 
 <!DOCTYPE html>
@@ -176,9 +176,6 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
 
       <?php require "estructura/index/main/sections/duracion-y-consejos.php"; ?>
 
-
-
-
       <section id="vinos-emblematicos" class="mt-10">
         <h3 class="text-2xl font-bold text-gray-700 mb-6">🍷 Vinos emblemáticos del Valle del Loira</h3>
         <p>La región del Valle del Loira es famosa por sus vinos blancos frescos, tintos elegantes y vinos espumosos. Muscadet en Nantes, Sancerre en el centro, Chinon y Saumur-Champigny son imprescindibles para los amantes del vino.</p>
@@ -271,18 +268,13 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
         <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
 
       </div>
-
-
-
     </aside>
 
   </div>
 
   <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/galeria-imagenes-carrusel-automatico.php"; ?>
-
-
-  <?php require 'estructura/footer/footer-generico.php'; ?>
-
+  <?php // require 'estructura/footer/footer-generico.php'; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/footer/footer-generico-2.php'; ?>
 
 
 

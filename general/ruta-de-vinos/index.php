@@ -15,6 +15,7 @@ $twitter = "@tu_twitter";
 $h2_style = 'text-xl sm:text-2xl md:text-3xl font-bold text-emerald-700 mb-4';
 $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold hover:underline';
 
+
 ?>
 
 
