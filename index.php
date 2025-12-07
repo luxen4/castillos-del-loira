@@ -43,8 +43,8 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
         </h4>
 
         <h4 class="font-semibold text-gray-700 mb-1">
-          <a href="#castillos-destacados" class="hover:text-emerald-700 underline">
-            Castillos Destacados
+          <a href="#castillos-imprescindibles" class="hover:text-emerald-700 underline">
+            Castillos Imprescindibles
           </a>
         </h4>
 
@@ -231,8 +231,8 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
       </section>
 
 
-      <section id="castillos-destacados" class="mt-10">
-        <h3 class="text-2xl font-bold text-gray-700 mb-4">🏰 Castillos Destacados</h3>
+      <section id="castillos-imprescindibles" class="mt-10">
+        <h3 class="text-2xl font-bold text-gray-700 mb-4">🏰 Castillos Imprescindibles</h3>
         <p class="text-gray-700 mb-6">
           El Valle del Loira es conocido como "el jardín de Francia" y alberga más de 300 castillos que nos transportan a épocas de reyes y caballeros.
           Desde majestuosas residencias renacentistas hasta fortalezas medievales, cada castillo tiene su propia historia y encanto único.
@@ -240,8 +240,8 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
         </p>
 
         <div class="grid md:grid-cols-3 gap-4">
-          <?php require 'paginas/index/data/index-castillos-destacados.php'; ?>
-          <?php require 'paginas/index/templates/index-castillos-destacados.php'; ?>
+          <?php require 'paginas/index/data/index-castillos-imprescindibles.php'; ?>
+          <?php require 'paginas/index/templates/index-castillos-imprescindibles.php'; ?>
         </div>
       </section>
 

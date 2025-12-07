@@ -17,7 +17,7 @@
         <ol class="flex flex-wrap items-center gap-2">
           <li><a href="/val-de-loire/" class="hover:text-blue-600 transition-colors">🏰 Val-de-Loire</a></li>
           <li class="text-gray-400">/</li>
-          <li><a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-blue-600 transition-colors">Chateaux</a></li>
+          <li><a href="/val-de-loire/index.php#castillos-imprescindibles" class="hover:text-blue-600 transition-colors">Chateaux</a></li>
           <li class="text-gray-400">/</li>
           <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
         </ol>

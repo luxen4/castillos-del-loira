@@ -71,7 +71,7 @@ foreach ($sections as $slug_section_main_title) {
           </a>
         </li>
         <li>
-          <a href="/val-de-loire/index.php#castillos-destacados" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+          <a href="/val-de-loire/index.php#castillos-imprescindibles" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
             Guia Castillos 🔗
           </a>
         </li>

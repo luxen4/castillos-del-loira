@@ -1,7 +1,7 @@
 <?php
 $title = "🌿 Rutas entre Castillos, vino y naturaleza";
 $carpeta = "general";
-$slug = "rutas-loire";
+$slug = "rutas-loire"; $web_name='';
 $nombreLugar = "Rutas entre castillos, vinos y naturaleza";
 $keywords = "Rutas Valle del Loira, Castillos Loira, Vino Valle del Loira, Gastronomía Loira, Naturaleza Loira, Turismo Loira, Loire à Vélo, Cicloturismo Loira, Paisajes Valle del Loira";
 $descripcion = "Descubre las mejores rutas por el Valle del Loira: castillos como Chambord, Chenonceau, Amboise, gastronomía francesa, vino y paisajes inolvidables.";
@@ -98,22 +98,10 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
         <!-- ✅ CONTENIDO PRINCIPAL -->
         <main class="col-span-12 lg:col-span-6 h-[128vh] overflow-y-auto">
-
-
-<div class="w-full flex items-center justify-between mt-4 mb-4">
-
-    <!-- Breadcrumbs -->
-    <div>
-        <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/main/breadcrums/2niveles-generico.php'; ?>
-    </div>
-
-    <!-- Botón volver -->
-    <div>
-        <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/a-componentes/boton-volver-generico.php'; ?>
-    </div>
-
-</div>
-
+            <div class="w-full flex items-center justify-between mt-4 mb-4">
+                <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/main/breadcrums/2niveles-generico.php'; ?>
+                <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/a-componentes/boton-volver-generico.php'; ?>
+            </div>
 
             <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/general/rutas-loire/main/sections/rutas/index.php'; ?>
 

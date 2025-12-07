@@ -40,7 +40,7 @@
                 </li>
 
                    <li>
-                    <a href="/val-de-loire/index.php#castillos-destacados"
+                    <a href="/val-de-loire/index.php#castillos-imprescindibles"
                        class="hover:text-white hover:underline transition">
                        Castillos
                     </a>

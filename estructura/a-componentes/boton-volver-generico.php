@@ -1,10 +1,12 @@
-<div class="w-full flex justify-end pr-4">
+
+<!-- Enlace de Volver -->
+<div class="flex justify-end pr-4">
     <a href="#" 
-       onclick="volverYAtrasyCerrar(); return false;"
-       class="text-blue-700 underline hover:text-blue-900 text-sm">
+    onclick="volverYAtrasyCerrar(); return false;"
+    class="text-blue-700 underline hover:text-blue-900 text-sm">
         ← Volver
     </a>
-</div>
+</div>    
 
 
 <script>

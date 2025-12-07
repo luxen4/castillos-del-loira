@@ -50,7 +50,7 @@ html { scroll-behavior: smooth; }
     </p>
   </section>
 
-  <!-- DESTACADOS -->
+  <!-- Imprescindibles -->
   <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
 
     <div class="bg-white p-5 shadow rounded-xl border">
@@ -74,7 +74,7 @@ html { scroll-behavior: smooth; }
 
   <!-- LISTA DETALLADA -->
   <section>
-    <h2 class="text-2xl font-bold text-emerald-700 mb-4">Productos gastronómicos destacados</h2>
+    <h2 class="text-2xl font-bold text-emerald-700 mb-4">Productos gastronómicos Imprescindibles</h2>
 
     <div class="space-y-6">
 

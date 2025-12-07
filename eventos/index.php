@@ -69,7 +69,7 @@ $web_site = "https://alayag82.kesug.com/val-de-loire";
       <div class="hidden md:flex items-center gap-4">
         <nav class="flex gap-4">
           <a href="/val-de-loire" class="hover:underline">Inicio</a>
-          <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline">Castillos</a>
+          <a href="/val-de-loire/index.php#castillos-imprescindibles" class="hover:underline">Castillos</a>
           <a href="/val-de-loire/general/alojamientos.php" class="hover:underline">Alojamientos</a>
         </nav>
         <a href="/val-de-loire/contacto.html" class="inline-flex items-center gap-2 bg-white text-emerald-700 px-3 py-1 rounded shadow-sm hover:shadow">Contacto <i class="fa-solid fa-envelope"></i></a>

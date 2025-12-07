@@ -28,14 +28,14 @@
                 <i class="fas fa-home"></i> Inicio
             </a>
 
-            <a href="/val-de-loire/general/rutas-loire/faqs/index.php" 
+            <a href="/val-de-loire/general/rutas-loire/faqs/index.php#<?= $hastag_faqs; ?>" 
                class="hover:underline flex items-center gap-2">
                 <i class="fas fa-question-circle"></i> FAQs
             </a>
 
             <a id="#contacto" href="/val-de-loire/contacto.html" 
             class="hover:underline flex items-center gap-2">
-            <i class="fas fa-user-circle"></i>    Contacto
+            <i class="fas fa-user-circle"></i> Contacto
             </a>
 
         </nav>

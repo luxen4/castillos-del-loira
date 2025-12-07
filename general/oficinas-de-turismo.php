@@ -44,7 +44,7 @@ $twitter = "@@TuTwitter";
           <ol class="inline-flex items-center space-x-2 text-emerald-700">
             <li><a href="/val-de-loire/" class="hover:text-emerald transition-colors">🏰 Inicio</a></li>
             <li>/</li>
-            <li><a href="/val-de-loire/index.php#castillos-destacados" class="hover:text-emerald transition-colors">Chateaux</a></li>
+            <li><a href="/val-de-loire/index.php#castillos-imprescindibles" class="hover:text-emerald transition-colors">Chateaux</a></li>
             <li>/</li>
             <li class="font-semibold text-emerald">Oficinas de Turismo</li>
           </ol>

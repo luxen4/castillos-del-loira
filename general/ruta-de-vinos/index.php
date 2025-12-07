@@ -1,164 +1,217 @@
-<?php  
-$web_site = "https://alayag82.kesug.com/valle-del-loira/";
+<?php
+$web_site = "https://alayag82.kesug.com/valle-del-loira/"; 
+$web_name='Vinos del Loira';
+$title = "🍇 Ruta Vinos | Bodegas, catas y enoturismo";
+$carpeta = "general"; $web_name_url="ruta-de-vinos.php";
+$slug = "ruta-de-vinos"; 
+$nombreLugar='Ruta Vinos del Loira'; $hastag_faqs='ruta-vinos';
+$keywords = "Rutas Valle del Loira, Castillos Loira, Vino Valle del Loira, Gastronomía Loira, Naturaleza Loira, Turismo Loira, Loire à Vélo, Cicloturismo Loira, Paisajes Valle del Loira";
+$descripcion = "Bodegas, catas, viñedos y recorridos en el corazón del Valle del Loira.";
+$imagenHero = "https://alayag82.kesug.com/val-de-loire/assets/logo.png";
+$web_site = "https://alayag82.kesug.com/val-de-loire";
+$twitter = "@tu_twitter";
+
+
+$h2_style = 'text-xl sm:text-2xl md:text-3xl font-bold text-emerald-700 mb-4';
+$a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold hover:underline';
+
 ?>
+
+
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<title>Ruta Oficial de Vinos del Valle del Loira 🍇 | Bodegas, catas y enoturismo</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<meta name="description" content="Descubre la Ruta Oficial de Vinos del Valle del Loira: bodegas abiertas, catas de Sauvignon Blanc, Touraine, Anjou, Chinon y recorridos entre viñedos históricos.">
-<meta name="keywords" content="Vino Valle del Loira, Ruta de vinos, Enoturismo Francia, Bodegas Loira, Catas Loira, Sauvignon Blanc Loira">
-<meta name="robots" content="index, follow">
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
 
-<!-- Canonical -->
-<link rel="canonical" href="<?= $web_site; ?>ruta-de-vinos">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Ruta Oficial de Vinos del Valle del Loira">
-<meta property="og:description" content="Bodegas, catas, viñedos y recorridos en el corazón del Valle del Loira.">
-<meta property="og:image" content="https://alayag82.kesug.com/val-de-loire/assets/vinos-loira.jpg">
-<meta property="og:url" content="<?= $web_site; ?>ruta-de-vinos">
-<meta property="og:type" content="article">
-
-<!-- Tailwind -->
-<script src="https://cdn.tailwindcss.com"></script>
-
-<style>
-html { scroll-behavior: smooth; }
-</style>
-</head>
-
-<body class="bg-gray-50 text-gray-800">
+<body id="website" class="bg-gray-50 text-emerald-800">
 
 <!-- HEADER -->
-<header class="bg-emerald-600 text-white py-6 shadow-lg">
-  <div class="max-w-5xl mx-auto px-4">
-    <h1 class="text-3xl font-bold">🍇 Ruta Oficial de Vinos del Valle del Loira</h1>
-    <p class="text-emerald-100 mt-1">Descubre las mejores bodegas y catas en el corazón del Loira</p>
-  </div>
-</header>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
 
-<!-- CONTENIDO -->
-<main class="max-w-5xl mx-auto px-4 py- mt-10">
+<!-- LAYOUT GENERAL -->
+<div class="container mx-auto grid grid-cols-12 gap-6 mt-6 max-w-[1600px]">
 
-  <!-- INTRO -->
-  <section class="mb-10">
-    <h2 class="text-2xl font-bold text-emerald-700 mb-3">Un recorrido entre viñedos históricos</h2>
-    <p class="text-gray-700 leading-relaxed">
-      La Ruta Oficial de Vinos del Valle del Loira te lleva a través de los viñedos más hermosos de Francia:
-      bodegas familiares, cavas subterráneas, catas guiadas y pueblos medievales donde el vino es tradición viva.
-    </p>
-  </section>
+    <!-- ⬅️ ASIDE IZQUIERDO (solo escritorio) -->
+    <aside class="hidden lg:block col-span-3">
+        <nav class="bg-white shadow-lg rounded-xl p-4 sticky top-28 max-h-[80vh] overflow-y-auto">
 
-  <!-- DESTACADOS -->
-  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
-    <div class="bg-white p-5 shadow rounded-xl border">
-      <h3 class="text-lg font-semibold text-emerald-600 mb-2">🍷 Vinos emblemáticos</h3>
-      <p class="text-sm text-gray-700">Sauvignon Blanc, Vouvray, Chinon, Anjou, Touraine y más.</p>
-    </div>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-3">Rutas del Loira</h3>
 
-    <div class="bg-white p-5 shadow rounded-xl border">
-      <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏺 Catas & bodegas</h3>
-      <p class="text-sm text-gray-700">Visita bodegas abiertas todo el año, algunas en cuevas trogloditas.</p>
-    </div>
+            <ul class="space-y-2 text-gray-700">
 
-    <div class="bg-white p-5 shadow rounded-xl border">
-      <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏞 Paisajes únicos</h3>
-      <p class="text-sm text-gray-700">Rutas entre viñedos, ríos y pueblos medievales del Loira.</p>
-    </div>
-  </section>
+                <li>
+                    <?php /*<a href="/val-de-loire/general/castillos-abiertos-hoy.php" 
+                       class="block p-2 rounded hover:bg-emerald-100">
+                       🏰 Castillos imprescindibles
+                    </a> */ ?>
+                      <a href="/val-de-loire/index.php#castillos-imprescindibles" 
+                       class="block p-2 rounded hover:bg-emerald-100">
+                       🏰 Castillos imprescindibles
+                    </a>
+                </li>
 
-  <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+                <li>
+                    <a href="/val-de-loire/general/rutas-loire/index.php#ruta-vino-gastronomia" 
+                       class="block p-2 rounded hover:bg-emerald-100">
+                       🍷 Vinos del Loira & Gastronomía
+                    </a>
+                </li>
 
-  <!-- LISTA DE BODEGAS -->
-  <section>
-    <h2 class="text-2xl font-bold text-emerald-700 mb-4">Bodegas recomendadas 🥂</h2>
-    <p class="text-gray-700 mb-8">
-    Descubre algunas de las bodegas más emblemáticas del Valle del Loira. Cada una ofrece visitas guiadas, catas de vinos locales
-    y una experiencia única entre viñedos históricos y cuevas trogloditas.
-    </p>
+                <li>
+                    <a href="/val-de-loire/general/rutas-loire/index.php#ruta-rios-paisajes" 
+                       class="block p-2 rounded hover:bg-emerald-100">
+                       🏞 Ríos y Paisajes del Valle del Loira
+                    </a>
+                </li>
 
-    <div class="space-y-4">
+                <li>
+                    <a href="/val-de-loire/general/rutas-loire/index.php#ruta-la-loire-a-velo" 
+                       class="block p-2 rounded hover:bg-emerald-100">
+                       🚴 “La Loire à Vélo”
+                    </a>
+                </li>
 
-      <div class="p-5 bg-white shadow rounded-xl border">
-        <h3 class="text-xl font-semibold text-gray-800">Domaine de la Taille aux Loups</h3>
-        <p class="text-gray-600">Famosa por su Chenin Blanc y su carácter mineral único.</p>
-      </div>
+            </ul>
 
-      <div class="p-5 bg-white shadow rounded-xl border">
-        <h3 class="text-xl font-semibold text-gray-800">Caves Ambacia (Amboise)</h3>
-        <p class="text-gray-600">Cuevas trogloditas del siglo XV con catas guiadas y gastronomía.</p>
-      </div>
+        </nav>
 
-      <div class="p-5 bg-white shadow rounded-xl border">
-        <h3 class="text-xl font-semibold text-gray-800">Domaine Huet (Vouvray)</h3>
-        <p class="text-gray-600">Vinos biodinámicos entre los más prestigiosos del Loira.</p>
-      </div>
+    </aside>
+
+
+    <!-- 📄 CONTENIDO CENTRAL -->
+    <main class="col-span-12 lg:col-span-6 px-4 lg:px-0">
+
+        <!-- Breadcrums + volver -->
+        <div class="w-full flex items-center justify-between mt-4 mb-4">
+            <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/main/breadcrums/2niveles-generico.php'; ?>
+            <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/a-componentes/boton-volver-generico.php'; ?>
+        </div>
+                <!-- línea decorativa debajo, ancho completo -->
+      <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
+
+
+        <!-- INTRO -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-3">Un recorrido entre viñedos históricos</h2>
+            <p class="text-gray-700 leading-relaxed">
+                La Ruta Oficial de Vinos del Valle del Loira te lleva a través de los viñedos más hermosos de Francia:
+                bodegas familiares, cavas subterráneas, catas guiadas y pueblos medievales donde el vino es tradición viva.
+            </p>
+        </section>
+
+        <!-- Imprescindibles -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+            <div class="bg-white p-5 shadow rounded-xl border">
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🍷 Vinos emblemáticos</h3>
+                <p class="text-sm text-gray-700">Sauvignon Blanc, Vouvray, Chinon, Anjou, Touraine y más.</p>
+            </div>
+
+            <div class="bg-white p-5 shadow rounded-xl border">
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏺 Catas & bodegas</h3>
+                <p class="text-sm text-gray-700">Visita bodegas abiertas todo el año, algunas en cuevas trogloditas.</p>
+            </div>
+
+            <div class="bg-white p-5 shadow rounded-xl border">
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏞 Paisajes únicos</h3>
+                <p class="text-sm text-gray-700">Rutas entre viñedos, ríos y pueblos medievales del Loira.</p>
+            </div>
+        </section>
+
+        <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+
+        <!-- Bodegas -->
+        <section>
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Bodegas recomendadas 🥂</h2>
+            <p class="text-gray-700 mb-8">
+                Descubre algunas de las bodegas más emblemáticas del Valle del Loira.
+            </p>
+
+            <div class="space-y-4">
 
 <div class="p-5 bg-white shadow rounded-xl border">
-  <p class="text-sm text-gray-500 mt-1">
-    Puedes visitar la web oficial para más información: 
-    <a href="https://www.vinsvaldeloire.fr/es" target="_blank"
+    <a href="https://jacky-blot.fr/" target="_blank"
        class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
-       🍇 Ruta oficial de vinos del Valle del Loira 🍇
+        <h3 id="domaine-taille" class="text-xl font-semibold text-emerald-800">
+            Domaine de la Taille aux Loups
+        </h3>
     </a>
-  </p>
+    <p class="text-gray-600">
+        Famosa por su Chenin Blanc y su carácter mineral único.
+    </p>
+</div>
+
+<div class="p-5 bg-white shadow rounded-xl border">
+    <a href="https://caves-ambacia.fr/index.php" target="_blank"
+       class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
+        <h3 id="caves-ambacia" class="text-xl font-semibold text-emerald-800">
+            Caves Ambacia (Amboise)
+        </h3>
+    </a>
+    <p class="text-gray-600">
+        Cuevas trogloditas del siglo XV con catas guiadas y gastronomía.
+    </p>
+</div>
+
+<div class="p-5 bg-white shadow rounded-xl border">
+    <a href="https://www.domainehuet.com/" target="_blank"
+       class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
+        <h3 id="domaine-huet" class="text-xl font-semibold text-emerald-800">
+            Domaine Huet (Vouvray)
+        </h3>
+    </a>
+    <p class="text-gray-600">
+        Vinos biodinámicos entre los más prestigiosos del Loira.
+    </p>
 </div>
 
 
+                <div class="p-5 bg-white shadow rounded-xl border">
+                    <p class="text-sm text-gray-500 mt-1">
+                        Puedes visitar la web oficial para más información: 
+                        <a href="https://www.vinsvaldeloire.fr/es" target="_blank"
+                        class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
+                            🍇 Ruta oficial de vinos del Valle del Loira 🍇
+                        </a>
+                    </p>
+                </div>
 
+            </div>
+        </section>
 
-
-
-
-    </div>
-  </section>
-
-
-<div class="mt-4">
-    <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+<div class="mt-4 block md:hidden">
+    <script async
+        src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039"
+        charset="utf-8">
+    </script>
 </div>
 
-</main>
+
+<div class="hidden md:block">
+    <?php 
+        $alineacion = 4; 
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; 
+    ?>
+</div>
+
+    </main>
+
+
+    <!-- ➡️ ASIDE DERECHO (solo escritorio, scroll independiente) -->
+    <aside class="hidden lg:block col-span-3">
+        <div class="sticky top-28 max-h-[80vh] overflow-y-auto p-2">
+            <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+        </div>
+    </aside>
+
+</div>
+
 
 <!-- FOOTER -->
-<footer class="bg-gray-900 text-gray-200 text-sm py-8 mt-1">
-  <div class="max-w-5xl mx-auto px-4">
-    <p>© Valle del Loira — Ruta Oficial de Vinos</p>
-  </div>
-</footer>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/footer/footer-generico-2.php'; ?>
 
-<!-- JSON-LD SEO -->
-<script type="application/ld+json">
-<?= json_encode([
-    "@context" => "https://schema.org",
-    "@type" => "TouristTrip",
-    "name" => "Ruta oficial de vinos del Valle del Loira",
-    "description" => "Bodegas abiertas, catas y recorridos enológicos por el Valle del Loira.",
-    "url" => $web_site . "ruta-de-vinos",
-    "datePublished" => date('c'),
-    "dateModified" => date('c'),
-    "itemListElement" => [
-        [
-            "@type" => "Winery",
-            "name" => "Ruta oficial de vinos del Valle del Loira",
-            "url" => $web_site . "ruta-de-vinos"
-        ],
-        [
-            "@type" => "Winery",
-            "name" => "Bourgueil",
-            "url" => $web_site . "bourgueil"
-        ],
-        [
-            "@type" => "FoodEstablishment",
-            "name" => "Gastronomía del Valle del Loira",
-            "url" => $web_site . "gastronomia"
-        ]
-    ]
-], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
-</script>
+
+
 
 </body>
 </html>

@@ -66,7 +66,7 @@ $nombreLugar = "Oficinas de Turismo";
     <!-- Navegación -->
     <nav id="navMenu" class="hidden flex-col md:flex md:flex-row gap-6 absolute md:static top-full left-0 w-full md:w-auto bg-blue-700 md:bg-transparent p-4 md:p-0 z-50">
       <a href="/val-de-loire/index.php" class="hover:underline py-1 md:py-0 block">🏠 Inicio</a>
-      <a href="/val-de-loire/index.php#castillos-destacados" class="hover:underline py-1 md:py-0 block">🏰 Castillos</a>
+      <a href="/val-de-loire/index.php#castillos-imprescindibles" class="hover:underline py-1 md:py-0 block">🏰 Castillos</a>
       <a href="/val-de-loire/general/alojamientos.php" class="font-semibold underline py-1 md:py-0 block">🏨 Alojamientos</a>
     </nav>
   </div>

@@ -141,7 +141,7 @@
 
     <!-- Ruta: Vinos -->
     <article id="vinos" class="pt-4">
-      <h3 class="text-xl font-semibold text-emerald-700 mb-3">Ruta: Vinos del Loira & Gastronomía</h3>
+      <h3 id="ruta-vinos" class="text-xl font-semibold text-emerald-700 mb-3">Ruta: Vinos del Loira & Gastronomía</h3>
 
       <div class="space-y-2" id="faq-vinos">
         <div class="border rounded-lg">

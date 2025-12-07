@@ -47,7 +47,7 @@ $slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
         </p>
 
         <p class="text-lg md:text-xl text-gray-700 mb-4">
-          Entre los puntos destacados se encuentran:
+          Entre los puntos Imprescindibles se encuentran:
         </p>
 
         <ul class="list-disc list-inside text-gray-700 mb-4">

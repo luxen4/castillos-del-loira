@@ -52,7 +52,7 @@ html { scroll-behavior: smooth; }
     </p>
   </section>
 
-  <!-- DESTACADOS -->
+  <!-- Imprescindibles -->
   <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
 
     <div class="bg-white p-5 shadow rounded-xl border">
