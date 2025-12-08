@@ -113,8 +113,8 @@ $imagenHero = "/val-de-loire/assets/logo.png";
 
         <!-- 📌 MUSEOS -->
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/general/museos-nantes/musee-arts-nantes.php"
-                class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-arts-de-nantes/index.php"
+            class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="museum-arts" class="text-xl font-semibold text-emerald-800">🎨 Museo de Artes de Nantes</h3>
             </a>
             <p class="text-gray-600">
@@ -219,3 +219,14 @@ document.getElementById('filtro').addEventListener('change', function () {
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/footer/footer-generico-2.php'; ?>
 </body>
 </html>
+
+
+<?php /*
+✅ ¿Quieres que también te genere…?
+
+🔹 La página individual para cada museo (con plantilla lista)
+🔹 El archivo schemas-museos-nantes.php
+🔹 El menú lateral actualizado con enlaces a museos
+🔹 Un grid en lugar de lista
+🔹 Filtros más avanzados (por ubicación, tipo, precio, accesibilidad)
+*/ ?>

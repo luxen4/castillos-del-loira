@@ -18,7 +18,7 @@ $items = [
       "src" => "https://photos.smugmug.com/Vallee-loire/Mus%C3%A9e/Nantes-Musee-Arts/i-GtB8rGr/0/1fc4cad5/L/nantes-musee-arts-5-L.jpg",
       "alt" => "Museos de Nantes",
       /* "fuente" => "https://loirelovers.fr/es/museos-nantes/", */
-      "fuente" => "/val-de-loire/ciudades/nantes/lugares-interesantes/museos-nantes/index.php",
+      "fuente" => "/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/index.php",
       "fuente_texto" => "loirelovers.fr"
     ]
   ],

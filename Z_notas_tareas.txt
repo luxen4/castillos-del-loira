@@ -56,6 +56,12 @@ Objetivo:
                     http://localhost/val-de-loire/ciudades/nantes/lugares-interesantes/museos-nantes/index.php Seguir aquí, schemas(canonical,etc)
 
 
+            web -> museos-y-exposiciones 8/12/2025
+
+
+
+
+
 Control Tareas Mapa || Párrafos con imágenes || Galería Propia
     Amboise             ->   OK - OK - NO
     Azay-le-Rideau      ->   OK - OK - NO
