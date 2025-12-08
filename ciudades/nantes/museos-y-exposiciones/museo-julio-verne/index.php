@@ -1,15 +1,13 @@
 <?php
-$web_site = "https://alayag82.kesug.com/lumieres-sur-la-loire/"; 
-$web_name='Lumières sur la Loire';
-$title = "✨ Lumières sur la Loire | Espectáculo nocturno en Nantes";
-$carpeta = "general"; 
-$web_name_url="lumieres-sur-la-loire.php";
-$slug = "lumieres-sur-la-loire"; 
-$nombreLugar='Lumières sur la Loire'; 
-$hastag_faqs='lumieres-loire';
-$keywords = "Lumières sur la Loire, Nantes espectáculo nocturno, luz y sonido Nantes, Turismo Nantes, Arte y luces Nantes";
-$descripcion = "Descubre Lumières sur la Loire en Nantes: un espectáculo de luz y sonido que ilumina el río Loira y la ciudad por la noche.";
-$imagenHero = "https://alayag82.kesug.com/lumieres-sur-la-loire/assets/lumieres-loire.jpg";
+$web_site = "https://alayag82.kesug.com/museo-julio-verne/"; 
+$web_name='Museo Julio Verne';
+$title = "🚀 Museo Julio Verne | Vida, inventos y legado";
+$carpeta = "general"; $web_name_url="museo-julio-verne.php";
+$slug = "museo-julio-verne"; 
+$nombreLugar='Museo Julio Verne'; $hastag_faqs='museo-julio-verne';
+$keywords = "Museo Julio Verne, Jules Verne Nantes, Literatura francesa, Ciencia ficción, Inventos Verne, Turismo Nantes, Cultura Nantes";
+$descripcion = "Descubre el Museo Julio Verne en Nantes: exposiciones sobre su vida, obras y visión futurista.";
+$imagenHero = "https://alayag82.kesug.com/museo-julio-verne/assets/museo-julio-verne.jpg";
 $twitter = "@tu_twitter";
 
 $h2_style = 'text-xl sm:text-2xl md:text-3xl font-bold text-emerald-700 mb-4';
@@ -19,6 +17,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 <!DOCTYPE html>
 <html lang="es">
 <?php // require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
+
 <head>
     <!-- TITULO DINÁMICO -->
     <title><?= $title ?></title>
@@ -61,14 +60,14 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
     <!-- GEOLOCALIZACIÓN -->
     <meta name="geo.region" content="FR-PDL">
-    <meta name="geo.position" content="47.2184; -1.5536">
-    <meta name="ICBM" content="47.2184, -1.5536">
+    <meta name="geo.position" content="47.2175; -1.5540">
+    <meta name="ICBM" content="47.2175, -1.5540">
 
     <!-- CSS / TAILWIND -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- SCHEMAS JSON-LD -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/lumieres-sur-la-loire-nantes/schemas/schemas-head.php'; /* /espectaculos/ */ ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/museos-y-exposiciones/museo-julio-verne/schemas/schemas-head.php'; ?>
 
     <!-- PWA BÁSICO -->
     <link rel="manifest" href="/manifest.json">
@@ -80,6 +79,10 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         img { content-visibility: auto; }
     </style>
 </head>
+
+
+
+
 <body id="website" class="bg-gray-50 text-emerald-800">
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
@@ -89,11 +92,11 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
     <!-- ASIDE IZQUIERDO -->
     <aside class="hidden lg:block col-span-3">
         <nav class="bg-white shadow-lg rounded-xl p-4 sticky top-28 max-h-[80vh] overflow-y-auto">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-3">Explorar el espectáculo</h3>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-3">Explorar el museo</h3>
             <ul class="space-y-2 text-gray-700">
-                <li><a href="#descripcion" class="block p-2 rounded hover:bg-emerald-100">🌟 Descripción</a></li>
-                <li><a href="#fechas" class="block p-2 rounded hover:bg-emerald-100">📅 Fechas y horarios</a></li>
-                <li><a href="#ubicacion" class="block p-2 rounded hover:bg-emerald-100">📍 Ubicación</a></li>
+                <li><a href="#biografia" class="block p-2 rounded hover:bg-emerald-100">📖 Biografía de Julio Verne</a></li>
+                <li><a href="#inventos" class="block p-2 rounded hover:bg-emerald-100">🛠 Inventos y visiones</a></li>
+                <li><a href="#obras" class="block p-2 rounded hover:bg-emerald-100">📚 Obras destacadas</a></li>
                 <li><a href="#informacion" class="block p-2 rounded hover:bg-emerald-100">ℹ Información práctica</a></li>
             </ul>
         </nav>
@@ -109,57 +112,56 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
         <!-- INTRO -->
-        <section id="descripcion" class="mb-10">
-            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Lumières sur la Loire</h1>
+        <section class="mb-10">
+            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Museo Julio Verne</h1>
             <p class="text-gray-700 leading-relaxed">
-                Lumières sur la Loire es un espectáculo nocturno que combina luces, sonido y proyecciones para iluminar el río Loira y los edificios históricos de Nantes.
-                Una experiencia mágica que atrae a visitantes de todas las edades y convierte la ciudad en un escenario encantado.
+                El Museo Julio Verne en Nantes celebra la vida y obra del escritor visionario.
+                Descubre su biografía, inventos imaginativos, obras literarias y legado cultural que ha inspirado generaciones.
             </p>
         </section>
 
         <!-- CARDS DESTACADOS -->
         <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🌌 Experiencia visual</h3>
-                <p class="text-sm text-gray-700">Proyecciones artísticas sobre la ciudad y el río.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">📖 Biografía</h3>
+                <p class="text-sm text-gray-700">La vida de Julio Verne en Nantes y su recorrido literario.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🎵 Música envolvente</h3>
-                <p class="text-sm text-gray-700">Sonido sincronizado con efectos de luz y narrativa visual.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🛠 Inventos y visiones</h3>
+                <p class="text-sm text-gray-700">Prototipos, maquetas y predicciones futuristas de Verne.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">📅 Temporada limitada</h3>
-                <p class="text-sm text-gray-700">Fechas especiales durante verano y eventos culturales.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">📚 Obras destacadas</h3>
+                <p class="text-sm text-gray-700">Viaje al centro de la Tierra, 20.000 leguas de viaje submarino y mucho más.</p>
             </div>
         </section>
 
         <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 
         <!-- SECCIONES -->
-        <section id="fechas" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Fechas y horarios</h2>
+        <section id="biografia" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Biografía de Julio Verne</h2>
             <p class="text-gray-700 mb-8">
-                Los espectáculos se realizan generalmente entre junio y septiembre, comenzando al anochecer. Es recomendable consultar el calendario oficial antes de la visita.
+                Nacido en Nantes en 1828, Julio Verne es uno de los escritores más influyentes de la literatura de ciencia ficción. 
+                Sus relatos anticiparon inventos y aventuras que siguen inspirando el mundo.
             </p>
         </section>
 
-        <section id="ubicacion" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Ubicación</h2>
+        <section id="inventos" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Inventos y visiones</h2>
             <p class="text-gray-700 mb-8">
-                Se realiza en varios puntos a lo largo del río Loira, destacando la zona central y el Château des Ducs de Bretagne.
+                Modelos, prototipos y predicciones tecnológicas que Verne describió en sus novelas, desde submarinos hasta viajes espaciales.
             </p>
         </section>
 
-        <section id="informacion" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Información práctica</h2>
-            <p class="text-gray-700 mb-4">
-                Acceso gratuito, recomendable llegar con antelación, llevar cámara para capturar los efectos de luz y consultar la previsión meteorológica.
+        <section id="obras" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Obras destacadas</h2>
+            <p class="text-gray-700 mb-8">
+                Algunas de sus novelas más célebres: <strong>Veinte mil leguas de viaje submarino</strong>, <strong>Viaje al centro de la Tierra</strong>, <strong>La vuelta al mundo en ochenta días</strong>.
             </p>
             <p class="text-sm text-gray-500 mt-1">
-                Página oficial: 
-                <a href="https://www.immersia-spectacle.fr/" target="_blank" class="text-emerald-700 font-semibold hover:underline">
-                    Lumières sur la Loire - Immersia Spectacle
-                </a>
+                Más información en la web oficial: 
+                <a href="https://www.museejulesverne.com" target="_blank" class="text-emerald-700 font-semibold hover:underline">Museo Julio Verne</a>
             </p>
         </section>
 

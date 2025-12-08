@@ -30,7 +30,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
           content="Descubre los mejores museos de Nantes: arte, historia, ciencia y cultura. Información, horarios, enlaces y guía de visita actualizada.">
 
     <!-- CANONICAL -->
-    <link rel="canonical" href="<?= $web_site; ?>/ciudades/nantes/lugares-interesantes/museos-nantes/index.php">
+    <link rel="canonical" href="<?= $web_site; ?>/ciudades/nantes/museos-nantes/index.php">
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="/val-de-loire/assets/favicon.png">
@@ -113,7 +113,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
 
         <!-- 📌 MUSEOS -->
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-arts-de-nantes/index.php"
+            <a href="/val-de-loire/ciudades/nantes/museos-y-exposiciones/musse-arts-de-nantes/index.php"
             class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="museum-arts" class="text-xl font-semibold text-emerald-800">🎨 Museo de Artes de Nantes</h3>
             </a>
@@ -123,7 +123,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-histoire-nantes/index.php"
+            <a href="/val-de-loire/ciudades/nantes/museos-y-exposiciones/musse-histoire-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="museum-chateau" class="text-xl font-semibold text-emerald-800">
                     🏰 Castillo de los Duques de Bretaña – Museo de Historia de Nantes
@@ -145,7 +145,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/museo-julio-verne/index.php"
+            <a href="/val-de-loire/ciudades/nantes/museos-y-exposiciones/museo-julio-verne/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="jules-verne" class="text-xl font-semibold text-emerald-800">📚 Museo Julio Verne</h3>
             </a>
@@ -155,7 +155,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/jardin-des-plantes-nantes/index.php"
+            <a href="/val-de-loire/ciudades/nantes/museos-y-exposiciones/jardin-des-plantes-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 class="text-xl font-semibold text-emerald-800">🌿 Museo del Jardín de las Plantas</h3>
             </a>
@@ -166,7 +166,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
 
         <!-- 📌 EXPOSICIONES -->
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="exposiciones">
-            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/lumieres-sur-la-loire-nantes/index.php"
+            <a href="/val-de-loire/ciudades/nantes/museos-y-exposiciones/lumieres-sur-la-loire-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 class="text-xl font-semibold text-emerald-800">✨ Exposición “Lumières sur la Loire”</h3>
             </a><?php /* https://www.immersia-spectacle.fr/ */ ?>

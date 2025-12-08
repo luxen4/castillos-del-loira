@@ -1,13 +1,15 @@
 <?php
-$web_site = "https://alayag82.kesug.com/jardin-des-plantes-nantes/"; 
-$web_name='Jardín de Plantas de Nantes';
-$title = "🌿 Jardín de Plantas de Nantes | Flora, historia y visitas";
-$carpeta = "general"; $web_name_url="jardin-des-plantes-nantes.php";
-$slug = "jardin-des-plantes-nantes"; 
-$nombreLugar='Jardín de Plantas de Nantes'; $hastag_faqs='jardin-plantes';
-$keywords = "Jardín de Plantas Nantes, Jardin des Plantes Nantes, Flora Nantes, Turismo Nantes, Naturaleza Nantes, Jardines Francia";
-$descripcion = "Explora el Jardín de Plantas de Nantes: flora diversa, historia del jardín y actividades educativas para toda la familia.";
-$imagenHero = "https://alayag82.kesug.com/jardin-des-plantes-nantes/assets/jardin-nantes.jpg";
+$web_site = "https://alayag82.kesug.com/lumieres-sur-la-loire/"; 
+$web_name='Lumières sur la Loire';
+$title = "✨ Lumières sur la Loire | Espectáculo nocturno en Nantes";
+$carpeta = "general"; 
+$web_name_url="lumieres-sur-la-loire.php";
+$slug = "lumieres-sur-la-loire"; 
+$nombreLugar='Lumières sur la Loire'; 
+$hastag_faqs='lumieres-loire';
+$keywords = "Lumières sur la Loire, Nantes espectáculo nocturno, luz y sonido Nantes, Turismo Nantes, Arte y luces Nantes";
+$descripcion = "Descubre Lumières sur la Loire en Nantes: un espectáculo de luz y sonido que ilumina el río Loira y la ciudad por la noche.";
+$imagenHero = "https://alayag82.kesug.com/lumieres-sur-la-loire/assets/lumieres-loire.jpg";
 $twitter = "@tu_twitter";
 
 $h2_style = 'text-xl sm:text-2xl md:text-3xl font-bold text-emerald-700 mb-4';
@@ -17,7 +19,6 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 <!DOCTYPE html>
 <html lang="es">
 <?php // require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
-
 <head>
     <!-- TITULO DINÁMICO -->
     <title><?= $title ?></title>
@@ -60,14 +61,14 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
     <!-- GEOLOCALIZACIÓN -->
     <meta name="geo.region" content="FR-PDL">
-    <meta name="geo.position" content="47.2140; -1.5535">
-    <meta name="ICBM" content="47.2140, -1.5535">
+    <meta name="geo.position" content="47.2184; -1.5536">
+    <meta name="ICBM" content="47.2184, -1.5536">
 
     <!-- CSS / TAILWIND -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- SCHEMAS JSON-LD -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/jardin-des-plantes-nantes/schemas/schemas-head.php'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/museos-y-exposiciones/lumieres-sur-la-loire-nantes/schemas/schemas-head.php'; /* /espectaculos/ */ ?>
 
     <!-- PWA BÁSICO -->
     <link rel="manifest" href="/manifest.json">
@@ -79,11 +80,6 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         img { content-visibility: auto; }
     </style>
 </head>
-
-
-
-
-
 <body id="website" class="bg-gray-50 text-emerald-800">
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
@@ -93,11 +89,11 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
     <!-- ASIDE IZQUIERDO -->
     <aside class="hidden lg:block col-span-3">
         <nav class="bg-white shadow-lg rounded-xl p-4 sticky top-28 max-h-[80vh] overflow-y-auto">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-3">Explorar el jardín</h3>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-3">Explorar el espectáculo</h3>
             <ul class="space-y-2 text-gray-700">
-                <li><a href="#flora" class="block p-2 rounded hover:bg-emerald-100">🌸 Flora y colecciones</a></li>
-                <li><a href="#historia" class="block p-2 rounded hover:bg-emerald-100">🏛 Historia del jardín</a></li>
-                <li><a href="#actividades" class="block p-2 rounded hover:bg-emerald-100">👨‍👩‍👧‍👦 Actividades educativas</a></li>
+                <li><a href="#descripcion" class="block p-2 rounded hover:bg-emerald-100">🌟 Descripción</a></li>
+                <li><a href="#fechas" class="block p-2 rounded hover:bg-emerald-100">📅 Fechas y horarios</a></li>
+                <li><a href="#ubicacion" class="block p-2 rounded hover:bg-emerald-100">📍 Ubicación</a></li>
                 <li><a href="#informacion" class="block p-2 rounded hover:bg-emerald-100">ℹ Información práctica</a></li>
             </ul>
         </nav>
@@ -113,55 +109,57 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
         <!-- INTRO -->
-        <section class="mb-10">
-            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Jardín de Plantas de Nantes</h1>
+        <section id="descripcion" class="mb-10">
+            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Lumières sur la Loire</h1>
             <p class="text-gray-700 leading-relaxed">
-                Descubre uno de los jardines botánicos más emblemáticos de Francia. Desde especies autóctonas hasta colecciones exóticas, 
-                el Jardín de Plantas de Nantes ofrece un paseo educativo y relajante en pleno centro de la ciudad.
+                Lumières sur la Loire es un espectáculo nocturno que combina luces, sonido y proyecciones para iluminar el río Loira y los edificios históricos de Nantes.
+                Una experiencia mágica que atrae a visitantes de todas las edades y convierte la ciudad en un escenario encantado.
             </p>
         </section>
 
         <!-- CARDS DESTACADOS -->
         <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🌸 Flora diversa</h3>
-                <p class="text-sm text-gray-700">Colecciones botánicas únicas de Francia y el mundo.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🌌 Experiencia visual</h3>
+                <p class="text-sm text-gray-700">Proyecciones artísticas sobre la ciudad y el río.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏛 Historia del jardín</h3>
-                <p class="text-sm text-gray-700">Creado en el siglo XIX, con arquitectura de invernaderos históricos.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🎵 Música envolvente</h3>
+                <p class="text-sm text-gray-700">Sonido sincronizado con efectos de luz y narrativa visual.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">👨‍👩‍👧‍👦 Actividades educativas</h3>
-                <p class="text-sm text-gray-700">Talleres, visitas guiadas y programas escolares para todas las edades.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">📅 Temporada limitada</h3>
+                <p class="text-sm text-gray-700">Fechas especiales durante verano y eventos culturales.</p>
             </div>
         </section>
 
         <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 
         <!-- SECCIONES -->
-        <section id="flora" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Flora y colecciones</h2>
+        <section id="fechas" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Fechas y horarios</h2>
             <p class="text-gray-700 mb-8">
-                El jardín alberga miles de especies, desde plantas locales hasta exóticas, incluyendo un invernadero tropical con flora rara y endémica.
+                Los espectáculos se realizan generalmente entre junio y septiembre, comenzando al anochecer. Es recomendable consultar el calendario oficial antes de la visita.
             </p>
         </section>
 
-        <section id="historia" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Historia del jardín</h2>
+        <section id="ubicacion" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Ubicación</h2>
             <p class="text-gray-700 mb-8">
-                Fundado en 1807 y remodelado en varias ocasiones, el Jardín de Plantas combina historia, arquitectura de invernaderos y diseño paisajístico.
+                Se realiza en varios puntos a lo largo del río Loira, destacando la zona central y el Château des Ducs de Bretagne.
             </p>
         </section>
 
-        <section id="actividades" class="mb-16">
-            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Actividades educativas</h2>
-            <p class="text-gray-700 mb-8">
-                Visitas guiadas, talleres de botánica, observación de insectos y programas escolares para fomentar el aprendizaje de la naturaleza.
+        <section id="informacion" class="mb-16">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4">Información práctica</h2>
+            <p class="text-gray-700 mb-4">
+                Acceso gratuito, recomendable llegar con antelación, llevar cámara para capturar los efectos de luz y consultar la previsión meteorológica.
             </p>
             <p class="text-sm text-gray-500 mt-1">
-                Más información en la web oficial: 
-                <a href="https://www.jardindesplantes-nantes.fr" target="_blank" class="text-emerald-700 font-semibold hover:underline">Jardín de Plantas de Nantes</a>
+                Página oficial: 
+                <a href="https://www.immersia-spectacle.fr/" target="_blank" class="text-emerald-700 font-semibold hover:underline">
+                    Lumières sur la Loire - Immersia Spectacle
+                </a>
             </p>
         </section>
 
