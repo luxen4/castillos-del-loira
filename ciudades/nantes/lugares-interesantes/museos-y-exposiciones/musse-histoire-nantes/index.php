@@ -1,13 +1,13 @@
 <?php
-$web_site = "https://alayag82.kesug.com/museo-arts-nantes/"; 
-$web_name='Museo de Artes de Nantes';
-$title = "🏛 Museo de Artes de Nantes | Colecciones, historia y visitas";
-$carpeta = "general"; $web_name_url="museo-artes-nantes.php";
-$slug = "musse-arts-de-nantes"; 
-$nombreLugar='Museo de Artes de Nantes'; $hastag_faqs='museo-nantes';
-$keywords = "Museo de Artes de Nantes, Musée d’arts de Nantes, Arte Francia, Arte Europeo, Louvre Oeste, Turismo Nantes, Cultura Nantes, Museos Francia";
-$descripcion = "Descubre el Museo de Artes de Nantes: colecciones maestras, exposiciones, horarios, precios y visita completa.";
-$imagenHero = "https://alayag82.kesug.com/museo-arts-nantes/assets/museo-nantes.jpg";
+$web_site = "https://alayag82.kesug.com/museo-historia-nantes/"; 
+$web_name='Museo de Historia de Nantes';
+$title = "🏰 Museo de Historia de Nantes | Exposiciones, historia y visitas";
+$carpeta = "general"; $web_name_url="museo-historia-nantes.php";
+$slug = "musee-histoire-nantes"; 
+$nombreLugar='Museo de Historia de Nantes'; $hastag_faqs='museo-historia-nantes';
+$keywords = "Museo de Historia de Nantes, Musée d’Histoire de Nantes, Historia Francia, Nantes medieval, Castillo Nantes, Turismo Nantes, Cultura Nantes";
+$descripcion = "Descubre el Museo de Historia de Nantes: exposiciones, historia, horarios, precios y visita completa.";
+$imagenHero = "https://alayag82.kesug.com/museo-historia-nantes/assets/museo-historia.jpg";
 $twitter = "@tu_twitter";
 
 $h2_style = 'text-xl sm:text-2xl md:text-3xl font-bold text-emerald-700 mb-4';
@@ -16,7 +16,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
 <!DOCTYPE html>
 <html lang="es">
-<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
+<?php // require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
 <?php
 // HEAD.php optimizado: mezcla completa de SEO avanzado + rendimiento + schemas + PWA base
 ?>
@@ -69,7 +69,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ░░ JSON-LD EXTERNO (schemas-head.php) ░░ -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-arts-de-nantes/schemas/schemas-head.php'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-histoire-nantes/schemas/schemas-head.php'; ?>
 
     <!-- ░░ PWA BÁSICO ░░ -->
     <link rel="manifest" href="/manifest.json">
@@ -93,9 +93,9 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         <nav class="bg-white shadow-lg rounded-xl p-4 sticky top-28 max-h-[80vh] overflow-y-auto">
             <h3 class="text-lg font-semibold text-emerald-700 mb-3">Explorar el museo</h3>
             <ul class="space-y-2 text-gray-700">
-                <li><a href="#colecciones" class="block p-2 rounded hover:bg-emerald-100">🖼 Colecciones permanentes</a></li>
-                <li><a href="#exposiciones" class="block p-2 rounded hover:bg-emerald-100">🎨 Exposiciones temporales</a></li>
-                <li><a href="#arquitectura" class="block p-2 rounded hover:bg-emerald-100">🏛 Arquitectura y historia</a></li>
+                <li><a href="#colecciones" class="block p-2 rounded hover:bg-emerald-100">🏰 Exposiciones permanentes</a></li>
+                <li><a href="#exposiciones" class="block p-2 rounded hover:bg-emerald-100">🎯 Exposiciones temporales</a></li>
+                <li><a href="#arquitectura" class="block p-2 rounded hover:bg-emerald-100">🏛 Arquitectura y historia del castillo</a></li>
                 <li><a href="#informacion" class="block p-2 rounded hover:bg-emerald-100">ℹ Información práctica</a></li>
             </ul>
         </nav>
@@ -112,26 +112,26 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
         <!-- INTRO -->
         <section class="mb-10">
-            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Museo de Artes de Nantes</h1>
+            <h1 class="text-3xl font-extrabold text-emerald-800 mb-4">Museo de Historia de Nantes</h1>
             <p class="text-gray-700 leading-relaxed">
-                Un museo excepcional que reúne siete siglos de creación artística, desde el siglo XIII hasta la actualidad.
-                Descubre pintura clásica, arte contemporáneo, esculturas, fotografía y una arquitectura renovada única.
+                El Museo de Historia de Nantes, ubicado en el Castillo de los Duques de Bretaña, ofrece un recorrido completo por la historia de la ciudad y la región.
+                Desde la Edad Media hasta la época moderna, descubre exposiciones interactivas y espacios históricos restaurados.
             </p>
         </section>
 
         <!-- CARDS DESTACADOS -->
         <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🖼 Colección histórica</h3>
-                <p class="text-sm text-gray-700">Pintura europea del XIII al XIX.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏰 Historia medieval</h3>
+                <p class="text-sm text-gray-700">Castillo y ciudad desde el siglo XIII al XVI.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🎨 Arte contemporáneo</h3>
-                <p class="text-sm text-gray-700">Obras modernas, vídeo, fotografía e instalaciones.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🎯 Exposiciones interactivas</h3>
+                <p class="text-sm text-gray-700">Multimedia y visitas guiadas para todas las edades.</p>
             </div>
             <div class="bg-white p-5 shadow rounded-xl border">
-                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏛 Espacios renovados</h3>
-                <p class="text-sm text-gray-700">Un diálogo entre arquitectura clásica y moderna.</p>
+                <h3 class="text-lg font-semibold text-emerald-600 mb-2">🏛 Arquitectura del castillo</h3>
+                <p class="text-sm text-gray-700">Un ejemplo perfecto de fortaleza medieval adaptada a museo moderno.</p>
             </div>
         </section>
 
@@ -140,22 +140,22 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
         <!-- COLECCIONES -->
         <section id="colecciones" class="mb-16">
             <h2 class="text-2xl font-bold text-emerald-700 mb-4">Colecciones destacadas</h2>
-            <p class="text-gray-700 mb-8">Siete siglos de historia del arte en un único lugar.</p>
+            <p class="text-gray-700 mb-8">Exposiciones permanentes que recorren siglos de historia de Nantes y Bretaña.</p>
 
             <div class="space-y-4">
                 <div class="p-5 bg-white shadow rounded-xl border">
-                    <h3 class="text-xl font-semibold text-emerald-800">Pintura Europea</h3>
-                    <p class="text-gray-600">Delacroix, Rubens, Ingres, Clouet y muchas otras obras maestras.</p>
+                    <h3 class="text-xl font-semibold text-emerald-800">Edad Media y Renacimiento</h3>
+                    <p class="text-gray-600">Esculturas, documentos y artefactos de la época medieval y renacentista.</p>
                 </div>
 
                 <div class="p-5 bg-white shadow rounded-xl border">
-                    <h3 class="text-xl font-semibold text-emerald-800">Arte Moderno y Contemporáneo</h3>
-                    <p class="text-gray-600">Kandinsky, Sonia Delaunay, Picasso, arte conceptual y fotografía.</p>
+                    <h3 class="text-xl font-semibold text-emerald-800">Historia Moderna</h3>
+                    <p class="text-gray-600">Exposiciones sobre la ciudad, comercio y sociedad desde el siglo XVII al XIX.</p>
                 </div>
 
                 <div class="p-5 bg-white shadow rounded-xl border">
                     <p class="text-sm text-gray-500 mt-1">Sitio oficial: 
-                        <a href="https://museedartsdenantes.fr/" target="_blank" class="text-emerald-700 font-semibold hover:underline">Museo de Artes de Nantes</a>
+                        <a href="https://museedhistoirendenantes.fr/" target="_blank" class="text-emerald-700 font-semibold hover:underline">Museo de Historia de Nantes</a>
                     </p>
                 </div>
             </div>

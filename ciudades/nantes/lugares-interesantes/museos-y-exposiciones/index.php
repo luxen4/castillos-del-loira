@@ -123,7 +123,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/general/museos-nantes/historial-nantes.php"
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/musse-histoire-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="museum-chateau" class="text-xl font-semibold text-emerald-800">
                     🏰 Castillo de los Duques de Bretaña – Museo de Historia de Nantes
@@ -135,7 +135,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/general/museos-nantes/les-machines.php"
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/les-machines-ille/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="machines" class="text-xl font-semibold text-emerald-800">🐘 Les Machines de l'Île</h3>
             </a>
@@ -145,7 +145,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/general/museos-nantes/museo-julio-verne.php"
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/museo-julio-verne/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 id="jules-verne" class="text-xl font-semibold text-emerald-800">📚 Museo Julio Verne</h3>
             </a>
@@ -155,7 +155,7 @@ $imagenHero = "/val-de-loire/assets/logo.png";
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="museos">
-            <a href="/val-de-loire/general/museos-nantes/jardin-des-plantes.php"
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/jardin-des-plantes-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 class="text-xl font-semibold text-emerald-800">🌿 Museo del Jardín de las Plantas</h3>
             </a>
@@ -166,23 +166,23 @@ $imagenHero = "/val-de-loire/assets/logo.png";
 
         <!-- 📌 EXPOSICIONES -->
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="exposiciones">
-            <a href="/val-de-loire/general/museos-nantes/expo-lumiere-nantes.php"
+            <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/museos-y-exposiciones/lumieres-sur-la-loire-nantes/index.php"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 class="text-xl font-semibold text-emerald-800">✨ Exposición “Lumières sur la Loire”</h3>
-            </a>
+            </a><?php /* https://www.immersia-spectacle.fr/ */ ?>
             <p class="text-gray-600">
                 Una exposición inmersiva de luz y sonido inspirada en el Loira, perfecta para familias y amantes del arte digital.
             </p>
         </div>
 
         <div class="p-5 bg-white shadow rounded-xl border tarjeta" data-tipo="exposiciones">
-            <a href="/val-de-loire/general/museos-nantes/expo-julio-verne.php"
+            <a href="https://francerent.com/es/destinations/Nantes/attractions/jules-verne-museum?srsltid=AfmBOorYcUMo1MhRSxMsDqJEivTFhiMafYzi2rNYSPBHY5fZk9_sclko"
                 class="text-emerald-700 font-semibold hover:underline hover:text-emerald-900 transition">
                 <h3 class="text-xl font-semibold text-emerald-800">🌌 Exposición “Universos de Julio Verne”</h3>
             </a>
             <p class="text-gray-600">
                 Modelos, ilustraciones y recreaciones interactivas de los mundos creados por el escritor.
-            </p>
+            </p><?php /* Pregúntales si tienen programa de afiliados o si aceptan colaboraciones/patrocinios. */ ?>
         </div>
 
     </section>
