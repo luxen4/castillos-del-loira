@@ -57,7 +57,7 @@ foreach ($sections as $slug_section_main_title) {
 
     <?php // Bloque para mostrar castillos cercanos
     $archivo_csv = 'castillos-cercanos.csv';
-    $slug_filtrado = $slug_castillos_cercanos_csv;
+    $slug_filtrado_opiniones = $slug_castillos_cercanos_csv;
     require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/template-castillos-cercanos-generico.php"; ?>
 

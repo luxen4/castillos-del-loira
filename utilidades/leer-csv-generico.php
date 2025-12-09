@@ -11,5 +11,5 @@ foreach ($data as $row) {
 } //var_dump($items);
 
 // Filtrar por slug
-$items_filtrados = array_filter($items, fn($item) => $item['slug'] === $slug_filtrado);
+$items_filtrados = array_filter($items, fn($item) => $item['slug'] === $slug_filtrado_opiniones);
 ?>

@@ -4,7 +4,7 @@
     <li class="text-gray-400">/</li>
     <li><a href="/val-de-loire/index.php#castillos-imprescindibles" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $carpeta; ?></a></li>
     <li class="text-gray-400">/</li>
-    <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $localidad; ?></a></li>
+    <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
     <?php /*    
     <li class="text-gray-400">/</li>
 

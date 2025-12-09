@@ -1,8 +1,9 @@
 <?php
-$nombreLugar = "Chateau de Chambord";
+
+$nombreLugar = "Chateau de Chambord"; $title=$nombreLugar;
 $ciudad = "Chambord"; $localidad='Loire et Cher - Chambord';
 $carpeta='Chateaux'; $bread_crums_second=$carpeta;
-$slug_Mayuscula = "Chambord"; $slug_filtrado = 'castillo-de-chambord'; $slug_castillos_cercanos_csv= 'castillo-de-chambord';
+$slug_Mayuscula = "Chambord"; $slug_filtrado_opiniones = 'castillo-de-chambord'; $slug_castillos_cercanos_csv= 'castillo-de-chambord';
 
 $descripcion = "El Castillo de Chambord, una joya del Renacimiento francés, es el más grande y majestuoso de los castillos del Valle del Loira. Famoso por su arquitectura única inspirada por Leonardo da Vinci, combina el esplendor real con la armonía del entorno natural.";
 $imagenHero = "https://media.traveler.es/photos/61377563d4923f67e298f5c2/master/w_1600%2Cc_limit/111804.jpg";

@@ -1,8 +1,8 @@
 <?php 
 $nombreLugar = "Chateau de Chaumont-sur-Loire"; 
 $ciudad = "Chaumont-sur-Loire"; 
-$carpeta='chateaux';
-$slug_Mayuscula = "Chaumont"; 
+$carpeta='chateaux'; $slug_castillos_cercanos_csv='chateau-de-chaumont-sur-loire';
+$slug_Mayuscula = "Chaumont";  $slug_filtrado_opiniones = 'chateau-de-chaumont-sur-loire';
 $descripcion = "El Castillo de Chaumont-sur-Loire, majestuoso sobre el río Loira, destaca por su arquitectura medieval y renacentista, y es conocido por albergar el prestigioso Festival Internacional de Jardines."; 
 $imagenHero = "https://cdn-imgix.headout.com/media/images/5036385563b6ad2fa8e5311c3220188a-13189-LoireValley-Skip-the-LineTicketstoDomaineduChaumont-sur-LoireCastle--00001.jpg"; // Puedes usar la URL que prefieras 
 $web_oficial = "https://www.loirevalley-tickets.com/es/chateau-de-chaumont/plan-your-visit/"; 

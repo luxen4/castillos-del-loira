@@ -105,7 +105,7 @@ $slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
             $slug_actual = $bloque["slug_parrafo"];
             $archivo_csv = 'data-etapas-partes.csv';
             // Bloque para mostrar castillos cercanos
-            $slug_filtrado = $slug_castillos_cercanos_csv;
+            $slug_filtrado_opiniones = $slug_castillos_cercanos_csv;
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-cabeceras-generico.php";
 

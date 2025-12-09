@@ -1,3 +1,4 @@
+
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE CHEVERNY
 $introduccion = [
@@ -15,7 +16,9 @@ $introduccion = [
 
   "Los jardines que rodean el castillo complementan su perfección arquitectónica. El <strong>Parque de los Cedros</strong> y el <strong>Jardín del Amor</strong> ofrecen paseos sombreados entre árboles centenarios y esculturas románticas. El <strong>canal</strong> que bordea el edificio añade un toque de poesía al paisaje, especialmente al amanecer, cuando el castillo parece flotar sobre las aguas tranquilas. Desde el siglo XIX, el parque alberga también una célebre <strong>perrera</strong>, hogar de más de un centenar de sabuesos franceses.",
 
-  "Más allá de su belleza, Cheverny es célebre por haber inspirado al dibujante <strong>Hergé</strong> para crear el ficticio <em>Castillo de Moulinsart</em>, residencia del <strong>Capitán Haddock</strong> en las aventuras de <strong>Tintín</strong>. Esta conexión entre patrimonio histórico y cultura popular ha hecho de Cheverny un símbolo de elegancia atemporal y creatividad. Hoy, su atmósfera cálida, su conservación impecable y su historia familiar lo convierten en una joya viva del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>."
+  "Más allá de su belleza, Cheverny es célebre por haber inspirado al dibujante <strong>Hergé</strong> para crear el ficticio <em>Castillo de Moulinsart</em>, residencia del <strong>Capitán Haddock</strong> en las aventuras de <strong>Tintín</strong>. Esta conexión entre patrimonio histórico y cultura popular ha hecho de Cheverny un símbolo de elegancia atemporal y creatividad. Hoy, su atmósfera cálida, su conservación impecable y su historia familiar lo convierten en una joya viva del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>.",
+
+  "Más info: <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/chateaux/chateau-de-cheverny-2.php'>aquí</a>."
 ]
 
 ];

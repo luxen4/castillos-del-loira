@@ -146,3 +146,12 @@ Busca por Nicho: Usa términos como "programa de afiliados tours París", "afili
 Explora Redes de Afiliación: Regístrate en redes como Awin, CJ Affiliate o Rakuten Advertising, y busca marcas de turismo y viajes que operen en Francia.
 Revisa Pies de Página: Muchas webs de empresas turísticas tienen enlaces a "Programa de Afiliados", "Partners", o "Colaboraciones" en sus pies de página. 
 Estas plataformas te proporcionarán los widgets y enlaces necesarios para monetizar tu contenido de viajes de forma efectiva. 
+
+
+
+Preparar una web;
+chateau-de-cheverny,"Château de Cheverny – Interior","chateau-de-cheverny.php","Uno de los interiores más suntuosos y mejor conservados del Valle del Loira."
+chateau-de-cheverny,"Château de Cheverny – Exposición Tintín","chateau-de-cheverny.php","Famoso por su relación con Hergé; inspiró el Castillo de Moulinsart."
+chateau-de-cheverny,"Château de Cheverny – Jardines","chateau-de-cheverny.php","Elegantes jardines simétricos perfectos para un paseo tranquilo."
+chateau-de-cheverny,"Château de Cheverny – Perrera","chateau-de-cheverny.php","Hogar de decenas de perros utilizados tradicionalmente en la caza real."
+chateau-de-cheverny,"Château de Cheverny – Dominio Completo","chateau-de-cheverny.php","Un conjunto armonioso que combina historia, arquitectura y naturaleza."

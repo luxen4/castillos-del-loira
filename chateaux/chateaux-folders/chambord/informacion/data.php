@@ -49,7 +49,7 @@ $figuras = [
 
 <?php
 $carpeta = 'chateaux';
-$slug_actual = 'castillo-' . $slug; $slug_filtrado= $slug_actual;
+$slug_actual = 'castillo-' . $slug; $slug_filtrado_opiniones= $slug_actual;
 $archivo_csv = "chateaux-folders/" . $slug . "/imagenes.csv";
 
 require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php';

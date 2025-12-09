@@ -2,7 +2,7 @@
 $nombreLugar = "Château d'Angers";
 $ciudad = "Angers";
 $carpeta = 'chateaux';
-$slug_Mayuscula = "Angers"; $slug_filtrado = 'castillo-de-angers';
+$slug_Mayuscula = "Angers"; $slug_filtrado_opiniones = 'castillo-de-angers';
 $descripcion = "El Castillo de Angers es una fortaleza medieval que domina el río Maine y alberga los famosos tapices del Apocalipsis. Su imponente arquitectura y murallas reflejan la historia y el poder de la ciudad a lo largo de los siglos.";
 $imagenHero = "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2024/11/thumbs/vue_aerienne_chateau_angers-1920x960.webp";
 $web_oficial = "https://www.destination-angers.com/es/turismo/lo-mas-importante/pasea-y-descubre-castillos/visitar-castillo-angers/breve-historia-del-castillo-de-angers/";
