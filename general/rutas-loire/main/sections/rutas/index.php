@@ -11,7 +11,7 @@
 
         <ul class="space-y-4">
             <li>
-                <a href="/val-de-loire/chateaux/chambord.php" target="_blank"
+                <a href="/val-de-loire/chateaux/chateau-de-chambord.php" target="_blank"
                     class="<?= $a_style_emerald_700_semibold_hover_underline; ?>">
                     🏰 Castillo de Chambord
                 </a>

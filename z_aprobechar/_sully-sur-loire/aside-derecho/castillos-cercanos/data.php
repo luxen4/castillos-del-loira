@@ -3,7 +3,7 @@
 $castillos_cercanos = [
   [
     "nombre" => "Castillo de Amboise",
-    "url" => "Amboise.php",
+    "url" => "chateau-royal-de-amboise.php",
     "descripcion" => "Residencia real del Renacimiento y tumba de Leonardo da Vinci."
   ],
   [
@@ -18,17 +18,17 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Chambord",
-    "url" => "Chambord.php",
+    "url" => "chateau-de-chambord.php",
     "descripcion" => "La joya arquitectónica del Loira, con su escalera de doble hélice."
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "Villandry.php",
+    "url" => "chateau-de-villandry.php",
     "descripcion" => "Famoso por sus jardines geométricos renacentistas."
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "Blois.php",
+    "url" => "chateau-royal-de-blois.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ]
 ];

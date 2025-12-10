@@ -17,8 +17,8 @@ $galeria = [
 ];
 $relacionadas = [
   ["Tours", "tours.php"],
-  ["Blois", "blois.php"],
-  ["Chenonceau", "chenonceau.php"],
+  ["Blois", "chateau-royal-de-blois.php"],
+  ["Chenonceau", "chateau-de-chenonceau.php"],
 ];
 ?>
 

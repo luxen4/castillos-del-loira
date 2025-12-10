@@ -5,14 +5,14 @@ $imagenHero = "https://st4.depositphotos.com/1766887/38614/i/450/depositphotos_3
 $web_oficial = "https://www.chateauvillandry.fr/";
 
 $otros_castillos = [
-    ["Chambord", "Chambord.php"],
-    ["Chenonceau", "Chenonceau.php"],
-    ["Cheverny", "Cheverny.php"]
+    ["Chambord", "chateau-de-chambord.php"],
+    ["Chenonceau", "chateau-de-chenonceau.php"],
+    ["Cheverny", "chateau-de-cheverny.php"]
 ];
 
 $castillos_cercanos = [
-    ["Castillo de Azay-le-Rideau", "Azay-le-Rideau.php"],
-    ["Castillo de Langeais", "Langeais.php"],
+    ["Castillo de Azay-le-Rideau", "chateau-de-azay-le-rideau.php"],
+    ["Castillo de Langeais", "chateau-de-langeais.php"],
     ["Castillo de Ussé", "Ussé.php"]
 ];
 ?>

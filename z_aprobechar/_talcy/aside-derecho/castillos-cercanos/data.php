@@ -3,12 +3,12 @@
 $castillos_cercanos = [
   [
     "nombre" => "Château de Beauregard",
-    "url" => "Beauregard.php",
+    "url" => "chateau-de-beauregard.php",
     "descripcion" => "Famoso por su galería de retratos de la nobleza francesa."
   ],
   [
-    "nombre" => "Château de Blois",
-    "url" => "Blois.php",
+    "nombre" => "Château Royal de Blois",
+    "url" => "chateau-royal-de-blois.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ],
   [
@@ -18,7 +18,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Château de Talcy",
-    "url" => "Talcy.php",
+    "url" => "chateau-de-talcy.php",
     "descripcion" => "Residencia renacentista con jardines clásicos franceses."
   ],
   [
@@ -28,7 +28,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Château de Chambord",
-    "url" => "Chambord.php",
+    "url" => "chateau-de-chambord.php",
     "descripcion" => "La joya arquitectónica del Loira, con su escalera de doble hélice."
   ]
 ];

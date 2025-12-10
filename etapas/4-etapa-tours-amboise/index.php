@@ -98,8 +98,8 @@
       </li>
       <li class="text-center">
         <a href="https://www.chateau-amboise.com/en/" target="_blank">
-          <img class="rounded-lg shadow mb-2 mx-auto" src="images/amboise.jpg" alt="Château de Amboise">
-          <p class="text-emerald-700 font-semibold">Château de Amboise</p>
+          <img class="rounded-lg shadow mb-2 mx-auto" src="images/amboise.jpg" alt="Château Royal d'Amboise">
+          <p class="text-emerald-700 font-semibold">Château Royal d'Amboise</p>
         </a>
       </li>
       <li class="text-center">

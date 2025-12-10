@@ -25,35 +25,35 @@ $secciones = [
         'id' => 'tintin',
         'titulo' => 'Exposición Tintín',
         'texto' => 'Famoso por su relación con Hergé; Cheverny inspiró el Castillo de Moulinsart. Exposiciones permanentes y temporales sobre el universo de Tintín y su vínculo con el castillo.',
-        'imagen' => 'https://alayag82.kesug.com/chateau-de-cheverny/assets/cheverny-tintin.jpg'
-    ],
+        'imagen' => 'https://photos.smugmug.com/Vallee-loire/n-XkSzNF/Chateaux-de-la-Loire/Chateau-Cheverny/i-vGnWKq7/0/C4gBDXr3QGnzDJ7mCF4P9DrKhSKDRh5rPscj9mztH/L/chateau-cheverny-43-L.jpg'
+    ], /* https://loirelovers.fr/es/visitar-chateau-castillo-cheverny/ */
     [
         'id' => 'jardines',
         'titulo' => 'Château de Cheverny – Jardines',
         'texto' => 'Elegantes jardines simétricos perfectos para un paseo tranquilo: parterres, bosquetes y un diseño clásico que acompaña al palacio.',
-        'imagen' => 'https://alayag82.kesug.com/chateau-de-cheverny/assets/cheverny-gardens.jpg'
-    ],
+        'imagen' => 'https://www.chateau-cheverny.fr/media/k2/items/cache/1c0ae2205709722b62e843abc0471a55_XL.jpg?t=20230401_185816'
+    ], /* https://www.chateau-cheverny.fr/decouvrir-le-domaine/les-jardins.html */
     [
         'id' => 'perrera',
         'titulo' => 'Château de Cheverny – Perrera',
         'texto' => 'Hogar de decenas de perros utilizados tradicionalmente en la caza real; hoy en día la perrera es un atractivo único que muestra la tradición cinegética del dominio.',
-        'imagen' => 'https://alayag82.kesug.com/chateau-de-cheverny/assets/cheverny-dogs.jpg'
-    ],
+        'imagen' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitZC2S4THtjIlv7f7GgDvyfDgxBJCKDdqbKTRApOx&s'
+    ], /* https://www.youtube.com/watch?v=yYYsJG-I2MA */
     [
         'id' => 'dominio',
         'titulo' => 'Château de Cheverny – Dominio Completo',
         'texto' => 'Un conjunto armonioso que combina historia, arquitectura y naturaleza: el castillo, las dependencias, los jardines y el paisaje agrícola circundante.',
-        'imagen' => 'https://alayag82.kesug.com/chateau-de-cheverny/assets/cheverny-domain.jpg'
-    ]
+        'imagen' => 'https://woody.cloudly.space/app/uploads/blois-tourisme/2024/06/thumbs/aerien-Cheverny-18_marin-Lafleche-640x640-crop-1718285645.webp'
+    ] /* https://www.bloischambord.com/decouvrir-la-destination/nos-chateaux-de-la-loire/le-chateau-de-cheverny/ */
 ];
 
 // Castillos cercanos (CSV-style items que sueles usar)
 $castillos_cercanos = [
-    ['chambord.php','Castillo de Chambord','A solo 20 minutos; el castillo más grande y emblemático del Valle del Loira.'],
-    ['blois.php','Castillo de Blois','Palacio real con cuatro estilos arquitectónicos y museos espectaculares.'],
-    ['chaumont-sur-loire.php','Castillo de Chaumont-sur-Loire','Famoso por su Festival Internacional de Jardines y vistas al Loira.'],
-    ['beauregard.php','Castillo de Beauregard','Conocido por su impresionante Galería de los 327 retratos históricos.'],
-    ['fougeres-sur-bievre.php','Castillo de Fougères-sur-Bièvre','Un castillo medieval más pequeño, auténtico y muy bien conservado.']
+    ['chateau-de-chambord.php','Castillo de Chambord','A solo 20 minutos; el castillo más grande y emblemático del Valle del Loira.'],
+    ['chateau-royal-de-blois.php','Castillo de Blois','Palacio real con cuatro estilos arquitectónicos y museos espectaculares.'],
+    ['chateau-de-chaumont-sur-loire.php','Castillo de Chaumont-sur-Loire','Famoso por su Festival Internacional de Jardines y vistas al Loira.'],
+    ['chateau-de-beauregard.php','Castillo de Beauregard','Conocido por su impresionante Galería de los 327 retratos históricos.'],
+    ['chateau-de-fougeres-sur-bievre.php','Castillo de Fougères-sur-Bièvre','Un castillo medieval más pequeño, auténtico y muy bien conservado.']
 ];
 
 ?>

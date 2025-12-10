@@ -18,9 +18,9 @@ $web_oficial = "https://www.viajesyrutas.es/2024/10/que-ver-en-orleans.html";
 $fuenteHero_texto = "viajesyrutas.es";
 
 $otros_castillos = [
-  ["Chambord", "Chambord.php"],
-  ["Blois", "Blois.php"],
-  ["Cheverny", "Cheverny.php"]
+  ["Chambord", "chateau-de-chambord.php"],
+  ["Blois", "chateau-royal-de-blois.php"],
+  ["Cheverny", "chateau-de-cheverny.php"]
 ];
 
 // Variables dinámicas para SEO
@@ -40,7 +40,7 @@ $enlaces = [
 ];
 
 $relacionadas = [
-  ["Blois", "Blois.php"],
+  ["Blois", "chateau-royal-de-blois.php"],
   ["Tours", "Tours.php"],
   ["Nantes", "Nantes.php"],
 ];*/

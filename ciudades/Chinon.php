@@ -14,7 +14,7 @@ $galeria = [
   "https://upload.wikimedia.org/wikipedia/commons/0/01/Chinon_panorama.jpg"
 ];
 $relacionadas = [
-  ["Saumur", "saumur.php"],
+  ["Saumur", "chateau-de-saumur.php"],
   ["Tours", "tours.php"],
   ["Angers", "angers.php"],
 ];

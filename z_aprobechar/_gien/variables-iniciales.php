@@ -9,9 +9,9 @@ $web_oficial = "https://www.gien.fr/";
 $fuenteHero_texto = "gien.fr";
 
 $otros_castillos = [
-  ["Chambord", "Chambord.php"],
-  ["Chenonceau", "Chenonceau.php"],
-  ["Amboise", "Amboise.php"]
+  ["Chambord", "chateau-de-chambord.php"],
+  ["Chenonceau", "chateau-de-chenonceau.php"],
+  ["Amboise", "chateau-royal-de-amboise.php"]
 ];
 
 // Variables dinámicas para SEO

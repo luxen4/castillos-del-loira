@@ -54,7 +54,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                 <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
                 <ul class="space-y-3 text-sm text-gray-700">
                     <li>
-                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chambord.php" class="hover:underline">
+                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chateau-de-chambord.php" class="hover:underline">
                             Exposiciones en el Castillo de Chambord
                         </a>
                     </li>
@@ -94,7 +94,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                     Entre las más destacadas se encuentran
                     <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>,
                     conocida por su castillo real y su vínculo con Leonardo da Vinci;
-                    <a href="/val-de-loire/ciudades/blois.php" class="text-emerald-700 hover:underline">Blois</a>,
+                    <a href="/val-de-loire/ciudades/chateau-royal-de-blois.php" class="text-emerald-700 hover:underline">Blois</a>,
                     con su imponente palacio renacentista y calles empedradas; y
                     <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>,
                     una animada ciudad universitaria con un precioso casco antiguo.

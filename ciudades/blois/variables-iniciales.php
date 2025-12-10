@@ -20,8 +20,8 @@ $web_oficial = "https://www.blois.fr/";
 $fuenteHero_texto = "https://francerent.com/es/destinations/Blois?srsltid=AfmBOoqPYIrOztp8trepC6XX9cFBUJzKtVtIA_llch5WD5tkIQq7tdcF";
 
 $otros_castillos = [
-  ["Chambord", "Chambord.php"],
-  ["Cheverny", "Cheverny.php"],
+  ["Chambord", "chateau-de-chambord.php"],
+  ["Cheverny", "chateau-de-cheverny.php"],
   ["Chaumont-sur-Loire", "Chaumont.php"]
 ];
 
@@ -43,8 +43,8 @@ $enlaces = [
 */
 
 $relacionadas = [
-  ["Chambord", "Chambord.php"],
-  ["Cheverny", "Cheverny.php"],
+  ["Chambord", "chateau-de-chambord.php"],
+  ["Cheverny", "chateau-de-cheverny.php"],
   ["Orléans", "Orleans.php"],
 ];
 ?>

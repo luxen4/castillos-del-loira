@@ -212,9 +212,9 @@
           <!-- Château 3 -->
           <article class="bg-white p-4 rounded-lg border">
             <div class="flex gap-4">
-              <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49b?auto=format&fit=crop&w=800&q=60" alt="Château d'Amboise" class="w-28 h-20 object-cover rounded" />
+              <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49b?auto=format&fit=crop&w=800&q=60" alt="Château Royal d'Amboise" class="w-28 h-20 object-cover rounded" />
               <div class="flex-1">
-                <h3 class="text-lg font-semibold">Château d'Amboise</h3>
+                <h3 class="text-lg font-semibold">Château Royal d'Amboise</h3>
                 <p class="text-sm text-gray-600">Música en terrazas con vistas al Loira y visitas guiadas temáticas.</p>
               </div>
               <div class="text-right">

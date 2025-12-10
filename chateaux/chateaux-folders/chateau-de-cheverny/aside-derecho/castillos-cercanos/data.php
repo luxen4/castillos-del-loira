@@ -3,27 +3,27 @@
 $castillos_cercanos = [
   [
     "nombre" => "Castillo de Chambord",
-    "url" => "Chambord.php",
+    "url" => "chateau-de-chambord.php",
     "descripcion" => "La joya arquitectónica del Loira, con su famosa escalera de doble hélice."
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "Blois.php",
+    "url" => "chateau-royal-de-blois.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ],
   [
     "nombre" => "Castillo de Chenonceau",
-    "url" => "Chenonceau.php",
+    "url" => "chateau-de-chenonceau.php",
     "descripcion" => "Conocido como el 'Castillo de las Damas', con su elegante galería sobre el río Cher."
   ],
   [
     "nombre" => "Castillo de Amboise",
-    "url" => "Amboise.php",
+    "url" => "chateau-royal-de-amboise.php",
     "descripcion" => "Residencia real del Renacimiento y tumba de Leonardo da Vinci."
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "Villandry.php",
+    "url" => "chateau-de-villandry.php",
     "descripcion" => "Famoso por sus jardines geométricos renacentistas."
   ],
   [

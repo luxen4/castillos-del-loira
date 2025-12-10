@@ -9,9 +9,9 @@ $web_oficial = "https://www.chenonceau.com";
 $fuenteHero_texto = "chenonceau.com";
 
 $otros_castillos = [
-  ["Villandry", "Villandry.php"],
-  ["Chambord", "Chambord.php"],
-  ["Cheverny", "Cheverny.php"]
+  ["Villandry", "chateau-de-villandry.php"],
+  ["Chambord", "chateau-de-chambord.php"],
+  ["Cheverny", "chateau-de-cheverny.php"]
 ];
 
 // Variables dinámicas para SEO

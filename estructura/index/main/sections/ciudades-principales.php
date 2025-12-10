@@ -25,7 +25,7 @@ $ciudades = [
     [
         "nombre" => "Blois",
         "desc"   => "Encantadora ciudad histórica con calles medievales y el <em>Château Royal de Blois</em>, antiguo hogar de reyes franceses.",
-        "href"   => "/val-de-loire/ciudades/Blois.php"
+        "href"   => "/val-de-loire/ciudades/chateau-royal-de-blois.php"
     ],
     [
         "nombre" => "Orleans",

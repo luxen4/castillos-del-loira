@@ -31,7 +31,7 @@ $castillos = [
         ]
     ],
     [
-        "nombre" => "Château d'Amboise",
+        "nombre" => "Château Royal d'Amboise",
         "descripcion" => "Castillo real renacentista con vistas sobre el río Loira, donde descansan restos de Leonardo da Vinci.",
         "imagen" => "https://cdn.valdeloire-france.com/castillo-amboise.jpg",
         "localidad" => "Amboise",

@@ -28,7 +28,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Chambord",
-    "url" => "Chambord.php",
+    "url" => "chateau-de-chambord.php",
     "descripcion" => "La joya arquitectónica del Loira, famosa por su escalera de doble hélice."
   ]
 ];
