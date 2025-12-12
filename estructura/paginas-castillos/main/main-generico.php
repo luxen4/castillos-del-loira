@@ -1,3 +1,4 @@
+<?php $carpeta='Chateaux'; ?>
 <div class="flex flex-col min-h-screen">
 
   <main class="container mx-auto px-4 py-2 grid lg:grid-cols-12 gap-8">

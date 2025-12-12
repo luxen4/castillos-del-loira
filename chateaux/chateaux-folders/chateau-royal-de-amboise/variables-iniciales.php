@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Chateau Royale de Amboise";
+$nombreLugar = "Chateau Royal d'Amboise";
 $ciudad = "Amboise"; $slug = "chateau-royal-de-amboise";
 $carpeta='chateaux';
 $slug_Mayuscula = "Amboise"; $slug_filtrado_opiniones='chateau-royal-de-amboise'; $slug_castillos_cercanos_csv="chateau-royal-de-amboise";

@@ -16,6 +16,7 @@
 
    <!-- ✅ Verificación de Google -->
   <meta name="google-site-verification" content="64zT14bhNAiyx4jzOrlbe6Wd6efBXIs-UI7WD3frNBM" />
+  <meta name="verify-admitad" content="e3b1ce5433" />
 
   <!-- ✅ Canonical y multilenguaje -->
   <link rel="canonical" href="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">

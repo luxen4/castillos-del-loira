@@ -3,7 +3,7 @@
 $nombreLugar = "Château du Clos-Lucé";
 $ciudad = "Amboise";
 $carpeta='chateaux';
-$slug_Mayuscula = "Clos-Luce";
+$slug_Mayuscula = "Clos-Luce"; $slug_filtrado_opiniones='chateau-de-clos-luce'; $slug_castillos_cercanos_csv ='chateau-de-clos-luce';
 $descripcion = "El Château du Clos-Lucé, última residencia de Leonardo da Vinci, combina historia, arte e innovación renacentista. Aquí vivió y trabajó sus últimos años el genio italiano.";
 $imagenHero = "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cDovL21lZGlhcy50b3VyaXNtLXN5c3RlbS5jb20vZC80LzQ5OTY0NV9sZV9jbG9zX2x1Y2VfX2xlb25hcmRfZGVfc2VycmVzLmpwZw==/image.jpg";
 $web_oficial = "https://www.bloischambord.es/offertas/chateau-du-clos-luce-parc-leonardo-da-vinci-amboise-es-250333/";

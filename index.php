@@ -20,7 +20,7 @@ require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el he
 
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
-
+<!-- verify-admitad: "e3b1ce5433" -->
 
   <?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
 
