@@ -4,10 +4,10 @@ $items = [
     "titulo" => "Le 36 Quai",
     "descripcion" => "Restaurante elegante frente al río Loira, con cocina francesa tradicional y productos locales de temporada.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/7/70/Le_36_Quai_Amboise.jpg",
+      "src" => "https://www.tripadvisor.es/Restaurant_Review-g187116-d1076949-Reviews-Restaurant_Le_36-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
       "alt" => "Restaurante Le 36 Quai Amboise",
-      "fuente" => "https://www.tourisme-amboise.fr/",
-      "fuente_texto" => "tourisme-amboise.fr"
+      "fuente" => "https://www.tripadvisor.es/Restaurant_Review-g187116-d1076949-Reviews-Restaurant_Le_36-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
+      "fuente_texto" => "tripadvisor.es"
     ]
   ],
   [

@@ -58,7 +58,12 @@ Objetivo:
 
             web -> museos-y-exposiciones 8/12/2025
 
-
+13/12/2025
+    Desarrollo de ciudades:
+        1º Hacer Ambise, sacar código a archivos externos que harán de templates.
+            Aprobechar templates ya hechos
+        2º Desarrollar las demás ciudades por orden.
+        3º Si sale algo nuevo, se documenta su tarea y se deja para futuro
 
 
 

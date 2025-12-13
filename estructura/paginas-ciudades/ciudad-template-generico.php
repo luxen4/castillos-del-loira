@@ -46,7 +46,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                 <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
                 <ul class="space-y-3 text-sm text-gray-700">
                     <li>
-                        <a href="/val-de-loire/ciudades/nantes/lugares-interesantes/exposiciones-castillo-de-chateau-de-chambord.php" class="hover:underline">
+                        <a href="/val-de-loire/chateaux/chateaux-folders/chateau-de-chambord/exposiciones-chateau-de-chambord.php" class="hover:underline">
                             Exposiciones en el Castillo de Chambord
                         </a>
                     </li>
@@ -66,6 +66,38 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
         <article class="lg:col-span-7 overflow-y-auto" style="max-height: 95vh; padding-right: 1rem;">      
         <nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
             <?php $carpeta="Localidades"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/breadcrums-generico.php"; ?>
+            
+            
+<?php /* Para meter, ya debe haber uno generico. */ ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://tudominio.com/val-de-loire/index.php"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Valle del Loira",
+      "item": "https://tudominio.com/val-de-loire/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Amboise",
+      "item": "https://tudominio.com/val-de-loire/amboise.php"
+    }
+  ]
+}
+</script>
+
+            
+            
             <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/a-componentes/modal-google-maps.php"; ?>
         </nav>
 
@@ -83,7 +115,9 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                 <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
-            <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
+            <?php 
+            $carpeta="chateaux";
+            require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
 
 
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
@@ -230,7 +264,145 @@ $que_ver_amboise = [
   </p>
 </section>
 
+<section id="mas-info-amboise" class="max-w-6xl mx-auto px-4 py-16">
 
+  <div class="bg-gradient-to-br from-emerald-50 to-white 
+              border border-emerald-200 rounded-2xl p-6 md:p-10 shadow-lg">
+
+    <h3 class="text-2xl md:text-3xl font-extrabold text-emerald-700 mb-6 flex items-center gap-3">
+      <i class="fas fa-compass"></i>
+      Información oficial y recursos turísticos
+    </h3>
+
+    <p class="text-gray-700 mb-8 leading-relaxed max-w-3xl">
+      Si estás organizando tu visita a <strong>Amboise</strong>, estas fuentes oficiales te ayudarán
+      a planificar recorridos, conocer exposiciones temporales y descubrir eventos culturales
+      en el corazón del <strong>Valle del Loira</strong>.
+    </p>
+
+    <ul class="grid gap-6 md:grid-cols-2">
+
+      <!-- Turismo oficial -->
+      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
+        <a href="https://www.tourisme-amboise.fr/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
+          <i class="fas fa-map-marked-alt text-xl"></i>
+          Turismo oficial de Amboise
+        </a>
+        <p class="text-sm text-gray-600 mt-2">
+          Oficina de turismo, agenda cultural, visitas guiadas y rutas recomendadas.
+        </p>
+      </li>
+
+      <!-- Castillo Real -->
+      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
+        <a href="https://www.chateau-amboise.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
+          <i class="fas fa-chess-rook text-xl"></i>
+          Château Royal d’Amboise
+        </a>
+        <p class="text-sm text-gray-600 mt-2">
+          Antiguo palacio real con vistas espectaculares al río Loira.
+        </p>
+      </li>
+
+      <!-- Clos Lucé -->
+      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
+        <a href="https://www.vinci-closluce.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
+          <i class="fas fa-paint-brush text-xl"></i>
+          Château du Clos Lucé
+        </a>
+        <p class="text-sm text-gray-600 mt-2">
+          Última residencia de Leonardo da Vinci, con jardines interactivos.
+        </p>
+      </li>
+
+      <!-- Agenda -->
+      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
+        <a href="https://www.tourisme-amboise.fr/agenda"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
+          <i class="fas fa-calendar-alt text-xl"></i>
+          Agenda cultural de Amboise
+        </a>
+        <p class="text-sm text-gray-600 mt-2">
+          Festivales, exposiciones, conciertos y eventos temporales.
+        </p>
+      </li>
+
+    </ul>
+
+    <!-- CTA FINAL -->
+    <p class="mt-10 text-center text-gray-600 italic">
+      🌿 Amboise es solo una de las joyas del Valle del Loira…  
+      sigue explorando castillos, jardines y ciudades históricas.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="faq-amboise" class="max-w-5xl mx-auto px-4 py-16">
+
+  <h2 class="text-2xl md:text-3xl font-extrabold text-emerald-700 mb-8 flex items-center gap-3">
+    <i class="fas fa-question-circle"></i>
+    Preguntas frecuentes sobre Amboise
+  </h2>
+
+  <div class="space-y-4">
+
+    <details class="bg-white border border-emerald-200 rounded-xl p-5 shadow-sm">
+      <summary class="font-semibold cursor-pointer text-emerald-700">
+        ¿Cuánto tiempo se necesita para visitar Amboise?
+      </summary>
+      <p class="mt-3 text-gray-700">
+        Lo ideal es dedicar <strong>1 o 2 días</strong> para visitar el Castillo Real,
+        el Clos Lucé, pasear por el centro histórico y disfrutar del río Loira.
+      </p>
+    </details>
+
+    <details class="bg-white border border-emerald-200 rounded-xl p-5 shadow-sm">
+      <summary class="font-semibold cursor-pointer text-emerald-700">
+        ¿Cuál es la mejor época para viajar a Amboise?
+      </summary>
+      <p class="mt-3 text-gray-700">
+        La mejor época es <strong>primavera y otoño</strong>, cuando el clima es agradable
+        y hay menos afluencia turística. El verano ofrece más eventos culturales.
+      </p>
+    </details>
+
+    <details class="bg-white border border-emerald-200 rounded-xl p-5 shadow-sm">
+      <summary class="font-semibold cursor-pointer text-emerald-700">
+        ¿Amboise es adecuada para viajar en familia?
+      </summary>
+      <p class="mt-3 text-gray-700">
+        Sí, es un destino ideal para familias. El Clos Lucé ofrece experiencias interactivas,
+        y los castillos cercanos son muy educativos para niños.
+      </p>
+    </details>
+
+    <details class="bg-white border border-emerald-200 rounded-xl p-5 shadow-sm">
+      <summary class="font-semibold cursor-pointer text-emerald-700">
+        ¿Se puede visitar Amboise sin coche?
+      </summary>
+      <p class="mt-3 text-gray-700">
+        Sí. Amboise cuenta con estación de tren y el centro histórico es fácilmente accesible
+        a pie. Para castillos cercanos, se recomiendan bicicleta o excursiones organizadas.
+      </p>
+    </details>
+
+  </div>
+
+</section>
 
 
         </article>
@@ -289,6 +461,70 @@ $que_ver_amboise = [
             }
         });
     </script>
+
+
+
+<?php /* Puede valer como schemas-head.php */?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Oficina de Turismo de Amboise",
+  "url": "https://www.tourisme-amboise.fr/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Amboise",
+    "addressRegion": "Centre-Val de Loire",
+    "addressCountry": "FR"
+  },
+  "areaServed": {
+    "@type": "TouristDestination",
+    "name": "Amboise"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo se necesita para visitar Amboise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lo ideal es dedicar uno o dos días para visitar el Castillo Real, el Clos Lucé y el centro histórico de Amboise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la mejor época para viajar a Amboise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La primavera y el otoño son las mejores épocas por su clima agradable y menor afluencia turística."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Amboise es adecuada para viajar en familia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, Amboise es ideal para familias gracias a actividades educativas y castillos adaptados a niños."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se puede visitar Amboise sin coche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, Amboise tiene estación de tren y su centro histórico se puede recorrer a pie."
+      }
+    }
+  ]
+}
+</script>
+
 
 </body>
 
