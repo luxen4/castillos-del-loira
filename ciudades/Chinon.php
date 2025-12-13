@@ -1,4 +1,6 @@
 <?php
+$nombreLugar="Chinon";
+
 $ciudad = "Chinon";
 $slug = "chinon";
 $descripcion = "Chinon es famosa por su impresionante castillo medieval, sus vinos tintos del Valle del Loira y su pintoresco casco antiguo junto al río Vienne.";

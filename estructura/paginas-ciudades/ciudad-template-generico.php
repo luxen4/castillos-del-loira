@@ -154,7 +154,8 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
     </script>
 
     <!-- 🔹 Footer -->
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/footer/footer-generico-2.php"; ?>
+    
 
     <!-- 🔝 Botón ir arriba -->
     <button id="btnTop"

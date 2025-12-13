@@ -58,6 +58,9 @@
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/template-castillos-cercanos-generico.php";
         ?>
 
+        <?php 
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/mas-info-oficial.php";
+        ?>
       </article>
 
     </div>

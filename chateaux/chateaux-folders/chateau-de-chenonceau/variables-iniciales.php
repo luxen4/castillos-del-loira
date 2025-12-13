@@ -18,4 +18,8 @@ $longitude = 0.0741;
 $direccion = "Château de Chenonceau, 37150 Chenonceaux, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
+
+$title="Château de Chenonceau";
+
+$web_oficial_mas_info="https://www.chenonceau.com/en/";
 ?>
