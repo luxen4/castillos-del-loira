@@ -5,7 +5,9 @@ $nombreLugar="Amboise"; $title=$nombreLugar;
 $ciudad = "Amboise";
 $slug = "amboise";
 $descripcion = "Amboise es una ciudad histórica del Valle del Loira, famosa por su castillo real, su relación con Leonardo da Vinci y sus vistas privilegiadas sobre el río Loira.";
-$imagenHero = "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chateau_Amboise_Loire.jpg";
+$imagenHero = "https://www.franciaturismo.net/es/wp-content/uploads/sites/17/amboise-castillo-hd.jpg";
+$fuenteHero_texto = "franciaturismo.net";
+$web_oficial="https://www.franciaturismo.net/es/loira/castillos-loira/castillo-amboise/";
 
 $enlaces = [
   ["Turismo oficial de Amboise", "https://www.tourisme-amboise.fr/"],
@@ -25,6 +27,12 @@ $relacionadas = [
   ["Blois", "blois.php"],
   ["Chenonceaux", "chenonceaux.php"],
 ];
+
+
+$latitude = 47.3967888;  // Coordenadas GPS de Amboise
+$longitude = 0.9577181; 
+
+
 ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/ciudad-template-generico.php"; ?>

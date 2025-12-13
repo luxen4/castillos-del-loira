@@ -1,3 +1,7 @@
+<?php 
+$carpeta="Localidades"; $url_carpeta="/val-de-loire/general/oficinas-de-turismo.php";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -9,19 +13,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
 <body class="flex flex-col min-h-screen bg-gray-50 text-gray-800 ">
     <?php $carpeta='chateaux'; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
-
-    <!-- 🔹 Hero responsivo -->
-    <section
-        class="relative bg-cover bg-center h-80 sm:h-96 md:h-[500px] lg:h-[600px] transition-transform duration-500 hover:scale-105 hover:brightness-110"
-        style="background-image: url('<?= $imagenHero ?>');">
-
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition duration-500 hover:bg-opacity-40">
-            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-extrabold text-center px-4">
-                Bienvenido a <?= $ciudad ?>
-            </h2>
-        </div>
-    </section>
-
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/hero/hero-generico.php"; ?>
 
 <!-- 🔹 Contenido Principal -->
 <main class="flex-1 h-screen lg:h-screen container mx-auto max-w-[1900px] px-1 py-12 grid lg:grid-cols-12 gap-10">
@@ -66,8 +58,21 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
             <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
         </aside>
 
+
+
+
+
         <!-- 🏙️ ARTÍCULO PRINCIPAL -->
-        <article class="lg:col-span-7 overflow-y-auto" style="max-height: 95vh; padding-right: 1rem;">
+        <article class="lg:col-span-7 overflow-y-auto" style="max-height: 95vh; padding-right: 1rem;">      
+        <nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
+            <?php $carpeta="Localidades"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/breadcrums-generico.php"; ?>
+            <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/a-componentes/modal-google-maps.php"; ?>
+        </nav>
+
+      <!-- línea decorativa debajo, ancho completo -->
+      <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
+
+
             <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4">
                 <?= $ciudad ?> en el Valle del Loira
             </h3>
@@ -82,7 +87,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
 
 
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+                <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
             <!-- 🌆 Sección integrada en el contenido principal -->
@@ -118,6 +123,115 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                     ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
                 </p>
             </section>
+
+
+<?php
+$que_ver_amboise = [
+  [
+    "icono" => "🏰",
+    "lugar" => "Castillo Real de Amboise",
+    "descripcion" => "Residencia real con vistas al Loira y tumbas reales.",
+    "tipo" => "Historia",
+    "enlace" => "https://www.chateau-amboise.com/"
+  ],
+  [
+    "icono" => "🎨",
+    "lugar" => "Clos Lucé",
+    "descripcion" => "Última residencia de Leonardo da Vinci y museo interactivo.",
+    "tipo" => "Cultura",
+    "enlace" => "https://www.vinci-closluce.com/"
+  ],
+  [
+    "icono" => "⛪",
+    "lugar" => "Capilla de Saint-Hubert",
+    "descripcion" => "Lugar donde se cree que está enterrado Leonardo da Vinci.",
+    "tipo" => "Historia",
+    "enlace" => "https://www.chateau-amboise.com/"
+  ],
+  [
+    "icono" => "🌉",
+    "lugar" => "Puente de Amboise",
+    "descripcion" => "Vistas icónicas del castillo y del río Loira.",
+    "tipo" => "Paseo",
+    "enlace" => "https://maps.google.com"
+  ],
+  [
+    "icono" => "🍷",
+    "lugar" => "Bodegas trogloditas",
+    "descripcion" => "Cavas excavadas en la roca con degustaciones locales.",
+    "tipo" => "Gastronomía",
+    "enlace" => "https://www.touraineloirevalley.com/"
+  ]
+];
+?>
+
+<section id="que-ver-amboise" class="my-16">
+  <h2 class="text-3xl font-bold text-emerald-700 mb-6 text-center">
+    👀 Qué ver en Amboise
+  </h2>
+
+  <div class="hidden md:block overflow-x-auto">
+    <table class="w-full border border-emerald-200 rounded-lg overflow-hidden">
+      <thead class="bg-emerald-700 text-white">
+        <tr>
+          <th class="p-3 text-left">Lugar</th>
+          <th class="p-3 text-left">Descripción</th>
+          <th class="p-3 text-left">Tipo</th>
+          <th class="p-3 text-center">Info</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white">
+        <?php foreach ($que_ver_amboise as $item): ?>
+        <tr class="border-t hover:bg-emerald-50 transition">
+          <td class="p-3 font-semibold">
+            <?= $item['icono'] ?> <?= $item['lugar'] ?>
+          </td>
+          <td class="p-3 text-gray-600"><?= $item['descripcion'] ?></td>
+          <td class="p-3"><?= $item['tipo'] ?></td>
+          <td class="p-3 text-center">
+            <a href="<?= $item['enlace'] ?>" target="_blank"
+               class="text-emerald-600 underline hover:text-emerald-800">
+              Ver
+            </a>
+          </td>
+        </tr>
+        <?php endforeach; ?>
+      </tbody>
+    </table>
+  </div>
+
+
+    <div class="md:hidden grid gap-4">
+    <?php foreach ($que_ver_amboise as $item): ?>
+      <article class="border rounded-xl p-4 shadow-sm bg-white">
+        <h3 class="font-bold text-lg text-emerald-700 mb-1">
+          <?= $item['icono'] ?> <?= $item['lugar'] ?>
+        </h3>
+        <p class="text-gray-600 text-sm mb-2">
+          <?= $item['descripcion'] ?>
+        </p>
+        <div class="flex justify-between items-center text-sm">
+          <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">
+            <?= $item['tipo'] ?>
+          </span>
+          <a href="<?= $item['enlace'] ?>" target="_blank"
+             class="text-emerald-600 underline">
+            Más info
+          </a>
+        </div>
+      </article>
+    <?php endforeach; ?>
+  </div>
+
+  <p class="mt-6 text-center text-gray-600 italic">
+    👉 Consejo: combina el <strong>Castillo de Amboise</strong> y el
+    <strong>Clos Lucé</strong> por la mañana y deja los paseos junto al Loira
+    para el atardecer.
+  </p>
+</section>
+
+
+
 
         </article>
 
