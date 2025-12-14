@@ -4,7 +4,7 @@ $items = [
     "titulo" => "Le 36 Quai",
     "descripcion" => "Restaurante elegante frente al río Loira, con cocina francesa tradicional y productos locales de temporada.",
     "imagen" => [
-      "src" => "https://www.tripadvisor.es/Restaurant_Review-g187116-d1076949-Reviews-Restaurant_Le_36-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
+      "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/fa/26/0f/salle-vue-sur-loire.jpg?w=500&h=-1&s=1",
       "alt" => "Restaurante Le 36 Quai Amboise",
       "fuente" => "https://www.tripadvisor.es/Restaurant_Review-g187116-d1076949-Reviews-Restaurant_Le_36-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
       "fuente_texto" => "tripadvisor.es"
@@ -14,20 +14,20 @@ $items = [
     "titulo" => "La Fourchette",
     "descripcion" => "Bistró moderno en el centro histórico, con platos creativos y selección de vinos del Valle del Loira.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/2/2c/La_Fourchette_Amboise.jpg",
+      "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c1/7f/64/au-bout-d-une-impasse.jpg?w=500&h=-1&s=1",
       "alt" => "Restaurante La Fourchette Amboise",
-      "fuente" => "https://www.tourisme-amboise.fr/",
-      "fuente_texto" => "tourisme-amboise.fr"
+      "fuente" => "https://www.tripadvisor.fr/Restaurant_Review-g187116-d2217792-Reviews-La_Fourchette-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
+      "fuente_texto" => "tripadvisor.fr"
     ]
   ],
   [
     "titulo" => "L’Epicerie",
     "descripcion" => "Pequeño restaurante y delicatessen que ofrece productos locales, platos ligeros y vinos de la región.",
     "imagen" => [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/3/3a/LEpicerie_Amboise.jpg",
+      "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/af/f3/f3/front-of-restaurant.jpg?w=900&h=500&s=1",
       "alt" => "Restaurante L’Epicerie Amboise",
-      "fuente" => "https://www.tourisme-amboise.fr/",
-      "fuente_texto" => "tourisme-amboise.fr"
+      "fuente" => "https://www.tripadvisor.fr/Restaurant_Review-g187116-d1060988-Reviews-L_Epicerie-Amboise_Indre_et_Loire_Centre_Val_de_Loire.html",
+      "fuente_texto" => "tripadvisor.fr"
     ]
   ]
 ];

@@ -5,7 +5,7 @@ $sections = [
   "acontecimientos",
   "gastronomia",
   "restaurantes",
-  "fin-de-semana",
+  /*"fin-de-semana",*/
   "alojamientos",
   /*"galeria",*/
   "transportes"

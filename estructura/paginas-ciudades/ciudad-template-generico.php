@@ -404,6 +404,78 @@ $que_ver_amboise = [
 
 </section>
 
+<section id="fin-de-semana-amboise" class="max-w-5xl mx-auto px-4 py-16">
+
+  <!-- Título -->
+  <h2 class="text-2xl md:text-3xl font-extrabold text-emerald-700 mb-4 flex items-center gap-3">
+    <i class="fas fa-calendar-week"></i>
+    Fin de semana en Amboise
+  </h2>
+
+  <!-- Descripción -->
+  <p class="text-gray-700 mb-10">
+    Amboise es un destino ideal para una escapada de fin de semana, tanto si viajas en pareja,
+    en familia o con presupuesto ajustado. Aquí tienes algunas ideas según tu tipo de viaje.
+  </p>
+
+  <!-- Lista -->
+  <ul class="space-y-6">
+
+    <li class="bg-white border-l-4 border-emerald-500 p-5 rounded-xl shadow-sm">
+      <h3 class="font-semibold text-lg text-emerald-700 flex items-center gap-2">
+        <i class="fas fa-heart"></i>
+        En pareja
+      </h3>
+      <p class="text-gray-700 mt-2">
+        Paseos románticos por el río Loira, visitas al castillo al atardecer y
+        cenas con vistas en restaurantes del casco histórico.
+      </p>
+    </li>
+
+    <li class="bg-white border-l-4 border-emerald-500 p-5 rounded-xl shadow-sm">
+      <h3 class="font-semibold text-lg text-emerald-700 flex items-center gap-2">
+        <i class="fas fa-users"></i>
+        En familia
+      </h3>
+      <p class="text-gray-700 mt-2">
+        Actividades familiares como el Clos Lucé de Leonardo da Vinci,
+        paseos en barco por el Loira y visitas al castillo real.
+      </p>
+    </li>
+
+    <li class="bg-white border-l-4 border-emerald-500 p-5 rounded-xl shadow-sm">
+      <h3 class="font-semibold text-lg text-emerald-700 flex items-center gap-2">
+        <i class="fas fa-wallet"></i>
+        Fin de semana económico
+      </h3>
+      <p class="text-gray-700 mt-2">
+        Recorre el casco antiguo a pie, disfruta de miradores gratuitos
+        sobre el Loira y visita mercados locales sin gastar demasiado.
+      </p>
+    </li>
+
+    <li class="bg-white border-l-4 border-emerald-500 p-5 rounded-xl shadow-sm">
+      <h3 class="font-semibold text-lg text-emerald-700 flex items-center gap-2">
+        <i class="fas fa-compass"></i>
+        Experiencia insólita
+      </h3>
+      <p class="text-gray-700 mt-2">
+        Descubre Amboise desde otro punto de vista: rutas nocturnas,
+        talleres de Leonardo da Vinci, catas de vino y eventos culturales locales.
+      </p>
+    </li>
+
+  </ul>
+
+  <!-- Tip -->
+  <div class="mt-10 bg-emerald-50 border border-emerald-200 rounded-xl p-5 text-emerald-800">
+    👉 <strong>Consejo:</strong> combina visitas culturales por la mañana con paseos junto al Loira
+    al atardecer para disfrutar del ambiente más auténtico de Amboise.
+  </div>
+
+</section>
+
+
 
         </article>
 
