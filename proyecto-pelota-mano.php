@@ -80,6 +80,110 @@
   <p class="text-xl max-w-3xl mx-auto">Noticias, resultados, torneos y todo lo que necesitas saber sobre la pelota mano nacional e internacional.</p>
 </section>
 
+
+<?php
+// Leer CSV
+$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/resultados-partidos.csv";
+$data = array_map('str_getcsv', file($archivo_csv));
+$headers = array_shift($data);
+
+// Crear array asociativo
+$partidos = [];
+foreach ($data as $row) {
+    $partidos[] = array_combine($headers, $row);
+}
+
+// Filtrar por slug (si aplica)
+$partidos_filtrados = array_filter(
+    $partidos,
+    fn($item) => isset($item['slug']) && $item['slug'] === $slug_filtrado_opiniones
+);
+
+// Agrupar por fecha + instalación
+$partidos_agrupados = [];
+foreach ($partidos_filtrados as $partido) {
+    $clave = $partido['fecha'] . '|' . $partido['instalacion'];
+    $partidos_agrupados[$clave][] = $partido;
+}
+?>
+
+
+
+<!-- 📰 Resultados -->
+<section id="resultados" class="container mx-auto px-6 py-12">
+
+  <h2 class="text-3xl font-bold text-emerald-700 mb-8">📰 Resultados</h2>
+
+  <!-- Grid de tarjetas -->
+  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+<?php foreach ($partidos as $partido): ?>
+
+<article class="bg-white rounded-2xl shadow-lg border border-gray-100 p-5 space-y-4 mb-6">
+
+  <!-- Info general -->
+  <div class="text-sm text-gray-500">
+    📅 <?= htmlspecialchars($partido['fecha']); ?> · 
+    <?= htmlspecialchars($partido['instalacion']); ?> · 
+    <?= htmlspecialchars($partido['ciudad']); ?> (<?= htmlspecialchars($partido['provincia']); ?>)
+  </div>
+
+  <!-- Competición -->
+  <div>
+    <p class="text-sm font-semibold text-gray-600 mb-2">
+      <?= htmlspecialchars($partido['competicion']); ?> · <?= htmlspecialchars($partido['serie']); ?>
+    </p>
+
+    <!-- Pareja roja -->
+    <div class="flex justify-between items-center">
+      <span class="text-xl font-extrabold text-red-600">
+        <?= str_replace('-', ' – ', htmlspecialchars($partido['pareja_roja'])); ?>
+      </span>
+      <span class="text-xl font-extrabold text-red-600">
+        <?= htmlspecialchars($partido['puntos_pareja_roja']); ?>
+      </span>
+    </div>
+
+    <!-- Pareja azul -->
+    <div class="flex justify-between items-center">
+      <span class="text-xl font-extrabold text-blue-600">
+        <?= str_replace('-', ' – ', htmlspecialchars($partido['pareja_azul'])); ?>
+      </span>
+      <span class="text-xl font-extrabold text-blue-600">
+        <?= htmlspecialchars($partido['puntos_pareja_azul']); ?>
+      </span>
+    </div>
+
+  </div>
+
+</article>
+
+<?php endforeach; ?>
+
+
+    <!-- 🔁 Duplica este <article> para más resultados -->
+    <!-- Tarjeta 2 -->
+    <article class="bg-white rounded-2xl shadow-lg border border-gray-100 p-5 space-y-4">
+      <div class="text-sm text-gray-500">
+        📅 12/12/2025 · Club Deportivo · Bilbao (Bizkaia)
+      </div>
+      <!-- … mismo contenido … -->
+    </article>
+
+    <!-- Tarjeta 3 -->
+    <article class="bg-white rounded-2xl shadow-lg border border-gray-100 p-5 space-y-4">
+      <div class="text-sm text-gray-500">
+        📅 12/12/2025 · Club Deportivo · Bilbao (Bizkaia)
+      </div>
+      <!-- … mismo contenido … -->
+    </article>
+
+  </div>
+</section>
+
+
+
+
 <!-- NOTICIAS -->
 <section id="noticias" class="container mx-auto px-6 py-12">
   <h2 class="text-3xl font-bold text-emerald-700 mb-6">📰 Últimas Noticias</h2>

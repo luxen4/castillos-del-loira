@@ -4,30 +4,30 @@ $items = [
         "titulo" => "Hoteles con encanto",
         "descripcion" => "Hoteles históricos y con encanto en el centro de Amboise, muchos con vistas al río Loira o al castillo real.",
         "imagen" => [
-            "src" => "https://upload.wikimedia.org/wikipedia/commons/4/4c/Amboise_hotel_Loire.jpg",
+            "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d0/84/e2/bellevue.jpg?w=1200&h=-1&s=1",
             "alt" => "Hotel con encanto en Amboise",
-            "fuente" => "https://www.tourisme-amboise.fr/",
-            "fuente_texto" => "tourisme-amboise.fr"
+            "fuente" => "https://www.tripadvisor.es/Hotels-g187116-Amboise_Indre_et_Loire_Centre_Val_de_Loire-Hotels.html",
+            "fuente_texto" => "tripadvisor.es"
         ]
     ],
     [
         "titulo" => "Apartamentos turísticos",
         "descripcion" => "Apartamentos modernos y bien ubicados, ideales para parejas y familias que desean explorar Amboise a su ritmo.",
         "imagen" => [
-            "src" => "https://upload.wikimedia.org/wikipedia/commons/7/7c/Amboise_apartment.jpg",
+            "src" => "https://a0.muscache.com/im/pictures/4ac2fa8a-7fe5-47e5-beb3-3df2823f2734.jpg",
             "alt" => "Apartamento turístico en Amboise",
-            "fuente" => "https://www.airbnb.fr/s/Amboise--France",
-            "fuente_texto" => "airbnb.fr"
+            "fuente" => "https://www.airbnb.es/amboise-france/stays/apartments",
+            "fuente_texto" => "airbnb.es"
         ]
     ],
     [
         "titulo" => "Casas rurales y campings",
         "descripcion" => "Alojamientos rurales y campings en los alrededores de Amboise, perfectos para disfrutar de la naturaleza y el entorno del Loira.",
         "imagen" => [
-            "src" => "https://upload.wikimedia.org/wikipedia/commons/2/2b/Camping_Amboise_Loire.jpg",
+            "src" => "https://img.sandayagroupe.eu/images/_aliases/embed_camping_mobile_20181203_700x356/1/9/6/7/17691-185-fre-FR/14931b8f3964-Web_crop-CDM_Infrastructures_018.jpg",
             "alt" => "Camping en Amboise",
-            "fuente" => "https://www.camping-amboise.fr/",
-            "fuente_texto" => "camping-amboise.fr"
+            "fuente" => "https://www.sandaya.es/ciudades/amboise",
+            "fuente_texto" => "sandaya.es"
         ]
     ]
 ];

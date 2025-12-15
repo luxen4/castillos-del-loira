@@ -1,7 +1,7 @@
 <?php
 $sections = [
   "paseos",
-  "actividades",
+  /*"actividades",*/
   "acontecimientos",
   "gastronomia",
   "restaurantes",
@@ -22,7 +22,7 @@ foreach ($sections as $slug_section_main_title) {
                       <p class="text-gray-500 text-sm mb-2">Publicidad</p>
                       <div class="bg-white rounded-lg h-44 flex items-center justify-center">
                           <span class="text-gray-400 text-sm">Espacio publicitario (300x250)</span>
-                                
+                      
                       </div>
                   </div>';
   }
@@ -61,6 +61,7 @@ foreach ($sections as $slug_section_main_title) {
     require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/template-castillos-cercanos-generico.php"; ?>
 
+    <?php /*
     <!-- 🔗 Enlaces útiles -->
     <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
       <h3 id="turismo-nantes" class="text-xl font-semibold text-gray-800 mb-3">🌐 Enlaces de interés</h3>
@@ -82,6 +83,7 @@ foreach ($sections as $slug_section_main_title) {
         </li>
 
       </ul>
-    </div>
+    </div> */ ?>
+
   </div>
 </section>

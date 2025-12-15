@@ -16,7 +16,7 @@ $twitter = "@@TuTwitter";
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
 
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
 
 
 

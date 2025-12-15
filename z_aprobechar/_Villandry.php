@@ -31,7 +31,7 @@ $castillos_cercanos = [
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
 
 
 <!-- Hero -->

@@ -86,7 +86,7 @@ function esc($s){ return htmlspecialchars($s, ENT_QUOTES); }
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
-  <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/enlaces-principales-generico.php'; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
 
 
 
@@ -190,6 +190,21 @@ if (($handle = fopen($csv_path, "r")) !== false) {
             </article>
           <?php endforeach; ?>
         </div>
+
+            <!-- 📰 Noticias -->
+            <section class="bg-white rounded-2xl shadow p-6">
+                <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
+                <ul class="space-y-3 text-sm text-gray-700">
+                    <li>
+                        <a href="/val-de-loire/chateaux/chateaux-folders/chateau-de-chambord/exposiciones-chateau-de-chambord.php" class="hover:underline">
+                            Exposiciones en el Castillo de Chambord
+                        </a>
+                    </li>
+                    <li><a href="/val-de-loire/ciudades/saumur/festival-vinos.php" class="hover:underline">Festival de vinos en Saumur</a></li>
+                    <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
+                </ul>
+            </section>  
+
 
                                  <?php $alineacion = 4;
           require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>

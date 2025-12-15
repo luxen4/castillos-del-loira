@@ -14,8 +14,8 @@ $slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
   <?php $etapa = 'Blois – Orléans'; 
-  //require "../estructura/header/enlaces-principales-generico.php"; 
-  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+  //require "../estructura/header/header-inicio-faqs.php"; 
+  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
   
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/audio/musica-fondo.php"; ?>
 

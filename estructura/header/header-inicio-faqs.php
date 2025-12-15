@@ -36,6 +36,11 @@
                         🏛 Cheverny
                     </a>
 
+                    <a href="/val-de-loire/index.php#castillos-imprescindibles" target="_blank" rel="noopener noreferrer" 
+                        class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
+                        🔗 Guia Castillos 🔗
+                    </a>
+
                     <a href="/val-de-loire/chateaux/buscador/index.php"
                         class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
                         🔍 Buscador Castillos
@@ -44,6 +49,8 @@
                         
                 </div>
             </div>
+
+
 
             <!-- 🔽 DROPDOWN CIUDADES -->
 <div class="relative group">
@@ -70,15 +77,59 @@
            class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
             🌆 Tours
         </a>
+        <a href="/val-de-loire/general/oficinas-de-turismo.php" target="_blank" rel="noopener noreferrer" 
+            class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
+            🔗 Oficinas de Turismo 🔗
+        </a>
     </div>
 </div>
 
-            <a href="/val-de-loire/general/rutas-loire/index.php" class="hover:underline">🚴 Rutas</a>
-            <a href="/val-de-loire/general/noticias.php" class="hover:underline flex items-center gap-2">🎉 Noticias</a>
 
+        <!-- Dropdown Servicios -->
+        <div class="relative group">
+            <button class="flex items-center justify-between w-full py-2 px-4 hover:bg-emerald-600 rounded transition md:hover:bg-transparent">
+                ⭐ Servicios
+                <span class="text-xs ml-2">▼</span>
+            </button>
 
+            <ul class="hidden group-hover:block absolute left-0 top-full mt-1 bg-emerald-700 min-w-[220px] rounded shadow-md z-50">
 
+                <li class="border-b border-emerald-600">
+                    <a href="/val-de-loire/general/gastronomia/index.php"
+                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                        🍴 Gastronomía
+                    </a>
+                </li>
 
+                <li class="border-b border-emerald-600">
+                    <a href="/val-de-loire/general/loire-a-velo/index.php"
+                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                        🚲 Loire à Vélo
+                    </a>
+
+                    <a href="/val-de-loire/general/rutas-loire/index.php" 
+                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                        🚴 Rutas
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="/val-de-loire/eventos"
+                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                        🎉 Acontecimientos
+                    </a>
+                </li>
+
+                    <li>
+                    <a href="/val-de-loire/general/noticias.php"
+                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
+                        🎉 Noticias
+                    </a>
+                </li>
+
+            </ul>
+</div>
         </nav>
 
 <!-- 🏷 LOGO CENTRAL -->

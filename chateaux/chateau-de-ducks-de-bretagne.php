@@ -32,7 +32,7 @@ $castillos_cercanos = [
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
 
 <!-- Hero -->
 <section class="relative h-[500px] md:h-[650px] hero bg-cover bg-center" style="background-image:url('<?= $imagenHero ?>')">

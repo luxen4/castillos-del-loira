@@ -36,25 +36,6 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
                 </section>
             <?php endif; ?>
 
-            <!-- 💰 Publicidad aside izquierdo -->
-            <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
-                <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
-            </div>
-
-            <!-- 📰 Noticias -->
-            <section class="bg-white rounded-2xl shadow p-6">
-                <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
-                <ul class="space-y-3 text-sm text-gray-700">
-                    <li>
-                        <a href="/val-de-loire/chateaux/chateaux-folders/chateau-de-chambord/exposiciones-chateau-de-chambord.php" class="hover:underline">
-                            Exposiciones en el Castillo de Chambord
-                        </a>
-                    </li>
-                    <li><a href="/val-de-loire/ciudades/saumur/festival-vinos.php" class="hover:underline">Festival de vinos en Saumur</a></li>
-                    <li><a href="orleans/actividades/rutas-ciclo-turisticas-orleans/index.php" class="hover:underline">Rutas cicloturísticas actualizadas 2025</a></li>
-                </ul>
-            </section>  
-
             <?php //require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
         </aside>
 
@@ -119,44 +100,46 @@ require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"
             $carpeta="chateaux";
             require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-ciudades/body/main/sections.php"; ?>
 
+<?php /*
+<!-- 🚗 🚌 Transportes en Amboise -->
+<section id="transportes-amboise" class="container mx-auto px-6 py-12">
+  <h2 class="text-3xl font-bold text-emerald-700 mb-6">🚗 Transportes en Amboise</h2>
+  <p class="text-gray-600 mb-6">
+    Moverse por Amboise es fácil gracias a los autobuses urbanos, rutas ciclistas y servicios de alquiler de coches.
+  </p>
+
+  <div class="overflow-x-auto">
+    <table class="min-w-full border border-gray-200 divide-y divide-gray-200">
+      <thead class="bg-emerald-100">
+        <tr>
+          <th class="px-4 py-2 text-left text-sm font-semibold text-emerald-800">Tipo de transporte</th>
+          <th class="px-4 py-2 text-left text-sm font-semibold text-emerald-800">Descripción</th>
+          <th class="px-4 py-2 text-left text-sm font-semibold text-emerald-800">Fuente</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200">
+        <?php foreach($items as $item): ?>
+        <tr>
+          <td class="px-4 py-2 font-medium text-gray-700"><?= htmlspecialchars($item['titulo']); ?></td>
+          <td class="px-4 py-2 text-gray-600"><?= htmlspecialchars($item['descripcion']); ?></td>
+          <td class="px-4 py-2 text-blue-600 hover:underline">
+            <a href="<?= htmlspecialchars($item['imagen']['fuente']); ?>" target="_blank" rel="noopener noreferrer">
+              <?= htmlspecialchars($item['imagen']['fuente_texto']); ?>
+            </a>
+          </td>
+        </tr>
+        <?php endforeach; ?>
+      </tbody>
+    </table>
+  </div>
+</section> */ ?>
+
 
             <div class="bg-gray-100 border rounded-2xl text-center shadow-sm">
                 <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
             </div>
 
-            <!-- 🌆 Sección integrada en el contenido principal -->
-            <section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">🌆 Otras Ciudades del Valle del Loira</h2>
 
-                <p class="mb-4">
-                    El Valle del Loira está salpicado de encantadoras ciudades que combinan historia, arte y paisajes únicos.
-                    Entre las más destacadas se encuentran
-                    <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>,
-                    conocida por su castillo real y su vínculo con Leonardo da Vinci;
-                    <a href="/val-de-loire/ciudades/chateau-royal-de-blois.php" class="text-emerald-700 hover:underline">Blois</a>,
-                    con su imponente palacio renacentista y calles empedradas; y
-                    <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>,
-                    una animada ciudad universitaria con un precioso casco antiguo.
-                </p>
-
-                <?php if (!empty($relacionadas)): ?>
-                    <p class="mb-4">
-                        También puedes descubrir otras localidades cercanas que comparten la misma riqueza cultural y arquitectónica, como
-                        <?php
-                        $enlaces = [];
-                        foreach ($relacionadas as $rel) {
-                            $enlaces[] = '<a href="../ciudades/' . $rel[1] . '" class="text-emerald-700 hover:underline">' . $rel[0] . '</a>';
-                        }
-                        echo implode(', ', array_slice($enlaces, 0, -1)) . ' y ' . end($enlaces) . '.';
-                        ?>
-                    </p>
-                <?php endif; ?>
-
-                <p>
-                    Cada una de estas ciudades ofrece una experiencia distinta del Loira,
-                    ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
-                </p>
-            </section>
 
 
 <?php
@@ -195,7 +178,18 @@ $que_ver_amboise = [
     "descripcion" => "Cavas excavadas en la roca con degustaciones locales.",
     "tipo" => "Gastronomía",
     "enlace" => "https://www.touraineloirevalley.com/"
-  ]
+  ],
+
+[
+  "icono" => "🚶‍♂️",
+  "lugar" => "Paseos y rutas junto al Loira",
+  "descripcion" => "Rutas a pie o en bicicleta a lo largo del río Loira, atravesando paisajes naturales y miradores con vistas al castillo de Amboise.",
+  "tipo" => "Naturaleza y ocio",
+  "enlace" => "https://www.tourisme-amboise.fr/"
+]
+
+
+
 ];
 ?>
 
@@ -264,91 +258,40 @@ $que_ver_amboise = [
   </p>
 </section>
 
-<section id="mas-info-amboise" class="max-w-6xl mx-auto px-4 py-16">
+            <!-- 🌆 Sección integrada en el contenido principal -->
+            <section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">🌆 Otras Ciudades del Valle del Loira</h2>
 
-  <div class="bg-gradient-to-br from-emerald-50 to-white 
-              border border-emerald-200 rounded-2xl p-6 md:p-10 shadow-lg">
+                <p class="mb-4">
+                    El Valle del Loira está salpicado de encantadoras ciudades que combinan historia, arte y paisajes únicos.
+                    Entre las más destacadas se encuentran
+                    <a href="/val-de-loire/ciudades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>,
+                    conocida por su castillo real y su vínculo con Leonardo da Vinci;
+                    <a href="/val-de-loire/ciudades/chateau-royal-de-blois.php" class="text-emerald-700 hover:underline">Blois</a>,
+                    con su imponente palacio renacentista y calles empedradas; y
+                    <a href="/val-de-loire/ciudades/tours.php" class="text-emerald-700 hover:underline">Tours</a>,
+                    una animada ciudad universitaria con un precioso casco antiguo.
+                </p>
 
-    <h3 class="text-2xl md:text-3xl font-extrabold text-emerald-700 mb-6 flex items-center gap-3">
-      <i class="fas fa-compass"></i>
-      Información oficial y recursos turísticos
-    </h3>
+                <?php if (!empty($relacionadas)): ?>
+                    <p class="mb-4">
+                        También puedes descubrir otras localidades cercanas que comparten la misma riqueza cultural y arquitectónica, como
+                        <?php
+                        $enlaces = [];
+                        foreach ($relacionadas as $rel) {
+                            $enlaces[] = '<a href="../ciudades/' . $rel[1] . '" class="text-emerald-700 hover:underline">' . $rel[0] . '</a>';
+                        }
+                        echo implode(', ', array_slice($enlaces, 0, -1)) . ' y ' . end($enlaces) . '.';
+                        ?>
+                    </p>
+                <?php endif; ?>
 
-    <p class="text-gray-700 mb-8 leading-relaxed max-w-3xl">
-      Si estás organizando tu visita a <strong>Amboise</strong>, estas fuentes oficiales te ayudarán
-      a planificar recorridos, conocer exposiciones temporales y descubrir eventos culturales
-      en el corazón del <strong>Valle del Loira</strong>.
-    </p>
+                <p>
+                    Cada una de estas ciudades ofrece una experiencia distinta del Loira,
+                    ya sea a través de sus castillos, jardines o su inconfundible estilo de vida francés.
+                </p>
+            </section>
 
-    <ul class="grid gap-6 md:grid-cols-2">
-
-      <!-- Turismo oficial -->
-      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
-        <a href="https://www.tourisme-amboise.fr/"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
-          <i class="fas fa-map-marked-alt text-xl"></i>
-          Turismo oficial de Amboise
-        </a>
-        <p class="text-sm text-gray-600 mt-2">
-          Oficina de turismo, agenda cultural, visitas guiadas y rutas recomendadas.
-        </p>
-      </li>
-
-      <!-- Castillo Real -->
-      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
-        <a href="https://www.chateau-amboise.com/"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
-          <i class="fas fa-chess-rook text-xl"></i>
-          Château Royal d’Amboise
-        </a>
-        <p class="text-sm text-gray-600 mt-2">
-          Antiguo palacio real con vistas espectaculares al río Loira.
-        </p>
-      </li>
-
-      <!-- Clos Lucé -->
-      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
-        <a href="https://www.vinci-closluce.com/"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
-          <i class="fas fa-paint-brush text-xl"></i>
-          Château du Clos Lucé
-        </a>
-        <p class="text-sm text-gray-600 mt-2">
-          Última residencia de Leonardo da Vinci, con jardines interactivos.
-        </p>
-      </li>
-
-      <!-- Agenda -->
-      <li class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition">
-        <a href="https://www.tourisme-amboise.fr/agenda"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="flex items-center gap-3 text-emerald-700 font-semibold hover:underline">
-          <i class="fas fa-calendar-alt text-xl"></i>
-          Agenda cultural de Amboise
-        </a>
-        <p class="text-sm text-gray-600 mt-2">
-          Festivales, exposiciones, conciertos y eventos temporales.
-        </p>
-      </li>
-
-    </ul>
-
-    <!-- CTA FINAL -->
-    <p class="mt-10 text-center text-gray-600 italic">
-      🌿 Amboise es solo una de las joyas del Valle del Loira…  
-      sigue explorando castillos, jardines y ciudades históricas.
-    </p>
-
-  </div>
-
-</section>
 
 
 <section id="faq-amboise" class="max-w-5xl mx-auto px-4 py-16">
@@ -474,6 +417,8 @@ $que_ver_amboise = [
   </div>
 
 </section>
+
+
 
 
 

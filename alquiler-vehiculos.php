@@ -55,7 +55,7 @@ $marcas = [
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/enlaces-principales-generico.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
 
 <main class="container mx-auto px-4 py-12">
   <div class="grid grid-cols-12 gap-6">

@@ -26,7 +26,7 @@ require RUTA_LUGARES_INTERES . "/{$slug}/variables-iniciales.php";
 
   <body class="bg-gray-50 text-gray-800">
 
-    <?php require RUTA_ESTRUCTURA . "/header/enlaces-principales-generico.php"; ?>
+    <?php require RUTA_ESTRUCTURA . "/header/header-inicio-faqs.php"; ?>
 
     <?php require RUTA_ESTRUCTURA . "/hero/hero-generico.php"; ?>
 

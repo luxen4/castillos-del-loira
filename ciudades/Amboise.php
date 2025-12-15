@@ -5,7 +5,7 @@ $src_google_maps="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43212.42
 
 $ciudad = "Amboise";
 $slug = "amboise";
-$descripcion = "Amboise es una ciudad histórica del Valle del Loira, famosa por su castillo real, su relación con Leonardo da Vinci y sus vistas privilegiadas sobre el río Loira.";
+$descripcion = "Amboise, situada en el corazón del Valle del Loira, es un destino histórico y cultural de gran importancia. Además de su majestuoso castillo real, que fue residencia de reyes franceses y hogar de Leonardo da Vinci, la ciudad ofrece calles medievales con encanto, miradores sobre el río Loira, jardines cuidados y una variada oferta gastronómica y vinícola. Los visitantes pueden explorar el Clos Lucé, conocer la vida y obra de Da Vinci, disfrutar de mercados locales, rutas en bicicleta y paseos por el río, así como participar en eventos culturales y festivales que animan el casco histórico durante todo el año.";
 $imagenHero = "https://www.franciaturismo.net/es/wp-content/uploads/sites/17/amboise-castillo-hd.jpg";
 $fuenteHero_texto = "franciaturismo.net";
 $web_oficial="https://www.franciaturismo.net/es/loira/castillos-loira/castillo-amboise/";

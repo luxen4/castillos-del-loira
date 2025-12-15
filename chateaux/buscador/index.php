@@ -73,7 +73,7 @@ usort($filtered, function($a,$b){ return strcmp($a['name'],$b['name']); });
 
 <?php 
 $nombreLugar = "Castillos del Valle del Loira";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/enlaces-principales-generico.php"; ?>
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
 
 
 <main class="container mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
