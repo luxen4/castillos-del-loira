@@ -1,0 +1,9 @@
+slug,iconos_json
+amboise,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo Real""},{""icono"":""fa-paint-brush"",""texto"":""Leonardo da Vinci""},{""icono"":""fa-water"",""texto"":""Río Loira""},{""icono"":""fa-map-marker-alt"",""texto"":""Indre-et-Loire""}]"
+blois,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo de Blois""},{""icono"":""fa-landmark"",""texto"":""Historia Real de Francia""},{""icono"":""fa-water"",""texto"":""Río Loira""},{""icono"":""fa-map-marker-alt"",""texto"":""Loir-et-Cher""}]"
+chinon,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo Medieval""},{""icono"":""fa-wine-glass"",""texto"":""Vinos locales""},{""icono"":""fa-water"",""texto"":""Río Vienne""},{""icono"":""fa-map-marker-alt"",""texto"":""Indre-et-Loire""}]"
+tours,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo""},{""icono"":""fa-university"",""texto"":""Universidad""},{""icono"":""fa-water"",""texto"":""Río Loira""},{""icono"":""fa-map-marker-alt"",""texto"":""Indre-et-Loire""}]"
+angers,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo de Angers""},{""icono"":""fa-apple-alt"",""texto"":""Cidra y gastronomía""},{""icono"":""fa-water"",""texto"":""Río Maine""},{""icono"":""fa-map-marker-alt"",""texto"":""Maine-et-Loire""}]"
+nantes,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo de los Duques de Bretaña""},{""icono"":""fa-anchor"",""texto"":""Puerto histórico""},{""icono"":""fa-water"",""texto"":""Río Loira""},{""icono"":""fa-map-marker-alt"",""texto"":""Loire-Atlantique""}]"
+saumur,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo de Saumur""},{""icono"":""fa-wine-glass"",""texto"":""Vinos y cava""},{""icono"":""fa-horse"",""texto"":""Escuela ecuestre""},{""icono"":""fa-map-marker-alt"",""texto"":""Maine-et-Loire""}]"
+orleans,"[{""icono"":""fa-chess-rook"",""texto"":""Castillo Real""},{""icono"":""fa-flag"",""texto"":""Juana de Arco""},{""icono"":""fa-water"",""texto"":""Río Loira""},{""icono"":""fa-map-marker-alt"",""texto"":""Loiret""}]"

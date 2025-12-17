@@ -193,11 +193,45 @@ $que_ver_amboise = [
 ];
 ?>
 
-<section id="que-ver-amboise" class="my-16">
+<?php
+/**
+ * Generador de sección "Qué ver" desde CSV
+ * Reutilizable para cualquier ciudad
+ *
+ * Variables que debes definir antes de incluir:
+ *  - $slugCiudad : slug de la ciudad (ej. "amboise")
+ *  - $nombreCiudad : nombre para mostrar en el título (ej. "Amboise")
+ */
+
+// Ruta al CSV
+$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/que-ver.csv";
+
+// Leer CSV
+$datos = array_map('str_getcsv', file($archivo_csv));
+$headers = array_shift($datos); // Encabezados
+
+// Filtrar por ciudad
+$que_ver = [];
+foreach ($datos as $fila) {
+    $item = array_combine($headers, $fila);
+    if ($item['slug'] === $slug) {
+        $que_ver[] = $item;
+    }
+}
+
+// No hay datos
+if (empty($que_ver)) {
+    echo "<p class='text-center text-gray-500'>No hay información disponible para $nombreCiudad.</p>";
+    return;
+}
+?>
+
+<section id="que-ver-<?= htmlspecialchars($slugCiudad) ?>" class="my-16">
   <h2 class="text-3xl font-bold text-emerald-700 mb-6 text-center">
-    👀 Qué ver en Amboise
+    👀 Qué ver en <?= htmlspecialchars($nombreCiudad) ?>
   </h2>
 
+  <!-- Tabla para escritorio -->
   <div class="hidden md:block overflow-x-auto">
     <table class="w-full border border-emerald-200 rounded-lg overflow-hidden">
       <thead class="bg-emerald-700 text-white">
@@ -209,15 +243,15 @@ $que_ver_amboise = [
         </tr>
       </thead>
       <tbody class="bg-white">
-        <?php foreach ($que_ver_amboise as $item): ?>
+        <?php foreach ($que_ver as $item): ?>
         <tr class="border-t hover:bg-emerald-50 transition">
           <td class="p-3 font-semibold">
-            <?= $item['icono'] ?> <?= $item['lugar'] ?>
+            <?= htmlspecialchars($item['icono']) ?> <?= htmlspecialchars($item['lugar']) ?>
           </td>
-          <td class="p-3 text-gray-600"><?= $item['descripcion'] ?></td>
-          <td class="p-3"><?= $item['tipo'] ?></td>
+          <td class="p-3 text-gray-600"><?= htmlspecialchars($item['descripcion']) ?></td>
+          <td class="p-3"><?= htmlspecialchars($item['tipo']) ?></td>
           <td class="p-3 text-center">
-            <a href="<?= $item['enlace'] ?>" target="_blank"
+            <a href="<?= htmlspecialchars($item['enlace']) ?>" target="_blank"
                class="text-emerald-600 underline hover:text-emerald-800">
               Ver
             </a>
@@ -228,21 +262,21 @@ $que_ver_amboise = [
     </table>
   </div>
 
-
-    <div class="md:hidden grid gap-4">
-    <?php foreach ($que_ver_amboise as $item): ?>
+  <!-- Tarjetas para móviles -->
+  <div class="md:hidden grid gap-4">
+    <?php foreach ($que_ver as $item): ?>
       <article class="border rounded-xl p-4 shadow-sm bg-white">
         <h3 class="font-bold text-lg text-emerald-700 mb-1">
-          <?= $item['icono'] ?> <?= $item['lugar'] ?>
+          <?= htmlspecialchars($item['icono']) ?> <?= htmlspecialchars($item['lugar']) ?>
         </h3>
         <p class="text-gray-600 text-sm mb-2">
-          <?= $item['descripcion'] ?>
+          <?= htmlspecialchars($item['descripcion']) ?>
         </p>
         <div class="flex justify-between items-center text-sm">
           <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">
-            <?= $item['tipo'] ?>
+            <?= htmlspecialchars($item['tipo']) ?>
           </span>
-          <a href="<?= $item['enlace'] ?>" target="_blank"
+          <a href="<?= htmlspecialchars($item['enlace']) ?>" target="_blank"
              class="text-emerald-600 underline">
             Más info
           </a>
@@ -250,13 +284,8 @@ $que_ver_amboise = [
       </article>
     <?php endforeach; ?>
   </div>
-
-  <p class="mt-6 text-center text-gray-600 italic">
-    👉 Consejo: combina el <strong>Castillo de Amboise</strong> y el
-    <strong>Clos Lucé</strong> por la mañana y deja los paseos junto al Loira
-    para el atardecer.
-  </p>
 </section>
+
 
             <!-- 🌆 Sección integrada en el contenido principal -->
             <section id="ciudades" class="mt-10 text-gray-700 leading-relaxed">

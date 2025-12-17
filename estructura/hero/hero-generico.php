@@ -20,37 +20,44 @@
       <?= $nombreLugar ?>
     </h1>
 
+
+
     <!-- Descripción portada -->
     <p class="mt-4 max-w-3xl text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
-      Amboise es una ciudad histórica del <strong>Valle del Loira</strong>, famosa por su 
-      <strong>castillo real</strong>, su relación con <strong>Leonardo da Vinci</strong> 
-      y sus vistas privilegiadas sobre el <strong>río Loira</strong>.
+      <?= $descripcion_portada; ?>
     </p>
 
-    <!-- Iconos informativos -->
-    <div class="mt-6 flex flex-wrap justify-center gap-6 text-emerald-100 text-sm sm:text-base">
+<?php
+//$slug = 'blois'; // Por ejemplo
 
-      <div class="flex items-center gap-2">
-        <i class="fas fa-chess-rook text-emerald-400"></i>
-        <span>Castillo Real</span>
-      </div>
+// Leer CSV
+$rows = array_map('str_getcsv', file($_SERVER['DOCUMENT_ROOT'].'/val-de-loire/iconos-ciudades.csv'));
+$header = array_shift($rows);
+$ciudades = [];
+foreach ($rows as $row) {
+    $ciudades[$row[0]] = json_decode($row[1], true);
+}
 
-      <div class="flex items-center gap-2">
-        <i class="fas fa-paint-brush text-emerald-400"></i>
-        <span>Leonardo da Vinci</span>
-      </div>
+// Obtener iconos para la ciudad actual
+$iconos_informativos_portada = $ciudades[$slug];
+?>
 
-      <div class="flex items-center gap-2">
-        <i class="fas fa-water text-emerald-400"></i>
-        <span>Río Loira</span>
-      </div>
 
-      <div class="flex items-center gap-2">
-        <i class="fas fa-map-marker-alt text-emerald-400"></i>
-        <span>Indre-et-Loire</span>
-      </div>
 
+
+<!-- 🔹 Iconos informativos -->
+<div class="mt-6 flex flex-wrap justify-center gap-6 text-emerald-100 text-sm sm:text-base">
+
+  <?php foreach ($iconos_informativos_portada as $item): ?>
+    <div class="flex items-center gap-2">
+      <i class="fas <?= htmlspecialchars($item['icono']); ?> text-emerald-400"></i>
+      <span><?= htmlspecialchars($item['texto']); ?></span>
     </div>
+  <?php endforeach; ?>
+
+</div>
+
+
 
     <!-- CTA -->
     <div class="mt-8 flex flex-wrap justify-center gap-4">

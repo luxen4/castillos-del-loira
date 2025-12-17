@@ -1,7 +1,11 @@
 <?php
 $nombreLugar="Amboise"; $title=$nombreLugar; $slug_castillos_cercanos_csv="amboise";
 $src_google_maps="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43212.427844791564!2d0.9577181357348028!3d47.39678882103157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1765660768203!5m2!1ses!2ses";
-
+$descripcion_portada = "Amboise es una ciudad emblemática del <strong>Valle del Loira</strong>, dominada por su 
+<strong>Castillo Real de Amboise</strong>, antigua residencia de reyes de Francia. Está estrechamente ligada a la figura de 
+<strong>Leonardo da Vinci</strong>, que pasó aquí sus últimos años en el Clos Lucé. Su casco histórico, sus terrazas con vistas 
+al <strong>río Loira</strong> y su ambiente tranquilo la convierten en una parada imprescindible para descubrir la historia, 
+el arte y el paisaje del Loira.";
 
 $ciudad = "Amboise";
 $slug = "amboise";

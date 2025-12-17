@@ -1,5 +1,11 @@
 <?php
 $nombreLugar="Chinon";
+$descripcion_portada = "Chinon es una ciudad histórica del <strong>Valle del Loira</strong>, famosa por su 
+<strong>castillo medieval</strong> que domina el casco antiguo y por su estrecha relación con 
+<strong>Juana de Arco</strong>. Situada a orillas del <strong>río Vienne</strong>, Chinon destaca por sus 
+calles medievales, su tradición vinícola y su ambiente auténtico, combinando patrimonio, naturaleza 
+y gastronomía local.";
+
 
 $ciudad = "Chinon";
 $slug = "chinon";

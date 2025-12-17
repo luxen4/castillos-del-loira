@@ -1,0 +1,35 @@
+slug,icono,lugar,descripcion,tipo,enlace
+amboise,🏰,Castillo Real de Amboise,"Residencia real con vistas al Loira y tumbas reales",Historia,https://www.chateau-amboise.com/
+amboise,🎨,Clos Lucé,"Última residencia de Leonardo da Vinci y museo interactivo",Cultura,https://www.vinci-closluce.com/
+amboise,⛪,Capilla de Saint-Hubert,"Lugar donde se cree que está enterrado Leonardo da Vinci",Historia,https://www.chateau-amboise.com/
+amboise,🌉,Puente de Amboise,"Vistas icónicas del castillo y del río Loira",Paseo,https://maps.google.com
+amboise,🍷,Bodegas trogloditas,"Cavas excavadas en la roca con degustaciones locales",Gastronomía,https://www.touraineloirevalley.com/
+amboise,🚶‍♂️,Paseos y rutas junto al Loira,"Rutas a pie o en bicicleta a lo largo del río Loira, atravesando paisajes naturales y miradores con vistas al castillo de Amboise",Naturaleza y ocio,https://www.tourisme-amboise.fr/
+blois,🏰,Castillo de Blois,"Castillo real con arquitectura de distintos períodos históricos",Historia,https://www.chateaudeblois.fr/
+blois,🎨,Museo de Bellas Artes,"Exposiciones de pintura, escultura y arte contemporáneo",Cultura,https://www.blois.fr/musees
+blois,🌳,Jardines del Castillo,"Espacios verdes y senderos con vistas panorámicas",Paseo,https://www.chateaudeblois.fr/jardins
+blois,🚶‍♂️,Paseo por el casco antiguo,"Callejuelas medievales y plazas históricas",Naturaleza y ocio,https://www.blois.fr/tourisme
+tours,🏰,Catedral de Tours,"Catedral gótica con impresionantes vitrales",Historia,https://www.tours.fr/cathedrale
+tours,🎨,Museo de Bellas Artes,"Arte y exposiciones temporales",Cultura,https://www.tours.fr/musees
+tours,🌳,Jardines del Château,"Parques y jardines para pasear y relajarse",Paseo,https://www.tours.fr/jardins
+tours,🚶‍♂️,Rutas a pie y en bicicleta,"Recorre el casco histórico y la ribera del Loira",Naturaleza y ocio,https://www.tours.fr/tourisme
+angers,🏰,Castillo de Angers,"Famoso por sus murallas y el tapiz del Apocalipsis",Historia,https://www.angers.fr/chateau
+angers,🎨,Museo de Bellas Artes,"Arte medieval y contemporáneo",Cultura,https://www.angers.fr/musees
+angers,🌳,Jardines de la ciudad,"Espacios verdes y parques",Paseo,https://www.angers.fr/jardins
+angers,🚶‍♂️,Rutas por el Loira,"Caminos y paseos junto al río",Naturaleza y ocio,https://www.angers.fr/tourisme
+chinon,🏰,Château de Chinon,"Castillo medieval ligado a Juana de Arco",Historia,https://www.ot-chinon-valdeloire.fr/chateau-de-chinon
+chinon,🎨,Museos y exposiciones,"Museos de arte y arqueología",Cultura,https://www.ot-chinon-valdeloire.fr/
+chinon,🌳,Rutas en bicicleta,"Rutas a lo largo del río Vienne y viñedos",Paseo,https://www.ot-chinon-valdeloire.fr/
+chinon,🚶‍♂️,Casco histórico,"Callejuelas medievales con encanto",Naturaleza y ocio,https://www.ot-chinon-valdeloire.fr/
+nantes,🏰,Castillo de los Duques de Bretaña,"Museo histórico y arquitectura renacentista",Historia,https://www.chateau.nantes.fr/
+nantes,🎨,Museo de Arte,"Arte moderno y contemporáneo",Cultura,https://www.museedartsdenantes.nantes.fr/
+nantes,🌳,Jardines de la ciudad,"Parques y paseos",Paseo,https://www.nantes.fr/jardins
+nantes,🚶‍♂️,Isla de Nantes,"Rutas y espacios recreativos junto al Loira",Naturaleza y ocio,https://www.nantes.fr/tourisme
+saumur,🏰,Castillo de Saumur,"Fortaleza medieval con vistas al Loira",Historia,https://www.chateau-saumur.fr/
+saumur,🎨,Museo de Caballos,"Exhibiciones ecuestres y cultura equina",Cultura,https://www.saumur.fr/musee
+saumur,🌳,Jardines del castillo,"Parques y paseos relajantes",Paseo,https://www.chateau-saumur.fr/jardins
+saumur,🚶‍♂️,Rutas en bicicleta,"Rutas junto al río Loira",Naturaleza y ocio,https://www.saumur.fr/tourisme
+orleans,🏰,Catedral de Orleans,"Catedral gótica famosa por Juana de Arco",Historia,https://www.orleans.fr/cathedrale
+orleans,🎨,Museo de Bellas Artes,"Arte y exposiciones",Cultura,https://www.orleans.fr/musees
+orleans,🌳,Parques y jardines,"Espacios verdes para pasear",Paseo,https://www.orleans.fr/jardins
+orleans,🚶‍♂️,Rutas a pie y bicicleta,"Recorridos urbanos y ribera del Loira",Naturaleza y ocio,https://www.orleans.fr/tourisme
