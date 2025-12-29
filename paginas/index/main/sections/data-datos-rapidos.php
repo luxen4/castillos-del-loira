@@ -26,9 +26,9 @@ $datosLoira = [
     ],
     [
         'icono' => '🏰',
-        'titulo' => 'Castillos Imprescindibles',
+        'titulo' => 'Castillos destacados',
         'texto' => 'Chambord, Chenonceau, Amboise, Villandri y Ussé, cada uno con su propia historia y encanto.',
-        'id' => 'castillos-imprescindibles'
+        'id' => 'castillos-destacados'
     ],
     [
         'icono' => '🌦️',

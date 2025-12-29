@@ -16,7 +16,7 @@ $otros_castillos = [
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
-$twitter = "@TuCuentaTwitter";
+$twitter = "@adrianLaya";
 $latitude = 48.032;  // Coordenadas GPS aproximadas
 $longitude = 2.222;
 $direccion = "Château de Chamerolles, 45170 Chilleurs-aux-Bois, Francia";

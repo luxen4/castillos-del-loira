@@ -16,7 +16,7 @@ $otros_castillos = [
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, arquitectura renacentista, escapada fin de semana";
-$twitter = "@TuCuentaTwitter";
+$twitter = "@adrianLaya";
 $latitude = 47.6167;  // Coordenadas GPS del castillo
 $longitude = 1.5333;
 $direccion = "Château de Talcy, 41120 Talcy, Francia";

@@ -105,7 +105,7 @@
           "@type": "City",
           "name": "Orléans",
           "description": "Ciudad vinculada a Juana de Arco, final habitual de muchos tramos.",
-          "url": "<?= $web_site; ?>/ciudades/orleans.php"
+          "url": "<?= $web_site; ?>/localidades/orleans.php"
         }
       ]
     }
@@ -259,8 +259,8 @@ $routes = [
         "description" => "Una de las rutas ciclistas más famosas de Europa, 900 km de carril bici.",
         "items" => [
             ["type" => "TouristInformationCenter", "name" => "Página oficial de Loire à Vélo", "description" => "Mapas, etapas y alojamientos para cicloturistas.", "url" => $web_site . "loire-a-velo/oficial"],
-            ["type" => "City", "name" => "Tours", "description" => "Ciudad histórica y punto ideal de salida de la ruta.", "url" => $web_site . "/ciudades/tours.php"],
-            ["type" => "City", "name" => "Orléans", "description" => "Ciudad vinculada a Juana de Arco, final habitual de muchos tramos.", "url" => $web_site . "/ciudades/orleans.php"]
+            ["type" => "City", "name" => "Tours", "description" => "Ciudad histórica y punto ideal de salida de la ruta.", "url" => $web_site . "/localidades/tours.php"],
+            ["type" => "City", "name" => "Orléans", "description" => "Ciudad vinculada a Juana de Arco, final habitual de muchos tramos.", "url" => $web_site . "/localidades/orleans.php"]
         ]
     ]
 ];

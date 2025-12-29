@@ -146,7 +146,7 @@
                         <li><a href="https://www.minube.com/rincon/los-anillos-de-buren-y-bouchain-a3667924" target="_blank" class="hover:text-emerald-700 underline">Hangar à Bananes</a></li>
                         <li><a href="https://museedartsdenantes.nantesmetropole.fr/"target="_blank"rel="nofollow noopener noreferrer"class="hover:text-emerald-700 underline">Musée d’Arts de Nantes</a></li>
 
-                        <li><a href="../ciudades/nantes/lugares-interesantes/iglesia-de-san-nicolas/index.php" target="_blank" class="hover:text-emerald-700 underline">Iglesia de San Nicolás</a></li>
+                        <li><a href="../localidades/nantes/lugares-interesantes/iglesia-de-san-nicolas/index.php" target="_blank" class="hover:text-emerald-700 underline">Iglesia de San Nicolás</a></li>
                     </ul>
                 </div>
 

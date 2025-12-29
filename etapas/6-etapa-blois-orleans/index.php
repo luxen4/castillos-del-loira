@@ -1,5 +1,5 @@
 <?php 
-$slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
+$slug_castillos_cercanos_csv= 'chateau-de-chambord'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -42,7 +42,7 @@ $slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
         <h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
 
         <p class="text-lg md:text-xl text-gray-700 mb-4">
-          Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="../../ciudades/chateau-royal-de-blois.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="../../ciudades/orleans.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>.
+          Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="../../localidades/chateau-royal-de-blois.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="../../localidades/orleans.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>.
           A lo largo del recorrido, podrás admirar castillos renacentistas y medievales, ríos serpenteantes, jardines impresionantes y paisajes que capturan la esencia de Francia.
         </p>
 
@@ -105,7 +105,7 @@ $slug_castillos_cercanos_csv= 'castillo-de-chambord'; ?>
             $slug_actual = $bloque["slug_parrafo"];
             $archivo_csv = 'data-etapas-partes.csv';
             // Bloque para mostrar castillos cercanos
-            $slug_filtrado_opiniones = $slug_castillos_cercanos_csv;
+            $slug_filtrado_csv = $slug_castillos_cercanos_csv;
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/utilidades/leer-csv-generico.php";
             require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/etapas/estructura/sections/template-cabeceras-generico.php";
 

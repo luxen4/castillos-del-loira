@@ -245,7 +245,7 @@
             <i class="fa-solid fa-chevron-down chev"></i>
           </button>
           <div class="px-4 pb-4 hidden" role="region">
-            <p class="text-gray-700">Las oficinas de turismo en ciudades principales (Tours, Saumur, Blois) listan puntos de alquiler. Espera precios desde ~25–40€ al día para eléctricas; reserva en temporada alta.</p>
+            <p class="text-gray-700">Las oficinas de turismo en Localidades principales (Tours, Saumur, Blois) listan puntos de alquiler. Espera precios desde ~25–40€ al día para eléctricas; reserva en temporada alta.</p>
           </div>
         </div>
 

@@ -154,14 +154,14 @@
                 — Mapas, etapas y hoteles adaptados a cicloturistas.
             </li>
             <li>
-                <a href="/val-de-loire/ciudades/tours.php" target="_blank"
+                <a href="/val-de-loire/localidades/tours.php" target="_blank"
                     class="<?= $a_style_emerald_700_semibold_hover_underline; ?>">
                     🏙️ Tours (ciudad histórica)
                 </a><?php /* Noticias de Tours -> https://www.tours-tourisme.fr/ */ ?>
                 — Punto de salida ideal para comenzar el recorrido.
             </li>
             <li>
-                <a href="/val-de-loire/ciudades/orleans.php" target="_blank"
+                <a href="/val-de-loire/localidades/orleans.php" target="_blank"
                     class="<?= $a_style_emerald_700_semibold_hover_underline; ?>">
                     ⚜️ Orléans
                 </a><?php /* Noticias de Orleans -> https://www.orleans-metropole.fr/*/ ?>

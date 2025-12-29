@@ -34,7 +34,7 @@ function esc($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
   <meta property="og:url" content="https://www.alayag82.kesug.com/val-de-loire/chateaux/<?= esc($slug) ?>.php">
   <meta property="og:type" content="place">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@TuCuentaTwitter">
+  <meta name="twitter:site" content="@adrianLaya">
 
   <!-- Estilos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">

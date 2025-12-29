@@ -4,8 +4,8 @@
     <aside class="lg:col-span-3 space-y-6">
       <div class="bg-emerald-50 p-4 rounded-lg shadow">
 
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-izquierdo/anclas/data.php"; ?>
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-izquierdo/otros-lugares-interes/data.php"; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-izquierdo/anclas/data.php"; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-izquierdo/otros-lugares-interes/data.php"; ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
 
       </div>
@@ -34,7 +34,7 @@
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-lugares-interes/main/sections/print-section.php"; ?>
 
         <!-- Consejos -->
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/consejos/data.php"; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/consejos/data.php"; ?>
 
         <!-- Información práctica -->
         <?php $slug_section = "informacion-practica";
@@ -52,7 +52,7 @@
         [Publicidad lateral]
       </div> */ ?>
 
-      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/ciudades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
+      <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/{$ciudad_minuscula}/lugares-interesantes/{$slug}/aside-derecho/castillos-cercanos/data.php"; ?>
 
     </aside>
   </main>

@@ -213,7 +213,7 @@
                 🌉 Chenonceau</a>
             </li>
             <li>
-              <a href="/val-de-loire/ciudades/tours.php" class="hover:underline hover:text-emerald-900 font-medium">
+              <a href="/val-de-loire/localidades/tours.php" class="hover:underline hover:text-emerald-900 font-medium">
                 🏙️ Tours</a>
             </li>
           </ul>

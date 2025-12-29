@@ -96,7 +96,7 @@ foreach ($data as $row) {
 // Filtrar por slug (si aplica)
 $partidos_filtrados = array_filter(
     $partidos,
-    fn($item) => isset($item['slug']) && $item['slug'] === $slug_filtrado_opiniones
+    fn($item) => isset($item['slug']) && $item['slug'] === $slug_filtrado_csv
 );
 
 // Agrupar por fecha + instalación

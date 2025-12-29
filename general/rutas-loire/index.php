@@ -17,7 +17,8 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
 <!DOCTYPE html>
 <html lang="es">
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head-generico.php'; ?>
 
 <body class="bg-gray-100 text-gray-800 font-sans">
 
@@ -26,7 +27,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
     <div class="container mx-auto grid grid-cols-12 gap-6 mt-6 md:px-4 max-w-[1600px]">
 
         <!-- ASIDE – Panel de navegación de rutas -->
-        <aside class="hidden md:block col-span-3 bg-white shadow-lg rounded-lg p-4 h-fit sticky top-24">
+        <aside class="hidden md:block col-span-2 bg-white shadow-lg rounded-lg p-4 h-fit sticky top-24">
 
             <h3 class="text-xl font-bold text-emerald-700 mb-4 border-b pb-2">
                 🗺️ Rutas del Valle del Loira
@@ -97,7 +98,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 
 
         <!-- ✅ CONTENIDO PRINCIPAL -->
-        <main class="col-span-12 lg:col-span-6 h-[128vh] overflow-y-auto">
+        <main class="col-span-12 lg:col-span-7 h-[128vh] overflow-y-auto">
             <div class="w-full flex items-center justify-between mt-4 mb-4">
                 <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/main/breadcrums/2niveles-generico.php'; ?>
                 <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/a-componentes/boton-volver-generico.php'; ?>

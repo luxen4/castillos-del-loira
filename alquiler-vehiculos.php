@@ -2,6 +2,7 @@
 $nombreLugar = "Alquiler de Vehículos";
 $descripcion = "Principales empresas de alquiler de vehículos en el Valle del Loira: Europcar, Avis, Hertz, Sixt, Enterprise y más.";
 $urlPagina = "https://tusitio.com/val-de-loire/alquiler-coches.php";
+$title="Alquiler de Vehículos";
 
 // Marcas de alquiler relevantes en la zona
 $marcas = [
@@ -62,23 +63,19 @@ $marcas = [
 
     <!-- 🔹 Aside izquierdo -->
     <aside class="hidden lg:block col-span-2 bg-white rounded-lg shadow p-4 space-y-4 sticky top-24">
-      <h4 class="font-bold text-emerald-700 mb-2">Publicidad</h4>
+      <?php /*<h4 class="font-bold text-emerald-700 mb-2">Publicidad</h4>
       <a href="#" target="_blank" class="block p-2 bg-gray-100 rounded hover:bg-gray-200 transition">
         <img src="https://source.unsplash.com/200x150/?hotel" alt="Publicidad 1" class="w-full rounded">
         <p class="text-xs text-gray-600 mt-1 text-center">Hotel destacado</p>
       </a>
 
-        <?php $numeroAleatorio = 0;
-        $archivoPublicidad = "botas_hombre";
-        $alineacion = 2;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-botas-hombre.php"; ?>
-
-
 
       <a href="#" target="_blank" class="block p-2 bg-gray-100 rounded hover:bg-gray-200 transition">
         <img src="https://source.unsplash.com/200x150/?loire,castle" alt="Publicidad 2" class="w-full rounded">
         <p class="text-xs text-gray-600 mt-1 text-center">Tour Valle del Loira</p>
-      </a>
+      </a> */?>      
+      <?php $alineacion = 2; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
+
     </aside>
 
     <!-- 🔹 Contenido central -->
@@ -111,15 +108,14 @@ $marcas = [
           <li>Si solo vas en una parte del viaje, puedes devolver el coche en un punto diferente (one-way), dependiendo de la empresa.</li>
         </ul>
       </section>
-        <?php 
-        $numeroAleatorio=3; $archivoPublicidad='jeans_man'; $alineacion=4;
-        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/carrusel-horizontal-generico-jeans-man.php"; ?>
+
+      <?php $alineacion = 4; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/anuncios/amazon/prueba.php"; ?>
 
     </div>
 
     <!-- 🔹 Aside derecho -->
     <aside class="hidden lg:block col-span-2 bg-white rounded-lg shadow p-4 space-y-4 sticky top-24">
-      <h4 class="font-bold text-emerald-700 mb-2">Patrocinado</h4>
+      <?php /*<h4 class="font-bold text-emerald-700 mb-2">Patrocinado</h4>
       <a href="#" target="_blank" class="block p-2 bg-gray-100 rounded hover:bg-gray-200 transition">
         <img src="https://source.unsplash.com/200x150/?restaurant" alt="Publicidad 3" class="w-full rounded">
         <p class="text-xs text-gray-600 mt-1 text-center">Restaurante recomendado</p>
@@ -130,16 +126,16 @@ $marcas = [
       <a href="#" target="_blank" class="block p-2 bg-gray-100 rounded hover:bg-gray-200 transition">
         <img src="https://source.unsplash.com/200x150/?wine,loire" alt="Publicidad 4" class="w-full rounded">
         <p class="text-xs text-gray-600 mt-1 text-center">Vinos del Loira</p>
-      </a>
+      </a> */?>
 
-              <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
+      <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script>
 
     </aside>
 
   </div>
 </main>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/footer/footer-generico.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/footer/footer-generico-2.php'; ?>
 
 </body>
 </html>

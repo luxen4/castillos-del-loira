@@ -22,6 +22,18 @@
     </div>
 
     <!-- Enlaces -->
+
+      <div>
+      <a href="/val-de-loire/general/alojamientos-val-de-loire.php"
+                      class="hover:underline flex items-center gap-2">
+                      🔍 Buscador Alojamientos
+      </a>
+
+      <a href="/val-de-loire/alquiler-vehiculos.php"
+          class="hover:underline flex items-center gap-2">
+          🚘 Coches de alquiler
+      </a>
+    </div>  
     <div class="flex items-center gap-4 text-lg">
       <a href="https://www.facebook.com/" target="_blank" class="hover:text-white">
         <i class="fab fa-facebook"></i>
@@ -32,8 +44,19 @@
       <a href="#" class="hover:underline">Privacidad</a>
       <a href="/val-de-loire/index.php" class="underline hover:text-white">Home</a>
     </div>
-
-
-
   </div>
 </footer>
+
+  <!-- ✅ Estilo adicional -->
+  <style>
+    html { scroll-behavior: smooth; }
+    
+    @media (min-width: 1280px) {
+      .container {
+        max-width: 1900px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+  </style>

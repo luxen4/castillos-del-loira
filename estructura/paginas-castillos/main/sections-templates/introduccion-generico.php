@@ -11,7 +11,7 @@
   }
 </style>
 
-<section id="<?= $introduccion['id'] ?>">
+<section id="que-ver">
   <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?php //echo $introduccion['titulo'] 
                                                         ?>Información</h2>
 

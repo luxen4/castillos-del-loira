@@ -16,7 +16,7 @@ $otros_castillos = [
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, Château de Gien, turismo Francia, viaje a $ciudad, museo de la caza, castillos del Loira, historia de Francia";
-$twitter = "@TuCuentaTwitter";  // Modifica con tu usuario real si tienes
+$twitter = "@adrianLaya";  // Modifica con tu usuario real si tienes
 $latitude = 47.6919;   // Coordenadas GPS aproximadas del castillo
 $longitude = 2.6064;
 $direccion = "Place du Château, 45500 Gien, Francia";

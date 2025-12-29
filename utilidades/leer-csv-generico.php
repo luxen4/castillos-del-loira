@@ -1,6 +1,6 @@
 <?php
 // Leer CSV
-$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/{$carpeta}/{$archivo_csv}";
+$archivo_csv = $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/{$carpeta}/{$archivo_csv}"; 
 $data = array_map('str_getcsv', file($archivo_csv));
 $headers = array_shift($data); // Elimina la primera fila (encabezados)
 
@@ -11,5 +11,5 @@ foreach ($data as $row) {
 } //var_dump($items);
 
 // Filtrar por slug
-$items_filtrados = array_filter($items, fn($item) => $item['slug'] === $slug_filtrado_opiniones);
+$items_filtrados = array_filter($items, fn($item) => $item['slug'] === $slug_filtrado_csv); //var_dump($slug_filtrado_csv);
 ?>

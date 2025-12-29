@@ -16,7 +16,7 @@ if(file_exists($dataFile)) {
 
 <?php
 // Incluir variables iniciales del castillo
-require RUTA_CHATEAUX . "/chateaux-folders/{$slug}/variables-iniciales.php";
+require RUTA_CHATEAUX . "/{$slug}/variables-iniciales.php";
 ?>
 
 <!DOCTYPE html>
@@ -26,9 +26,7 @@ require RUTA_CHATEAUX . "/chateaux-folders/{$slug}/variables-iniciales.php";
 
   <body class="bg-gray-50 text-gray-800">
     <!-- HEADER -->
-    <?php //require RUTA_ESTRUCTURA . "/header/header-inicio-faqs.php"; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/header/header-inicio-faqs.php'; ?>
-
 
     <?php require RUTA_ESTRUCTURA . "/hero/hero-generico.php"; ?>
 

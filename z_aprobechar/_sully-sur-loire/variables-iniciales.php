@@ -16,7 +16,7 @@ $otros_castillos = [
 
 // Variables dinámicas para SEO
 $keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
-$twitter = "@TuCuentaTwitter";
+$twitter = "@adrianLaya";
 $latitude = 47.3249;  // Coordenadas GPS del castillo
 $longitude = 0.0741;
 $direccion = "Château de Chenonceau, 37150 Chenonceaux, Francia";

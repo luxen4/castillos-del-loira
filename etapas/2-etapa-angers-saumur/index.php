@@ -99,7 +99,7 @@
         </a>
       </li>
       <li class="text-center">
-        <a href="../../ciudades/Angers.php" class="text-emerald-600 hover:underline font-semibold">Ciudad de Angers</a>
+        <a href="../../localidades/Angers.php" class="text-emerald-600 hover:underline font-semibold">Ciudad de Angers</a>
       </li>
       <li class="text-center">
         <a href="#saumur" class="text-emerald-600 hover:underline font-semibold">Ciudad de Saumur</a>

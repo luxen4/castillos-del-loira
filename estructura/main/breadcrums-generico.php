@@ -3,7 +3,7 @@
     <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors">🏰 Val-de-Loire</a></li>
     <li class="text-gray-400">/</li>
     <?php /*<li><a href="/val-de-loire/index.php#castillos-imprescindibles" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $carpeta; ?></a></li> */ ?>
-    <li><a href="<?= $url_carpeta; ?>" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $carpeta; ?></a></li>
+    <li><a href="/val-de-loire/index.php#localidades-principales" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $carpeta; ?></a></li>
     
     <li class="text-gray-400">/</li>
     <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>

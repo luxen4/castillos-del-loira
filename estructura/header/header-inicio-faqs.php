@@ -52,10 +52,10 @@
 
 
 
-            <!-- 🔽 DROPDOWN CIUDADES -->
+            <!-- 🔽 DROPDOWN LOCALIDADES -->
 <div class="relative group">
     <button class="flex items-center gap-2 hover:underline">
-        <i class="fas fa-city"></i> Ciudades
+        <i class="fas fa-city"></i> Localidades
         <i class="fas fa-chevron-down text-xs"></i>
     </button>
 
@@ -63,26 +63,52 @@
                 opacity-0 invisible group-hover:opacity-100 group-hover:visible
                 transition-all duration-200">
 
-        <a href="/val-de-loire/ciudades/amboise.php"
-           class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">
-            🏘 Amboise
-        </a>
+<?php
+$localidades = [
+    [
+        "slug" => "nantes",
+        "icono" => "🏰",
+        "nombre" => "Nantes",
+        "rounded" => "rounded-t-xl"
+    ],
+    [
+        "slug" => "amboise",
+        "icono" => "🏘",
+        "nombre" => "Amboise",
+        "rounded" => ""
+    ],
+    [
+        "slug" => "blois",
+        "icono" => "🏙",
+        "nombre" => "Blois",
+        "rounded" => ""
+    ],
+    [
+        "slug" => "tours",
+        "icono" => "🌆",
+        "nombre" => "Tours",
+        "rounded" => "rounded-b-xl"
+    ],
+];
+?>
+<?php foreach ($localidades as $item): ?>
+    <a href="/val-de-loire/localidades/<?= $item['slug']; ?>/index.php"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="block px-4 py-2 hover:bg-emerald-100 <?= $item['rounded']; ?>">
+        <?= $item['icono']; ?> <?= $item['nombre']; ?>
+    </a>
+<?php endforeach; ?>
+<a href="/val-de-loire/localidades/oficinas-de-turismo.php"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
+    🔗 Oficinas de Turismo 🔗
+</a>
 
-        <a href="/val-de-loire/ciudades/blois.php"
-           class="block px-4 py-2 hover:bg-emerald-100">
-            🏙 Blois
-        </a>
-
-        <a href="/val-de-loire/ciudades/tours.php"
-           class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-            🌆 Tours
-        </a>
-        <a href="/val-de-loire/general/oficinas-de-turismo.php" target="_blank" rel="noopener noreferrer" 
-            class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-            🔗 Oficinas de Turismo 🔗
-        </a>
     </div>
 </div>
+
 
 
         <!-- Dropdown Servicios -->
@@ -124,7 +150,7 @@
                     <li>
                     <a href="/val-de-loire/general/noticias.php"
                         class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        🎉 Noticias
+                        📰 Noticias
                     </a>
                 </li>
 
@@ -162,7 +188,7 @@
                 🚘 Coches de alquiler
             </a>
 
-            <a href="/val-de-loire/general/rutas-loire/faqs/index.php#<?= $hastag_faqs; ?>"
+            <a href="/val-de-loire/localidades/<?= $slug; ?>.php/#<?= $hastag_faqs; ?>"
                class="hover:underline flex items-center gap-2">
                 <i class="fas fa-question-circle"></i> FAQs
             </a>

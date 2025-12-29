@@ -25,7 +25,7 @@
 
         <!-- Introducción -->
         <?php $slug_section = "informacion";
-        require "chateaux-folders/{$slug}/{$slug_section}/data.php";
+        require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/{$slug_section}/data.php";
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-castillos/main/sections-templates/introduccion-generico.php"; ?>
 
         <!-- Consejos -->
@@ -53,7 +53,7 @@
         <!-- Castillos cercanos -->
         <?php
         $archivo_csv = 'castillos-cercanos.csv';
-        $slug_filtrado_opiniones = $slug_castillos_cercanos_csv;
+        $slug_filtrado_csv = $slug_castillos_cercanos_csv;
         require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php';
         require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-derecho/template-castillos-cercanos-generico.php";
         ?>
@@ -70,13 +70,3 @@
 
   </main>
 </div>
-
-<style>
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 1900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-</style>

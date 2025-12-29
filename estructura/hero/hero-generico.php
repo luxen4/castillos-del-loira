@@ -62,17 +62,18 @@ $iconos_informativos_portada = $ciudades[$slug];
     <!-- CTA -->
     <div class="mt-8 flex flex-wrap justify-center gap-4">
 
-      <a href="#que-ver"
+      <a href="/val-de-loire/<?= $carpeta; ?>/<?= htmlspecialchars($slug) ?>.php#que-ver"
          class="bg-emerald-600 hover:bg-emerald-700 text-white px-7 py-3 rounded-xl
                 font-semibold transition shadow-lg">
         👀 Qué ver en <?= $nombreLugar ?>
       </a>
 
+      <?php /*
       <a href="#mapa"
          class="bg-white/10 hover:bg-white/20 text-white px-7 py-3 rounded-xl
                 font-semibold backdrop-blur transition border border-white/30">
         📍 Ver mapa
-      </a>
+      </a> */?>
 
     </div>
 

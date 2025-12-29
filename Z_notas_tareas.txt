@@ -53,7 +53,7 @@ Objetivo:
 
         Nantes -> Maquetación OK
                     Enlaces que abran en otra pestaña
-                    http://localhost/val-de-loire/ciudades/nantes/museos-nantes/index.php Seguir aquí, schemas(canonical,etc)
+                    http://localhost/val-de-loire/localidades/nantes/museos-nantes/index.php Seguir aquí, schemas(canonical,etc)
 
 
             web -> museos-y-exposiciones 8/12/2025

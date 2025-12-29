@@ -63,10 +63,6 @@
   <!-- ✅ Generador / Editor -->
   <meta name="generator" content="VS Code">
 
-  <!-- ✅ Estilo adicional -->
-  <style>
-    html { scroll-behavior: smooth; }
-  </style>
 
   <!-- ✅ Script adicional / tracking -->
   <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">

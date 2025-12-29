@@ -1,7 +1,7 @@
 <?php
 // Definir constantes de rutas
 define('RUTA_BASE', $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire');
-define('RUTA_LUGARES_INTERES', RUTA_BASE . '/ciudades/orleans/lugares-interesantes');
+define('RUTA_LUGARES_INTERES', RUTA_BASE . '/localidades/orleans/lugares-interesantes');
 define('RUTA_ESTRUCTURA', RUTA_BASE . '/estructura'); ?>
 
 
