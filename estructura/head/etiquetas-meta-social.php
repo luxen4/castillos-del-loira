@@ -1,6 +1,6 @@
   
   <!-- ✅ Open Graph / Facebook / LinkedIn -->
-  <meta property="og:title" content="<?= $nombreLugar ?> | Valle del Loira">
+  <meta property="og:title" content="<?= $title ?> | Valle del Loira">
   <meta property="og:description" content="<?= $descripcion ?>">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">

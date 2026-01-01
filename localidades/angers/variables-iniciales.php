@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Angers";
+$title = "Angers";
 $ciudad = "Angers";
 $slug = "angers"; $slug_castillos_cercanos_csv = 'ciudad-angers';
 $carpeta='chateaux';

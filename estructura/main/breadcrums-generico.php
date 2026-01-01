@@ -6,7 +6,7 @@
     <li><a href="/val-de-loire/index.php#localidades-principales" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $carpeta; ?></a></li>
     
     <li class="text-gray-400">/</li>
-    <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
+    <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $title; ?></a></li>
     <?php /*    
     <li class="text-gray-400">/</li>
 
@@ -19,7 +19,7 @@
     
  ?>" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $bread_crums_second; ?></a></li>
     <li class="text-gray-400">/</li>
-    <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $nombreLugar; ?></a></li>
+    <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $title; ?></a></li>
 
 */ ?>
 </ol>

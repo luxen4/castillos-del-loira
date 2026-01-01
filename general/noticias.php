@@ -1,4 +1,4 @@
-<?php $nombreLugar = "Noticias del Valle del Loira";
+<?php $title = "Noticias del Valle del Loira";
 $descripcion = "Noticias y actualidad del Valle del Loira: eventos, guías, aperturas y consejos para visitar los castillos y ciudades del Loira.";
 $keywords = "noticias Valle del Loira, eventos Valle del Loira, guías Valle del Loira, castillos Valle del Loira, turismo Valle del Loira, actualidad Loira, visitar Loira, consejos viaje Loira";
 $carpeta = "general";

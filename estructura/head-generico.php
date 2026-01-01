@@ -1,7 +1,7 @@
 <?php $web_site = "https://alayag82.kesug.com/val-de-loire"; ?>
 <head>
   <!-- ✅ Título -->
-  <title><?= $nombreLugar ?> | Valle del Loira</title>
+  <title><?= $title ?> | Valle del Loira</title>
 
   <!-- ✅ Meta básicos -->
   <meta charset="UTF-8">
@@ -35,7 +35,7 @@
   <link rel="preload" as="font" href="/fonts/tu-font.woff2" type="font/woff2" crossorigin="anonymous">
 
   <!-- ✅ Open Graph / Facebook / LinkedIn -->
-  <meta property="og:title" content="<?= $nombreLugar ?> | Valle del Loira">
+  <meta property="og:title" content="<?= $title ?> | Valle del Loira">
   <meta property="og:description" content="<?= $descripcion ?>">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
@@ -45,7 +45,7 @@
 
   <!-- ✅ Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<?= $nombreLugar ?> | Valle del Loira">
+  <meta name="twitter:title" content="<?= $title ?> | Valle del Loira">
   <meta name="twitter:description" content="<?= $descripcion ?>">
   <meta name="twitter:image" content="<?= $imagenHero ?>">
   <meta name="twitter:site" content="<?= $twitter ?>">

@@ -4,7 +4,7 @@ $web_name='Jardín de Plantas de Nantes';
 $title = "🌿 Jardín de Plantas de Nantes | Flora, historia y visitas";
 $carpeta = "general"; $web_name_url="jardin-des-plantes-nantes.php";
 $slug = "jardin-des-plantes-nantes"; 
-$nombreLugar='Jardín de Plantas de Nantes'; $hastag_faqs='jardin-plantes';
+$title='Jardín de Plantas de Nantes'; $hastag_faqs='jardin-plantes';
 $keywords = "Jardín de Plantas Nantes, Jardin des Plantes Nantes, Flora Nantes, Turismo Nantes, Naturaleza Nantes, Jardines Francia";
 $descripcion = "Explora el Jardín de Plantas de Nantes: flora diversa, historia del jardín y actividades educativas para toda la familia.";
 $imagenHero = "https://alayag82.kesug.com/jardin-des-plantes-nantes/assets/jardin-nantes.jpg";

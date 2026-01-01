@@ -4,7 +4,7 @@ $web_name='Museo de Artes de Nantes';
 $title = "🏛 Museo de Artes de Nantes | Colecciones, historia y visitas";
 $carpeta = "general"; $web_name_url="museo-artes-nantes.php";
 $slug = "musse-arts-de-nantes"; 
-$nombreLugar='Museo de Artes de Nantes'; $hastag_faqs='museo-nantes';
+$title='Museo de Artes de Nantes'; $hastag_faqs='museo-nantes';
 $keywords = "Museo de Artes de Nantes, Musée d’arts de Nantes, Arte Francia, Arte Europeo, Louvre Oeste, Turismo Nantes, Cultura Nantes, Museos Francia";
 $descripcion = "Descubre el Museo de Artes de Nantes: colecciones maestras, exposiciones, horarios, precios y visita completa.";
 $imagenHero = "https://alayag82.kesug.com/museo-arts-nantes/assets/museo-nantes.jpg";

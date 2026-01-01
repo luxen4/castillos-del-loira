@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Tours";
+$title = "Tours";
 $ciudad = "Tours";
 $slug = "tours";
 $carpeta='chateaux';

@@ -1,7 +1,7 @@
 <?php
 // variables iniciales - edítalas según necesites
 $siteName       = "Valle del Loira";
-$nombreLugar    = "Musée des Beaux-Arts d'Orléans";
+$title    = "Musée des Beaux-Arts d'Orléans";
 $ciudad         = "Orléans";
 $slug           = "musee-beaux-arts-orleans";
 $descripcion    = "Museo de Bellas Artes de Orléans: colección permanente, exposiciones temporales, visitas guiadas y actividades culturales en el corazón de Orléans.";
@@ -34,7 +34,7 @@ $relacionadas = [
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title><?= htmlspecialchars($nombreLugar . " | " . $ciudad . " - " . $siteName) ?></title>
+  <title><?= htmlspecialchars($title . " | " . $ciudad . " - " . $siteName) ?></title>
   <meta name="description" content="<?= htmlspecialchars($descripcion) ?>" />
   <meta name="keywords" content="<?= htmlspecialchars($keywords) ?>" />
   <meta name="author" content="<?= htmlspecialchars($author) ?>" />
@@ -44,7 +44,7 @@ $relacionadas = [
   <!-- Open Graph -->
   <meta property="og:site_name" content="<?= htmlspecialchars($siteName) ?>">
   <meta property="og:type" content="museum">
-  <meta property="og:title" content="<?= htmlspecialchars($nombreLugar . " | " . $ciudad) ?>">
+  <meta property="og:title" content="<?= htmlspecialchars($title . " | " . $ciudad) ?>">
   <meta property="og:description" content="<?= htmlspecialchars($descripcion) ?>">
   <meta property="og:image" content="<?= htmlspecialchars($imagenThumb) ?>">
   <meta property="og:url" content="<?= htmlspecialchars($canonical) ?>">
@@ -52,7 +52,7 @@ $relacionadas = [
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="<?= htmlspecialchars($twitterHandle) ?>">
-  <meta name="twitter:title" content="<?= htmlspecialchars($nombreLugar . " | " . $ciudad) ?>">
+  <meta name="twitter:title" content="<?= htmlspecialchars($title . " | " . $ciudad) ?>">
   <meta name="twitter:description" content="<?= htmlspecialchars($descripcion) ?>">
   <meta name="twitter:image" content="<?= htmlspecialchars($imagenThumb) ?>">
 
@@ -104,14 +104,14 @@ $relacionadas = [
   <section class="relative">
     <div class="relative h-56 sm:h-96 md:h-[420px] lg:h-[540px] overflow-hidden">
       <img src="<?= htmlspecialchars($imagenHero) ?>"
-           alt="<?= htmlspecialchars($nombreLugar) ?>"
+           alt="<?= htmlspecialchars($title) ?>"
            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
            loading="eager">
       <div class="absolute inset-0 hero-overlay flex items-center">
         <div class="container mx-auto px-6">
           <div class="max-w-3xl text-white">
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold drop-shadow-lg">
-              <?= htmlspecialchars($nombreLugar) ?>
+              <?= htmlspecialchars($title) ?>
             </h2>
             <p class="mt-2 text-sm sm:text-base md:text-lg drop-shadow"><?= htmlspecialchars($descripcion) ?></p>
             <div class="mt-4 flex gap-3">
@@ -344,7 +344,7 @@ $relacionadas = [
   {
     "@context":"https://schema.org",
     "@type":"Museum",
-    "name":"<?= addslashes($nombreLugar) ?>",
+    "name":"<?= addslashes($title) ?>",
     "description":"<?= addslashes($descripcion) ?>",
     "image":"<?= addslashes($imagenThumb) ?>",
     "address":{

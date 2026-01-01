@@ -1,6 +1,6 @@
 <?php 
 $title='Web-site';
-$nombreLugar = "";
+$title = "";
 $descripcion = "Descubre los castillos más impresionantes del Valle del Loira en Francia: Chambord, Chenonceau, Villandri, Cheverny, Ussé y más. Guía de viaje, consejos y rutas.";
 $keywords = "Valle del Loira, castillos Francia, Chambord, Chenonceau, Villandry, turismo Francia, ruta castillos";
 $carpeta = "";

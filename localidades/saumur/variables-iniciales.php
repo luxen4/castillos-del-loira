@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Saumur";
+$title = "Saumur";
 $ciudad = "Saumur";
 $slug = "saumur";
 $carpeta='chateaux';

@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Alquiler de Vehículos";
+$title = "Alquiler de Vehículos";
 $descripcion = "Principales empresas de alquiler de vehículos en el Valle del Loira: Europcar, Avis, Hertz, Sixt, Enterprise y más.";
 $urlPagina = "https://tusitio.com/val-de-loire/alquiler-coches.php";
 $title="Alquiler de Vehículos";
@@ -50,7 +50,7 @@ $marcas = [
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?= htmlspecialchars($nombreLugar) ?></title>
+  <title><?= htmlspecialchars($title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($descripcion) ?>">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -80,7 +80,7 @@ $marcas = [
 
     <!-- 🔹 Contenido central -->
     <div class="col-span-12 lg:col-span-8 space-y-8">
-      <h1 class="text-3xl font-bold text-emerald-700"><?= htmlspecialchars($nombreLugar) ?></h1>
+      <h1 class="text-3xl font-bold text-emerald-700"><?= htmlspecialchars($title) ?></h1>
       <p class="text-gray-600"><?= htmlspecialchars($descripcion) ?></p>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

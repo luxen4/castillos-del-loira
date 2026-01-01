@@ -1,5 +1,5 @@
 <?php 
-$nombreLugar = 'Oficinas de Turismo';
+$title = 'Oficinas de Turismo';
 $descripcion = "Descubre todas las oficinas de turismo del Valle del Loira: información oficial, mapas, horarios y consejos para visitar los castillos y ciudades más emblemáticas del Loira. Planifica tu viaje por Nantes, Tours, Amboise, Blois, Angers, Saumur y más destinos imprescindibles del valle francés.";
 $keywords = "oficinas de turismo Valle del Loira, turismo Loira, información turística Loira, castillos del Loira turismo, oficina turismo Nantes, oficina turismo Tours, oficina turismo Amboise, oficina turismo Blois, oficina turismo Angers, visitar Valle del Loira, guía Valle del Loira";
 $carpeta = "servicios";

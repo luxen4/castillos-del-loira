@@ -14,7 +14,7 @@
 
                 <p class="text-xs md:text-sm font-medium text-emerald-200
                            border-l-4 border-emerald-200 pl-2 mt-1">
-                    <?= $nombreLugar; ?>
+                    <?= $title; ?>
                 </p>
             </div>
         </a>

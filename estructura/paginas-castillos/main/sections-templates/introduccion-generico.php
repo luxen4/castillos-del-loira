@@ -26,7 +26,7 @@
   <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $titulo ?></h2>
   <p class="text-gray-700 mb-4"><?= $texto ?></p>
 
-  <div class="relative w-full overflow-hidden">
+  <div id="galeria-imagenes" class="relative w-full overflow-hidden">
 
     <!-- CARRUSEL -->
     <div id="carousel"

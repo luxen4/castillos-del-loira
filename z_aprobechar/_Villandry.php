@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Chateau de Villandry"; $ciudad = ""; $slug = "villandry";
+$title = "Château de Villandry"; $ciudad = ""; $slug = "villandry";
 $descripcion = "El Castillo de Villandry, situado en el Valle del Loira, es un espléndido ejemplo de la arquitectura renacentista francesa. Rodeado de jardines y viñedos, ofrece visitas guiadas y eventos culturales que permiten disfrutar de su historia y encanto.";
 $imagenHero = "https://st4.depositphotos.com/1766887/38614/i/450/depositphotos_386148530-stock-photo-most-beautiful-castles-europe-chateau.jpg";
 $web_oficial = "https://www.chateauvillandry.fr/";
@@ -21,7 +21,7 @@ $castillos_cercanos = [
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?= $nombreLugar ?> | Valle del Loira</title>
+<title><?= $title ?> | Valle del Loira</title>
 <meta name="description" content="<?= $descripcion ?>">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
@@ -37,7 +37,7 @@ $castillos_cercanos = [
 <!-- Hero -->
 <section class="relative h-[500px] md:h-[650px] hero bg-cover bg-center" style="background-image:url('<?= $imagenHero ?>')">
   <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-    <h1 class="text-4xl md:text-5xl text-white font-extrabold text-center"><?= $nombreLugar ?></h1>
+    <h1 class="text-4xl md:text-5xl text-white font-extrabold text-center"><?= $title ?></h1>
   </div>
 </section>
 

@@ -2,7 +2,7 @@
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "<?= $nombreLugar ?>",
+  "name": "<?= $title ?>",
   "description": "<?= $descripcion ?>",
   "image": "<?= $imagenHero ?>",
   "address": {

@@ -11,7 +11,7 @@ function crearFAQ($pregunta, $respuesta) {
 
 <section id="faqs" class="max-w-4xl mx-auto py-10">
   <h2 class="text-2xl font-bold text-emerald-700 mb-6">
-    Preguntas frecuentes sobre el <?= $nombreLugar; ?>
+    Preguntas frecuentes sobre el <?= $title; ?>
   </h2>
 
   <div class="space-y-4">

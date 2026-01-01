@@ -167,7 +167,7 @@ $localidades = [
     <div class="flex items-center gap-3">
         <span class="text-lg md:text-xl font-bold leading-tight">🌿 Val de Loire</span>
         <?php /* <span class="text-xs md:text-sm font-medium text-emerald-200 border-l-4 border-emerald-200 pl-2">
-            <?= $nombreLugar; 
+            <?= $title; 
         </span>*/ ?>
     </div>
 </a>

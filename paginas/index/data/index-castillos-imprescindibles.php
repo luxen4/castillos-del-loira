@@ -5,14 +5,14 @@ $castillos = [
         "imagen" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/2a3/-domaine-national-de-chambord.webp",
         "foto_fuente" => "https://www.valledelloira-francia.es/sitio-cultural/chateau-de-chambord/",
         "nombre_fuente" => "valledelloira-francia.es",
-        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chambord.php"
+        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chambord/index.php"
     ],
     [
         "nombre" => "Château de Chenonceau",
         "imagen" => "https://www.valdeloire-france.com/app/uploads/2023/05/chenonceau-0772-credit-lezbroz-teddy-verneuil-1024x682.webp",
         "foto_fuente" => "https://www.valledelloira-francia.es/descubrir/castillos-loira/castillo-chenonceau/",
         "nombre_fuente" => "valledelloira-francia.es",
-        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chenonceau.php"
+        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chenonceau/index.php"
         /*"web_oficial" => "https://www.chenonceau.com/en/"*/
     ],
     [

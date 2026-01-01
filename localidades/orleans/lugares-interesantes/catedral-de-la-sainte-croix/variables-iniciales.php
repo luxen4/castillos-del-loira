@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Catedral de Sainte-Croix de Orléans";
+$title = "Catedral de Sainte-Croix de Orléans";
 $ciudad = "Orléans"; $ciudad_minuscula = "orleans";
 $carpeta='chateaux';
 $slug_Mayuscula = "Sainte-Croix";
@@ -15,7 +15,7 @@ $otros_lugares = [
 ];
 
 // Variables dinámicas para SEO
-$keywords = "$nombreLugar, catedral Orléans, turismo Valle del Loira, viaje a $ciudad, turismo cultural, patrimonio histórico, arquitectura gótica";
+$keywords = "$title, catedral Orléans, turismo Valle del Loira, viaje a $ciudad, turismo cultural, patrimonio histórico, arquitectura gótica";
 $twitter = "@adrianLaya";
 $latitude = 47.9025;  // Coordenadas GPS de la catedral
 $longitude = 1.9090;

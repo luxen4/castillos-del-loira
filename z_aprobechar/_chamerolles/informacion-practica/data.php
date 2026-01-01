@@ -1,6 +1,6 @@
 <?php
 // ℹ️ SECCIÓN: INFORMACIÓN PRÁCTICA - CHAMEROLLES
-$nombreLugar = "Château de Chamerolles";
+$title = "Château de Chamerolles";
 $info_titulo = "ℹ️ Visitas";
 
 $info_detalles = [
@@ -10,7 +10,7 @@ $info_detalles = [
   "Acceso: A 50 km de Orleans, accesible en coche y transporte público."
 ];
 
-$info_mas = "🔗 Más información: visita la web oficial de $nombreLugar";
+$info_mas = "🔗 Más información: visita la web oficial de $title";
 $info_web_texto = "aquí";
 $info_web_estilo = "color:#1a0dab; text-decoration:underline;";
 ?>

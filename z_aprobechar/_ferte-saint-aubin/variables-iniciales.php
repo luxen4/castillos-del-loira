@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Chateau de Chenonceau";
+$title = "Château de Chenonceau";
 $ciudad = "Chenonceaux";
 $carpeta='chateaux';
 $slug_Mayuscula = "Chenonceau";
@@ -15,7 +15,7 @@ $otros_castillos = [
 ];
 
 // Variables dinámicas para SEO
-$keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
+$keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
 $twitter = "@adrianLaya";
 $latitude = 47.3249;  // Coordenadas GPS del castillo
 $longitude = 0.0741;

@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Chateau de Chamerolles";
+$title = "Château de Chamerolles";
 $ciudad = "Chilleurs-aux-Bois";
 $carpeta='chateaux';
 $slug_Mayuscula = "Chamerolles";
@@ -15,7 +15,7 @@ $otros_castillos = [
 ];
 
 // Variables dinámicas para SEO
-$keywords = "$nombreLugar, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
+$keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
 $twitter = "@adrianLaya";
 $latitude = 48.032;  // Coordenadas GPS aproximadas
 $longitude = 2.222;

@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Château de Gien";
+$title = "Château de Gien";
 $ciudad = "Gien";
 $carpeta='chateaux';
 $slug_Mayuscula = "Gien";
@@ -15,7 +15,7 @@ $otros_castillos = [
 ];
 
 // Variables dinámicas para SEO
-$keywords = "$nombreLugar, castillos Valle del Loira, Château de Gien, turismo Francia, viaje a $ciudad, museo de la caza, castillos del Loira, historia de Francia";
+$keywords = "$title, castillos Valle del Loira, Château de Gien, turismo Francia, viaje a $ciudad, museo de la caza, castillos del Loira, historia de Francia";
 $twitter = "@adrianLaya";  // Modifica con tu usuario real si tienes
 $latitude = 47.6919;   // Coordenadas GPS aproximadas del castillo
 $longitude = 2.6064;

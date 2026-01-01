@@ -1,6 +1,6 @@
 <?php
 $web_site = "http://alayag82.kesug.com/val-de-loire/";
-$nombreLugar = "Oficinas de Turismo";
+$title = "Oficinas de Turismo";
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ $nombreLugar = "Oficinas de Turismo";
       <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10 object-contain">
       <div class="flex flex-col">
         <h1 class="text-lg md:text-xl font-bold text-white leading-tight">Val de Loire</h1>
-        <p class="text-xs md:text-sm font-medium text-white-200 border-l-4 border-emerald-200 pl-2 mt-1">🗺️ <?= $nombreLugar; ?></p>
+        <p class="text-xs md:text-sm font-medium text-white-200 border-l-4 border-emerald-200 pl-2 mt-1">🗺️ <?= $title; ?></p>
       </div>
     </a>
 

@@ -56,35 +56,29 @@
 
     </div>
 </div>
-
-
-
-
-
+  
+<?php /*
 <!-- 🔵 ADSENSE – Solo actívalo si quieres -->
 <div class="bg-white shadow rounded-xl p-4 border border-blue-100">
     <h3 class="text-xl font-bold text-blue-700 mb-3">Publicidad</h3>
 
     <!-- Marca esta línea y pega tu código real de AdSense -->
-    <!-- <?php /* "<!-- ADSENSE AQUÍ -->" */ ?> -->
+    <!-- <?php /* "<!-- ADSENSE AQUÍ -->" 
+
 
     <div class="text-center py-10 text-gray-400 text-sm italic">
         <span>Anuncio de Google</span>
 
-
-
-<!-- anuncio google 1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8224668217749275"
-     data-ad-slot="7712880193"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-
-    </div>
-</div>
+        <!-- anuncio google 1 -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-8224668217749275"
+            data-ad-slot="7712880193"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div> 
+</div>*/ ?> 

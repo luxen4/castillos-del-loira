@@ -1,6 +1,6 @@
 <?php
 // Variables principales
-$nombreLugar  = "Abbatiale Notre-Dame de Beaugency";
+$title  = "Abbatiale Notre-Dame de Beaugency";
 $ciudad       = "Beaugency";
 $slug         = "abbatiale-notre-dame-beaugency";
 $descripcion  = "La Abadía de Notre Dame de Beaugency es una joya del románico en el Valle del Loira, testigo de concilios, guerras y renovaciones, con una atmósfera de paz y patrimonio histórico excepcional.";
@@ -11,7 +11,7 @@ $longitude    = 1.6302;
 $direccion    = "Rue de l'Abbaye, 45190 Beaugency, Francia";
 $horario_apertura = "09:00";
 $horario_cierre   = "18:00";
-$keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico francés, patrimonio UNESCO";
+$keywords     = "$title, Beaugency, turismo Valle del Loira, románico francés, patrimonio UNESCO";
 
 ?>
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?= htmlspecialchars($nombreLugar) ?> — <?= htmlspecialchars($ciudad) ?></title>
+  <title><?= htmlspecialchars($title) ?> — <?= htmlspecialchars($ciudad) ?></title>
   <meta name="description" content="<?= htmlspecialchars($descripcion) ?>">
   <meta name="keywords" content="<?= htmlspecialchars($keywords) ?>">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
@@ -28,7 +28,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
   {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
-    "name": "<?= htmlspecialchars($nombreLugar) ?>",
+    "name": "<?= htmlspecialchars($title) ?>",
     "description": "<?= htmlspecialchars($descripcion) ?>",
     "image": "<?= htmlspecialchars($imagenHero) ?>",
     "address": {
@@ -63,7 +63,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
 
   <header class="bg-emerald-700 text-white py-6 shadow-md">
     <div class="container mx-auto px-6 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">⛪ <?= htmlspecialchars($nombreLugar) ?></h1>
+      <h1 class="text-2xl font-bold">⛪ <?= htmlspecialchars($title) ?></h1>
       <nav class="flex gap-6">
         <a href="/val-de-loire/index.php" class="hover:underline">Inicio</a>
         <a href="/val-de-loire/localidades/beaugency.php" class="hover:underline">Beaugency</a>
@@ -94,7 +94,7 @@ $keywords     = "$nombreLugar, Beaugency, turismo Valle del Loira, románico fra
     </aside>
 
     <article class="lg:col-span-2">
-      <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4"><?= htmlspecialchars($nombreLugar) ?></h3>
+      <h3 class="text-xl md:text-2xl lg:text-2xl font-bold text-emerald-700 mb-4"><?= htmlspecialchars($title) ?></h3>
       <p class="text-gray-700 mb-6"><?= htmlspecialchars($descripcion) ?></p>
 
       <section id="historia" class="bg-white rounded-2xl p-6 shadow mb-6">

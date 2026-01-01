@@ -1,6 +1,6 @@
 <?php
 // ℹ️ SECCIÓN: INFORMACIÓN PRÁCTICA - CATEDRAL DE SAINTE-CROIX
-$nombreLugar = "Catedral de Sainte-Croix de Orléans";
+$title = "Catedral de Sainte-Croix de Orléans";
 $info_titulo = "ℹ️ Visitas";
 
 $info_detalles = [
@@ -10,7 +10,7 @@ $info_detalles = [
   "Acceso: Situada en el centro de Orléans, accesible en transporte público o a pie desde la estación de tren."
 ];
 
-$info_mas = "🔗 Más información: consulta la web oficial de $nombreLugar";
+$info_mas = "🔗 Más información: consulta la web oficial de $title";
 $info_web_texto = "aquí";
 $info_web_estilo = "color:#1a0dab; text-decoration:underline;";
 ?>

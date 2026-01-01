@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Alojamientos";
+$title = "Alojamientos";
 $descripcion = "Descubre alojamientos recomendados en Nantes, Angers, Saumur, Tours, Amboise, Blois y Orleans. Hoteles, casas rurales y estancias únicas en el Valle del Loira.";
 $imagenHero = "https://tusitio.com/img/alojamientos-loira.jpg";
 $twitter = "@tuusuario";
@@ -14,7 +14,7 @@ $twitter = "@tuusuario";
 <?php
 // schemas-head.php
 // Variables necesarias
-$nombreLugar = "Alojamientos en el Valle del Loira";
+$title = "Alojamientos en el Valle del Loira";
 $descripcion = "Descubre alojamientos recomendados en Nantes, Angers, Saumur, Tours, Amboise, Blois y Orleans. Hoteles, casas rurales y estancias únicas en el Valle del Loira.";
 $imagenHero = "https://tusitio.com/img/alojamientos-loira.jpg";
 $urlPagina = "https://tusitio.com/alojamientos.php";
@@ -30,7 +30,7 @@ $twitter = "@tuusuario";
       "@type": "WebSite",
       "@id": "<?php echo $urlPagina; ?>#website",
       "url": "<?php echo $urlPagina; ?>",
-      "name": "<?php echo $nombreLugar; ?>",
+      "name": "<?php echo $title; ?>",
       "description": "<?php echo $descripcion; ?>",
       "publisher": {
         "@type": "Organization",
@@ -68,7 +68,7 @@ $twitter = "@tuusuario";
     {
       "@type": "Place",
       "@id": "<?php echo $urlPagina; ?>#place",
-      "name": "<?php echo $nombreLugar; ?>",
+      "name": "<?php echo $title; ?>",
       "description": "<?php echo $descripcion; ?>",
       "image": "<?php echo $imagenHero; ?>",
       "address": {
@@ -85,7 +85,7 @@ $twitter = "@tuusuario";
     {
       "@type": "LodgingBusiness",
       "@id": "<?php echo $urlPagina; ?>#lodging",
-      "name": "<?php echo $nombreLugar; ?>",
+      "name": "<?php echo $title; ?>",
       "description": "<?php echo $descripcion; ?>",
       "image": "<?php echo $imagenHero; ?>",
       "url": "<?php echo $urlPagina; ?>",

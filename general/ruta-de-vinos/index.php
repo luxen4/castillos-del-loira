@@ -4,7 +4,7 @@ $web_name='Vinos del Loira';
 $title = "🍇 Ruta Vinos | Bodegas, catas y enoturismo";
 $carpeta = "general"; $web_name_url="ruta-de-vinos.php";
 $slug = "ruta-de-vinos"; 
-$nombreLugar='Ruta Vinos del Loira'; $hastag_faqs='ruta-vinos';
+$title='Ruta Vinos del Loira'; $hastag_faqs='ruta-vinos';
 $keywords = "Rutas Valle del Loira, Castillos Loira, Vino Valle del Loira, Gastronomía Loira, Naturaleza Loira, Turismo Loira, Loire à Vélo, Cicloturismo Loira, Paisajes Valle del Loira";
 $descripcion = "Bodegas, catas, viñedos y recorridos en el corazón del Valle del Loira.";
 $imagenHero = "https://alayag82.kesug.com/val-de-loire/assets/logo.png";

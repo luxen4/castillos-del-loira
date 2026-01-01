@@ -5,7 +5,7 @@
   <!-- Imagen responsive -->
   <img 
     src="<?= $imagenHero ?>" 
-    alt="<?= $nombreLugar ?>"
+    alt="<?= $title ?>"
     class="absolute inset-0 w-full h-full object-cover"
     loading="eager"
   >
@@ -17,7 +17,7 @@
     <!-- Título -->
     <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
                font-extrabold text-white drop-shadow-lg">
-      <?= $nombreLugar ?>
+      <?= $title ?>
     </h1>
 
 
@@ -62,10 +62,10 @@ $iconos_informativos_portada = $ciudades[$slug];
     <!-- CTA -->
     <div class="mt-8 flex flex-wrap justify-center gap-4">
 
-      <a href="/val-de-loire/<?= $carpeta; ?>/<?= htmlspecialchars($slug) ?>.php#que-ver"
+      <a href="/val-de-loire/<?= $carpeta; ?>/<?= htmlspecialchars($slug) ?>/index.php#galeria-imagenes"
          class="bg-emerald-600 hover:bg-emerald-700 text-white px-7 py-3 rounded-xl
                 font-semibold transition shadow-lg">
-        👀 Qué ver en <?= $nombreLugar ?>
+        👀 Qué ver en <?= $title ?>
       </a>
 
       <?php /*
@@ -79,7 +79,7 @@ $iconos_informativos_portada = $ciudades[$slug];
 
     <!-- SEO invisible -->
     <span class="sr-only">
-      <?= $nombreLugar ?> Valle del Loira Castillo Real Leonardo da Vinci turismo Francia
+      <?= $title ?> Valle del Loira Castillo Real Leonardo da Vinci turismo Francia
     </span>
 
   </div>

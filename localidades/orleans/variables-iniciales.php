@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Orléans";
+$title = "Orléans";
 $ciudad = "Orléans";          $slug = "orleans"; $slug_castillos_cercanos_csv= 'ciudad-de-orleans';
 $carpeta='chateaux';
 $slug_Mayuscula = "Orleans";

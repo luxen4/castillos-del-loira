@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Château de Talcy";
+$title = "Château de Talcy";
 $ciudad = "Talcy";
 $slug = "Talcy";
 $descripcion = "El Château de Talcy es una elegante residencia renacentista del Valle del Loira, famosa por su arquitectura histórica y su vínculo con la poetisa Marie de Médicis. Sus muros guardan siglos de historia y un encanto rural único.";
@@ -16,7 +16,7 @@ $horario_cierre = "18:00";
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "<?= $nombreLugar ?>",
+  "name": "<?= $title ?>",
   "description": "<?= $descripcion ?>",
   "image": "<?= $imagenHero ?>",
   "address": {

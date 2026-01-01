@@ -1,6 +1,6 @@
 <?php
 // ℹ️ SECCIÓN: INFORMACIÓN PRÁCTICA - GIEN
-$nombreLugar = "Château de Gien";
+$title = "Château de Gien";
 $info_titulo = "ℹ️ Visitas";
 
 $info_detalles = [
@@ -10,7 +10,7 @@ $info_detalles = [
   "Acceso: A 70 km de Orléans. Fácil acceso en coche, tren y ruta ciclista La Loire à Vélo."
 ];
 
-$info_mas = "🔗 Más información: visita la web oficial de $nombreLugar";
+$info_mas = "🔗 Más información: visita la web oficial de $title";
 $info_web_texto = "aquí";
 $info_web_estilo = "color:#1a0dab; text-decoration:underline;";
 

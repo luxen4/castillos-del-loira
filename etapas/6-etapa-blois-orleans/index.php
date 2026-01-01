@@ -6,7 +6,7 @@ $slug_castillos_cercanos_csv= 'chateau-de-chambord'; ?>
 
 
   <?php 
-  $nombreLugar='Etapa Blois - Orleans';
+  $title='Etapa Blois - Orleans';
   $carpeta='etapas'; 
   $slug='6-etapa-blois-orleans/index';
   require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>

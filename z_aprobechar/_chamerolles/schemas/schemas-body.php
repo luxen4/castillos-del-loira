@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Château de Chamerolles";
+$title = "Château de Chamerolles";
 $ciudad = "Chilleurs-aux-Bois"; // localidad exacta del castillo
 $slug = "chamerolles";
 $descripcion = "El Château de Chamerolles es un elegante castillo renacentista cerca de Orleans, famoso por su arquitectura, jardines y museo del perfume.";
@@ -16,7 +16,7 @@ $horario_cierre = "18:00";
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "<?= $nombreLugar ?>",
+  "name": "<?= $title ?>",
   "description": "<?= $descripcion ?>",
   "image": "<?= $imagenHero ?>",
   "address": {

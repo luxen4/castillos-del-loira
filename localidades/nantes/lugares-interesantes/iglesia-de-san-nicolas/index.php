@@ -1,31 +1,31 @@
 <?php
 // iglesia-san-nicolas.php
 // Datos (edítalos según convenga)
-$nombreLugar = "Iglesia de San Nicolás";
+$title = "Iglesia de San Nicolás";
 $ciudad = "Nantes";
 $slug = "iglesia-san-nicolas";
 
-$title = "$nombreLugar – $ciudad | Valle del Loira";
-$descripcion = "$nombreLugar en $ciudad: templo histórico con arquitectura gótica (oportuna descripción local), patrimonio cultural y visitas recomendadas.";
+$title = "$title – $ciudad | Valle del Loira";
+$descripcion = "$title en $ciudad: templo histórico con arquitectura gótica (oportuna descripción local), patrimonio cultural y visitas recomendadas.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/7/7b/Nantes_cathedrale.jpg"; // reemplaza por imagen real
 
 $intro = [
   "parrafos" => [
-    "La <strong>$nombreLugar</strong> es un templo emblemático de $ciudad, con siglos de historia y un rico patrimonio artístico. Su arquitectura destaca por sus elementos góticos y su papel central en la vida religiosa y cultural de la ciudad.",
+    "La <strong>$title</strong> es un templo emblemático de $ciudad, con siglos de historia y un rico patrimonio artístico. Su arquitectura destaca por sus elementos góticos y su papel central en la vida religiosa y cultural de la ciudad.",
     "Situada cerca del centro histórico, la iglesia ofrece visitas guiadas, una atmósfera tranquila para la contemplación y detalles artísticos (retablos, vidrieras y esculturas) que merecen una inspección pausada.",
     "Es un lugar perfecto para quienes disfrutan del patrimonio histórico, la fotografía arquitectónica y las curiosidades locales."
   ],
   "imagenes" => [
     [
       "src" => "https://upload.wikimedia.org/wikipedia/commons/7/7b/Nantes_cathedrale.jpg",
-      "alt" => "$nombreLugar - vista exterior",
-      "caption" => "Fachada de la $nombreLugar",
+      "alt" => "$title - vista exterior",
+      "caption" => "Fachada de la $title",
       "fuente" => "https://es.wikipedia.org",
       "fuente_texto" => "wikipedia.org"
     ],
     [
       "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0c/Interieur_cathedrale_Nantes.jpg",
-      "alt" => "Interior de la $nombreLugar",
+      "alt" => "Interior de la $title",
       "caption" => "Interior y vidrieras",
       "fuente" => "https://es.wikipedia.org",
       "fuente_texto" => "wikipedia.org"
@@ -111,7 +111,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
 
   <header id="top" class="bg-emerald-700 text-white py-6">
     <div class="container mx-auto px-6">
-      <h1 class="text-2xl font-bold">🏛️ <?= htmlspecialchars($nombreLugar) ?></h1>
+      <h1 class="text-2xl font-bold">🏛️ <?= htmlspecialchars($title) ?></h1>
       <p class="mt-2"><?= htmlspecialchars($descripcion) ?></p>
     </div>
   </header>
@@ -124,7 +124,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
     <!-- Capa oscura y texto -->
     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-start transition-all duration-500 group-hover:bg-opacity-30">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl text-white font-bold"><?= htmlspecialchars($nombreLugar) ?></h2>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl text-white font-bold"><?= htmlspecialchars($title) ?></h2>
       </div>
     </div>
 
@@ -259,7 +259,7 @@ $web_oficial = "https://www.example-official-site.org"; // reemplaza por la url 
 
   <footer class="bg-gray-100 py-6">
     <div class="container mx-auto px-6 text-gray-600 text-sm">
-      © <?= date("Y") ?> · Página informativa sobre <?= htmlspecialchars($nombreLugar) ?>.
+      © <?= date("Y") ?> · Página informativa sobre <?= htmlspecialchars($title) ?>.
     </div>
   </footer>
 

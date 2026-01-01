@@ -4,7 +4,7 @@ $web_name='Museo de Historia de Nantes';
 $title = "🏰 Museo de Historia de Nantes | Exposiciones, historia y visitas";
 $carpeta = "general"; $web_name_url="museo-historia-nantes.php";
 $slug = "musee-histoire-nantes"; 
-$nombreLugar='Museo de Historia de Nantes'; $hastag_faqs='museo-historia-nantes';
+$title='Museo de Historia de Nantes'; $hastag_faqs='museo-historia-nantes';
 $keywords = "Museo de Historia de Nantes, Musée d’Histoire de Nantes, Historia Francia, Nantes medieval, Castillo Nantes, Turismo Nantes, Cultura Nantes";
 $descripcion = "Descubre el Museo de Historia de Nantes: exposiciones, historia, horarios, precios y visita completa.";
 $imagenHero = "https://alayag82.kesug.com/museo-historia-nantes/assets/museo-historia.jpg";

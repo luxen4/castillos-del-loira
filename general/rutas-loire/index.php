@@ -2,7 +2,7 @@
 $title = "🌿 Rutas entre Castillos, vino y naturaleza";
 $carpeta = "general";
 $slug = "rutas-loire"; $web_name='';
-$nombreLugar = "Rutas entre castillos, vinos y naturaleza";
+$title = "Rutas entre castillos, vinos y naturaleza";
 $keywords = "Rutas Valle del Loira, Castillos Loira, Vino Valle del Loira, Gastronomía Loira, Naturaleza Loira, Turismo Loira, Loire à Vélo, Cicloturismo Loira, Paisajes Valle del Loira";
 $descripcion = "Descubre las mejores rutas por el Valle del Loira: castillos como Chambord, Chenonceau, Amboise, gastronomía francesa, vino y paisajes inolvidables.";
 $imagenHero = "https://alayag82.kesug.com/val-de-loire/assets/logo.png";

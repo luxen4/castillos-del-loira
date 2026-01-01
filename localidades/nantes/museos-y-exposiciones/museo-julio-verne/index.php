@@ -4,7 +4,7 @@ $web_name='Museo Julio Verne';
 $title = "🚀 Museo Julio Verne | Vida, inventos y legado";
 $carpeta = "general"; $web_name_url="museo-julio-verne.php";
 $slug = "museo-julio-verne"; 
-$nombreLugar='Museo Julio Verne'; $hastag_faqs='museo-julio-verne';
+$title='Museo Julio Verne'; $hastag_faqs='museo-julio-verne';
 $keywords = "Museo Julio Verne, Jules Verne Nantes, Literatura francesa, Ciencia ficción, Inventos Verne, Turismo Nantes, Cultura Nantes";
 $descripcion = "Descubre el Museo Julio Verne en Nantes: exposiciones sobre su vida, obras y visión futurista.";
 $imagenHero = "https://alayag82.kesug.com/museo-julio-verne/assets/museo-julio-verne.jpg";

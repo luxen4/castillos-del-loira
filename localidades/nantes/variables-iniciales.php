@@ -1,5 +1,5 @@
 <?php
-$nombreLugar = "Nantes";
+$title = "Nantes";
 $ciudad = "Nantes";
 $slug = "nantes"; $slug_castillos_cercanos_csv = 'ciudad-nantes'; 
 $carpeta='chateaux';

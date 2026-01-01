@@ -1,6 +1,6 @@
 <?php
 $title = "Festival de Vinos de Saumur";
-$nombreLugar = "Festival de Vinos de Saumur";
+$title = "Festival de Vinos de Saumur";
 $localidad = "Saumur";
 $descripcion = "Festival de vinos en Saumur: catas, rutas, productores locales, música y gastronomía junto al Loira.";
 $web_site = "https://alayag82.kesug/valle-del-loira";

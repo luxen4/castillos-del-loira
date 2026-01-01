@@ -1,5 +1,5 @@
 <?php
-$nombreLugar="Chinon"; $nombreCiudad="Chinon"; $title="Chinon";$ciudad = "Chinon"; $slug = "chinon";
+$title="Chinon"; $nombreCiudad="Chinon"; $title="Chinon";$ciudad = "Chinon"; $slug = "chinon";
 $slug_castillos_cercanos_csv = 'chinon';
 $descripcion_portada = "Chinon es una ciudad histórica del <strong>Valle del Loira</strong>, famosa por su 
 <strong>castillo medieval</strong> que domina el casco antiguo y por su estrecha relación con 
