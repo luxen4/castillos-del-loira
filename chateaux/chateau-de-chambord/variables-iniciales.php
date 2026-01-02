@@ -1,8 +1,9 @@
 <?php
 $title = "Château de Chambord"; 
-$ciudad = "Chambord"; $localidad='Loire et Cher - Chambord';
+$ciudad = "Chambord"; $localidad='Loire et Cher - Chambord'; $region = "Valle del Loira";
 $carpeta='Chateaux'; $bread_crums_second=$carpeta;
 /*$slug_Mayuscula = "Chambord";*/ $slug_filtrado_csv = $slug; $slug_castillos_cercanos_csv= $slug;
+$descripcion = "El Castillo de Chambord es la joya monumental del Valle del Loira y uno de los mayores símbolos del Renacimiento francés, famoso por su escalera de doble hélice y su inmenso parque forestal.";
 
 // Imagen de portada //
 $imagenHero = "https://media.traveler.es/photos/61377563d4923f67e298f5c2/master/w_1600%2Cc_limit/111804.jpg";
@@ -23,3 +24,20 @@ $horario_cierre = "18:00";
 
 $hastag_faqs='faqs';
 $web_oficial_mas_info="https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-chambord/";
+
+
+// Open Graph – imagen
+$graph_Meta_Tags_property_image_width  = "1200";
+$graph_Meta_Tags_property_image_height = "630";
+
+// Open Graph – categorización
+$graph_Meta_Tags_property_section = "Castillos del Valle del Loira";
+
+// Tags
+$graph_Meta_Tags_property_tag  = "Castillo de Chambord";
+$graph_Meta_Tags_property_tag2 = "Castillos del Valle del Loira";
+$graph_Meta_Tags_property_tag3 = "Renacimiento francés";
+
+$twitterCards_url="***";
+
+?>

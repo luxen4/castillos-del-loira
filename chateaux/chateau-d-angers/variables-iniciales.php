@@ -2,7 +2,7 @@
 $title = "Château d'Angers";
 $ciudad = "Angers";
 $carpeta = 'chateaux';
-$slug_Mayuscula = "Angers"; $slug_filtrado_csv = 'castillo-de-angers'; $slug_castillos_cercanos_csv = "chateau-de-angers";
+$slug_Mayuscula = "Angers"; $slug_filtrado_csv = 'chateau-d-angers'; $slug_castillos_cercanos_csv = "chateau-de-angers";
 $descripcion = "El Castillo de Angers es una fortaleza medieval que domina el río Maine y alberga los famosos tapices del Apocalipsis. Su imponente arquitectura y murallas reflejan la historia y el poder de la ciudad a lo largo de los siglos.";
 $imagenHero = "https://www.destination-angers.com/app/uploads/destination-angers-tourisme/2024/11/thumbs/vue_aerienne_chateau_angers-1920x960.webp";
 $descripcion_portada = "El <strong>Château de Angers</strong> es una imponente fortaleza medieval situada en el <strong>Valle del Loira</strong>, famosa por sus robustas murallas y torres defensivas. Construido en el siglo IX y ampliado en el siglo XIII, alberga el legendario <strong>Tapiz del Apocalipsis</strong>, una obra maestra del arte medieval. Su ubicación estratégica sobre el <strong>río Maine</strong> lo convirtió en un bastión clave de la historia de Anjou, y hoy combina patrimonio, historia y recorridos culturales en un entorno impresionante.";

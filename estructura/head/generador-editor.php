@@ -1,3 +1,2 @@
-  
-  <!-- ✅ Generador / Editor -->
-  <meta name="generator" content="VS Code">
+<!-- ✅ Generador / Editor -->
+<meta name="generator" content="VS Code">
