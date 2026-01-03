@@ -69,7 +69,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ░░ JSON-LD EXTERNO (schemas-head.php) ░░ -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/localidades/nantes/museos-y-exposiciones/musse-arts-de-nantes/schemas/schemas-head.php'; ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/localidades/nantes/lugares-interesantes/museos-y-exposiciones/musse-arts-de-nantes/schemas/schemas-head.php'; ?>
 
     <!-- ░░ PWA BÁSICO ░░ -->
     <link rel="manifest" href="/manifest.json">

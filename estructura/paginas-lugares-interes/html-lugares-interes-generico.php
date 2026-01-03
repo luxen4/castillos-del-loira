@@ -22,7 +22,7 @@ require RUTA_LUGARES_INTERES . "/{$slug}/variables-iniciales.php";
 <!DOCTYPE html>
 <html lang="es">
 
-  <?php require RUTA_ESTRUCTURA . "/head-generico.php"; ?>
+  <?php require RUTA_ESTRUCTURA . "/index.php"; ?>
 
   <body class="bg-gray-50 text-gray-800">
 

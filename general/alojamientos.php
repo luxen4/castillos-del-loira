@@ -9,7 +9,7 @@ $twitter = "@tuusuario";
 <!DOCTYPE html>
 <html lang="es">
 
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head/index.php"; ?>
 
 <?php
 // schemas-head.php

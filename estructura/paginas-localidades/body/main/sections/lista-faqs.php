@@ -1,6 +1,6 @@
 <?php
-$carpeta = "localidades"; $archivo_csv = "faqs.csv"; $slug_filtrado_csv = $slug;      var_dump($slug);
-require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; var_dump($items_filtrados);
+$carpeta = "localidades"; $archivo_csv = "faqs.csv"; $slug_filtrado_csv = $slug;      //var_dump($slug);
+require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.php'; //var_dump($items_filtrados);
 ?>
 
 <section id="faqs" class="max-w-5xl mx-auto px-4 py-16">

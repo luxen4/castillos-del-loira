@@ -31,7 +31,7 @@
 //$slug = 'blois'; // Por ejemplo
 
 // Leer CSV
-$rows = array_map('str_getcsv', file($_SERVER['DOCUMENT_ROOT'].'/val-de-loire/iconos-ciudades.csv'));
+$rows = array_map('str_getcsv', file($_SERVER['DOCUMENT_ROOT'].'/val-de-loire/chateaux/data/iconos-ciudades.csv'));
 $header = array_shift($rows);
 $ciudades = [];
 foreach ($rows as $row) {

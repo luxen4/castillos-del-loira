@@ -160,3 +160,14 @@ chateau-de-cheverny,"Château de Cheverny – Exposición Tintín","chateau-de-c
 chateau-de-cheverny,"Château de Cheverny – Jardines","chateau-de-cheverny.php","Elegantes jardines simétricos perfectos para un paseo tranquilo."
 chateau-de-cheverny,"Château de Cheverny – Perrera","chateau-de-cheverny.php","Hogar de decenas de perros utilizados tradicionalmente en la caza real."
 chateau-de-cheverny,"Château de Cheverny – Dominio Completo","chateau-de-cheverny.php","Un conjunto armonioso que combina historia, arquitectura y naturaleza."
+
+
+📌 Opciones compatibles con tu proyecto
+
+Puedo usar una de estas librerías:
+
+✅ Bootstrap 5 — Clásico, muy robusto, responsivo
+✅ Bulma — Ligero, basado en Flexbox
+✅ UIkit — Limpio, modular y con componentes visuales
+✅ Materialize CSS — Estilo Material Design
+✅ Semantic UI — Semántico y con muchos componentes

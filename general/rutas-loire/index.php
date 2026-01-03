@@ -18,7 +18,7 @@ $a_style_emerald_700_semibold_hover_underline = 'text-emerald-700 font-semibold 
 <!DOCTYPE html>
 <html lang="es">
 <?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head-generico.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/head/index.php'; ?>
 
 <body class="bg-gray-100 text-gray-800 font-sans">
 

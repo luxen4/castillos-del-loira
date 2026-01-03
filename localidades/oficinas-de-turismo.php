@@ -11,7 +11,7 @@ $twitter = "@@TuTwitter";
 <!DOCTYPE html>
 <html lang="es">
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head/index.php"; ?>
 
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
@@ -63,7 +63,7 @@ $twitter = "@@TuTwitter";
           <div>
             <h3 class="text-xl font-semibold text-emerald-700 mb-4 text-center md:text-left">🗺️ Zona Oeste</h3>
             <ul class="space-y-3 text-gray-700 text-center md:text-left">
-              <li><a href="/val-de-loire/localidades/Nantes.php#turismo-nantes" class="text-emerald-700 font-medium hover:underline">Nantes</a> <br>— Oficina Metropolitana</li>
+              <li><a href="/val-de-loire/localidades/nantes/index.php#turismo-nantes" class="text-emerald-700 font-medium hover:underline">Nantes</a> <br>— Oficina Metropolitana</li>
               <li><a href="https://www.france-voyage.com/francia-ciudades/angers-16905/oficina-turismo-angers-6616.htm" class="text-emerald-700 font-medium hover:underline">Angers</a></li>
               <li><a href="https://www.france-voyage.com/francia-ciudades/saumur-17211/oficina-turismo-saumur-6996.htm" class="text-emerald-700 font-medium hover:underline">Saumur</a></li>
               <li><a href="https://www.france-voyage.com/francia-ciudades/chinon-12807/oficina-turismo-chinon-7821.htm" class="text-emerald-700 font-medium hover:underline">Chinon</a></li>

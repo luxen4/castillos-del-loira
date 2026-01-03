@@ -5,7 +5,7 @@ $carpeta = "localidades"; //$url_carpeta = "/val-de-loire/general/oficinas-de-tu
 <!DOCTYPE html>
 <html lang="es">
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head/index.php"; ?>
 
 <body class="flex flex-col min-h-screen bg-gray-50 text-gray-800 ">
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>

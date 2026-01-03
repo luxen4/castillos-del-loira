@@ -9,7 +9,7 @@ $slug_castillos_cercanos_csv= 'chateau-de-chambord'; ?>
   $title='Etapa Blois - Orleans';
   $carpeta='etapas'; 
   $slug='6-etapa-blois-orleans/index';
-  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head-generico.php"; ?>
+  require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/head/index.php"; ?>
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 

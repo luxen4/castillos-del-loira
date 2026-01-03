@@ -27,7 +27,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/utilidades/leer-csv-generico.
             <td class="p-3 text-gray-600"><?= htmlspecialchars($item['descripcion']) ?></td>
             <td class="p-3"><?= htmlspecialchars($item['tipo']) ?></td>
             <td class="p-3 text-center">
-            <a href="<?= htmlspecialchars($item['enlace']) ?>" target="_blank"
+            <a href="lugares-interesantes/<?= htmlspecialchars($item['enlace']) ?>" target="_blank"
                 class="text-emerald-600 underline hover:text-emerald-800">
                 Ver
             </a>

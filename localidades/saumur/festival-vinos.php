@@ -20,7 +20,7 @@ $src_google_maps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86641.
 
 <!DOCTYPE html>
 <html lang="es">
-<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head-generico.php";; ?>
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php";; ?>
 
 <head>
   <meta charset="utf-8" />

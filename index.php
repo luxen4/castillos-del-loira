@@ -13,7 +13,7 @@ $twitter = "@AdrianTwitter";
 <html lang="es">
 
 
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head-generico.php";
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php";
 require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; 
 ?>
 
