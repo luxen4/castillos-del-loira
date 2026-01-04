@@ -43,7 +43,7 @@ $figuras = [
     "src" => "https://d397xw3titc834.cloudfront.net/images/original/d/9c/d9c763a560566215cc4820ea7b0d3bda.jpg",
     "alt" => "Interior del Castillo de Blois",
     "pie" => "Salones renacentistas",
-    "fuente_url" => "https://www.hotel-france-guise.com/es/a-descubrir-la-ciudad-de-blois/castillo-real-de-blois-4610",
+    "fuente_url" => "https://www.hotel-france-guise.com/es/a-descubrir-la-localidadde-blois/castillo-real-de-blois-4610",
     "fuente_texto" => "hotel-france-guise.com"
   ],
   [

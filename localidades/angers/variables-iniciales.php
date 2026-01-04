@@ -1,7 +1,7 @@
 <?php
 $title = "Angers";
 $ciudad = "Angers";
-$slug = "angers"; $slug_castillos_cercanos_csv = 'ciudad-angers';
+$slug = "angers"; $slug_castillos_cercanos_csv = 'localidadangers';
 $carpeta='chateaux';
 $slug_Mayuscula = "Angers";
 $descripcion = "Conocida como la <strong>puerta del Valle del Loira</strong>, <strong>Angers</strong> es una ciudad llena de historia, arte y elegancia. 
@@ -48,3 +48,4 @@ $relacionadas = [
   ["Tours", "Tours.php"],
 ];
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

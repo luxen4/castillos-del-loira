@@ -41,4 +41,4 @@ $longitude = 0.9577181;
 
 ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/ciudad-template-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidadtemplate-generico.php"; ?>

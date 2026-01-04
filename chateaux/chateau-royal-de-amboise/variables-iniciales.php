@@ -26,3 +26,4 @@ $direccion = "Château Royal d'Amboise, Mnt de l'Emir Abd el Kader, 37400 Ambois
 $horario_apertura = "09:00";
 $horario_cierre = "18:30";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

@@ -23,3 +23,4 @@ $direccion = "Château de Chenonceau, 37150 Chenonceaux, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

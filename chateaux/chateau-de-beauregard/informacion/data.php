@@ -1,7 +1,7 @@
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
 
-<?php //require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/img/data-retratos_Beauregard.php"; ?>
-<?php //require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/img/data-galeria-Beauregard.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retratos_Beauregard.php"; ?>
+<?php //require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-galeria-Beauregard.php"; ?>
 
 <?php
 // 🏰 SECCIÓN: INTRODUCCIÓN - CASTILLO DE BEAUREGARD

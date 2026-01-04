@@ -1,10 +1,11 @@
 <?php
 $title = "Château de Langeais"; 
 $ciudad = "Langeais";
-$carpeta='chateaux';
+$carpeta='chateaux';    $slug_castillos_cercanos_csv= 'chateau-de-langeais';    $slug_filtrado_csv = 'chateau-de-langeais';
 $slug_Mayuscula = "Langeais";
 $descripcion = "El Castillo de Langeais, construido entre los siglos XIV y XVI, combina la fortaleza medieval con elementos renacentistas. Famoso por sus torres, murallas y salones históricos, es una joya del Valle del Loira.";
 $imagenHero = "https://mf-prod.com/langeais/wp-content/uploads/sites/9/2016/02/jardins2%C2%A9J.B.Rabouan.jpeg";
+$descripcion_portada = "El Château de Langeais, fortaleza medieval con jardines renacentistas, ofrece una experiencia única de historia y arquitectura en el Valle del Loira.";
 $web_oficial = "https://chateau-de-langeais.com/es/2559-2/";
 $fuenteHero_texto = "chateau-de-langeais.com";
 
@@ -19,3 +20,4 @@ $direccion = "Château de Langeais, 37130 Langeais, Francia";
 $horario_apertura = "09:30";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

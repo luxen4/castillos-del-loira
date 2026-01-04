@@ -20,3 +20,4 @@ $direccion = "2 Rue du Clos Lucé, 37400 Amboise, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

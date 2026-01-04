@@ -25,3 +25,4 @@ $direccion = "Château de Fougères-sur-Bièvre, 41120 Fougères-sur-Bièvre, Fr
 $horario_apertura = "10:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

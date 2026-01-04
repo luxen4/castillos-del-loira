@@ -1,10 +1,11 @@
 <?php
 $title = "Château de Saumur";
 $ciudad = "Saumur";
-$carpeta='chateaux';
+$carpeta='chateaux';    $slug_castillos_cercanos_csv= 'chateau-de-saumur';    $slug_filtrado_csv = 'chateau-de-saumur';
 $slug_Mayuscula = "Saumur";
 $descripcion = "Situado en el corazón del Valle del Loira, el Château de Saumur domina la ciudad y el río desde lo alto de una colina. Con su arquitectura medieval y renacentista, sus jardines y sus salas históricas, es un destino imprescindible para los amantes de la historia, la cultura y el vino.";
 $imagenHero = "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRINUZbPp7nlRHF97VI9p-8ZSA22ZZjVtONJZjIqhef5CSm-2Rrj5u1MtX4iev-gTfVAljXiFcbRf3k2Epu2D84MgFF&s=19";
+$descripcion_portada = "El Château de Saumur, ubicado sobre un promontorio con vistas al río Loira, es un imponente castillo emblemático de la región. Destaca por su arquitectura renacentista, su museo de caballería y sus panorámicas espectaculares, convirtiéndolo en una visita imprescindible en el Valle del Loira.";
 $web_oficial = "https://www.saumur-tourisme.com/";
 $fuenteHero_texto = "saumur-tourisme.com";
 
@@ -19,3 +20,4 @@ $direccion = "Château de Saumur, 49400 Saumur, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

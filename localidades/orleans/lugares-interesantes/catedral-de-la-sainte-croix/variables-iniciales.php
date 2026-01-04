@@ -23,3 +23,4 @@ $direccion = "Place Sainte-Croix, 45000 Orléans, Francia";
 $horario_apertura = "08:00";
 $horario_cierre = "18:30";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

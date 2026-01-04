@@ -8,5 +8,5 @@ Situada a orillas del <strong>río Loira</strong>, combina un encantador <strong
 y paisajes naturales ideales para paseos y rutas en bicicleta.";
 
 require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/$slug/variables-iniciales.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/ciudad-template-generico.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidadtemplate-generico.php";
 ?>

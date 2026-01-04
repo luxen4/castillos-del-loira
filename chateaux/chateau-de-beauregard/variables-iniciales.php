@@ -19,3 +19,4 @@ $direccion = "Château de Beauregard, 41120 Cellettes, Francia";
 $horario_apertura = "09:30";
 $horario_cierre = "17:30";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

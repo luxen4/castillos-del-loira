@@ -23,3 +23,4 @@ $direccion = "Château de Chamerolles, 45170 Chilleurs-aux-Bois, Francia";
 $horario_apertura = "09:30";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

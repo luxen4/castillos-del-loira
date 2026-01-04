@@ -1,7 +1,7 @@
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/estructura/funciones/crear-figure-generico.php'; ?>  
 
 <?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-vistas-castillo.php'; ?>  
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/img/data-retrato-francisco-I.php"; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/img/data-retrato-francisco-I.php"; ?>
 <?php //require_once $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire/chateaux/amboise/img/data-retratos-leonardo-capilla-saint-hubert.php'; ?>
 
 
@@ -43,7 +43,7 @@ $figuras = [
   [
     "src" => "https://photos.smugmug.com/Vallee-loire/n-XkSzNF/Tours/Chateau-de-Villandry/i-2LJx9jV/0/2g8cgvxrmQcCv48QLLqdXr9ZwqtZ66FW27q65zhh/L/chateau-villandry-jardin-L.jpg",
     "alt" => "Jardines del castillo de Villandry",
-    "pie" => "Jardines renacentistas",
+    "pie" => "<span id='jardines'>Jardines renacentistas</span>",
     "fuente_url" => "https://loirelovers.fr/es/visitar-chateau-villandry-castillo/",
     "fuente_texto" => "loirelovers.fr"
   ],

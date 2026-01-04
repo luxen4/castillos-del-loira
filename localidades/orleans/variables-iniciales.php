@@ -1,6 +1,6 @@
 <?php
 $title = "Orléans";
-$ciudad = "Orléans";          $slug = "orleans"; $slug_castillos_cercanos_csv= 'ciudad-de-orleans';
+$ciudad = "Orléans";          $slug = "orleans"; $slug_castillos_cercanos_csv= 'localidadde-orleans';
 $carpeta='chateaux';
 $slug_Mayuscula = "Orleans";
 $descripcion = "Orléans, situada a orillas del majestuoso río Loira, es una de las ciudades más emblemáticas de Francia. 
@@ -45,3 +45,4 @@ $relacionadas = [
   ["Nantes", "Nantes.php"],
 ];*/
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

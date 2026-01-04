@@ -47,3 +47,4 @@ $relacionadas = [
   ["Chinon", "Chinon.php"],
 ];
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

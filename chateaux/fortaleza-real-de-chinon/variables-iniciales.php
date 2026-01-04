@@ -19,5 +19,4 @@ $direccion = "Place Jeanne d'Arc, 37500 Chinon, Francia";
 $horario_apertura = "10:00";
 $horario_cierre = "18:00";
 ?>
-<?php
-?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

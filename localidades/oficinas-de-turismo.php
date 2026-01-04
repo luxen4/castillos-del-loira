@@ -1,3 +1,4 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>
 <?php 
 $title = 'Oficinas de Turismo';
 $descripcion = "Descubre todas las oficinas de turismo del Valle del Loira: información oficial, mapas, horarios y consejos para visitar los castillos y ciudades más emblemáticas del Loira. Planifica tu viaje por Nantes, Tours, Amboise, Blois, Angers, Saumur y más destinos imprescindibles del valle francés.";

@@ -48,3 +48,4 @@ $relacionadas = [
   ["Amboise", "chateau-royal-de-amboise.php"],
 ];
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

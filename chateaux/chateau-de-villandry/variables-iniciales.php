@@ -1,10 +1,13 @@
 <?php
 $title = "Château de Villandry";
 $ciudad = "Villandry";
-$carpeta='chateaux';
+$carpeta='chateaux';            $slug_castillos_cercanos_csv='chateau-de-villandry';
+$slug_Mayuscula = "Chaumont";   $slug_filtrado_csv = 'chateau-de-villandry';
+
 $slug_Mayuscula = "Villandry";
 $descripcion = "El Castillo de Villandry es célebre por sus impresionantes jardines renacentistas, considerados entre los más bellos de Francia. Su armoniosa combinación de arquitectura y naturaleza lo convierte en una joya del Valle del Loira.";
 $imagenHero = "https://www.valdeloire-france.com/app/uploads/iris-images/197283/a-la-une-villandry-02-credit-averger-crtcentrevaldeloire-1920x1080-f50_50.webp";
+$descripcion_portada = "El castillo de Villandry es famoso por albergar algunos de los jardines renacentistas más espectaculares de Francia. Situado a orillas del Loira, destaca por sus elegantes parterres geométricos, huertos ornamentales y terrazas ajardinadas, que convierten la visita en una experiencia imprescindible para los amantes de la historia, la arquitectura y el paisajismo.";
 $web_oficial = "https://www.valdeloire-france.com/decouvrir/les-chateaux-de-la-loire/chateau-villandry/";
 $fuenteHero_texto = "valdeloire-france.com";
 
@@ -19,3 +22,4 @@ $direccion = "Château de Villandry, 37510 Villandry, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

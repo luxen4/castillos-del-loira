@@ -1,207 +1,73 @@
-<!-- ✅ HEADER Inicio-FAQs -->
-<header class="bg-emerald-700 text-white shadow-lg sticky top-0 z-50">
-    <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+<header id="siteHeader"
+    class="bg-emerald-700 text-white shadow-lg sticky top-0 z-50 transition-all duration-300">
 
-        <!-- 🌐 NAV IZQUIERDA (DESKTOP) -->
-        <nav class="hidden md:flex gap-6 text-sm font-medium items-center">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
 
-            <a href="/val-de-loire/index.php"
-               class="hover:underline flex items-center gap-2">
+        <!-- 🖥️ NAV IZQUIERDA (DESKTOP) -->
+        <nav class="hidden lg:flex gap-6 text-sm font-medium items-center" aria-label="Navegación principal">
+
+            <a href="/val-de-loire/index.php" class="hover:underline flex items-center gap-2">
                 <i class="fas fa-home"></i> Inicio
             </a>
 
-            <!-- 🔽 DROPDOWN CASTILLOS -->
+            <!-- CASTILLOS -->
             <div class="relative group">
-                <button class="flex items-center gap-2 hover:underline">
+                <button aria-haspopup="true" aria-expanded="false"
+                    class="flex items-center gap-2 hover:underline">
                     <i class="fas fa-chess-rook"></i> Castillos
                     <i class="fas fa-chevron-down text-xs"></i>
                 </button>
 
-                <div class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
-                            opacity-0 invisible group-hover:opacity-100 group-hover:visible
-                            transition-all duration-200">
+                <div role="menu"
+                    class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
+                           opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
 
-                    <a href="/val-de-loire/chateaux/chateau-de-chambord.php"
-                       class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">
-                        🏰 Chambord
-                    </a>
-
-                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau.php"
-                       class="block px-4 py-2 hover:bg-emerald-100">
-                        🌉 Chenonceau
-                    </a>
-
-                    <a href="/val-de-loire/chateaux/chateau-de-cheverny.php"
-                       class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-                        🏛 Cheverny
-                    </a>
-
-                    <a href="/val-de-loire/index.php#castillos-imprescindibles" target="_blank" rel="noopener noreferrer" 
-                        class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-                        🔗 Guia Castillos 🔗
-                    </a>
-
-                    <a href="/val-de-loire/chateaux/buscador/index.php"
-                        class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-                        🔍 Buscador Castillos
-                    </a>
-
-                        
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chambord.php"
+                        class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">🏰 Chambord</a>
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chenonceau.php"
+                        class="block px-4 py-2 hover:bg-emerald-100">🌉 Chenonceau</a>
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-cheverny.php"
+                        class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">🏛 Cheverny</a>
                 </div>
             </div>
 
+            <!-- LOCALIDADES -->
+            <div class="relative group">
+                <button class="flex items-center gap-2 hover:underline">
+                    <i class="fas fa-city"></i> Localidades
+                    <i class="fas fa-chevron-down text-xs"></i>
+                </button>
 
-
-            <!-- 🔽 DROPDOWN LOCALIDADES -->
-<div class="relative group">
-    <button class="flex items-center gap-2 hover:underline">
-        <i class="fas fa-city"></i> Localidades
-        <i class="fas fa-chevron-down text-xs"></i>
-    </button>
-
-    <div class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
-                opacity-0 invisible group-hover:opacity-100 group-hover:visible
-                transition-all duration-200">
-
-<?php
-$localidades = [
-    [
-        "slug" => "nantes",
-        "icono" => "🏰",
-        "nombre" => "Nantes",
-        "rounded" => "rounded-t-xl"
-    ],
-    [
-        "slug" => "amboise",
-        "icono" => "🏘",
-        "nombre" => "Amboise",
-        "rounded" => ""
-    ],
-    [
-        "slug" => "blois",
-        "icono" => "🏙",
-        "nombre" => "Blois",
-        "rounded" => ""
-    ],
-    [
-        "slug" => "tours",
-        "icono" => "🌆",
-        "nombre" => "Tours",
-        "rounded" => "rounded-b-xl"
-    ],
-];
-?>
-<?php foreach ($localidades as $item): ?>
-    <a href="/val-de-loire/localidades/<?= $item['slug']; ?>/index.php"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="block px-4 py-2 hover:bg-emerald-100 <?= $item['rounded']; ?>">
-        <?= $item['icono']; ?> <?= $item['nombre']; ?>
-    </a>
-<?php endforeach; ?>
-<a href="/val-de-loire/localidades/oficinas-de-turismo.php"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">
-    🔗 Oficinas de Turismo 🔗
-</a>
-
-    </div>
-</div>
-
-
-
-        <!-- Dropdown Servicios -->
-        <div class="relative group">
-            <button class="flex items-center justify-between w-full py-2 px-4 hover:bg-emerald-600 rounded transition md:hover:bg-transparent">
-                ⭐ Servicios
-                <span class="text-xs ml-2">▼</span>
-            </button>
-
-            <ul class="hidden group-hover:block absolute left-0 top-full mt-1 bg-emerald-700 min-w-[220px] rounded shadow-md z-50">
-
-                <li class="border-b border-emerald-600">
-                    <a href="/val-de-loire/general/gastronomia/index.php"
-                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        🍴 Gastronomía
-                    </a>
-                </li>
-
-                <li class="border-b border-emerald-600">
-                    <a href="/val-de-loire/general/loire-a-velo/index.php"
-                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        🚲 Loire à Vélo
-                    </a>
-
-                    <a href="/val-de-loire/general/rutas-loire/index.php" 
-                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        🚴 Rutas
-                    </a>
-
-                </li>
-
-                <li>
-                    <a href="/val-de-loire/eventos"
-                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        🎉 Acontecimientos
-                    </a>
-                </li>
-
-                    <li>
-                    <a href="/val-de-loire/general/noticias.php"
-                        class="flex items-center gap-3 px-4 py-3 text-emerald-200 hover:bg-emerald-600">
-                        📰 Noticias
-                    </a>
-                </li>
-
-            </ul>
-</div>
+                <div class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
+                            opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                    <a href="/val-de-loire/localidades/nantes/index.php" class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">Nantes</a>
+                    <a href="/val-de-loire/localidades/amboise/index.php" class="block px-4 py-2 hover:bg-emerald-100">Amboise</a>
+                    <a href="/val-de-loire/localidades/blois/index.php" class="block px-4 py-2 hover:bg-emerald-100">Blois</a>
+                    <a href="/val-de-loire/localidades/tours/index.php" class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">Tours</a>
+                </div>
+            </div>
         </nav>
 
-<!-- 🏷 LOGO CENTRAL -->
-<a href="/val-de-loire/index.php" class="flex items-center gap-4">
-    <!-- Logo -->
-    <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10 object-contain">
+        <!-- 🏷 LOGO -->
+        <a href="/val-de-loire/index.php"
+            class="flex items-center gap-3 font-bold text-lg"
+            aria-label="Val de Loire - Inicio">
+            <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10">
+            🌿 Val de Loire
+        </a>
 
-    <!-- Título principal y nombre del lugar en horizontal -->
-    <div class="flex items-center gap-3">
-        <span class="text-lg md:text-xl font-bold leading-tight">🌿 Val de Loire</span>
-        <?php /* <span class="text-xs md:text-sm font-medium text-emerald-200 border-l-4 border-emerald-200 pl-2">
-            <?= $title; 
-        </span>*/ ?>
-    </div>
-</a>
-
-
-
-
-        <!-- 🌐 NAV DERECHA (DESKTOP) -->
-        <nav class="hidden md:flex gap-6 text-sm font-medium">
-
-            <a href="/val-de-loire/general/alojamientos-val-de-loire.php"
-                class="hover:underline flex items-center gap-2">
-                🔍 Buscador Alojamientos
-            </a>
-
-            <a href="/val-de-loire/alquiler-vehiculos.php"
-                class="hover:underline flex items-center gap-2">
-                🚘 Coches de alquiler
-            </a>
-
-            <a href="/val-de-loire/localidades/<?= $slug; ?>.php/#<?= $hastag_faqs; ?>"
-               class="hover:underline flex items-center gap-2">
-                <i class="fas fa-question-circle"></i> FAQs
-            </a>
-
-            <a href="/val-de-loire/contacto.html"
-               class="hover:underline flex items-center gap-2">
-                <i class="fas fa-user-circle"></i> Contacto
-            </a>
+        <!-- 🖥️ NAV DERECHA (DESKTOP) -->
+        <nav class="hidden lg:flex gap-6 text-sm font-medium items-center">
+            <a href="/val-de-loire/general/alojamientos-val-de-loire.php">Alojamientos</a>
+            <a href="/val-de-loire/alquiler-vehiculos.php">Alquiler Vehículos</a>
+            <?php /* <a href="/val-de-loire/contacto.html">Contacto</a> */ ?>
         </nav>
 
         <!-- 🍔 HAMBURGUESA -->
         <button id="hamburgerBtn"
-            class="md:hidden flex flex-col gap-1.5 p-2 rounded hover:bg-emerald-600 transition">
+            aria-label="Abrir menú"
+            aria-expanded="false"
+            class="lg:hidden flex flex-col gap-1.5 p-2 hover:bg-emerald-600 rounded transition">
             <span class="w-7 h-[3px] bg-white rounded"></span>
             <span class="w-7 h-[3px] bg-white rounded"></span>
             <span class="w-7 h-[3px] bg-white rounded"></span>
@@ -209,48 +75,53 @@ $localidades = [
     </div>
 
     <!-- 📱 MENÚ MÓVIL -->
-    <div id="mobileMenu" class="hidden bg-emerald-800 text-white md:hidden">
+    <div id="mobileMenu"
+        class="lg:hidden overflow-hidden max-h-0 transition-all duration-300 bg-emerald-800">
 
-        <nav class="flex flex-col px-6 py-4 space-y-3 text-base">
+        <nav class="flex flex-col px-6 py-6 space-y-4 text-base">
 
-            <a href="/val-de-loire/index.php"
-               class="hover:bg-emerald-700 py-2 px-3 rounded flex items-center gap-2">
-                <i class="fas fa-home"></i> Inicio
-            </a>
+            <a href="/val-de-loire/index.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Inicio</a>
 
-            <details class="group">
-                <summary class="cursor-pointer py-2 px-3 rounded hover:bg-emerald-700
-                                flex items-center justify-between">
-                    <span class="flex items-center gap-2">
-                        <i class="fas fa-chess-rook"></i> Castillos
-                    </span>
-                    <i class="fas fa-chevron-down text-xs"></i>
-                </summary>
-
-                <div class="ml-6 mt-2 flex flex-col space-y-2 text-sm">
-                    <a href="/val-de-loire/chateaux/chateau-de-chambord.php">🏰 Chambord</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau.php">🌉 Chenonceau</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-cheverny.php">🏛 Cheverny</a>
+            <details>
+                <summary class="py-3 px-4 hover:bg-emerald-700 rounded cursor-pointer">Castillos</summary>
+                <div class="ml-6 mt-2 space-y-2 text-sm">
+                    <a href="/val-de-loire/chateaux/chateau-de-chambord.php">Chambord</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau.php">Chenonceau</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-cheverny.php">Cheverny</a>
                 </div>
             </details>
 
-            <a href="/val-de-loire/general/rutas-loire/faqs/index.php"
-               class="hover:bg-emerald-700 py-2 px-3 rounded flex items-center gap-2">
-                <i class="fas fa-question-circle"></i> FAQs
-            </a>
+            <details>
+                <summary class="py-3 px-4 hover:bg-emerald-700 rounded cursor-pointer">Localidades</summary>
+                <div class="ml-6 mt-2 space-y-2 text-sm">
+                    <a href="/val-de-loire/localidades/nantes/index.php">Nantes</a>
+                    <a href="/val-de-loire/localidades/amboise/index.php">Amboise</a>
+                    <a href="/val-de-loire/localidades/blois/index.php">Blois</a>
+                    <a href="/val-de-loire/localidades/tours/index.php">Tours</a>
+                </div>
+            </details>
 
-            <a href="/val-de-loire/contacto.html"
-               class="hover:bg-emerald-700 py-2 px-3 rounded flex items-center gap-2">
-                <i class="fas fa-user-circle"></i> Contacto
-            </a>
-
+            <a href="/val-de-loire/general/alojamientos-val-de-loire.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Alojamientos</a>
+            <a href="/val-de-loire/alquiler-vehiculos.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Alquiler Vehículos</a>
+            <?php /* <a href="/val-de-loire/contacto.html" class="py-3 px-4 hover:bg-emerald-700 rounded">Contacto</a> */ ?>
         </nav>
     </div>
 </header>
 
-<!-- 🔧 SCRIPT HAMBURGUESA -->
+<!-- 🔧 JS -->
 <script>
-document.getElementById('hamburgerBtn').addEventListener('click', () => {
-    document.getElementById('mobileMenu').classList.toggle('hidden');
-});
+    const btn = document.getElementById('hamburgerBtn');
+    const menu = document.getElementById('mobileMenu');
+    const header = document.getElementById('siteHeader');
+
+    btn.addEventListener('click', () => {
+        const open = menu.style.maxHeight;
+        btn.setAttribute('aria-expanded', !open);
+        menu.style.maxHeight = open ? null : menu.scrollHeight + 'px';
+    });
+
+    // Header compacto al hacer scroll
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('py-2', window.scrollY > 80);
+    });
 </script>

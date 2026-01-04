@@ -26,7 +26,7 @@ $items = [
     "imagen" => [
       "src" => "https://i.ytimg.com/vi/xLlvETfP-HA/maxresdefault.jpg",
       "alt" => "Centro histórico de Amboise",
-      "fuente" => "https://elsouvenir.com/amboise-la-ciudad-de-da-vinci/",
+      "fuente" => "https://elsouvenir.com/amboise-la-localidadde-da-vinci/",
       "fuente_texto" => "elsouvenir.com"
     ]
   ]

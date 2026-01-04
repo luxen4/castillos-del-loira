@@ -196,7 +196,7 @@ if (($handle = fopen($csv_path, "r")) !== false) {
                 <h4 class="text-lg font-bold text-emerald-700 mb-4">🗞️ Actualidad del Loira</h4>
                 <ul class="space-y-3 text-sm text-gray-700">
                     <li>
-                        <a href="/val-de-loire/chateaux/chateaux-folders/chateau-de-chambord/exposiciones-chateau-de-chambord.php" class="hover:underline">
+                        <a href="/val-de-loire/chateaux/chateau-de-chambord/exposiciones-chateau-de-chambord.php" class="hover:underline">
                             Exposiciones en el Castillo de Chambord
                         </a>
                     </li>

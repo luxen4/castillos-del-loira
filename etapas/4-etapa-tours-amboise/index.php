@@ -103,7 +103,7 @@
         </a>
       </li>
       <li class="text-center">
-        <a href="https://www.valledelloira-francia.es/castillos-del-loira/ciudad-real-de-loches" target="_blank">
+        <a href="https://www.valledelloira-francia.es/castillos-del-loira/localidadreal-de-loches" target="_blank">
           <img class="rounded-lg shadow mb-2 mx-auto" src="images/loches.jpg" alt="Ciudadela Real de Loches">
           <p class="text-emerald-700 font-semibold">Ciudadela Real de Loches</p>
         </a>

@@ -1,7 +1,7 @@
 <?php
 $title = "Nantes";
 $ciudad = "Nantes";
-$slug = "nantes"; $slug_castillos_cercanos_csv = 'ciudad-nantes'; 
+$slug = "nantes"; $slug_castillos_cercanos_csv = 'localidad-nantes'; 
 $carpeta='chateaux';
 $slug_Mayuscula = "Nantes";
 $descripcion = "Capital histórica del Ducado de Bretaña, <strong>Nantes</strong> es una ciudad vibrante situada en el estuario del <strong>Loira</strong>. 
@@ -50,4 +50,5 @@ $latitude = 47.2184;  // Coordenadas GPS de Nantes
 $longitude = -1.5536;
 $direccion = "Nantes, Valle del Loira, Francia";
 $horario_apertura = "00:00";
-$horario_cierre = "23:59";
+$horario_cierre = "23:59"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

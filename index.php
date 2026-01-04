@@ -1,3 +1,4 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>
 <?php 
 $title='Web-site';
 $title = "";

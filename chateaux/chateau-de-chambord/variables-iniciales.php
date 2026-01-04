@@ -24,20 +24,5 @@ $horario_cierre = "18:00";
 
 $hastag_faqs='faqs';
 $web_oficial_mas_info="https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-chambord/";
-
-
-// Open Graph – imagen
-$graph_Meta_Tags_property_image_width  = "1200";
-$graph_Meta_Tags_property_image_height = "630";
-
-// Open Graph – categorización
-$graph_Meta_Tags_property_section = "Castillos del Valle del Loira";
-
-// Tags
-$graph_Meta_Tags_property_tag  = "Castillo de Chambord";
-$graph_Meta_Tags_property_tag2 = "Castillos del Valle del Loira";
-$graph_Meta_Tags_property_tag3 = "Renacimiento francés";
-
-$twitterCards_url="***";
-
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

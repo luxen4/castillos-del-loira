@@ -149,7 +149,7 @@ $castillos_cercanos = [
 
 
       <!-- Introducción -->
-      <?php $slug_section = "informacion"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/chateaux-folders/{$slug}/introduccion/data.php"; ?>
+      <?php $slug_section = "informacion"; require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/{$slug}/introduccion/data.php"; ?>
 
 
 

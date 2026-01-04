@@ -23,3 +23,4 @@ $title="Château de Chenonceau";
 
 $web_oficial_mas_info="https://www.chenonceau.com/en/";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

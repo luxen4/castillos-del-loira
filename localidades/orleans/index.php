@@ -7,5 +7,5 @@ $descripcion_portada = "Orleans es una ciudad histórica del <strong>Valle del L
 combinando patrimonio, historia y una animada vida cultural.";
 
 require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/$slug/variables-iniciales.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/ciudad-template-generico.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidadtemplate-generico.php";
 ?>

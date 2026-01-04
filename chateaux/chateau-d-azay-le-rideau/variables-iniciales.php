@@ -1,11 +1,11 @@
 <?php
 $title = "Château de Azay-le-Rideau"; 
-$ciudad = "Azay-le-Rideau";
-$carpeta='chateaux';
+$ciudad = "Azay-le-Rideau"; $slug_castillos_cercanos_csv= 'chateau-d-azay-le-rideau';
+$carpeta='chateaux';    $slug_filtrado_csv = 'chateau-d-azay-le-rideau';
 $slug_Mayuscula = "Azay-le-Rideau";
 $descripcion = "El Castillo de Azay-le-Rideau, situado sobre una isla en el río Indre, es un destacado ejemplo de arquitectura renacentista francesa. Su reflejo en el río, sus torres elegantes y sus jardines cuidadosamente diseñados lo convierten en una joya del Valle del Loira.";
 $imagenHero = "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_d%27Azay-le-Rideau_001.jpg";
-$descripcion_portada="";
+$descripcion_portada = "El castillo de Azay-le-Rideau es una de las joyas del Renacimiento francés, elegantemente reflejado en las aguas del río Indre. Construido sobre una pequeña isla, combina arquitectura refinada, un entorno natural armonioso y una rica historia, convirtiéndose en una visita imprescindible del Valle del Loira.";
 $web_oficial = "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27Azay-le-Rideau";
 $fuenteHero_texto = "fr.wikipedia.org";
 
@@ -20,3 +20,4 @@ $direccion = "Château d'Azay-le-Rideau, 37190 Azay-le-Rideau, Francia";
 $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>
