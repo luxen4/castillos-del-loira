@@ -1,4 +1,4 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>
+
 <?php 
 $title='Web-site';
 $title = "";
@@ -8,15 +8,15 @@ $carpeta = "";
 $slug = "index";
 $imagenHero = "";
 $twitter = "@AdrianTwitter";
+$twitterCards_url='https://www.alayag82.kesug.com/val-de-loire/index.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php";
-require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; 
-?>
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php"; ?>
+<?php require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; ?>
 
 
 

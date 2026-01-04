@@ -12,5 +12,5 @@ $graph_Meta_Tags_property_tag2 = "Castillos del Valle del Loira";
 $graph_Meta_Tags_property_tag3 = "Jardines y festivales";
 
 // Twitter Cards
-$twitterCards_url = "/val-de-loire/chateaux/{$slug}/index.php";
+$twitterCards_url = "https://www.alayag82.kesug.com/val-de-loire/index.php";
 ?>
