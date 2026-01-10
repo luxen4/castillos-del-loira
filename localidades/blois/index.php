@@ -9,5 +9,5 @@ y sus vistas sobre el <strong>río Loira</strong>, siendo un punto clave para de
 
 
 require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/$slug/variables-iniciales.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidadtemplate-generico.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidad/template-generico.php";
 ?>

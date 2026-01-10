@@ -58,7 +58,7 @@
 
         <!-- 🖥️ NAV DERECHA (DESKTOP) -->
         <nav class="hidden lg:flex gap-6 text-sm font-medium items-center">
-            <a href="/val-de-loire/general/alojamientos-val-de-loire.php">Alojamientos</a>
+            <a href="/val-de-loire/localidades/alojamientos.php">Alojamientos</a>
             <a href="/val-de-loire/alquiler-vehiculos.php">Alquiler Vehículos</a>
             <?php /* <a href="/val-de-loire/contacto.html">Contacto</a> */ ?>
         </nav>
@@ -101,7 +101,7 @@
                 </div>
             </details>
 
-            <a href="/val-de-loire/general/alojamientos-val-de-loire.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Alojamientos</a>
+            <a href="/val-de-loire/localidades/alojamientos.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Alojamientos</a>
             <a href="/val-de-loire/alquiler-vehiculos.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Alquiler Vehículos</a>
             <?php /* <a href="/val-de-loire/contacto.html" class="py-3 px-4 hover:bg-emerald-700 rounded">Contacto</a> */ ?>
         </nav>

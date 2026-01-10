@@ -14,7 +14,7 @@
 
   <!-- Paseos -->
   <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/nantes/main/sections/template.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/template-paseos.php"; ?>
   </div>
 
   <!-- Info extra -->

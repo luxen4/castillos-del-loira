@@ -6,7 +6,7 @@ $items = [
     "imagen" => [
       "src" => "https://cdn-imgix.headout.com/media/images/a58e5cf6513e127cfa146f815a53b3ba-AdobeStock-187387008.jpeg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&crop=faces%2Ccenter&fit=crop",
       "alt" => "Castillo Real de Amboise",
-      "fuente" => "https://www.billets-chateaux-de-la-loire.fr/es/chateau-amboise-tickets/",
+      "fuente" =>"/val-de-loire/chateaux/chateau-royal-de-amboise/index.php",
       "fuente_texto" => "billets-chateaux-de-la-loire.fr"
     ]
   ],
@@ -26,7 +26,8 @@ $items = [
     "imagen" => [
       "src" => "https://i.ytimg.com/vi/xLlvETfP-HA/maxresdefault.jpg",
       "alt" => "Centro histórico de Amboise",
-      "fuente" => "https://elsouvenir.com/amboise-la-localidadde-da-vinci/",
+      "fuente" => "https://souvenirs.vincent.voyage/visitar-amboise/",
+      /*"fuente_texto" => "https://elsouvenir.com/amboise-la-ciudad-de-da-vinci/"*/
       "fuente_texto" => "elsouvenir.com"
     ]
   ]

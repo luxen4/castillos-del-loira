@@ -6,7 +6,7 @@
         "imagen" => [
           "src" => "https://www.lesmachines-nantes.fr/wp-content/uploads/2018/01/home_01.jpg",
           "alt" => "Machines de l'île Nantes",
-          "fuente" => "/val-de-loire/localidades/nantes/lugares-interesantes/las-maquinas-de-la-isla.php",
+          "fuente" => "/val-de-loire/localidades/nantes/lugares-interesantes/les-machines-ille/index.php",
           "fuente_texto" => "lesmachines-nantes.fr"
         ]  /* https://www.lesmachines-nantes.fr */
       ],
@@ -16,8 +16,8 @@
         "imagen" => [
           "src" => "https://www.levoyageanantes.fr/wp-content/uploads/2016/11/Claude-Ponti-Le-Jardin-Kadupo-jardin-des-plantes-Nantes-une-proposition-du-Service-des-espaces-verts-de-la-ville-dans-le-cadre-du-Voyage-a-Nantes-2016-%C2%A9-Ville-de-Nantes-768x511.jpg",
           "alt" => "Jardin des Plantes Nantes",
-          "fuente" => "/val-de-loire/localidades/nantes/lugares-interesantes/jardin-des-plantes.php",
-          "fuente_texto" => "levoyageanantes.fr"
+          "fuente" => "https://www.my-loire-valley.com/jardin-des-plantes-nantes/",
+          "fuente_texto" => "my-loire-valley.com"
         ]/* https://www.levoyageanantes.fr */
         ],
       [

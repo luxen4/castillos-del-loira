@@ -11,7 +11,8 @@ $web_oficial = "https://www.loirevalley-tickets.com/es/chateau-de-chaumont/plan-
 $fuenteHero_texto = "loirevalley-tickets.com";  
 
 $src_google_maps='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5393.229122964735!2d1.18570703190997!3d47.47794001662122!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1761991300673!5m2!1ses!2ses';
- 
+$web_oficial_mas_info = "https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-chaumont-sur-loire/"; 
+
 // Variables dinámicas para SEO 
 $keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $localidad, turismo cultural, arquitectura renacentista, escapada fin de semana"; 
 $twitter = "@adrianLaya"; 

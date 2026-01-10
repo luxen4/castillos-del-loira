@@ -10,6 +10,7 @@ $web_oficial = "https://www.destination-angers.com/es/turismo/lo-mas-importante/
 $fuenteHero_texto = "destination-angers.com";
 
 $src_google_maps = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.53079648689!2d-0.5453!3d47.4782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e5b7a0b18e5f%3A0x123456789abcdef!2sCh%C3%A2teau%20d%27Angers!5e0!3m2!1ses!2ses!4v0000000000000!5m2!1ses!2ses';
+$web_oficial_mas_info = "";
 
 // Variables dinámicas para SEO
 $keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, tapices medievales, escapada fin de semana";

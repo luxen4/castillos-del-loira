@@ -9,25 +9,21 @@ $slug = "index";
 $imagenHero = "";
 $twitter = "@AdrianTwitter";
 $twitterCards_url='https://www.alayag82.kesug.com/val-de-loire/index.php';
-?>
+
+$localidad = "Valle del Loira";
+$region    = "Centro-Val de Loire"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php"; ?>
+<?php require  $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php"; ?>
 <?php require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; ?>
-
-
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
 <!-- verify-admitad: "e3b1ce5433" -->
 
   <?php require $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/header/header-inicio-faqs.php"; ?>
-
-
-
-
 
   <!-- 🔹 Layout con 3 columnas: lateral-izquierdo / contenido / lateral-derecho -->
   <div class="container mx-auto px-1 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -48,8 +44,6 @@ $twitterCards_url='https://www.alayag82.kesug.com/val-de-loire/index.php';
             Castillos Imprescindibles
           </a>
         </h4>
-
-
       </div>
 
       <div class="my-6 max-w-md mx-auto">
@@ -90,17 +84,12 @@ $twitterCards_url='https://www.alayag82.kesug.com/val-de-loire/index.php';
           Vive historia, arte y naturaleza en cada etapa.
         </p>
 
-
-
-
-
         <p>
           El <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a> es un viaje a través de la historia, el arte y la naturaleza de Francia. Desde <ins>Nantes hasta Orleans</ins>, el río Loira serpentea entre bosques, viñedos y aldeas que parecen detenidas en el tiempo.
           A lo largo de sus orillas, se levantan más de <strong>80 castillos</strong> que fueron residencia de reyes, nobles y artistas del Renacimiento francés, cada uno con su propio encanto y leyenda.
           <a href="#mapa" class="text-emerald-700 hover:underline">
             🗺️ Ver Mapa
           </a>
-
         </p>
 
         <p>

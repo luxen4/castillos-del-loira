@@ -9,6 +9,7 @@ $web_oficial = "https://www.larocheposay-tourisme.com/es/decouvrir-la-destinatio
 $fuenteHero_texto = "larocheposay-tourisme.com";
 
 $src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2712.475332424093!2d0.2322451120069741!3d47.16812931803277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f18cb205f056f9%3A0x780c48a0a470f69a!2sFortaleza%20Real%20de%20Chinon!5e0!3m2!1ses!2ses!4v1762041335699!5m2!1ses!2ses';
+$web_oficial_mas_info = "";
 
 // Variables dinámicas para SEO
 $keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo medieval, fortaleza histórica, escapada fin de semana";

@@ -12,6 +12,7 @@ $web_oficial = "https://www.traveler.es/naturaleza/articulos/castillo-del-loira-
 $fuenteHero_texto = "Traveler.es";
 
 $src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.53079648689!2d1.5143386120289368!3d47.615812487221035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4add37eb82821%3A0x6d1fb075610e2871!2sCastillo%20de%20Chambord!5e0!3m2!1ses!2ses!4v1763522891912!5m2!1ses!2ses';
+$web_oficial_mas_info="https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-chambord/";
 
 // Variables dinámicas para SEO
 $keywords = "$title, castillos Valle del Loira, turismo Francia, viaje a $ciudad, turismo cultural, jardines renacentistas, escapada fin de semana";
@@ -23,6 +24,6 @@ $horario_apertura = "09:00";
 $horario_cierre = "18:00";
 
 $hastag_faqs='faqs';
-$web_oficial_mas_info="https://www.bloischambord.es/descubre-el-destino/castillos-del-loira/castillo-de-chambord/";
+
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; ?>

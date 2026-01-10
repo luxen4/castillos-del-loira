@@ -16,6 +16,8 @@ $castillos_cercanos = [
     ["Castillo de Blain", "Blain.php"],
     ["Castillo de Châteaubriant", "Chateaubriant.php"]
 ];
+$web_oficial_mas_info = "";
+
 ?>
 <!DOCTYPE html>
 <html lang="es">

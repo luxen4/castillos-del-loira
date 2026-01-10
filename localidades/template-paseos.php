@@ -11,9 +11,11 @@
     <h3 class="text-xl font-semibold text-emerald-600 mb-2"><?= $item['titulo'] ?></h3>
     <p class="text-gray-600 text-sm text-left">
       <?= $item['descripcion'] ?>
+      
       <a href="<?= $item['imagen']['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-medium hover:underline ml-1">
         Más info &rarr;
       </a>
+      
     </p>
   </div>
 <?php endforeach; ?>
