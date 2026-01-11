@@ -43,7 +43,7 @@ $enlaces = [
 */
 
 $relacionadas = [
-  ["Saumur", "chateau-de-saumur.php"],
+  ["Saumur", "chateau-de-saumur/index.php"],
   ["Nantes", "Nantes.php"],
   ["Tours", "Tours.php"],
 ];

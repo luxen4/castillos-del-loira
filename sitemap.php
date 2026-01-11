@@ -7,31 +7,31 @@ $fechaHoy = date("Y-m-d");
 $castillos = [    
     "chateau-royal-de-amboise.php",
     "chateau-de-azay-le-rideau.php",    
-    "chateau-royal-de-blois.php",
+    "chateau-royal-de-blois/index.php",
     "chateau-de-chambord.php",
     "Chamerolles.php",    
     "Chaumont.php",    
-    "chateau-de-chenonceau.php",    
-    "chateau-de-cheverny.php",
+    "chateau-de-chenonceau/index.php",    
+    "chateau-de-cheverny/index.php",
     "Chinon.php",    
     "Clos-Luce.php",
     "Duques-de-Bretaña.php",
-    "chateau-de-langeais.php",
+    "chateau-de-langeais/index.php",
     "Sully-sur-loire.php",
     "Ussé.php",
-    "chateau-de-villandry.php"
+    "chateau-de-villandry/index.php"
 ];
 
 // Lista de ciudades
 $ciudades = [
     "chateau-royal-de-amboise.php",
     "Angers.php",    
-    "chateau-royal-de-blois.php",
+    "chateau-royal-de-blois/index.php",
     "Chinon.php",
     "Nantes.php",
-    "chateau-de-saumur.php",   
+    "chateau-de-saumur/index.php",   
     "Orleans.php",
-    "chateau-de-saumur.php",
+    "chateau-de-saumur/index.php",
     "Tours.php"
 ];
 

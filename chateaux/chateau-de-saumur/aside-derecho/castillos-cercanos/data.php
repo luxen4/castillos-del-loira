@@ -23,7 +23,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Langeais",
-    "url" => "chateau-de-langeais.php",
+    "url" => "chateau-de-langeais/index.php",
     "descripcion" => "Castillo medieval donde se celebró el matrimonio entre Carlos VIII y Ana de Bretaña."
   ],
   [

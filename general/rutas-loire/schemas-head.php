@@ -18,7 +18,7 @@
           "@type": "LandmarksOrHistoricalBuildings",
           "name": "Castillo de Chambord",
           "description": "Icono del Renacimiento francés, obra monumental de Francisco I.",
-          "url": "<?= $web_site; ?>/chateaux/chateau-de-chambord.php"
+          "url": "<?= $web_site; ?>/chateaux/chateau-de-chambord/index.php"
         },
         {
           "@type": "LandmarksOrHistoricalBuildings",

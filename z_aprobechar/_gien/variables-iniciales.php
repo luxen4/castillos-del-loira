@@ -10,7 +10,7 @@ $fuenteHero_texto = "gien.fr";
 
 $otros_castillos = [
   ["Chambord", "chateau-de-chambord.php"],
-  ["Chenonceau", "chateau-de-chenonceau.php"],
+  ["Chenonceau", "chateau-de-chenonceau/index.php"],
   ["Amboise", "chateau-royal-de-amboise.php"]
 ];
 

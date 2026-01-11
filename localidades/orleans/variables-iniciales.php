@@ -19,8 +19,8 @@ $fuenteHero_texto = "viajesyrutas.es";
 
 $otros_castillos = [
   ["Chambord", "chateau-de-chambord.php"],
-  ["Blois", "chateau-royal-de-blois.php"],
-  ["Cheverny", "chateau-de-cheverny.php"]
+  ["Blois", "chateau-royal-de-blois/index.php"],
+  ["Cheverny", "chateau-de-cheverny/index.php"]
 ];
 
 // Variables dinámicas para SEO
@@ -40,7 +40,7 @@ $enlaces = [
 ];
 
 $relacionadas = [
-  ["Blois", "chateau-royal-de-blois.php"],
+  ["Blois", "chateau-royal-de-blois/index.php"],
   ["Tours", "Tours.php"],
   ["Nantes", "Nantes.php"],
 ];*/

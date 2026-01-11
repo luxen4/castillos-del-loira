@@ -8,12 +8,12 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Langeais",
-    "url" => "chateau-de-langeais.php",
+    "url" => "chateau-de-langeais/index.php",
     "descripcion" => "Fortaleza medieval con puente levadizo y torres imponentes."
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "chateau-de-villandry.php",
+    "url" => "chateau-de-villandry/index.php",
     "descripcion" => "Famoso por sus jardines geométricos renacentistas."
   ],
   [
@@ -28,7 +28,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Saumur",
-    "url" => "chateau-de-saumur.php",
+    "url" => "chateau-de-saumur/index.php",
     "descripcion" => "Castillo fortificado sobre el río Loira con historia militar y caballería."
   ]
 ];

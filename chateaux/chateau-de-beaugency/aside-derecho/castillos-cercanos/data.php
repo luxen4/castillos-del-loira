@@ -8,7 +8,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "chateau-royal-de-blois.php",
+    "url" => "chateau-royal-de-blois/index.php",
     "descripcion" => "Palacio real que combina estilos gótico, renacentista y clásico."
   ],
   [

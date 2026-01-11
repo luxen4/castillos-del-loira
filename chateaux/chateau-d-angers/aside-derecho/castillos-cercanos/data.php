@@ -5,7 +5,7 @@ $castillos_cercanos_angers = [
     ["nombre" => "Castillo de Brissac", "url" => "Brissac.php", "descripcion" => "El castillo más alto de Francia, con historia noble."],
     ["nombre" => "Château de Serrant", "url" => "Serrant.php", "descripcion" => "Palacio renacentista rodeado de jardines."],
     ["nombre" => "Château de Montsoreau", "url" => "Montsoreau.php", "descripcion" => "Castillo junto al río Loira con museo contemporáneo."],
-    ["nombre" => "Château de Saumur", "url" => "chateau-de-saumur.php", "descripcion" => "Castillo histórico con vistas panorámicas al río."]
+    ["nombre" => "Château de Saumur", "url" => "chateau-de-saumur/index.php", "descripcion" => "Castillo histórico con vistas panorámicas al río."]
 ];
 $h3 = "🏰 Castillos cercanos a Angers";
 ?>

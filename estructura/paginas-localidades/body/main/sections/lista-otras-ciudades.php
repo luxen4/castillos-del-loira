@@ -7,7 +7,7 @@
         Entre las más destacadas se encuentran
         <a href="/val-de-loire/localidades/amboise.php" class="text-emerald-700 hover:underline">Amboise</a>,
         conocida por su castillo real y su vínculo con Leonardo da Vinci;
-        <a href="/val-de-loire/localidades/chateau-royal-de-blois.php" class="text-emerald-700 hover:underline">Blois</a>,
+        <a href="/val-de-loire/localidades/chateau-royal-de-blois/index.php" class="text-emerald-700 hover:underline">Blois</a>,
         con su imponente palacio renacentista y calles empedradas; y
         <a href="/val-de-loire/localidades/tours.php" class="text-emerald-700 hover:underline">Tours</a>,
         una animada ciudad universitaria con un precioso casco antiguo.

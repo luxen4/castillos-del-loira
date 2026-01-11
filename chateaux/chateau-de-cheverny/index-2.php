@@ -50,9 +50,9 @@ $secciones = [
 // Castillos cercanos (CSV-style items que sueles usar)
 $castillos_cercanos = [
     ['chateau-de-chambord.php','Castillo de Chambord','A solo 20 minutos; el castillo más grande y emblemático del Valle del Loira.'],
-    ['chateau-royal-de-blois.php','Castillo de Blois','Palacio real con cuatro estilos arquitectónicos y museos espectaculares.'],
-    ['chateau-de-chaumont-sur-loire.php','Castillo de Chaumont-sur-Loire','Famoso por su Festival Internacional de Jardines y vistas al Loira.'],
-    ['chateau-de-beauregard.php','Castillo de Beauregard','Conocido por su impresionante Galería de los 327 retratos históricos.'],
+    ['chateau-royal-de-blois/index.php','Castillo de Blois','Palacio real con cuatro estilos arquitectónicos y museos espectaculares.'],
+    ['chateau-de-chaumont-sur-loire/index.php','Castillo de Chaumont-sur-Loire','Famoso por su Festival Internacional de Jardines y vistas al Loira.'],
+    ['chateau-de-beauregard/index.php','Castillo de Beauregard','Conocido por su impresionante Galería de los 327 retratos históricos.'],
     ['chateau-de-fougeres-sur-bievre.php','Castillo de Fougères-sur-Bièvre','Un castillo medieval más pequeño, auténtico y muy bien conservado.']
 ];
 
@@ -176,7 +176,7 @@ $castillos_cercanos = [
                             <h2 class="text-2xl font-bold text-emerald-700 mb-3"><?= htmlspecialchars($s['titulo']) ?></h2>
                             <p class="text-gray-700 leading-relaxed"><?= htmlspecialchars($s['texto']) ?></p>
                             <p class="mt-4">
-                                <a href="/chateau-de-cheverny/chateau-de-cheverny.php" target="_blank" rel="noopener noreferrer" class="<?= $a_style ?>">
+                                <a href="/chateau-de-cheverny/chateau-de-cheverny/index.php" target="_blank" rel="noopener noreferrer" class="<?= $a_style ?>">
                                     Ver ficha completa del Château de Cheverny
                                 </a>
                             </p>

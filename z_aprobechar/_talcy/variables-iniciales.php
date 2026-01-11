@@ -9,9 +9,9 @@ $web_oficial = "https://www.chateau-talcy.fr";
 $fuenteHero_texto = "chateau-talcy.fr";
 
 $otros_castillos = [
-  ["Chenonceau", "chateau-de-chenonceau.php"],
+  ["Chenonceau", "chateau-de-chenonceau/index.php"],
   ["Amboise", "chateau-royal-de-amboise.php"],
-  ["Blois", "chateau-royal-de-blois.php"]
+  ["Blois", "chateau-royal-de-blois/index.php"]
 ];
 
 // Variables dinámicas para SEO

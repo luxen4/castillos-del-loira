@@ -22,11 +22,11 @@
                     class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
                            opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
 
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chambord.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chambord/index.php"
                         class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">🏰 Chambord</a>
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chenonceau.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chenonceau/index.php"
                         class="block px-4 py-2 hover:bg-emerald-100">🌉 Chenonceau</a>
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-cheverny.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-cheverny/index.php"
                         class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">🏛 Cheverny</a>
                 </div>
             </div>
@@ -85,9 +85,9 @@
             <details>
                 <summary class="py-3 px-4 hover:bg-emerald-700 rounded cursor-pointer">Castillos</summary>
                 <div class="ml-6 mt-2 space-y-2 text-sm">
-                    <a href="/val-de-loire/chateaux/chateau-de-chambord.php">Chambord</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau.php">Chenonceau</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-cheverny.php">Cheverny</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-chambord/index.php">Chambord</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau/index.php">Chenonceau</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-cheverny/index.php">Cheverny</a>
                 </div>
             </details>
 

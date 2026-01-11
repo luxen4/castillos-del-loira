@@ -23,12 +23,12 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "chateau-de-villandry.php",
+    "url" => "chateau-de-villandry/index.php",
     "descripcion" => "Famoso por sus jardines geométricos renacentistas."
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "chateau-royal-de-blois.php",
+    "url" => "chateau-royal-de-blois/index.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ]
 ];

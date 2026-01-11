@@ -15,7 +15,7 @@ $fuenteHero_texto = "bloischambord.es";
 
 $otros_castillos = [
   ["Clos-Lucé", "Clos-Luce.php"],
-  ["Chenonceau", "chateau-de-chenonceau.php"],
+  ["Chenonceau", "chateau-de-chenonceau/index.php"],
   ["Chaumont-sur-Loire", "Chaumont.php"]
 ];
 

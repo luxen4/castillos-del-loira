@@ -9,9 +9,9 @@ $web_oficial = "https://www.traveler.es/naturaleza/articulos/castillo-del-loira-
 $fuenteHero_texto = "Traveler.es";
 
 $otros_castillos = [
-  ["Villandry", "chateau-de-villandry.php"],
-  ["Chenonceau", "chateau-de-chenonceau.php"],
-  ["Cheverny", "chateau-de-cheverny.php"]
+  ["Villandry", "chateau-de-villandry/index.php"],
+  ["Chenonceau", "chateau-de-chenonceau/index.php"],
+  ["Cheverny", "chateau-de-cheverny/index.php"]
 ];
 
 // Variables dinámicas para SEO

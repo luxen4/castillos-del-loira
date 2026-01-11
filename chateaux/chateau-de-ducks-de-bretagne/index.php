@@ -7,8 +7,8 @@ $web_oficial = "https://www.chateaunantes.fr/";
 
 $otros_castillos = [
     ["Castillo de Chambord", "chateau-de-chambord.php"],
-    ["Castillo de Chenonceau", "chateau-de-chenonceau.php"],
-    ["Castillo de Villandry", "chateau-de-villandry.php"]
+    ["Castillo de Chenonceau", "chateau-de-chenonceau/index.php"],
+    ["Castillo de Villandry", "chateau-de-villandry/index.php"]
 ];
 
 $castillos_cercanos = [

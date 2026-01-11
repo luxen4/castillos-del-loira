@@ -204,7 +204,7 @@
 
 
             <li>
-              <a href="/val-de-loire/chateaux/chateau-de-chambord.php"
+              <a href="/val-de-loire/chateaux/chateau-de-chambord/index.php"
                 class="hover:underline hover:text-emerald-900 font-medium">
                 🏰 Chambord</a>
             </li>

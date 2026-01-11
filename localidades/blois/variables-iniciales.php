@@ -21,7 +21,7 @@ $fuenteHero_texto = "francerent.com";
 
 $otros_castillos = [
   ["Chambord", "chateau-de-chambord.php"],
-  ["Cheverny", "chateau-de-cheverny.php"],
+  ["Cheverny", "chateau-de-cheverny/index.php"],
   ["Chaumont-sur-Loire", "Chaumont.php"]
 ];
 
@@ -44,7 +44,7 @@ $enlaces = [
 
 $relacionadas = [
   ["Chambord", "chateau-de-chambord.php"],
-  ["Cheverny", "chateau-de-cheverny.php"],
+  ["Cheverny", "chateau-de-cheverny/index.php"],
   ["Orléans", "Orleans.php"],
 ];
 ?>

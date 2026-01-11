@@ -8,7 +8,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Langeais",
-    "url" => "chateau-de-langeais.php",
+    "url" => "chateau-de-langeais/index.php",
     "descripcion" => "Fortaleza medieval con puente levadizo y torres imponentes."
   ],
   [
@@ -23,12 +23,12 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Chenonceau",
-    "url" => "chateau-de-chenonceau.php",
+    "url" => "chateau-de-chenonceau/index.php",
     "descripcion" => "El castillo que se alza sobre el río Cher, símbolo del Loira."
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "chateau-royal-de-blois.php",
+    "url" => "chateau-royal-de-blois/index.php",
     "descripcion" => "Palacio renacentista con una historia de reyes y conspiraciones."
   ]
 ];

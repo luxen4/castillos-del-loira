@@ -3,7 +3,7 @@
 $castillos_cercanos = [
   [
     "nombre" => "Castillo de Blois",
-    "url" => "chateau-royal-de-blois.php",
+    "url" => "chateau-royal-de-blois/index.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ],
   [
@@ -23,7 +23,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Beauregard",
-    "url" => "chateau-de-beauregard.php",
+    "url" => "chateau-de-beauregard/index.php",
     "descripcion" => "Conocido por su galería de retratos y frescos únicos."
   ]
 ];

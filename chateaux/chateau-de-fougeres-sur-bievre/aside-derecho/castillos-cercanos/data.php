@@ -8,12 +8,12 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Blois",
-    "url" => "chateau-royal-de-blois.php",
+    "url" => "chateau-royal-de-blois/index.php",
     "descripcion" => "Palacio renacentista con historia de reyes y reinas de Francia."
   ],
   [
     "nombre" => "Castillo de Chenonceau",
-    "url" => "chateau-de-chenonceau.php",
+    "url" => "chateau-de-chenonceau/index.php",
     "descripcion" => "Conocido como el 'Castillo de las Damas', con su elegante galería sobre el río Cher."
   ],
   [
@@ -23,7 +23,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "chateau-de-villandry.php",
+    "url" => "chateau-de-villandry/index.php",
     "descripcion" => "Famoso por sus jardines geométricos renacentistas."
   ],
   [

@@ -9,6 +9,6 @@ vida cultural y zonas verdes, con un centro histórico animado, museos, jardines
 
 
 require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/$slug/variables-iniciales.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidad/template-generico.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/ciudad-template-generico.php";
 
 ?>

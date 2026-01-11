@@ -5,7 +5,7 @@ $castillos = [
         "imagen" => "https://cdn.iris-etourism.io/uploads/crt_centre_val_de_loire/2a3/-domaine-national-de-chambord.webp",
         "foto_fuente" => "https://www.valledelloira-francia.es/sitio-cultural/chateau-de-chambord/",
         "nombre_fuente" => "valledelloira-francia.es",
-        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chambord/index.php"
+        "web_oficial" => "/val-de-loire/chateaux/chateau-de-chambord/index/index.php"
     ],
     [
         "nombre" => "Château de Chenonceau",

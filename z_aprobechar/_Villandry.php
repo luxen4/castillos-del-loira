@@ -6,13 +6,13 @@ $web_oficial = "https://www.chateauvillandry.fr/";
 
 $otros_castillos = [
     ["Chambord", "chateau-de-chambord.php"],
-    ["Chenonceau", "chateau-de-chenonceau.php"],
-    ["Cheverny", "chateau-de-cheverny.php"]
+    ["Chenonceau", "chateau-de-chenonceau/index.php"],
+    ["Cheverny", "chateau-de-cheverny/index.php"]
 ];
 
 $castillos_cercanos = [
     ["Castillo de Azay-le-Rideau", "chateau-de-azay-le-rideau.php"],
-    ["Castillo de Langeais", "chateau-de-langeais.php"],
+    ["Castillo de Langeais", "chateau-de-langeais/index.php"],
     ["Castillo de Ussé", "Ussé.php"]
 ];
 ?>

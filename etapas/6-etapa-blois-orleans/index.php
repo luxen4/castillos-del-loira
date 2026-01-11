@@ -42,7 +42,7 @@ $slug_castillos_cercanos_csv= 'chateau-de-chambord'; ?>
         <h2 class="text-2xl font-bold text-emerald-700 mb-3">Contenido principal</h2>
 
         <p class="text-lg md:text-xl text-gray-700 mb-4">
-          Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="../../localidades/chateau-royal-de-blois.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="../../localidades/orleans.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>.
+          Esta etapa recorre el corazón del Valle del Loira, desde la histórica ciudad de <a href="../../localidades/chateau-royal-de-blois/index.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Blois</a> hasta la majestuosa <a href="../../localidades/orleans.php" target="_blank" class="text-emerald-600 underline hover:text-emerald-800">Orléans</a>.
           A lo largo del recorrido, podrás admirar castillos renacentistas y medievales, ríos serpenteantes, jardines impresionantes y paisajes que capturan la esencia de Francia.
         </p>
 
@@ -167,7 +167,7 @@ $slug_castillos_cercanos_csv= 'chateau-de-chambord'; ?>
       <div class="aside-sticky bg-white p-4 rounded-lg shadow">
         <h4 class="font-semibold text-emerald-700 mb-2">Destacados</h4>
         <ul class="text-sm space-y-2 text-gray-700">
-          <li><a href="/val-de-loire/chateaux/chateau-de-chambord.php" class="hover:underline">Castillo de Chambord</a></li>
+          <li><a href="/val-de-loire/chateaux/chateau-de-chambord/index.php" class="hover:underline">Castillo de Chambord</a></li>
           <li><a href="/val-de-loire/chateaux/chenonceau.php" class="hover:underline">Chenonceau</a></li>
           <li><a href="/val-de-loire/chateaux/chateau-royal🛎️ Alojamientose-de-amboise.php" class="hover:underline">Amboise</a></li>
         </ul>

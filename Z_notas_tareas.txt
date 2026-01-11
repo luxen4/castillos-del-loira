@@ -155,11 +155,11 @@ Estas plataformas te proporcionarán los widgets y enlaces necesarios para monet
 
 
 Preparar una web;
-chateau-de-cheverny,"Château de Cheverny – Interior","chateau-de-cheverny.php","Uno de los interiores más suntuosos y mejor conservados del Valle del Loira."
-chateau-de-cheverny,"Château de Cheverny – Exposición Tintín","chateau-de-cheverny.php","Famoso por su relación con Hergé; inspiró el Castillo de Moulinsart."
-chateau-de-cheverny,"Château de Cheverny – Jardines","chateau-de-cheverny.php","Elegantes jardines simétricos perfectos para un paseo tranquilo."
-chateau-de-cheverny,"Château de Cheverny – Perrera","chateau-de-cheverny.php","Hogar de decenas de perros utilizados tradicionalmente en la caza real."
-chateau-de-cheverny,"Château de Cheverny – Dominio Completo","chateau-de-cheverny.php","Un conjunto armonioso que combina historia, arquitectura y naturaleza."
+chateau-de-cheverny,"Château de Cheverny – Interior","chateau-de-cheverny/index.php","Uno de los interiores más suntuosos y mejor conservados del Valle del Loira."
+chateau-de-cheverny,"Château de Cheverny – Exposición Tintín","chateau-de-cheverny/index.php","Famoso por su relación con Hergé; inspiró el Castillo de Moulinsart."
+chateau-de-cheverny,"Château de Cheverny – Jardines","chateau-de-cheverny/index.php","Elegantes jardines simétricos perfectos para un paseo tranquilo."
+chateau-de-cheverny,"Château de Cheverny – Perrera","chateau-de-cheverny/index.php","Hogar de decenas de perros utilizados tradicionalmente en la caza real."
+chateau-de-cheverny,"Château de Cheverny – Dominio Completo","chateau-de-cheverny/index.php","Un conjunto armonioso que combina historia, arquitectura y naturaleza."
 
 
 📌 Opciones compatibles con tu proyecto

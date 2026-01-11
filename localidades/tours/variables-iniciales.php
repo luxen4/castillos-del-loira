@@ -21,8 +21,8 @@ $fuenteHero_texto = "tours-tourisme.fr";
 
 $otros_castillos = [
   ["Amboise", "chateau-royal-de-amboise.php"],
-  ["Chenonceau", "chateau-de-chenonceau.php"],
-  ["Villandry", "chateau-de-villandry.php"]
+  ["Chenonceau", "chateau-de-chenonceau/index.php"],
+  ["Villandry", "chateau-de-villandry/index.php"]
 ];
 
 // Variables dinámicas para SEO
@@ -43,8 +43,8 @@ $enlaces = [
 */
 
 $relacionadas = [
-  ["Saumur", "chateau-de-saumur.php"],
-  ["Blois", "chateau-royal-de-blois.php"],
+  ["Saumur", "chateau-de-saumur/index.php"],
+  ["Blois", "chateau-royal-de-blois/index.php"],
   ["Amboise", "chateau-royal-de-amboise.php"],
 ];
 ?>

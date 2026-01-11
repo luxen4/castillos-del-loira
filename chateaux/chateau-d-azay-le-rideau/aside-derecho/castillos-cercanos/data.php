@@ -18,7 +18,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Villandry",
-    "url" => "chateau-de-villandry.php",
+    "url" => "chateau-de-villandry/index.php",
     "descripcion" => "Jardines renacentistas espectaculares y geometría perfecta."
   ],
   [
@@ -28,7 +28,7 @@ $castillos_cercanos = [
   ],
   [
     "nombre" => "Castillo de Langeais",
-    "url" => "chateau-de-langeais.php",
+    "url" => "chateau-de-langeais/index.php",
     "descripcion" => "Castillo medieval con puente levadizo y torres imponentes."
   ]
 ];

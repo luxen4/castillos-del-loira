@@ -8,5 +8,5 @@ para descubrir los grandes castillos de la región, disfrutar de terrazas, merca
 
 
 require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/localidades/$slug/variables-iniciales.php";
-require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/localidad/template-generico.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/paginas-localidades/ciudad-template-generico.php";
 ?>
