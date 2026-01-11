@@ -171,3 +171,6 @@ Puedo usar una de estas librerías:
 ✅ UIkit — Limpio, modular y con componentes visuales
 ✅ Materialize CSS — Estilo Material Design
 ✅ Semantic UI — Semántico y con muchos componentes
+
+
+class="hidden lg:block" para que no se vea en tablet y móvil

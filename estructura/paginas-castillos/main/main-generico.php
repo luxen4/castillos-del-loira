@@ -1,17 +1,19 @@
 <?php $carpeta='Chateaux'; ?>
 <div class="flex flex-col min-h-screen">
 
-  <main class="container mx-auto px-4 py-2 grid lg:grid-cols-12 gap-8">
+  <main class="container mx-auto px-1 py-2 grid lg:grid-cols-12 gap-8">
 
     <!-- ASIDE IZQUIERDO -->
-    <aside class="hidden lg:block lg:col-span-3 space-y-6 max-w-[500px] overflow-hidden">
+    <aside class="hidden xl:block xl:col-span-3 space-y-6 max-w-[500px] overflow-hidden">
       <div class="bg-emerald-50 p-4 rounded-lg shadow w-full">
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/aside-izquierdo/publicidad.php"; ?>
       </div>
     </aside>
 
+
     <!-- CONTENIDO PRINCIPAL -->
-    <div class="lg:col-span-6 w-full max-w-full overflow-y-auto space-y-1 p-1">
+<div class="col-span-full xl:col-span-6 w-full max-w-full overflow-y-auto space-y-1 p-1">
+
 
       <nav class="text-sm flex items-center justify-between mt-1 mb-2 text-gray-600" aria-label="Breadcrumb">
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/estructura/main/breadcrums-generico.php"; ?>
@@ -21,7 +23,15 @@
       <!-- línea decorativa debajo, ancho completo -->
       <div class="mt-2 w-full h-px bg-emerald-700 rounded-full"></div>
 
-      <article class="space-y-1 w-full max-w-full h-[148vh] overflow-y-auto p-1">
+      <article class="
+        space-y-1 
+        w-full 
+        max-w-full 
+        p-1
+        h-auto overflow-visible
+        lg:h-[148vh] lg:overflow-y-auto
+      ">
+
 
         <!-- Introducción -->
         <?php $slug_section = "informacion";

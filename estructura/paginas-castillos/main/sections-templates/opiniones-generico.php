@@ -1,4 +1,4 @@
-<section id="opiniones" class="bg-emerald-50 p-4 rounded-lg shadow mt-6">
+<section id="opiniones" class="bg-white-50 p-1 rounded-lg shadow mt-6">
 
   <h3 class="font-semibold text-emerald-700 mb-3">
     ⭐ Opiniones de visitantes
