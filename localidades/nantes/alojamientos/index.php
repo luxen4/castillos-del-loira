@@ -1,41 +1,28 @@
-<?php $breadcrums_nivel_2 = "Localidades";
+<?php 
+$title = "Alojamientos en Nantes | Hoteles, apartamentos y turismo oficial";
+$breadcrums_nivel_2 = "Localidades";
 $breadcrums_nivel_3 = "Nantes";
 $breadcrums_nivel_4 = "Alojamientos";
 $slug = "nantes";
+require $_SERVER['DOCUMENT_ROOT'] . "/val-de-loire/chateaux/variables-comunes.php"; 
+
+
+$carpeta = "localidades";
+$descripcion = "Descubre los mejores alojamientos en Nantes: hoteles, apartamentos y opciones recomendadas cerca del centro histórico. Información turística oficial y enlaces útiles.";
+$keywords = "alojamientos en Nantes, hoteles en Nantes, apartamentos en Nantes, dónde dormir en Nantes, alojamiento cerca del Loira, hoteles centro histórico Nantes, Airbnb Nantes, alojamiento turístico Nantes, estancias en Nantes, hoteles baratos Nantes, apartamentos turísticos Nantes, dormir en Nantes Francia, alojamiento Valle del Loira Nantes";
+
+
+$localidad= ""; $region = "";
+$imagenHero = "";
+$twitter = "@adrianLaya";
+
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Alojamientos en Nantes | Hoteles, apartamentos y turismo oficial</title>
-  <meta name="description" content="Descubre los mejores alojamientos en Nantes: hoteles, apartamentos y opciones recomendadas cerca del centro histórico. Información turística oficial y enlaces útiles." />
-
-  <!-- SEO avanzado -->
-  <link rel="canonical" href="https://www.tusitioweb.com/val-de-loire/localidades/nantes/alojamientos" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Alojamientos en Nantes" />
-  <meta property="og:description" content="Hoteles y alojamientos recomendados en Nantes, con enlaces oficiales y consejos turísticos." />
-  <meta property="og:url" content="https://www.tusitioweb.com/val-de-loire/localidades/nantes/alojamientos" />
-  <meta property="og:image" content="https://www.tusitioweb.com/val-de-loire/assets/img/nantes-og.jpg" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Alojamientos en Nantes" />
-  <meta name="twitter:description" content="Encuentra dónde dormir en Nantes: hoteles, apartamentos y recursos oficiales." />
-
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-</head>
+<?php require  $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php"; ?>
+<?php //require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; ?>
 
 <body class="bg-gray-50 text-gray-800">
 
