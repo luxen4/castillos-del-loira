@@ -1,14 +1,30 @@
+<?php 
+$title="Alojamientos"; 
+$descripcion = "Descubre alojamientos en el Valle del Loira: hoteles con encanto, casas rurales, apartamentos turísticos y bed & breakfast cerca de castillos históricos como Chambord, Chenonceau, Amboise y Villandry. Encuentra dónde dormir en el corazón del Valle del Loira.";
+$keywords = "alojamientos Valle del Loira, hoteles Valle del Loira, dormir en el Valle del Loira, casas rurales Valle del Loira, apartamentos turísticos Valle del Loira, bed and breakfast Valle del Loira, hoteles cerca de castillos del Loira, alojamiento cerca de Chambord, alojamiento cerca de Chenonceau, hoteles en Nantes, hoteles en Tours, alojamiento en Saumur, turismo Valle del Loira";
+$carpeta= "alojamientos";
+$slug= "alojamientos";
+require $_SERVER['DOCUMENT_ROOT'] . '/val-de-loire\chateaux\variables-comunes.php';
+
+$localidad=""; $region="";
+
+
+$web_oficial_mas_info = "";
+$imagenHero="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbNF_cLx9tKclalbEbQfo-eGsBx9sS8P07w&s"; // Para preload
+
+// Variables dinámicas para SEO
+$twitter = "@adrianLaya";
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alojamientos | Valle del Loira</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html { scroll-behavior: smooth; }
-  </style>
-</head>
+
+<?php require  $_SERVER["DOCUMENT_ROOT"] . "/val-de-loire/estructura/head/index.php"; ?>
+<?php //require 'paginas/index/schemas/index-schemas-head.php' // Se debe meter en el head; ?>
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
 
