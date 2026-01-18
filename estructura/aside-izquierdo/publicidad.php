@@ -1,7 +1,7 @@
 
 <?php /* No me da de alta por no cumplir el mínimo de contenido --> */ ?>
 <!-- 🟣 CIVITATIS – Tours Valle del Loira -->
-<div class="bg-white shadow-lg rounded-xl p-6 border border-emerald-100 max-w-md mx-auto hover:shadow-2xl transition">
+<?php /* <div class="bg-white shadow-lg rounded-xl p-6 border border-emerald-100 max-w-md mx-auto hover:shadow-2xl transition">
   
   <h3 class="text-2xl font-bold text-emerald-700 mb-4">Tours y Excursiones en el Valle del Loira</h3>
 
@@ -23,7 +23,7 @@
   <p class="text-gray-500 text-xs mt-3">
     Apoya nuestra web reservando tus tours sin coste adicional.
   </p>
-</div>
+</div> */ ?>
 
 
 <!-- 🟡 AMAZON – Productos que convierten -->
