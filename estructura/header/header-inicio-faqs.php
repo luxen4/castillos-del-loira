@@ -6,7 +6,7 @@
         <!-- 🖥️ NAV IZQUIERDA (DESKTOP) -->
         <nav class="hidden lg:flex gap-6 text-sm font-medium items-center" aria-label="Navegación principal">
 
-            <a href="/val-de-loire/index.php" class="hover:underline flex items-center gap-2">
+            <a href="/val-de-loire/" class="hover:underline flex items-center gap-2">
                 <i class="fas fa-home"></i> Inicio
             </a>
 
@@ -22,11 +22,11 @@
                     class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
                            opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
 
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chambord/index.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chambord/"
                         class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">🏰 Chambord</a>
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chenonceau/index.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-chenonceau/"
                         class="block px-4 py-2 hover:bg-emerald-100">🌉 Chenonceau</a>
-                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-cheverny/index.php"
+                    <a role="menuitem" href="/val-de-loire/chateaux/chateau-de-cheverny/"
                         class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">🏛 Cheverny</a>
                 </div>
             </div>
@@ -40,16 +40,16 @@
 
                 <div class="absolute left-0 mt-2 w-56 bg-white text-emerald-800 rounded-xl shadow-lg
                             opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
-                    <a href="/val-de-loire/localidades/nantes/index.php" class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">Nantes</a>
-                    <a href="/val-de-loire/localidades/amboise/index.php" class="block px-4 py-2 hover:bg-emerald-100">Amboise</a>
-                    <a href="/val-de-loire/localidades/blois/index.php" class="block px-4 py-2 hover:bg-emerald-100">Blois</a>
-                    <a href="/val-de-loire/localidades/tours/index.php" class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">Tours</a>
+                    <a href="/val-de-loire/localidades/nantes/" class="block px-4 py-2 hover:bg-emerald-100 rounded-t-xl">Nantes</a>
+                    <a href="/val-de-loire/localidades/amboise/" class="block px-4 py-2 hover:bg-emerald-100">Amboise</a>
+                    <a href="/val-de-loire/localidades/blois/" class="block px-4 py-2 hover:bg-emerald-100">Blois</a>
+                    <a href="/val-de-loire/localidades/tours/" class="block px-4 py-2 hover:bg-emerald-100 rounded-b-xl">Tours</a>
                 </div>
             </div>
         </nav>
 
         <!-- 🏷 LOGO -->
-        <a href="/val-de-loire/index.php"
+        <a href="/val-de-loire/"
             class="flex items-center gap-3 font-bold text-lg"
             aria-label="Val de Loire - Inicio">
             <img src="/val-de-loire/assets/logo.png" alt="Val de Loire" class="w-10 h-10">
@@ -80,24 +80,24 @@
 
         <nav class="flex flex-col px-6 py-6 space-y-4 text-base">
 
-            <a href="/val-de-loire/index.php" class="py-3 px-4 hover:bg-emerald-700 rounded">Inicio</a>
+            <a href="/val-de-loire/" class="py-3 px-4 hover:bg-emerald-700 rounded">Inicio</a>
 
             <details>
                 <summary class="py-3 px-4 hover:bg-emerald-700 rounded cursor-pointer">Castillos</summary>
                 <div class="ml-6 mt-2 space-y-2 text-sm">
-                    <a href="/val-de-loire/chateaux/chateau-de-chambord/index.php">Chambord</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau/index.php">Chenonceau</a>
-                    <a href="/val-de-loire/chateaux/chateau-de-cheverny/index.php">Cheverny</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-chambord/">Chambord</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-chenonceau/">Chenonceau</a>
+                    <a href="/val-de-loire/chateaux/chateau-de-cheverny/">Cheverny</a>
                 </div>
             </details>
 
             <details>
                 <summary class="py-3 px-4 hover:bg-emerald-700 rounded cursor-pointer">Localidades</summary>
                 <div class="ml-6 mt-2 space-y-2 text-sm">
-                    <a href="/val-de-loire/localidades/nantes/index.php">Nantes</a>
-                    <a href="/val-de-loire/localidades/amboise/index.php">Amboise</a>
-                    <a href="/val-de-loire/localidades/blois/index.php">Blois</a>
-                    <a href="/val-de-loire/localidades/tours/index.php">Tours</a>
+                    <a href="/val-de-loire/localidades/nantes/">Nantes</a>
+                    <a href="/val-de-loire/localidades/amboise/">Amboise</a>
+                    <a href="/val-de-loire/localidades/blois/">Blois</a>
+                    <a href="/val-de-loire/localidades/tours/">Tours</a>
                 </div>
             </details>
 

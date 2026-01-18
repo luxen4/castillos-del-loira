@@ -5,34 +5,35 @@ $fechaHoy = date("Y-m-d");
 
 // Lista de castillos
 $castillos = [    
-    "chateau-royal-de-amboise.php",
-    "chateau-de-azay-le-rideau.php",    
-    "chateau-royal-de-blois/index.php",
-    "chateau-de-chambord.php",
-    "Chamerolles.php",    
-    "Chaumont.php",    
-    "chateau-de-chenonceau/index.php",    
-    "chateau-de-cheverny/index.php",
-    "Chinon.php",    
-    "Clos-Luce.php",
-    "Duques-de-Bretaña.php",
-    "chateau-de-langeais/index.php",
-    "Sully-sur-loire.php",
-    "Ussé.php",
-    "chateau-de-villandry/index.php"
+    "chateau-royal-de-amboise/",
+    "chateau-de-angers/",
+    "chateau-de-azay-le-rideau/",    
+    "chateau-royal-de-blois/",
+    "chateau-de-chambord/",
+    "chateau-de-chamerolles.php",    
+    "chateau-de-chaumont.php",    
+    "chateau-de-chenonceau/",    
+    "chateau-de-cheverny/",
+    "fortaleza-real-de-chinon/",    
+    "chateau-de-clos-luce/",
+    "chateau-de-ducks-de-de-bretagne/",
+    "chateau-de-langeais/",
+    "chateau-de-saumur/", 
+    "chateau-de-sully-sur-loire/",
+    "chateau-de-usse/",
+    "chateau-de-villandry/"
 ];
 
 // Lista de ciudades
 $ciudades = [
-    "chateau-royal-de-amboise.php",
-    "Angers.php",    
-    "chateau-royal-de-blois/index.php",
-    "Chinon.php",
-    "Nantes.php",
-    "chateau-de-saumur/index.php",   
-    "Orleans.php",
-    "chateau-de-saumur/index.php",
-    "Tours.php"
+    "amboise/",
+    "angers/",
+    "blois/",
+    "chinon/",
+    "nantes/",
+    "orleans/",
+    "saumur/",
+    "tours.php",
 ];
 
 $lugares_interes = [
