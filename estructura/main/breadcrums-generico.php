@@ -7,7 +7,10 @@
     
     <li class="text-gray-400">/</li>
     <li><a href="/val-de-loire/" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $title; ?></a></li>
-    <?php /*    
+   
+</ol> 
+
+<?php /*    
     <li class="text-gray-400">/</li>
 
     <li><a href="<?php 
@@ -22,4 +25,3 @@
     <li><a href="/val-de-loire/chateaux/<?= $slug; ?>.php" class="font-semibold text-blue-700 hover:text-blue-900 transition-colors"><?= $title; ?></a></li>
 
 */ ?>
-</ol>
