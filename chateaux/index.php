@@ -85,14 +85,14 @@ $slug = "index.php";
                 </p>
 
                 <div class="flex justify-between items-center mt-3">
-                  <?php if (!empty($c['web_oficial'])): ?>
+                  <?php /* if (!empty($c['web_oficial'])): ?>
                     <a href="<?= htmlspecialchars($c['web_oficial']) ?>"
                        target="_blank"
                        rel="noopener noreferrer nofollow"
                        class="text-emerald-700 hover:underline font-semibold text-sm">
                       🌐 Web oficial
                     </a>
-                  <?php endif; ?>
+                  <?php endif; */ ?>
 
                   <?php if (!empty($c['url_interna'])): ?>
                     <a href="<?= htmlspecialchars($c['url_interna']) ?>"

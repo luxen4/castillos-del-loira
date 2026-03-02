@@ -1,6 +1,6 @@
 <?php
 $title = "Château de Villandry";
-$ciudad = "Villandry";
+$ciudad = "Villandry";  $localidad = "Villandry"; $region = "Loire et Indre";
 $carpeta='chateaux';            $slug_castillos_cercanos_csv='chateau-de-villandry';
 $slug_Mayuscula = "Chaumont";   $slug_filtrado_csv = 'chateau-de-villandry';
 
@@ -11,6 +11,7 @@ $descripcion_portada = "El castillo de Villandry es famoso por albergar algunos 
 $web_oficial = "https://www.valdeloire-france.com/decouvrir/les-chateaux-de-la-loire/chateau-villandry/";
 $fuenteHero_texto = "valdeloire-france.com";
 
+$bread_crums_second = "castillos-imprescindibles";
 $src_google_maps='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2703.6757239464487!2d0.5122501120154057!3d47.34020400621526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fd2e5b3c5fbe13%3A0x9906a15696bd139b!2sCastillo%20de%20Villandry!5e0!3m2!1ses!2ses!4v1762040388557!5m2!1ses!2ses';
 $web_oficial_mas_info = "";
 

@@ -40,7 +40,7 @@
 
           <figcaption class="p-2 text-gray-600 text-sm text-center">
             <?= $fig['pie'] ?><br>
-            Fuente:
+            Fuente: 
             <a href="<?= $fig['fuente_url'] ?>" target="_blank" class="text-blue-600 underline">
               <?= $fig['fuente_texto'] ?>
             </a>

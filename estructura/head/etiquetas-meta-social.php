@@ -1,11 +1,11 @@
 
 <!-- ✅ Open Graph / Facebook / LinkedIn Meta Tags -->
 <meta property="og:title" content="<?= $title ?> | Valle del Loira">
-<meta property="og:description" content="<?= $descripcion ?>">
+<meta property="og:description" content="<?= $meta_description ?>">
 <meta property="og:type" content="website">
 <meta property="og:url" content="<?= $web_site; ?>/<?= $carpeta; ?>/<?= $slug ?>.php">
 <meta property="og:image" content="<?= $web_site; ?>/assets/logo.png">
-<meta property="og:image:alt" content="<?= $descripcion; ?>">
+<meta property="og:image:alt" content="<?= $meta_image_alt; ?>">
 <meta property="og:image:width" content="<?= $graph_Meta_Tags_property_image_width; ?>">
 <meta property="og:image:height" content="<?= $graph_Meta_Tags_property_image_height; ?>">
 

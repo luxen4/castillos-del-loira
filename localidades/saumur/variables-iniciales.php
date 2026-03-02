@@ -1,9 +1,14 @@
 <?php
 $title = "Saumur";
-$ciudad = "Saumur";
+$ciudad = "Saumur"; $localidad = "Saumur"; $region = "Loire et Indre";
 $slug = "saumur";
-$carpeta='chateaux';
 $slug_Mayuscula = "Saumur";
+
+$carpeta='localidades-principales'; $bread_crums_second=$carpeta;
+$meta_description = "Situada en el corazón del Valle del Loira, la encantadora ciudad de Saumur es conocida por su imponente castillo, sus vinos espumosos y su tradición ecuestre. El Château de Saumur domina el Loira desde lo alto de una colina y ofrece vistas espectaculares. Pasear por sus calles medievales combina cultura y tranquilidad. Saumur también es célebre por su Escuela Nacional de Equitación y el prestigioso Cadre Noir.";
+$meta_image_alt = "Vista panorámica de Saumur con el Château de Saumur dominando el río Loira y las calles medievales llenas de flores y cafés.";
+
+
 $descripcion = "Situada en el corazón del <a class='text-emerald-600 font-semibold underline hover:text-emerald-800 transition' href='/val-de-loire/index.php'><strong>Valle del Loira</strong></a>, la encantadora ciudad de <strong>Saumur</strong> es conocida por su imponente castillo, sus vinos espumosos y su tradición ecuestre.<br><br>
 
 El <strong>Château de Saumur</strong>, dominando el Loira desde lo alto de una colina, ofrece vistas espectaculares y una visita imprescindible para los amantes de la historia. 
@@ -13,6 +18,8 @@ Saumur también es célebre por su <strong>Escuela Nacional de Equitación</stro
 Los amantes del vino pueden disfrutar de visitas a bodegas subterráneas excavadas en la toba y degustar los famosos <strong>vinos de Saumur</strong>.<br><br>
 
 Con su ambiente acogedor, su patrimonio único y su ubicación privilegiada en el Loira, Saumur es un destino imprescindible para los viajeros que buscan autenticidad y elegancia francesa.";
+
+
 
 $imagenHero = "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRINUZbPp7nlRHF97VI9p-8ZSA22ZZjVtONJZjIqhef5CSm-2Rrj5u1MtX4iev-gTfVAljXiFcbRf3k2Epu2D84MgFF&s=19";
 $web_oficial = "https://www.saumur-tourisme.com/";
